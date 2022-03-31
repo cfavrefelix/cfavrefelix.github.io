@@ -1,0 +1,2 @@
+(this["webpackJsonpsage-release-notes"]=this["webpackJsonpsage-release-notes"]||[]).push([[4],{353:function(e,n,r){"use strict";r.r(n),r.d(n,"Archive",(function(){return s}));var t=r(19),a=r(1);function c(){var e=Object(t.a)(["\n    margin: var(--header-height, 3rem) 0;\n    text-align: center;\n"]);return c=function(){return e},e}var i=r(13).default.div(c()),s=function(){return Object(a.jsx)(i,{children:Object(a.jsx)("h1",{children:"Archive"})})};n.default=s}}]);
+//# sourceMappingURL=4.aa23ab9a.chunk.js.map

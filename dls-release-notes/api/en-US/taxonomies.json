@@ -1,1 +1,83 @@
-{    "__self": "/dls-release-notes/api/en-US/taxonomies.json",    "taxonomies": [        {            "id": "statusNote",            "title": "Status Note",            "pills": true,            "options": [                {                    "id": "draft",                    "title": "Draft (PO/PM)",                    "color": "#ff9598"                },                {                    "id": "validated-by-po/pm",                    "title": "Draft (TRADOC)",                    "color": "#ffce9d"                },                {                    "id": "review-to-do",                    "title": "Draft (TRADOC)",                    "color": "#ffce9d"                },                {                    "id": "review-in-progress",                    "title": "Draft (TRADOC)",                    "color": "#ffce9d"                },                {                    "id": "review-to-validate",                    "title": "Draft (TRADOC)",                    "color": "#ffce9d"                },                {                    "id": "to-be-communicated",                    "title": "Draft (PO)",                    "color": "#ff9598"                },                {                    "id": "validated-by-po",                    "title": "Draft (TRADOC)",                    "color": "#ffce9d"                }            ]        },        {            "id": "content",            "title": "Content",            "pills": true,            "options": [                {                    "id": "empty",                    "title": "EMPTY",                    "color": "#ff9598"                },                {                    "id": "too-long",                    "title": "TOO LONG",                    "color": "#ff9598"                }            ]        },        {            "id": "_type",            "title": "Update type",            "pills": false,            "options": [                {                    "id": "news",                    "title": "Features"                },                {                    "id": "changes",                    "title": "Improvements"                },                {                    "id": "bug-fixes",                    "title": "Bug Fixes"                }            ]        }    ]}
+{
+    "__self": "/dls-release-notes/api/en-US/taxonomies.json",
+    "taxonomies": [
+        {
+            "id": "statusNote",
+            "title": "Status Note",
+            "pills": true,
+            "options": [
+                {
+                    "id": "draft",
+                    "title": "Draft (PO/PM)",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "validated-by-po/pm",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-to-do",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-in-progress",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-to-validate",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "to-be-communicated",
+                    "title": "Draft (PO)",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "validated-by-po",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                }
+            ]
+        },
+        {
+            "id": "content",
+            "title": "Content",
+            "pills": true,
+            "options": [
+                {
+                    "id": "empty",
+                    "title": "EMPTY",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "too-long",
+                    "title": "TOO LONG",
+                    "color": "#ff9598"
+                }
+            ]
+        },
+        {
+            "id": "_type",
+            "title": "Update type",
+            "pills": false,
+            "options": [
+                {
+                    "id": "news",
+                    "title": "Features"
+                },
+                {
+                    "id": "changes",
+                    "title": "Improvements"
+                },
+                {
+                    "id": "bug-fixes",
+                    "title": "Bug Fixes"
+                }
+            ]
+        }
+    ]
+}

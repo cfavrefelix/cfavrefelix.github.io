@@ -29,7 +29,7 @@
                     "content_parts": [
                         {
                             "key": "XT-20024",
-                            "title": "When creating a user in dynamoDB from a event message we should have a fallback on non existing locale",
+                            "title": "when creating a user in dynamoDB from a event message we should have a fallback on non existing locale",
                             "highlight": false,
                             "content_parts": [
                                 {

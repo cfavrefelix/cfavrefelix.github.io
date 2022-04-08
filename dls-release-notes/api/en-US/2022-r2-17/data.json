@@ -14,43 +14,6 @@
             "taxonomies": "all"
         },
         {
-            "title": "Deployment",
-            "id": "deployment",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Bug Fixes",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "content_parts": [
-                        {
-                            "key": "XT-20024",
-                            "title": "when creating a user in dynamoDB from a event message we should have a fallback on non existing locale",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Adding a default local inplace of an error when local does not exist",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "17.0.0"
-                                ],
-                                "statusNote": [
-                                    "to-be-communicated"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "title": "Distribution",
             "id": "distribution",
             "type": "module",

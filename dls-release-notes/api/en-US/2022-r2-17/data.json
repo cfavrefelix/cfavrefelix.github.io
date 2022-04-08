@@ -33,10 +33,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-20024\" target=\"_blank\">XT-20024</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "Adding a default local inplace of an error when local does not exist",
                                     "taxonomies": "all"
                                 }
@@ -74,10 +70,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-19658\" target=\"_blank\">XT-19658</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>You can trade with your suppliers in transaction currencies that are different from the company currency. The transaction amounts and the stock valuation are displayed in the transaction currency and converted into the company currency based on the most recent exchange rate for the given document date.</p>",
                                     "taxonomies": "all"
                                 }
@@ -96,10 +88,6 @@
                             "title": "Currency conversion in the sales process",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17394\" target=\"_blank\">XT-17394</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>You can trade with your customers in transaction currencies that are different from the company currency. The transaction amounts and the stock valuation are displayed in the transaction currency and converted into the company currency based on the most recent exchange rate for the given document date.</p>",
                                     "taxonomies": "all"
@@ -120,10 +108,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17392\" target=\"_blank\">XT-17392</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>The <b>Sales order</b> function complies with the tax management requirements: It includes tax determination rules, tax calculation, and tax management so that you can identify the taxes to apply on the sales order lines.</p>",
                                     "taxonomies": "all"
                                 }
@@ -142,10 +126,6 @@
                             "title": "Pricing engine for sales documents",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-1338\" target=\"_blank\">XT-1338</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>A functionality has been added to populate, on the sales documents, the\u00a0<b>Gross price</b>, and\u00a0<b>Discount</b> and/or <b>Charge</b> in percentage based on the item-customer price list: it identifies the correct item-customer price line and returns the corresponding values. If no item-customer price line is identified, the item gross price defaults to the item base price. Information related to prices is displayed in the detail panels of the applicable sales document lines.</p>",
                                     "taxonomies": "all"
@@ -168,10 +148,6 @@
                             "title": "Price list management for sales",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-1337\" target=\"_blank\">XT-1337</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>When you don't want to charge a customer the standard price for an item you can use Price list management to store the price you charge that customer for the item.</p><p>These prices are displayed in both the <b>Item</b> and <b>Customer</b> functions. If a customer does not have one of these special prices defined for an item, they will be charged the standard price, defined as the <b>Base price</b> in the <b>Item</b> function.</p><p>The following features have been added:</p><ul><li><b>Price lookup</b>: New functionality has been added which returns the gross price, discount and/or charge in percentage based on the item-customer price list. It looks for an item-customer price record and returns the corresponding values. If there is no item-customer price record, the item's base price is used as the gross price. The price information is displayed in the side panels of sales document lines.</li><li><b>Customer price reason</b>: This function has been created for you to define standard reasons why a customer is not being charged the standard price for an item. When you define a special price you can select one of those price reasons.</li><li><b>Sales prices on items</b>: The\u00a0<b>Sales prices</b> tab has been added in the <b>Item</b> function, next to the <b>Sales</b> tab.</li><li><b>Sales prices on customers</b>: The <b>Item prices</b> tab has been added in the <b>Customer</b>\u00a0function, next to the <b>Items</b> tab.</li></ul>",
                                     "taxonomies": "all"
@@ -210,10 +186,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-12079\" target=\"_blank\">XT-12079</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>When you first log in, you can select which cookies you want to accept:</p><ul><li>Must-have cookies to operate the platform</li><li>Performance cookies</li><li>Marketing cookies</li></ul><p>Based on your consent, Sage uses analytics and log management tools to improve your product experience.</p>",
                                     "taxonomies": "all"
                                 }
@@ -243,10 +215,6 @@
                             "title": "Report localization",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-19912\" target=\"_blank\">XT-19912</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>Sage enhanced the report writer to simplify the localization of reports written in a different language and added additional functions to localize dates and amounts.</p><p>On the\u00a0<b>Translation</b>\u00a0tab, you can translate untranslated text found in the report into all supported languages.</p><p>On the template's\u00a0<b>Preview</b>\u00a0tab, you can display a preview in every language.</p>",
                                     "taxonomies": "all"
@@ -284,10 +252,6 @@
                             "title": "Journal entry types: define accounts per legislation",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-19585\" target=\"_blank\">XT-19585</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>The journal entry type setup includes improved setting options for consistent and transparent journal account determination. Defining an individual account for all business flows can be done per legislation.</p>",
                                     "taxonomies": "all"

@@ -85,28 +85,6 @@
                             }
                         },
                         {
-                            "key": "XT-1338",
-                            "title": "Pricing engine for sales documents",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>A functionality has been added to populate, on the sales documents, the\u00a0<b>Gross price</b>, and\u00a0<b>Discount</b> and/or <b>Charge</b> in percentage based on the item-customer price list: it identifies the correct item-customer price line and returns the corresponding values. If no item-customer price line is identified, the item gross price defaults to the item base price. Information related to prices is displayed in the detail panels of the applicable sales document lines.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "17.0.0"
-                                ],
-                                "statusNote": [
-                                    "review-to-do"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-1337",
                             "title": "Price list management for sales",
                             "highlight": false,

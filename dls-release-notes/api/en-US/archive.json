@@ -14,16 +14,6 @@
             "title": "French - FR",
             "id": "fr-FR",
             "url": "/dls-release-notes/api/fr-FR/archive.json"
-        },
-        {
-            "title": "German - DE",
-            "id": "de-DE",
-            "url": "/dls-release-notes/api/de-DE/archive.json"
-        },
-        {
-            "title": "Spanish - ES",
-            "id": "es-ES",
-            "url": "/dls-release-notes/api/es-ES/archive.json"
         }
     ],
     "releases": [

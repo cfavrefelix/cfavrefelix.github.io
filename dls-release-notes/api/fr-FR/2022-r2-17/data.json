@@ -10,7 +10,7 @@
             "id": "intro",
             "type": "intro",
             "title": "Introduction",
-            "content": "<p>You'll find release notes for all updates such as features, improvements, and bug fixes.</p>",
+            "content": "<p>Vous trouverez des notes de publication pour toutes les mises \u00e0 jour telles que les nouvelles fonctionnalit\u00e9s, les am\u00e9liorations et les corrections de bogues.</p>",
             "taxonomies": "all"
         },
         {
@@ -20,7 +20,7 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
+                    "title": "Epics",
                     "taxonomies": {
                         "_type": [
                             "news"
@@ -114,7 +114,7 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
+                    "title": "Epics",
                     "taxonomies": {
                         "_type": [
                             "news"
@@ -144,7 +144,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Improvements",
+                    "title": "Am\u00e9liorations",
                     "taxonomies": {
                         "_type": [
                             "changes"
@@ -181,7 +181,7 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
+                    "title": "Epics",
                     "taxonomies": {
                         "_type": [
                             "news"

@@ -1,0 +1,24 @@
+{
+    "__self": "/dls-release-notes/api/fr-FR/taxonomies.json",
+    "taxonomies": [
+        {
+            "id": "_type",
+            "title": "Update type",
+            "pills": false,
+            "options": [
+                {
+                    "id": "news",
+                    "title": "Epics"
+                },
+                {
+                    "id": "changes",
+                    "title": "Am\u00e9liorations"
+                },
+                {
+                    "id": "bug-fixes",
+                    "title": "Bugs"
+                }
+            ]
+        }
+    ]
+}

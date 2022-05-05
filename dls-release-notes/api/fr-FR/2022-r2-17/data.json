@@ -10,7 +10,7 @@
             "id": "intro",
             "type": "intro",
             "title": "Introduction",
-            "content": "<p>Vous trouverez des notes de publication pour toutes les mises \u00e0 jour telles que les nouvelles fonctionnalit\u00e9s, les am\u00e9liorations et les corrections de bogues.</p>",
+            "content": "<p>You'll find release notes for all updates such as features, improvements, and bug fixes.</p>",
             "taxonomies": "all"
         },
         {
@@ -20,7 +20,7 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Epics",
+                    "title": "Fonctionnalit\u00e9s",
                     "taxonomies": {
                         "_type": [
                             "news"
@@ -29,12 +29,12 @@
                     "content_parts": [
                         {
                             "key": "XT-19658",
-                            "title": "Currency conversion in the purchase process",
+                            "title": "Conversion de devise dans le processus d'achat",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can trade with your suppliers in transaction currencies that are different from the company currency. The transaction amounts and the stock valuation are displayed in the transaction currency and converted into the company currency based on the most recent exchange rate for the given document date.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>Vous pouvez faire des \u00e9changes avec vos fournisseurs dans des devises de transaction diff\u00e9rentes de la devise de la soci\u00e9t\u00e9. Les montants de transaction et la valorisation de stock sont exprim\u00e9s dans la devise de transaction, puis convertis dans la devise de soci\u00e9t\u00e9 en appliquant le cours de change le plus actuel \u00e0 la date du document.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -48,12 +48,12 @@
                         },
                         {
                             "key": "XT-17394",
-                            "title": "Currency conversion in the sales process",
+                            "title": "Conversion de devise dans le processus de vente",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can trade with your customers in transaction currencies that are different from the company currency. The transaction amounts and the stock valuation are displayed in the transaction currency and converted into the company currency based on the most recent exchange rate for the given document date.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>Vous pouvez faire des \u00e9changes avec vos clients dans des devises de transaction diff\u00e9rentes de la devise de la soci\u00e9t\u00e9. Les montants de transaction et la valorisation de stock sont exprim\u00e9s dans la devise de transaction, puis convertis dans la devise de soci\u00e9t\u00e9 en appliquant le cours de change le plus actuel \u00e0 la date du document.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -67,12 +67,12 @@
                         },
                         {
                             "key": "XT-17392",
-                            "title": "VAT management implemented in the  Sales order function",
+                            "title": "Gestion de la TVA mise \u0153uvre dans les commandes de vente",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Sales order</b> function complies with the tax management requirements: It includes tax determination rules, tax calculation, and tax management so that you can identify the taxes to apply on the sales order lines.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>La fonction <b>Commande de vente</b> est conforme aux r\u00e8gles de gestion des taxes\u00a0: cela inclut les r\u00e8gles de d\u00e9termination des taxes, le calcul des taxes, et la gestion des taxes, ce qui vous permet d'identifier les taxes \u00e0 appliquer \u00e0 vos lignes de commande de vente.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -86,12 +86,12 @@
                         },
                         {
                             "key": "XT-1337",
-                            "title": "Price list management for sales",
+                            "title": "Gestion des tarifs dans les ventes",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you don't want to charge a customer the standard price for an item you can use Price list management to store the price you charge that customer for the item.</p><p>These prices are displayed in both the <b>Item</b> and <b>Customer</b> functions. If a customer does not have one of these special prices defined for an item, they will be charged the standard price, defined as the <b>Base price</b> in the <b>Item</b> function.</p><p>The following features have been added:</p><ul><li><b>Price lookup</b>: New functionality has been added which returns the gross price, discount and/or charge in percentage based on the item-customer price list. It looks for an item-customer price record and returns the corresponding values. If there is no item-customer price record, the item's base price is used as the gross price. The price information is displayed in the side panels of sales document lines.</li><li><b>Customer price reason</b>: This function has been created for you to define standard reasons why a customer is not being charged the standard price for an item. When you define a special price you can select one of those price reasons.</li><li><b>Sales prices on items</b>: The\u00a0<b>Sales prices</b> tab has been added in the <b>Item</b> function, next to the <b>Sales</b> tab.</li><li><b>Sales prices on customers</b>: The <b>Item prices</b> tab has been added in the <b>Customer</b>\u00a0function, next to the <b>Items</b> tab.</li></ul>",
-                                    "taxonomies": "all"
+                                    "content": "<p>Lorsque vous ne souhaitez pas facturer \u00e0 votre client le prix standard d'un article, vous pouvez utiliser la gestion des tarifs pour enregistrer le prix sp\u00e9cifique que vous souhaitez lui facturer.</p><p>Ces prix sont disponibles dans les fonctions <b>Article</b> et <b>Client</b>. Lorsqu'un client ne b\u00e9n\u00e9ficie pas de prix sp\u00e9cial, le <b>Prix de base</b> d\u00e9fini dans la fonction <b>Article</b> s'applique.</p><p>Les fonctionnalit\u00e9s suivantes ont \u00e9t\u00e9 ajout\u00e9es\u00a0:</p><ul><li><b>Recherche de prix</b>\u00a0: Cette fonctionnalit\u00e9 permet de conna\u00eetre le prix brut, les frais, ou les remises en pourcentage en fonction des tarifs associ\u00e9s \u00e0 l'article-client. Les donn\u00e9es tarifaires de l'article client sont parcourues, puis les valeurs correspondantes s'affichent. Si aucune valeur ne correspond, prix de base de l'article est utilis\u00e9 comme prix brut. Les informations tarifaires sont disponibles dans les volets associ\u00e9s aux lignes de documents de vente.</li><li><b>Motif de prix client</b>\u00a0: Cette fonctionnalit\u00e9 vous permet de d\u00e9finir des motifs standard qui d\u00e9crivent pourquoi vous ne facturez pas le client au prix standard. Lorsque vous d\u00e9finissez un prix sp\u00e9cial, vous pouvez s\u00e9lectionner un des motifs ci-dessous.</li><li><b>Tarif promotionnel</b>\u00a0: L'onglet <b>Prix de vente</b> a \u00e9t\u00e9 ajout\u00e9 dans la fonction <b>Article</b> \u00e0 c\u00f4t\u00e9 de l'onglet <b>Ventes</b>.</li><li><b>Tarif client</b>\u00a0: L'onglet <b>Prix article</b> a \u00e9t\u00e9 ajout\u00e9 dans la fonction <b>Client</b> \u00e0 c\u00f4t\u00e9 de l'onglet <b>Articles</b>.</li></ul>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -108,13 +108,13 @@
             ]
         },
         {
-            "title": "Platform",
+            "title": "Plateforme",
             "id": "platform",
             "type": "module",
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Epics",
+                    "title": "Fonctionnalit\u00e9s",
                     "taxonomies": {
                         "_type": [
                             "news"
@@ -123,12 +123,12 @@
                     "content_parts": [
                         {
                             "key": "XT-12079",
-                            "title": "Manage consent for usage tracking",
+                            "title": "Gestion du consentement dans le suivi de votre utilisation",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you first log in, you can select which cookies you want to accept:</p><ul><li>Must-have cookies to operate the platform</li><li>Performance cookies</li><li>Marketing cookies</li></ul><p>Based on your consent, Sage uses analytics and log management tools to improve your product experience.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>Lorsque vous vous connectez pour la premi\u00e8re fois, vous pouvez s\u00e9lectionner les cookies que vous acceptez\u00a0:</p><ul><li>Cookies essentiels pour le bon fonctionnement de l'application\u00a0:</li><li>Cookies de performance</li><li>Cookies marketing</li></ul><p>En fonction de vos pr\u00e9f\u00e9rences, Sage analyse ensuite vos donn\u00e9es en utilisant des outils d\u00e9di\u00e9s pour am\u00e9liorer votre exp\u00e9rience utilisateur.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -153,12 +153,12 @@
                     "content_parts": [
                         {
                             "key": "XT-19912",
-                            "title": "Report localization",
+                            "title": "Localisation des \u00e9tats",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sage enhanced the report writer to simplify the localization of reports written in a different language and added additional functions to localize dates and amounts.</p><p>On the\u00a0<b>Translation</b>\u00a0tab, you can translate untranslated text found in the report into all supported languages.</p><p>On the template's\u00a0<b>Preview</b>\u00a0tab, you can display a preview in every language.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>L'\u00e9diteur d'\u00e9tats a \u00e9t\u00e9 am\u00e9lior\u00e9 pour simplifier la localisation des \u00e9tats r\u00e9dig\u00e9s dans une autre langue. Des fonctionnalit\u00e9s ont aussi \u00e9t\u00e9 ajout\u00e9es pour localiser les dates et les montants.</p><p>Dans l'onglet <b>Traduction</b>, vous pouvez traduire chacun des libell\u00e9s de l'\u00e9tat dans une des langues prises en charge par l'application.</p><p>Dans l'onglet <b>Aper\u00e7u</b>, vous pouvez visualiser votre \u00e9tat dans chaque langue.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {
@@ -175,13 +175,13 @@
             ]
         },
         {
-            "title": "Reference data",
+            "title": "Donn\u00e9es de r\u00e9f\u00e9rence",
             "id": "reference-data",
             "type": "module",
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Epics",
+                    "title": "Fonctionnalit\u00e9s",
                     "taxonomies": {
                         "_type": [
                             "news"
@@ -190,12 +190,12 @@
                     "content_parts": [
                         {
                             "key": "XT-19585",
-                            "title": "Journal entry types: define accounts per legislation",
+                            "title": "Types d'\u00e9criture\u00a0: comptes d\u00e9finis par l\u00e9gislation",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The journal entry type setup includes improved setting options for consistent and transparent journal account determination. Defining an individual account for all business flows can be done per legislation.</p>",
-                                    "taxonomies": "all"
+                                    "content": "<p>Le param\u00e9trage des types d'\u00e9criture inclut des options avanc\u00e9es pour d\u00e9terminer le compte de fa\u00e7on fluide et transparente. Pour tous les flux m\u00e9tier, vous pouvez d\u00e9finir un compte pour une l\u00e9gislation donn\u00e9e.</p>",
+                                    "taxonomies": "tout"
                                 }
                             ],
                             "taxonomies": {

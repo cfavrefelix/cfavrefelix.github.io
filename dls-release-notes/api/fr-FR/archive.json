@@ -1,9 +1,9 @@
 {
-    "__self": "/dls-release-notes/api/fr-FR/archive.json",
+    "__self": "/dls-release-notes/api/en-US/archive.json",
     "product": "Sage Intacct Manufacturing",
     "language": "fr-FR",
-    "labels": "/dls-release-notes/api/fr-FR/labels.json",
-    "taxonomies": "/dls-release-notes/api/fr-FR/taxonomies.json",
+    "labels": "/dls-release-notes/api/en-US/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
     "alternative_langauges": [
         {
             "title": "English - US",
@@ -18,9 +18,15 @@
     ],
     "releases": [
         {
+            "id": "2022-r3-19",
+            "title": "2022 R3",
+            "url": "/dls-release-notes/api/en-US/2022-r3-19/data.json",
+            "date": "June"
+        },
+        {
             "id": "2022-r2-17",
             "title": "2022 R1",
-            "url": "/dls-release-notes/api/fr-FR/2022-r2-17/data.json",
+            "url": "/dls-release-notes/api/en-US/2022-r2-17/data.json",
             "date": "April"
         }
     ]

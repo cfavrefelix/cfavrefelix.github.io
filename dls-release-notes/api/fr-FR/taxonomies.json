@@ -1,5 +1,5 @@
 {
-    "__self": "/dls-release-notes/api/fr-FR/taxonomies.json",
+    "__self": "/dls-release-notes/api/en-US/taxonomies.json",
     "taxonomies": [
         {
             "id": "_type",
@@ -8,15 +8,15 @@
             "options": [
                 {
                     "id": "news",
-                    "title": "Epics"
+                    "title": "Features"
                 },
                 {
                     "id": "changes",
-                    "title": "Am\u00e9liorations"
+                    "title": "Improvements"
                 },
                 {
                     "id": "bug-fixes",
-                    "title": "Bugs"
+                    "title": "Bug Fixes"
                 }
             ]
         }

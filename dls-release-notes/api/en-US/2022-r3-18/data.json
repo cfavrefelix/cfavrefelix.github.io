@@ -26,6 +26,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-21684\" target=\"_blank\">XT-21684</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "<p>Activate the\u00a0<b>Sage service fabric configuration</b>\u00a0function to use the Sage tax ID validation and lookup for European Union countries.<br/> This feature verifies tax ID numbers when users create suppliers, customers, sites, and business entities.</p>",
                                     "taxonomies": "all"
                                 }
@@ -55,6 +59,10 @@
                             "title": "Stock journal inquiry enhancements",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-20216\" target=\"_blank\">XT-20216</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "<p>In the <b>Stock journal</b> inquiry, a link to the document is available for each stock transaction.</p>",
                                     "taxonomies": "all"
@@ -93,6 +101,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-21259\" target=\"_blank\">XT-21259</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "<p>The following triggers and notification are available for the pricing engine on sales documents:</p><ul><li>If the quantity of a line is changed, the pricing engine is triggered to recalculate the price based on the updated quantity and the existing price lists. The user is asked if they want to accept the recalculation or clear the values.</li><li>When the order date or invoice date on a sales document header is updated the user is asked if they want to update the price and any discount or charge for all the applicable lines according to the defined price lists.</li><li>When the stock site, sales site, sales quantity or sales unit is updated on a sales order line or sales invoice line the user is asked if they want to update the price and any discount or charge according to the defined price lists.</li><li>When the details entered on a document line do not return a price from a defined price list or the price is updated manually, a price list button allows the user to view all the existing defined price lists for the item.</li></ul>",
                                     "taxonomies": "all"
                                 }
@@ -111,6 +123,10 @@
                             "title": "Sending of purchase orders",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-19223\" target=\"_blank\">XT-19223</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "<p>You can send purchase orders as a PDF  to an email recipient. From the <b>Purchase order</b> function, select <b>Send</b> from the <b>More actions</b> icon. The recipient email address defaults from the primary contact details linked to the supplier address that displays on the purchase order. You can select a different supplier contact or you can enter the contact and email address.<br/>When the purchase order is sent to the recipient, the <b>Sending</b> status changes from <b>Not sent</b> to <b>Sent</b>.</p>",
                                     "taxonomies": "all"
@@ -131,6 +147,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17522\" target=\"_blank\">XT-17522</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "<p>Use this inquiry to display the justification for an average cost stock valuation calculation in terms of stock movements.</p>",
                                     "taxonomies": "all"
                                 }
@@ -149,6 +169,10 @@
                             "title": "VAT management implemented on Purchase orders",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17393\" target=\"_blank\">XT-17393</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "<p>You can assign tax rates on purchase order lines, such as determination rules, tax calculation, and tax management.</p>",
                                     "taxonomies": "all"
@@ -180,6 +204,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23115\" target=\"_blank\">XT-23115</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "When you perform a material tracking for an item with a \u201cValuation method\u201d set to \u201c Average cost\u201d, the stock journal records the cost at the average cost. Now, the work order also displays the average cost instead of the standard cost.",
                                     "taxonomies": "all"
                                 }
@@ -195,6 +223,10 @@
                             "title": "Purchase receipt: \"Select from Purchase order\" button",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23114\" target=\"_blank\">XT-23114</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "In the &quot;Purchase receipt&quot; function, the&quot; Select from purchase order&quot; button is now available depending on the current record.",
                                     "taxonomies": "all"
@@ -230,6 +262,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23783\" target=\"_blank\">XT-23783</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "When logged in with the French language, the status of a posted invoice is not longer in English on the Purchase invoice, Purchase credit memo, Accounts receivable invoice, Accounts payable invoice, and Journal entry pages. ",
                                     "taxonomies": "all"
                                 }
@@ -264,6 +300,10 @@
                             "highlight": false,
                             "content_parts": [
                                 {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-21914\" target=\"_blank\">XT-21914</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
                                     "content": "<p>Use the new\u00a0<b>Stock value correction</b> function to\u00a0correct the value of stock linked to a stock receipt, or purchase receipt.</p>",
                                     "taxonomies": "all"
                                 }
@@ -282,6 +322,10 @@
                             "title": "Projected stock calculation",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-7925\" target=\"_blank\">XT-7925</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "<p>Use the <b>Projected stock</b> button to display a graphical representation for the projected stock. This button is available from the following functions:</p><ul><li><b>Item</b>: From the <b>Sites</b> tab, open the <b>Edit</b> panel and go to the <b>General information</b> tab, <b>Stock</b> section.</li><li><b>Item-site</b>: Go to the <b>General information</b> tab, <b>Stock</b> section.</li><li><b>Sales order</b>: From a sales order line open the <b>Edit</b> panel and go to the <b>Quantities</b> tab, <b>Stock</b> section.</li></ul>",
                                     "taxonomies": "all"
@@ -312,6 +356,10 @@
                             "title": "Removal of a 24/7 weekly shift from a labor resource ",
                             "highlight": false,
                             "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17756\" target=\"_blank\">XT-17756</a>",
+                                    "taxonomies": "all"
+                                },
                                 {
                                     "content": "A 24/7 weekly shift can no longer be assigned to a labor resource.",
                                     "taxonomies": "all"

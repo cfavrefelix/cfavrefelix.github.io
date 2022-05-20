@@ -100,6 +100,12 @@
             "title": "2022 R2 (12.0.30)",
             "url": "/dls-release-notes/api/en-US/2022-r2-12/data.json",
             "date": "May"
+        },
+        {
+            "id": "2022-r3-12",
+            "title": "2022 R2 (12.0.31)",
+            "url": "/dls-release-notes/api/en-US/2022-r3-12/data.json",
+            "date": "August"
         }
     ]
 }

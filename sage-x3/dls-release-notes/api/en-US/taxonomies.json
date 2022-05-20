@@ -1,0 +1,317 @@
+{
+    "__self": "/dls-release-notes/api/en-US/taxonomies.json",
+    "taxonomies": [
+        {
+            "id": "legislation",
+            "title": "Legislation",
+            "pills": true,
+            "options": [
+                {
+                    "id": "angola-ago",
+                    "title": "Angola (AGO)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "australia-aus",
+                    "title": "Australia (AUS)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "austria-aut",
+                    "title": "Austria (AUT)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "bahrain-bhr",
+                    "title": "Bahrain (BHR)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "belgium-bel",
+                    "title": "Belgium (BEL)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "botswana-bwa",
+                    "title": "Botswana (BWA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "brazil-bra",
+                    "title": "Brazil (BRA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "canada-can",
+                    "title": "Canada (CAN)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "denmark-dnk",
+                    "title": "Denmark (DNK)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "europe",
+                    "title": "Europe",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "france-fra",
+                    "title": "France (FRA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "germany-ger",
+                    "title": "Germany (GER)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "ghana-gha",
+                    "title": "Ghana (GHA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "global",
+                    "title": "Global",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "great-britain-bri",
+                    "title": "Great Britain (BRI)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "india-ind",
+                    "title": "India (IND)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "ireland-ie",
+                    "title": "Ireland (IE)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "jordan-jor",
+                    "title": "Jordan (JOR)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "kenya-ken",
+                    "title": "Kenya (KEN)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "kowait-kwt",
+                    "title": "Kowait (KWT)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "lesotho-lso",
+                    "title": "Lesotho (LSO)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "malawi-mwi",
+                    "title": "Malawi (MWI)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "malaysia-mys",
+                    "title": "Malaysia (MYS)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "morocco-mar",
+                    "title": "Morocco (MAR)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "namibia-nam",
+                    "title": "Namibia (NAM)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "nigeria-nga",
+                    "title": "Nigeria (NGA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "oman-omn",
+                    "title": "Oman (OMN)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "poland-pol",
+                    "title": "Poland (POL)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "portugal-por",
+                    "title": "Portugal (POR)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "qatar-qat",
+                    "title": "Qatar (QAT)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "romania-rou",
+                    "title": "Romania (ROU)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "russia-rus",
+                    "title": "Russia (RUS)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "saudi-arabia-sau",
+                    "title": "Saudi Arabia (SAU)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "singapore-sgp",
+                    "title": "Singapore (SGP)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "south-africa-zaf",
+                    "title": "South Africa (ZAF)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "spain-spa",
+                    "title": "Spain (SPA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "swaziland-swz",
+                    "title": "Swaziland (SWZ)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "switzerland-swi",
+                    "title": "Switzerland (SWI)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "united-arab-emirates-are",
+                    "title": "United Arab Emirates (ARE)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "united-states-usa",
+                    "title": "United States (USA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "zambia-zmb",
+                    "title": "Zambia (ZMB)",
+                    "color": "rgba(0,0,0,.3)"
+                }
+            ]
+        },
+        {
+            "id": "software",
+            "title": "Software",
+            "pills": false,
+            "options": [
+                {
+                    "id": "on-premise",
+                    "title": "On Premise",
+                    "color": "#008200"
+                },
+                {
+                    "id": "single-tenant",
+                    "title": "Single Tenant",
+                    "color": "#008200"
+                },
+                {
+                    "id": "multi-tenant",
+                    "title": "Multi Tenant",
+                    "color": "#008200"
+                }
+            ]
+        },
+        {
+            "id": "statusNote",
+            "title": "Status Note",
+            "pills": true,
+            "options": [
+                {
+                    "id": "draft",
+                    "title": "Draft (PO/PM)",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "validated-by-po/pm",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-to-do",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-in-progress",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "review-to-validate",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                },
+                {
+                    "id": "to-be-communicated",
+                    "title": "Draft (PO)",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "validated-by-po",
+                    "title": "Draft (TRADOC)",
+                    "color": "#ffce9d"
+                }
+            ]
+        },
+        {
+            "id": "content",
+            "title": "Content",
+            "pills": true,
+            "options": [
+                {
+                    "id": "empty",
+                    "title": "EMPTY",
+                    "color": "#ff9598"
+                },
+                {
+                    "id": "too-long",
+                    "title": "TOO LONG",
+                    "color": "#ff9598"
+                }
+            ]
+        },
+        {
+            "id": "_type",
+            "title": "Update type",
+            "pills": false,
+            "options": [
+                {
+                    "id": "news",
+                    "title": "Features"
+                },
+                {
+                    "id": "changes",
+                    "title": "Improvements"
+                },
+                {
+                    "id": "bug-fixes",
+                    "title": "Bug Fixes"
+                }
+            ]
+        }
+    ]
+}

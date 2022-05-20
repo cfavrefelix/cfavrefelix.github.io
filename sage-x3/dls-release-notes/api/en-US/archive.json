@@ -1,0 +1,105 @@
+{
+    "__self": "/dls-release-notes/api/en-US/archive.json",
+    "product": "Sage X3",
+    "language": "en-US",
+    "labels": "/dls-release-notes/api/en-US/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
+    "alternative_langauges": [
+        {
+            "title": "English - US",
+            "id": "en-US",
+            "url": "/dls-release-notes/api/en-US/archive.json"
+        },
+        {
+            "title": "French - FR",
+            "id": "fr-FR",
+            "url": "/dls-release-notes/api/fr-FR/archive.json"
+        }
+    ],
+    "releases": [
+        {
+            "id": "2019-r1-12",
+            "title": "2019 R1 (12.0.16)",
+            "url": "/dls-release-notes/api/en-US/2019-r1-12/data.json",
+            "date": "March"
+        },
+        {
+            "id": "2019-r2-12",
+            "title": "2019 R2 (12.0.17)",
+            "url": "/dls-release-notes/api/en-US/2019-r2-12/data.json",
+            "date": "May"
+        },
+        {
+            "id": "2019-r3-12",
+            "title": "2019 R3 (12.0.18)",
+            "url": "/dls-release-notes/api/en-US/2019-r3-12/data.json",
+            "date": "July"
+        },
+        {
+            "id": "2019-r4-12",
+            "title": "2019 R4 (12.0.19)",
+            "url": "/dls-release-notes/api/en-US/2019-r4-12/data.json",
+            "date": "October"
+        },
+        {
+            "id": "2020-r1-12",
+            "title": "2020 R1 (12.0.21)",
+            "url": "/dls-release-notes/api/en-US/2020-r1-12/data.json",
+            "date": "February"
+        },
+        {
+            "id": "2020-r2-12",
+            "title": "2020 R2 (12.0.22)",
+            "url": "/dls-release-notes/api/en-US/2020-r2-12/data.json",
+            "date": "May"
+        },
+        {
+            "id": "2020-r3-12",
+            "title": "2020 R3 (12.0.23)",
+            "url": "/dls-release-notes/api/en-US/2020-r3-12/data.json",
+            "date": "July"
+        },
+        {
+            "id": "2020-r4-12",
+            "title": "2020 R4 (12.0.24)",
+            "url": "/dls-release-notes/api/en-US/2020-r4-12/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2021-r1-12",
+            "title": "2021 R1 (12.0.25)",
+            "url": "/dls-release-notes/api/en-US/2021-r1-12/data.json",
+            "date": "February"
+        },
+        {
+            "id": "2021-r2-12",
+            "title": "2021 R2 (12.0.26)",
+            "url": "/dls-release-notes/api/en-US/2021-r2-12/data.json",
+            "date": "May"
+        },
+        {
+            "id": "2021-r3-12",
+            "title": "2021 R3 (12.0.27)",
+            "url": "/dls-release-notes/api/en-US/2021-r3-12/data.json",
+            "date": "August"
+        },
+        {
+            "id": "2021-r4-12",
+            "title": "2021 R4 (12.0.28)",
+            "url": "/dls-release-notes/api/en-US/2021-r4-12/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2022-r1-12",
+            "title": "2022 R1 (12.0.29)",
+            "url": "/dls-release-notes/api/en-US/2022-r1-12/data.json",
+            "date": "February"
+        },
+        {
+            "id": "2022-r2-12",
+            "title": "2022 R2 (12.0.30)",
+            "url": "/dls-release-notes/api/en-US/2022-r2-12/data.json",
+            "date": "May"
+        }
+    ]
+}

@@ -320,9 +320,6 @@
                             "taxonomies": {
                                 "version": [
                                     "18.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

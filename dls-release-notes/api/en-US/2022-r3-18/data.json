@@ -176,20 +176,17 @@
                     "content_parts": [
                         {
                             "key": "XT-23115",
-                            "title": "Material tracking: work order / stock journal cost difference",
+                            "title": "Material tracking: work order cost and stock journal cost are consistent",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "For an average cost item a material tracking issues that material at the current average cost rather than its standard cost.",
+                                    "content": "When you perform a material tracking for an item with a \u201cValuation method\u201d set to \u201c Average cost\u201d, the stock journal records the cost at the average cost. Now, the work order also displays the average cost instead of the standard cost.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "18.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },

@@ -14,9 +14,25 @@
             "title": "French - FR",
             "id": "fr-FR",
             "url": "/dls-release-notes/api/fr-FR/archive.json"
+        },
+        {
+            "title": "German - DE",
+            "id": "de-DE",
+            "url": "/dls-release-notes/api/de-DE/archive.json"
+        },
+        {
+            "title": "Spanish - ES",
+            "id": "es-ES",
+            "url": "/dls-release-notes/api/es-ES/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2022-r3-18",
+            "title": "2022 R2",
+            "url": "/dls-release-notes/api/en-US/2022-r3-18/data.json",
+            "date": "May"
+        },
         {
             "id": "2022-r2-17",
             "title": "2022 R1",

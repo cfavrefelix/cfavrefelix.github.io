@@ -22,7 +22,7 @@
                     "content_parts": [
                         {
                             "key": "XT-21684",
-                            "title": "Sage Tax ID Validation and Lookup integration",
+                            "title": "Sage tax ID validation and lookup integration",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -30,7 +30,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "<p>Activate the\u00a0<b>Sage service fabric configuration</b>\u00a0function to use the Sage tax ID validation and lookup for European Union countries.<br/> This feature verifies tax ID numbers when users create suppliers, customers, sites, and business entities.</p>",
+                                    "content": "<p>Activate the\u00a0<b>Sage service fabric configuration</b>\u00a0function to use the Sage tax ID validation and lookup for European Union countries.</p><p>This feature verifies tax ID numbers when you create suppliers, customers, sites, and business entities.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -128,7 +128,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "<p>You can send purchase orders as a PDF  to an email recipient. From the <b>Purchase order</b> function, select <b>Send</b> from the <b>More actions</b> icon. The recipient email address defaults from the primary contact details linked to the supplier address that displays on the purchase order. You can select a different supplier contact or you can enter the contact and email address.<br/>When the purchase order is sent to the recipient, the <b>Sending</b> status changes from <b>Not sent</b> to <b>Sent</b>.</p>",
+                                    "content": "<p>From the <b>Purchase order</b> function, you can send purchase orders as a PDF  to an email recipient.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -208,7 +208,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "When you perform a material tracking for an item with a \u201cValuation method\u201d set to \u201c Average cost\u201d, the stock journal records the cost at the average cost. Now, the work order also displays the average cost instead of the standard cost.",
+                                    "content": "When you perform a material tracking for an item with a \u201cValuation method\u201d set to \u201c Average cost,&quot; the stock journal records the cost at the average cost. Now, the work order also displays the average cost instead of the standard cost.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -266,7 +266,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "When logged in with the French language, the status of a posted invoice is not longer in English on the Purchase invoice, Purchase credit memo, Accounts receivable invoice, Accounts payable invoice, and Journal entry pages. ",
+                                    "content": "When logged in with the French language, the status of a posted invoice is no longer in English on the Purchase invoice, Purchase credit memo, Accounts receivable invoice, Accounts payable invoice, and Journal entry pages. ",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -304,7 +304,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "<p>Use the new\u00a0<b>Stock value correction</b> function to\u00a0correct the value of stock linked to a stock receipt, or purchase receipt.</p>",
+                                    "content": "<p>Use the new\u00a0<b>Stock value correction</b> function to\u00a0correct the value of stock linked to a stock receipt or purchase receipt.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -327,7 +327,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "<p>Use the <b>Projected stock</b> button to display a graphical representation for the projected stock. This button is available from the following functions:</p><ul><li><b>Item</b>: From the <b>Sites</b> tab, open the <b>Edit</b> panel and go to the <b>General information</b> tab, <b>Stock</b> section.</li><li><b>Item-site</b>: Go to the <b>General information</b> tab, <b>Stock</b> section.</li><li><b>Sales order</b>: From a sales order line open the <b>Edit</b> panel and go to the <b>Quantities</b> tab, <b>Stock</b> section.</li></ul>",
+                                    "content": "<p>From the <b>Item</b>, <b>Item-site</b>, and <b>Sales order</b> functions, use the <b>Projected stock</b> button to display a graphical representation for the projected stock.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -4,6 +4,7 @@
     "language": "en-US",
     "__archive": "/dls-release-notes/api/en-US/archive.json",
     "previous": "2022-r2-17",
+    "next": "2022-r3-19",
     "date": "May",
     "content_parts": [
         {
@@ -188,95 +189,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "group",
-                    "title": "Bug Fixes",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "content_parts": [
-                        {
-                            "key": "XT-23115",
-                            "title": "Material tracking: work order cost and stock journal cost are consistent",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23115\" target=\"_blank\">XT-23115</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "When you perform a material tracking for an item with a \u201cValuation method\u201d set to \u201c Average cost,&quot; the stock journal records the cost at the average cost. Now, the work order also displays the average cost instead of the standard cost.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "18.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-23114",
-                            "title": "Purchase receipt: \"Select from Purchase order\" button",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23114\" target=\"_blank\">XT-23114</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "In the &quot;Purchase receipt&quot; function, the&quot; Select from purchase order&quot; button is now available depending on the current record.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "18.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Finance",
-            "id": "finance",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Bug Fixes",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "content_parts": [
-                        {
-                            "key": "XT-23783",
-                            "title": "Missing French translation on posting status updated",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-23783\" target=\"_blank\">XT-23783</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "When logged in with the French language, the status of a posted invoice is no longer in English on the Purchase invoice, Purchase credit memo, Accounts receivable invoice, Accounts payable invoice, and Journal entry pages. ",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "18.0.0"
-                                ]
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -335,37 +247,6 @@
                                 "software": [
                                     "multi-tenant"
                                 ],
-                                "version": [
-                                    "18.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
-                    "title": "Bug Fixes",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "content_parts": [
-                        {
-                            "key": "XT-17756",
-                            "title": "Removal of a 24/7 weekly shift from a labor resource ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17756\" target=\"_blank\">XT-17756</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "A 24/7 weekly shift can no longer be assigned to a labor resource.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
                                 "version": [
                                     "18.0.0"
                                 ]

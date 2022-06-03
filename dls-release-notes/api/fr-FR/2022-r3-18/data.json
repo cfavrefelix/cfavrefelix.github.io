@@ -1,0 +1,227 @@
+{
+    "id": "2022-r3-18",
+    "title": "2022 R2",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r2-17",
+    "date": "mai",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21684",
+                            "title": "Validation du num\u00e9ro de TVA et fonctionnalit\u00e9 de recherche",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Activez la fonction <b>Configuration Sage Service Fabric</b> pour utiliser la validation des num\u00e9ros de TVA et la recherche pour les pays de l'Union europ\u00e9enne.</p><p>Cette fonctionnalit\u00e9 v\u00e9rifie les num\u00e9ros de TVA lorsque vous cr\u00e9ez plusieurs fournisseurs, clients, sites, et entit\u00e9s commerciales.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-20216",
+                            "title": "Am\u00e9lioration de la consultation du journal des stocks",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la consultation <b>Journal des stocks</b>, un lien vers le document est disponible pour chaque transaction de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21259",
+                            "title": "Moteur de tarification sur les documents de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le moteur de tarification des documents de vente suit les principes de d\u00e9clenchement et de notification suivants\u00a0:</p><ul><li>Lorsque la quantit\u00e9 d'une ligne change, le moteur est d\u00e9clench\u00e9 pour recalculer le prix en fonction de la nouvelle quantit\u00e9 et des tarifs existants. L'utilisateur peut confirmer le recalcul ou effacer les valeurs.</li><li>Lorsque la date de commande ou date de facture en en-t\u00eate du document de vente changent, l'utilisateur doit confirmer la mise \u00e0 jour des prix, frais et remises pour toutes les lignes concern\u00e9es, en fonction les tarifs d\u00e9finis.</li><li>Lorsque le site de stock, le site de vente, la quantit\u00e9 de vente ou l'unit\u00e9 de vente changent au niveau d'une ligne de commande ou de facture de vente, l'utilisateur doit confirmer la mise \u00e0 jour des prix, frais et remises, en fonction des tarifs d\u00e9finis.</li><li>Lorsque les d\u00e9tails saisis sur la ligne de document ne renvoient pas un prix provenant d'un tarif, ou que le prix a \u00e9t\u00e9 mis \u00e0 jour manuellement, un bouton permet \u00e0 l'utilisateur d'afficher tous les tarifs d\u00e9finis pour l'article.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-19223",
+                            "title": "Envoi de commandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la fonction <b>Commande d'achat</b>, vous pouvez envoyer des commandes d'achat au format PDF par mail \u00e0 un destinataire sp\u00e9cifique.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-17522",
+                            "title": "Justification de prix moyen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Cette consultation vous permet d'afficher la justification d'un calcul de valorisation des stocks au prix moyen, par rapport aux mouvements de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-17393",
+                            "title": "Gestion de la TVA dans les commandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez affecter des taux de taxe aux lignes de commande d'achat, y compris des r\u00e8gles de d\u00e9termination des taxes, un calcul des taxes, ou une gestion des taxes.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21914",
+                            "title": "Correction de la valeur de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Cette fonction vous permet de corriger la valeur de stock li\u00e9e \u00e0 une r\u00e9ception de stock ou d'achat.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-7925",
+                            "title": "Calcul du stock projet\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans les fonctions <b>Article</b>, <b>Article-site</b> et <b>Commande d'achat</b>, le bouton <b>Stock projet\u00e9</b> vous permet d'afficher une repr\u00e9sentation graphique du stock projet\u00e9.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "18.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

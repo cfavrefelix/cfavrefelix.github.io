@@ -1,26 +1,26 @@
 {
-    "__self": "/dls-release-notes/api/en-US/archive.json",
+    "__self": "/sage-x3/api/en-US/archive.json",
     "product": "Sage X3",
     "language": "en-US",
-    "labels": "/dls-release-notes/api/en-US/labels.json",
-    "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
+    "labels": "/sage-x3/api/en-US/labels.json",
+    "taxonomies": "/sage-x3/api/en-US/taxonomies.json",
     "alternative_langauges": [
         {
             "title": "English - US",
             "id": "en-US",
-            "url": "/dls-release-notes/api/en-US/archive.json"
+            "url": "/sage-x3/api/en-US/archive.json"
         },
         {
             "title": "French - FR",
             "id": "fr-FR",
-            "url": "/dls-release-notes/api/fr-FR/archive.json"
+            "url": "/sage-x3/api/fr-FR/archive.json"
         }
     ],
     "releases": [
         {
             "id": "2022-r3-12",
             "title": "2022 R3 (12.0.31)",
-            "url": "/dls-release-notes/api/en-US/2022-r3-12/data.json",
+            "url": "/sage-x3/api/en-US/2022-r3-12/data.json",
             "date": "July"
         }
     ]

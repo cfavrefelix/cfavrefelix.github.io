@@ -1,0 +1,543 @@
+{
+    "id": "2022-r3-19",
+    "title": "2022 R3",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2022-r3-18",
+    "date": "June",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24216",
+                            "title": "Navigation menu updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24216\" target=\"_blank\">XT-24216</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The main <b>Finance</b> menu includes functions to view journal entries:</p><ul><li>Accounts payable invoice</li><li>Accounts receivable invoice</li><li>Generate Journal Entries</li><li>Journal entry</li><li>Unbilled accounts payable</li></ul><p>Under the <b>Administration &gt; Feature settings</b> menu, the <b>Finance</b> menu includes functions to manage the follow data:</p><ul><li>Account</li><li>Journal</li><li>Posting class definition</li><li>Posting class</li><li>Journal entry type</li><li>Attribute type</li><li>Attribute</li><li>Dimension type</li><li>Dimension</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-16829",
+                            "title": "Sequence number assignment",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-16829\" target=\"_blank\">XT-16829</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Under <b>Company data</b>, you can use the <b>Sequence number assignment</b> function for sales invoice documents. You can assign numbers to specific documents for a given legislation, company, and/or site. You can also search for sequence numbers that match this criteria.</p><p>Default sequence numbers are applied if you do not assign specific numbers.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-22621",
+                            "title": "Integrate AP/AR invoices with Sage Intacct for UK legislation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-22621\" target=\"_blank\">XT-22621</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>You can post AP/AR invoices and credit memos for sales and purchasing to Sage Intacct.</p><p>From the <b>Finance</b> menu, you access the related functions to view details and track the status. After an invoice is posted, you can select the <b>Accounting integration reference</b> number to go directly to that invoice in Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-22619",
+                            "title": "UK tax management setup ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-22619\" target=\"_blank\">XT-22619</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>For UK legislation, you can set up tax management including tax determination rules, tax calculation, and so on.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-20113",
+                            "title": "VAT management implemented on Purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-20113\" target=\"_blank\">XT-20113</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>You can assign tax rates on purchase receipt lines, such as tax determination rules, tax calculation, and tax management.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-17624",
+                            "title": "Sending Sales orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-17624\" target=\"_blank\">XT-17624</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>From the <b>Sales order</b> function, you can send sales order details to an email recipient.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-6868",
+                            "title": "Reordering point calculation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-6868\" target=\"_blank\">XT-6868</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Use the <b>Stock reordering</b> function to generate purchase or work order recommendations for daily stock shortages from the current date to a specified end date. You can convert these recommendations into purchase or work orders based on the replenishment method and preferred process set on the item-site.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25675",
+                            "title": "Amounts in company currency not displayed in Detail panel for purchasing documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25675\" target=\"_blank\">XT-25675</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The total amounts in company currency are displayed in the Edit and Detail panels when the transaction currency is different from the company currency.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24927",
+                            "title": "Stock unit price is wrong when the purchase unit is different from the stock unit",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24927\" target=\"_blank\">XT-24927</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The quantity used was changed when determining the unit cost of a purchase receipt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24439",
+                            "title": "Stock value correction: cannot select purchase receipt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24439\" target=\"_blank\">XT-24439</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "It is now possible to select a purchase receipt for a stock value correction.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24370",
+                            "title": "Sales order line: stock availability indicator",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24370\" target=\"_blank\">XT-24370</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The correct stock quantities are now queried.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Inventory",
+            "id": "inventory",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24587",
+                            "title": "Average cost justification: variance percentage filter",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24587\" target=\"_blank\">XT-24587</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the <b>Average cost justification</b> function, you can filter items by their unit cost variance percentage to easily manage variances by exception.\u00a0\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24634",
+                            "title": "Material requirements planning",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24634\" target=\"_blank\">XT-24634</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>End-to-end Material Requirements Planning (MRP) is now available. Use the <b>MRP calculation request</b> function for\u00a0planning current and future material requirements. Use the\u00a0<b>MRP calculation result</b> function to raise orders from the generated recommendations.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24608",
+                            "title": "Stock quantity adjustments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24608\" target=\"_blank\">XT-24608</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Use the new\u00a0<b>Stock adjustments</b> function to adjust stock quantities.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25658",
+                            "title": "Resource side panel: setup and runtime rounding issues",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25658\" target=\"_blank\">XT-25658</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "For routing operation resources, the setup and runtime are no longer rounded.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25321",
+                            "title": "Work order inquiry: no results",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25321\" target=\"_blank\">XT-25321</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The work order inquiry screen now displays accurate results in the calendar view.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21054",
+                            "title": "Select your language",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-21054\" target=\"_blank\">XT-21054</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>You can change your language at any time in your personal settings. Your selection\u00a0persists when you log out and log back in. This also updates number and date formats.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24274",
+                            "title": "User interface enhancements according to partners' feedback",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24274\" target=\"_blank\">XT-24274</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<ul><li>You can set filters on each column displayed in the lookup and in certain tables.</li><li>The first time you log in, you can review your privacy preferences.</li><li>If you reorganize columns, your choice persists when you log back in. These settings are device and user-dependent.\u00a0</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

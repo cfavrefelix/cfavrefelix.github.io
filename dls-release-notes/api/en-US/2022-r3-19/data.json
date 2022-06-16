@@ -30,7 +30,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "<p>The main <b>Finance</b> menu includes functions to view journal entries:</p><ul><li>Accounts payable invoice</li><li>Accounts receivable invoice</li><li>Generate Journal Entries</li><li>Journal entry</li><li>Unbilled accounts payable</li></ul><p>Under the <b>Administration &gt; Feature settings</b> menu, the <b>Finance</b> menu includes functions to manage the follow data:</p><ul><li>Account</li><li>Journal</li><li>Posting class definition</li><li>Posting class</li><li>Journal entry type</li><li>Attribute type</li><li>Attribute</li><li>Dimension type</li><li>Dimension</li></ul>",
+                                    "content": "<p>The main <b>Finance</b> menu includes functions to view finance related transactions.</p><p>Under the <b>Administration &gt; Feature settings</b> menu, the <b>Finance</b> menu includes functions to manage financial data.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -74,6 +74,9 @@
                                 ],
                                 "version": [
                                     "19.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
                                 ]
                             }
                         }
@@ -143,7 +146,7 @@
                         },
                         {
                             "key": "XT-20113",
-                            "title": "VAT management implemented on Purchase receipts",
+                            "title": "Tax management on Purchase receipts",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -166,7 +169,7 @@
                         },
                         {
                             "key": "XT-17624",
-                            "title": "Sending Sales orders",
+                            "title": "Sending sales orders acknowledgements",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -231,7 +234,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "The total amounts in company currency are displayed in the Edit and Detail panels when the transaction currency is different from the company currency.",
+                                    "content": "The total amounts in company currency are now displayed in the Edit and Detail panels when the transaction currency is different from the company currency.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -243,7 +246,7 @@
                         },
                         {
                             "key": "XT-24927",
-                            "title": "Stock unit price is wrong when the purchase unit is different from the stock unit",
+                            "title": "Stock unit price incorrect when the purchase unit is different from the stock unit",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -251,7 +254,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "The quantity used was changed when determining the unit cost of a purchase receipt.",
+                                    "content": "The correct stock unit prices is calculated when determining the unit cost for a purchase receipt when the purchase unit is different from the stock unit.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -263,7 +266,7 @@
                         },
                         {
                             "key": "XT-24439",
-                            "title": "Stock value correction: cannot select purchase receipt",
+                            "title": "Stock value correction unable to select purchase receipts",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -291,7 +294,7 @@
                                     "taxonomies": "all"
                                 },
                                 {
-                                    "content": "The correct stock quantities are now queried.",
+                                    "content": "The correct stock quantities display in the Detail panel.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -365,7 +368,7 @@
                     "content_parts": [
                         {
                             "key": "XT-24634",
-                            "title": "Material requirements planning",
+                            "title": "Material Requirements Planning",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -514,7 +517,7 @@
                     "content_parts": [
                         {
                             "key": "XT-24274",
-                            "title": "User interface enhancements according to partners' feedback",
+                            "title": "User interface enhancements",
                             "highlight": false,
                             "content_parts": [
                                 {

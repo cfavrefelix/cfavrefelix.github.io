@@ -40,6 +40,36 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-16829",
+                            "title": "Sequence number assignment",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Under <b>Company data</b>, you can use the <b>Sequence number assignment</b> function for sales invoice documents. You can assign numbers to specific documents for a given legislation, company, and/or site. You can also search for sequence numbers that match this criteria.</p><p>Default sequence numbers are applied if you do not assign specific numbers.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -59,11 +89,11 @@
                     "content_parts": [
                         {
                             "key": "XT-22621",
-                            "title": "Integrate AP/AR invoices with Sage Intacct for UK legislation",
+                            "title": "Integrate A/P and A/R invoices with Sage Intacct for UK legislation",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can post AP/AR invoices and credit memos for sales and purchasing to Sage Intacct.</p><p>From the <b>Finance</b> menu, you access the related functions to view details and track the status. After an invoice is posted, you can select the <b>Accounting integration reference</b> number to go directly to that invoice in Sage Intacct.</p>",
+                                    "content": "<p>You can post A/P and A/R invoices and credit memos for sales and purchasing to Sage Intacct.</p><p>From the <b>Finance</b> menu, you access the related functions to view details and track the status. After an invoice is posted, you can select the <b>Accounting integration reference</b> number to go directly to that invoice in Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -135,7 +165,7 @@
                         },
                         {
                             "key": "XT-6868",
-                            "title": "Reordering point calculation",
+                            "title": "Reorder point calculation",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -185,7 +215,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The correct stock unit prices is calculated when determining the unit cost for a purchase receipt when the purchase unit is different from the stock unit.",
+                                    "content": "The correct stock unit price is calculated when determining the unit cost for a purchase receipt when the purchase unit is different from the stock unit.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -222,43 +252,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "version": [
-                                    "19.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Inventory",
-            "id": "inventory",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "content_parts": [
-                        {
-                            "key": "XT-24587",
-                            "title": "Average cost justification: variance percentage filter",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>In the <b>Average cost justification</b> function, you can filter items by their unit cost variance percentage to easily manage variances by exception.\u00a0\u00a0</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
                                 "version": [
                                     "19.0.0"
                                 ]
@@ -418,6 +411,43 @@
                             "content_parts": [
                                 {
                                     "content": "<ul><li>You can set filters on each column displayed in the lookup and in certain tables.</li><li>The first time you log in, you can review your privacy preferences.</li><li>If you reorganize columns, your choice persists when you log back in. These settings are device and user-dependent.\u00a0</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24587",
+                            "title": "Average cost justification: variance percentage filter",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In the <b>Average cost justification</b> function, you can filter items by their unit cost variance percentage to easily manage variances by exception.\u00a0\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],

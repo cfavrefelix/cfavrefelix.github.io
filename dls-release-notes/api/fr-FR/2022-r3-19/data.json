@@ -150,7 +150,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Dans la fonction <b>Commande de vente</b>, vous pouvez envoyer des d\u00e9tails sur des commandes de vente par e-mail \u00e0 un destinataire sp\u00e9cifique.</p>",
+                                    "content": "<p>Dans la fonction <b>Commande de vente</b>, vous pouvez envoyer par e-mail \u00e0 un destinataire sp\u00e9cifique des d\u00e9tails relatifs \u00e0 des commandes de vente.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -169,7 +169,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Utilisez la fonction de stock <b>R\u00e9approvisionnement</b> pour g\u00e9n\u00e9rer des recommandations d\u2019achat ou d\u2019ordres de fabrication en cas de ruptures de stock journali\u00e8res, de la date du jour \u00e0 une date de fin donn\u00e9e. Vous pouvez transformer ces recommandations en ordres d\u2019achat ou de fabrication en vous appuyant sur la m\u00e9thode de r\u00e9approvisionnement et le processus pr\u00e9f\u00e9r\u00e9 param\u00e9tr\u00e9 pour l\u2019article-site.</p>",
+                                    "content": "<p>Utilisez la fonction de stock <b>R\u00e9approvisionnement</b> pour g\u00e9n\u00e9rer des recommandations d\u2019achat ou d\u2019ordres de fabrication en cas de ruptures de stock journali\u00e8res, de la date du jour \u00e0 une date de fin donn\u00e9e. Vous pouvez transformer ces recommandations en ordres d\u2019achat ou de fabrication en vous appuyant sur la m\u00e9thode de r\u00e9approvisionnement et le processus pr\u00e9f\u00e9r\u00e9 param\u00e9tr\u00e9s pour l\u2019article-site.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -330,7 +330,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Pour les ressource d'op\u00e9ration de gammes, les temps op\u00e9ratoires et les temps de r\u00e9glage ne sont plus arrondis.",
+                                    "content": "Pour les ressources d'op\u00e9rations de gammes, les temps op\u00e9ratoires et les temps de r\u00e9glage ne sont plus arrondis.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -346,7 +346,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "L\u2019\u00e9cran de consultation des ordres de fabrication affiche d\u00e9sormais des r\u00e9sultats exact en vue calendaire.",
+                                    "content": "L\u2019\u00e9cran de consultation des ordres de fabrication affiche d\u00e9sormais des r\u00e9sultats exacts en vue calendaire.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -376,7 +376,7 @@
                     "content_parts": [
                         {
                             "key": "XT-21054",
-                            "title": "S\u00e9lectionner votre langue.",
+                            "title": "S\u00e9lectionner votre langue",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -410,7 +410,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>Vous pouvez appliquer des filtres aux colonnes affich\u00e9es dans les recherches et dans certains tableaux.</li><li>D\u00e8s la premi\u00e8re connexion, vous pouvez adapter vos pr\u00e9f\u00e9rences de confidentialit\u00e9.</li><li>Si vous choisissez de r\u00e9organiser l\u2019agencement des colonnes, votre choix est conserv\u00e9 \u00e0 la prochaine connexion. Ces param\u00e9trages d\u00e9pendent de l\u2019appareil et de l\u2019utilisateur.\u00a0</li></ul>",
+                                    "content": "<ul><li>Vous pouvez appliquer des filtres aux colonnes affich\u00e9es dans les recherches et dans certains tableaux.</li><li>D\u00e8s la premi\u00e8re connexion, vous pouvez adapter vos pr\u00e9f\u00e9rences de confidentialit\u00e9.</li><li>Si vous choisissez de r\u00e9organiser l\u2019agencement des colonnes, votre choix est conserv\u00e9 lors de votre prochaine connexion. Ces param\u00e9trages d\u00e9pendent de l\u2019appareil et de l\u2019utilisateur.\u00a0</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

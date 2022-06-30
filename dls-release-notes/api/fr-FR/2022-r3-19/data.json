@@ -1,0 +1,468 @@
+{
+    "id": "2022-r3-19",
+    "title": "2022 R3",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r3-18",
+    "date": "juin",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24216",
+                            "title": "Mises \u00e0 jour des menus de navigation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le menu principal <b>Finance</b> contient des fonctions permettant d\u2019afficher les transactions financi\u00e8res.</p><p>Dans le menu <b>Administration > Param\u00e9trages fonctionnels</b>, le menu <b>Finance</b> contient des fonctions permettant de g\u00e9rer les donn\u00e9es financi\u00e8res.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-16829",
+                            "title": "Attribution de compteurs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans <b>Donn\u00e9es soci\u00e9t\u00e9</b>, vous pouvez utiliser la fonction <b>Attribution de compteurs</b> pour les documents de factures de vente. Vous pouvez attribuer des num\u00e9ros \u00e0 des documents donn\u00e9s pour une l\u00e9gislation, une soci\u00e9t\u00e9 et / ou un site donn\u00e9s. Vous pouvez \u00e9galement rechercher des compteurs qui correspondent \u00e0 vos crit\u00e8res.</p><p>Des compteurs par d\u00e9faut sont attribu\u00e9s si vous n\u2019attribuez pas de compteurs \u00e0 vos documents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-22621",
+                            "title": "Int\u00e9grer les factures tiers avec Sage Intacct pour la l\u00e9gislation UK",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez comptabiliser des factures tiers et des avoirs de vente et d\u2019achats dans Sage Intacct.</p><p>Dans le menu <b>Finance</b>, vous avez acc\u00e8s aux fonctions associ\u00e9es pour visualiser les d\u00e9tails et suivre l\u2019avancement. D\u00e8s qu\u2019une facture est comptabilis\u00e9e, vous pouvez s\u00e9lectionner le num\u00e9ro <b>R\u00e9f\u00e9rence int\u00e9gration comptable</b> pour acc\u00e9der directement \u00e0 cette facture dans Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-22619",
+                            "title": "Param\u00e9trage de la gestion des taxes UK ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour la l\u00e9gislation UK, vous pouvez param\u00e9trer la gestion des taxes pour, par exemple, les r\u00e8gles de d\u00e9termination des taxes ou le calcul des taxes.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-20113",
+                            "title": "Gestion des taxes pour les r\u00e9ceptions d\u2019achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez affecter des taux de taxe aux lignes de r\u00e9ceptions d'achat, et d\u00e9finir notamment des r\u00e8gles de d\u00e9termination des taxes, le calcul des taxes, et la gestion des taxes.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-17624",
+                            "title": "Envoyer des accus\u00e9s de commandes de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la fonction <b>Commande de vente</b>, vous pouvez envoyer des d\u00e9tails sur des commandes de vente par e-mail \u00e0 un destinataire sp\u00e9cifique.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-6868",
+                            "title": "Calcul du point de commande",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la fonction de stock <b>R\u00e9approvisionnement</b> pour g\u00e9n\u00e9rer des recommandations d\u2019achat ou d\u2019ordres de fabrication en cas de ruptures de stock journali\u00e8res, de la date du jour \u00e0 une date de fin donn\u00e9e. Vous pouvez transformer ces recommandations en ordres d\u2019achat ou de fabrication en vous appuyant sur la m\u00e9thode de r\u00e9approvisionnement et le processus pr\u00e9f\u00e9r\u00e9 param\u00e9tr\u00e9 pour l\u2019article-site.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25675",
+                            "title": "Montants en devise soci\u00e9t\u00e9 non affich\u00e9s dans le volet de d\u00e9tails des documents d\u2019achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les montants totaux en devise soci\u00e9t\u00e9 sont d\u00e9sormais affich\u00e9s dans les volets de d\u00e9tail et de modification lorsque la devise de transaction est diff\u00e9rente de la devise de soci\u00e9t\u00e9.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24927",
+                            "title": "Prix unitaire de stock incorrect lorsque l\u2019unit\u00e9 d'achat est diff\u00e9rente de l\u2019unit\u00e9 de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le prix unitaire de stock est calcul\u00e9 correctement lorsque le co\u00fbt unitaire est d\u00e9termin\u00e9 pour une r\u00e9ception d\u2019achat utilisant une unit\u00e9 d\u2019achat diff\u00e9rente de l\u2019unit\u00e9 de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24439",
+                            "title": "S\u00e9lection de r\u00e9ceptions d'achat impossible en cas de correction de la valeur de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Il est d\u00e9sormais possible de s\u00e9lectionner une r\u00e9ception d\u2019achat en cas de correction de la valeur de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24370",
+                            "title": "Ligne de commande vente : indicateur de disponibilit\u00e9 de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les quantit\u00e9s de stock correctes s\u2019affichent dans le volet de d\u00e9tail.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24634",
+                            "title": "Calcul des Besoins Nets",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le Calcul des Besoins Nets (CBN) complet est d\u00e9sormais disponible. Utilisez la fonction <b>Demande de calcul de CBN</b> pour planifier les besoins mati\u00e8res pr\u00e9sents et futurs. Utilisez la fonction <b>Demande de calcul de CBN</b> pour \u00e9tablir des commandes \u00e0 partir des recommandations ayant \u00e9t\u00e9 g\u00e9n\u00e9r\u00e9es.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24608",
+                            "title": "Corrections de la quantit\u00e9 de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la nouvelle fonction <b>R\u00e9gularisation de stock</b> pour r\u00e9gulariser les quantit\u00e9s de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25658",
+                            "title": "Volet des ressources : probl\u00e8mes d\u2019arrondi des temps op\u00e9ratoires et des temps de r\u00e9glage",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Pour les ressource d'op\u00e9ration de gammes, les temps op\u00e9ratoires et les temps de r\u00e9glage ne sont plus arrondis.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25321",
+                            "title": "Consultation des ordres de fabrication : aucun r\u00e9sultat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L\u2019\u00e9cran de consultation des ordres de fabrication affiche d\u00e9sormais des r\u00e9sultats exact en vue calendaire.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21054",
+                            "title": "S\u00e9lectionner votre langue.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez modifier votre langue \u00e0 tout moment \u00e0 partir de vos param\u00e8tres personnels. Votre choix est conserv\u00e9 lors de votre prochaine connexion. Ceci met \u00e9galement \u00e0 jour les formats de nombres et de dates.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24274",
+                            "title": "Am\u00e9liorations de l\u2019interface utilisateur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Vous pouvez appliquer des filtres aux colonnes affich\u00e9es dans les recherches et dans certains tableaux.</li><li>D\u00e8s la premi\u00e8re connexion, vous pouvez adapter vos pr\u00e9f\u00e9rences de confidentialit\u00e9.</li><li>Si vous choisissez de r\u00e9organiser l\u2019agencement des colonnes, votre choix est conserv\u00e9 \u00e0 la prochaine connexion. Ces param\u00e9trages d\u00e9pendent de l\u2019appareil et de l\u2019utilisateur.\u00a0</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24587",
+                            "title": "Justification de prix moyen : filtre de pourcentage d'\u00e9cart",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la fonction <b>Justification de prix moyen</b>, vous pouvez filtrer les articles selon leur pourcentage d'\u00e9cart de co\u00fbt unitaire pour g\u00e9rer facilement les \u00e9carts par exception.\u00a0\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "19.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

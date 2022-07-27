@@ -96,52 +96,6 @@
                     },
                     "content_parts": [
                         {
-                            "key": "XT-25436",
-                            "title": "Returns are valued at the original receipt or delivery cost",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25436\" target=\"_blank\">XT-25436</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "<p>For sales returns, the returned stock is valued at the original delivery cost and not at the current cost. For purchase returns, the returned stock is valued at the original receipt cost and not at the current cost.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "20.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-7520",
-                            "title": "Stock detail status in stock entry transactions",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-7520\" target=\"_blank\">XT-7520</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
-                                    "content": "<p>You can see the current status of the stock detail entry in the <b>Stock detail status</b> column in functions with stock movements.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "20.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-6967",
                             "title": "Managing non-stock items",
                             "highlight": false,
@@ -186,18 +140,7 @@
                                     "20.0.0"
                                 ]
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
-                    "title": "Improvements",
-                    "taxonomies": {
-                        "_type": [
-                            "changes"
-                        ]
-                    },
-                    "content_parts": [
+                        },
                         {
                             "key": "XT-4007",
                             "title": "Managing non-stock items in the sales process",
@@ -493,6 +436,70 @@
                                 },
                                 {
                                     "content": "<p><font color=\"#172b4d\">On the\u00a0<b>Sage Intacct configuration</b>\u00a0page, go to the\u00a0<b>Integration state</b> tab to identify desynchronized data on objects that originate in Sage Intacct Manufacturing, such as customers, suppliers, items, and business entities.\u00a0</font></p><p><font color=\"#172b4d\">Select a desynchronized line to display the desynchronized field details on a new page with the option to update the field in Sage Intacct Manufacturing.</font></p><p><font color=\"#172b4d\">The\u00a0<b>Customer</b>,\u00a0<b>Supplier</b>,\u00a0<b>Item</b>, and\u00a0<b>Business entity</b>\u00a0pages have an\u00a0<b>Integration state</b> indicator that displays the integration status.</font></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25436",
+                            "title": "Returns are valued at the original receipt or delivery cost",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25436\" target=\"_blank\">XT-25436</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>For sales returns, the returned stock is valued at the original delivery cost and not at the current cost. For purchase returns, the returned stock is valued at the original receipt cost and not at the current cost.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-7520",
+                            "title": "Stock detail status in stock entry transactions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-7520\" target=\"_blank\">XT-7520</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>You can see the current status of the stock detail entry in the <b>Stock detail status</b> column in functions with stock movements.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

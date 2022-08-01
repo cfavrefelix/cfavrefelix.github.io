@@ -1,0 +1,448 @@
+{
+    "id": "2022-r3-20",
+    "title": "2022 R4",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r3-19",
+    "date": "juillet",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-21585",
+                            "title": "Am\u00e9lioration de l'interface utilisateur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Sur la page <b>Client</b>, le champ <b>Montant minimum commande</b> est disponible dans l'onglet <b>Financi\u00e8res</b>.</li><li>Des rapports sont disponibles en anglais pour les exp\u00e9ditions de vente, factures de vente et avoirs de vente.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24708",
+                            "title": "Attribution de compteurs ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La page <b>Attribution de compteurs</b> inclut des menus <b>Ventes</b>, <b>Achats</b>, <b>Stock</b> et <b>Production</b>, ainsi que les documents associ\u00e9s. Chaque document est associ\u00e9 \u00e0 un num\u00e9ro de compteur.</p><p>Dans le volet lat\u00e9ral, la case \u00e0 cocher <b>Attribuer en comptabilisation</b> s'affiche lorsque le type de document <b>Facture de vente</b> et la l\u00e9gislation fran\u00e7aise sont s\u00e9lectionn\u00e9s. Lorsque cette option est s\u00e9lectionn\u00e9e, le num\u00e9ro de compteur est attribu\u00e9 lors de la comptabilisation.</p><p>La valeur du champ <b>Valeur de compteur</b> sur les pages <b>Soci\u00e9t\u00e9</b> et <b>Site</b> est utilis\u00e9e pour g\u00e9n\u00e9rer des num\u00e9ros de document lorsque le compteur associ\u00e9 utilise un composant site ou soci\u00e9t\u00e9.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-6967",
+                            "title": "Gestion des articles non stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la fonction <b>Article-site</b>, les champs li\u00e9s au stock ne s'affichent pas pour les articles non g\u00e9r\u00e9s en stock ou pour les articles de type <b>Service</b>. Dans le processus de vente et d'achat, les contr\u00f4les suivants sont effectu\u00e9s : </p><ul><li>Vous ne pouvez utiliser ces articles que s'ils sont li\u00e9s \u00e0 un site de stock.</li><li>Vous ne pouvez pas lier un article g\u00e9r\u00e9 en stock \u00e0 un site non stock.</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-6878",
+                            "title": "Gestion des articles non stock dans le processus d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur les lignes de documents d'achat et dans les volets de modification et de d\u00e9tail, vous pouvez s\u00e9lectionner, afficher et g\u00e9rer les articles qui ne sont pas g\u00e9r\u00e9s en stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-4007",
+                            "title": "Gestion des articles non stock dans le processus de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur les lignes de document de vente et dans les volets de modification et de d\u00e9tail, vous pouvez s\u00e9lectionner, afficher et g\u00e9rer les articles qui ne sont pas g\u00e9r\u00e9s en stock.<br/>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-26738",
+                            "title": "Adresse d'exp\u00e9dition du client\u00a0: module vide lors de l'annulation de cr\u00e9ation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous ajoutez une adresse \u00e0 une fiche client, mais que l'action est annul\u00e9e dans le volet <b>Nouvelle adresse client</b>, le module contenant une adresse vide ne s'affiche plus. L'action est annul\u00e9e avec succ\u00e8s.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-26737",
+                            "title": "Article client\u00a0: Nom de l'article-client non enregistr\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de l'ajout ou de la modification d'un article client dans le volet d'ajout ou de modification, le nom de l'article-client est enregistr\u00e9 et affich\u00e9. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-26736",
+                            "title": "Volet de modification de l'article client vide",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la modification d'un article client dans l'onglet des articles, le volet de modification de l'article s'affiche correctement. Les d\u00e9tails de l'article peuvent \u00eatre modifi\u00e9s.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25972",
+                            "title": "Cr\u00e9ation de ressources individuelles \u00e0 partir d'un groupe",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la cr\u00e9ation d'une ressource individuelle \u00e0 partir d'un groupe de ressources, le code et le nom du groupe correspondant ne sont plus aliment\u00e9s automatiquement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25920",
+                            "title": "Titre de la page article\u00a0: description \u00e0 la place du nom",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le titre de la page des articles a \u00e9t\u00e9 revue pour afficher le nom de l'article.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25912",
+                            "title": "Actualisation de la liste de s\u00e9lection des OF",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la cr\u00e9ation d'un ordre de fabrication, la liste inclut d\u00e9sormais l'OF cr\u00e9\u00e9 lors de l'enregistrement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25369",
+                            "title": "Suivi de la surconsommation ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le suivi de la surconsommation est d\u00e9sormais autoris\u00e9. Le suivi peut \u00eatre appliqu\u00e9 aux op\u00e9rations termin\u00e9es.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25338",
+                            "title": "Colonnes de suivi manquantes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Dans le suivi mati\u00e8re, les crit\u00e8res de recherche des articles ont \u00e9t\u00e9 renomm\u00e9s en <b>Article lanc\u00e9</b> et les colonnes relatives aux composants et mati\u00e8res ont \u00e9t\u00e9 renomm\u00e9es en <b>Composant</b>.&quot;<br/>Dans le suivi des temps, des colonnes <b>Article lanc\u00e9</b> ont \u00e9t\u00e9 ajout\u00e9es.<br/>Dans le suivi de production, des crit\u00e8res de recherche ont \u00e9t\u00e9 ajout\u00e9s pour l'<b>Article lanc\u00e9</b> et les colonnes concernant les articles renomm\u00e9es en <b>Article lanc\u00e9</b>.&quot;",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25304",
+                            "title": "Duplication de saisie en suivi de production pour les d\u00e9tails de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Pour \u00e9viter la duplication de saisie, vous ne pouvez plus saisir manuellement les d\u00e9tails de stock dans le tableau des composants d'OF (suivi mati\u00e8re) et le tableau des ordres de fabrication (suivi production). Vous pouvez uniquement saisir les d\u00e9tails de stock dans le volet des d\u00e9tails de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24714",
+                            "title": "Historique de notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Historique de notification</b>, vous pouvez afficher l'historique des notifications pour les int\u00e9grations et les services. Vous pouvez ainsi identifier les erreurs, et trouver des solutions.</p><p>Vous pouvez acc\u00e9der \u00e0 cette fonction dans le menu <b>Administration > Communication</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-24176",
+                            "title": "Int\u00e9gration Intacct\u00a0: synchronisation des donn\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><font color=\"#172b4d\">Sur la page <b>Configuration Sage Intacct</b>, ouvrez l'onglet <b>Statut int\u00e9gration</b> pour identifier les donn\u00e9es d\u00e9synchronis\u00e9es sur les objets qui proviennent de Sage\u00a0Intacct\u00a0Manufacturing, notamment les clients, fournisseurs, articles et entit\u00e9s commerciales.\u00a0</font></p><p><font color=\"#172b4d\">S\u00e9lectionnez une ligne d\u00e9synchronis\u00e9e pour afficher les d\u00e9tails du champ d\u00e9synchronis\u00e9 sur une nouvelle page avec la possibilit\u00e9 de mettre \u00e0 jour le champ dans Sage\u00a0Intacct\u00a0Manufacturing.</font></p><p><font color=\"#172b4d\">Les pages <b>Client</b>, <b>Fournisseur</b>, <b>Article</b> et <b>Entit\u00e9 commerciale</b> incluent \u00e9galement un indicateur <b>Statut d'int\u00e9gration</b>.</font></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25436",
+                            "title": "Retours valoris\u00e9s au co\u00fbt de r\u00e9ception ou de livraison d'origine",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les retours de vente, le stock retourn\u00e9 est valoris\u00e9 au co\u00fbt de livraison d'origine et non au co\u00fbt actuel. Pour les retours d'achat, le stock retourn\u00e9 est valoris\u00e9 au co\u00fbt de r\u00e9ception d'origine et non au co\u00fbt actuel.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-7520",
+                            "title": "Statut d\u00e9taill\u00e9 du stock dans les transactions de saisie de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez voir le statut actuel du d\u00e9tail de l'entr\u00e9e de stock dans la colonne <b>Statut d\u00e9tails stock</b> des fonctions relatives aux mouvements de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "20.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

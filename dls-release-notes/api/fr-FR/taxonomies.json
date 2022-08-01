@@ -3,20 +3,20 @@
     "taxonomies": [
         {
             "id": "_type",
-            "title": "Par",
+            "title": "Update type",
             "pills": false,
             "options": [
                 {
                     "id": "news",
-                    "title": "Fonctionnalit\u00e9s"
+                    "title": "Features"
                 },
                 {
                     "id": "changes",
-                    "title": "Am\u00e9liorations"
+                    "title": "Improvements"
                 },
                 {
                     "id": "bug-fixes",
-                    "title": "Correctifs"
+                    "title": "Bug Fixes"
                 }
             ]
         }

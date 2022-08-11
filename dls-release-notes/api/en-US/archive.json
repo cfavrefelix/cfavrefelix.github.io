@@ -28,6 +28,12 @@
     ],
     "releases": [
         {
+            "id": "2022-r4-21",
+            "title": "2022 R4",
+            "url": "/dls-release-notes/api/en-US/2022-r4-21/data.json",
+            "date": "August"
+        },
+        {
             "id": "2022-r3-20",
             "title": "2022 R4",
             "url": "/dls-release-notes/api/en-US/2022-r3-20/data.json",

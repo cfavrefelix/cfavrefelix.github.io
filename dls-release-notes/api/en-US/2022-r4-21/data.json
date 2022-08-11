@@ -1,0 +1,295 @@
+{
+    "id": "2022-r4-21",
+    "title": "2022 R4",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2022-r3-20",
+    "date": "August",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-27083",
+                            "title": "Tax management with Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>UK customers using Sage Intacct for their financial solution can manage tax rates in Sage Intacct and synchronize with Sage Intacct Manufacturing. In <b>Sage Intacct mapping</b>, you can configure the TAXDETAIL object to map tax data between the 2 solutions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-26791",
+                            "title": "Tax codes defined by country",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Tax codes are defined by a single country, rather than the legislation. This delivers all existing tax codes according to the destination country, not the company legislation.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25089",
+                            "title": "Association between country and legislation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Each country provided by Sage is associated with a legislation. When you set up a new country, you can skip the legislation or select one of the suggested values.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-28204",
+                            "title": "Managing non stock items",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sales shipments and returns, including items not managed in stock, display correctly on goods shipped, not invoiced accounts.</p><p>You can assign stock managed and non-stock managed items to account types or posting classes so they can post to specific general ledger accounts.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-15359",
+                            "title": "Managing customer addresses simplified",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the <b>Addresses</b> tab on the <b>Customer</b> page to manage all addresses including contacts and shipping.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-29275",
+                            "title": "Unable to select Location and/or Lot when adding a receipt line",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can no longer enter or edit stock details like status and location, if managed, directly from the the New receipt line and Edit receipt line panels in Purchase receipt.<br/>Stock details need to be entered or edited through the Stock details row action.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-27851",
+                            "title": "VAT number not required for a natural person",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The tax ID and SIRET are no longer required when creating a supplier or customer when the legal entity is a natural person.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-30196",
+                            "title": "Incorrect transaction amounts for first stock receipt of an average cost item with no cost",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When receiving an average cost item with a cost of zero, the correct order amount is used when calculating the transaction amount for the journal entry.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-27915",
+                            "title": "Incorrect French terminology in the Dimensions panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The French terminology in the dimension panel for field descriptions has been corrected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-29149",
+                            "title": "Site filter missing from material tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Material tracking includes a site filter criteria.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-27379",
+                            "title": "Item-site details for suppliers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "If an item is not a purchased item, all information related to suppliers has been removed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

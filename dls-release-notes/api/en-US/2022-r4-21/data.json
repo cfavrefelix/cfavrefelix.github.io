@@ -120,7 +120,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In Mass shipment creation, you can create multiple sales shipments from several sales orders based on filters and grouping rules.</p>",
+                                    "content": "<p>In <b>Mass shipment creation</b>, you can create multiple sales shipments from several sales orders based on filters and grouping rules.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -150,7 +150,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Taxes are synchronised from Sage Intacct financials each time an update is done or a new record is created Sage Intacct. This integration from Intacct is done using <b>smart events</b>.</p><p>A smart event is created for objects related to the tax rates where Sage Intacct is the master to trigger an update to SIM.</p>",
+                                    "content": "<p>Taxes are synchronized from Sage Intacct for each update or new record using Smart Events.</p><p>A Smart Event is created for objects related to the tax rates that originate in Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -215,7 +215,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The tax ID and SIRET are no longer required when creating a supplier or customer when the legal entity is a natural person.",
+                                    "content": "The tax ID and SIRET are no longer required when creating a supplier or customer when the legal entity is a physical person.",
                                     "taxonomies": "all"
                                 }
                             ],

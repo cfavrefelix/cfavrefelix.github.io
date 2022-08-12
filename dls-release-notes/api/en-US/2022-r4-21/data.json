@@ -113,6 +113,25 @@
                                     "21.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-23414",
+                            "title": "Mass sales shipment creation from sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In Mass shipment creation, you can create multiple sales shipments from several sales orders based on filters and grouping rules.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -125,6 +144,25 @@
                         ]
                     },
                     "content_parts": [
+                        {
+                            "key": "XT-26757",
+                            "title": "Tax management - Integration with Intacct (Functional)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Taxes are synchronised from Sage Intacct financials each time an update is done or a new record is created Sage Intacct. This integration from Intacct is done using <b>smart events</b>.</p><p>A smart event is created for objects related to the tax rates where Sage Intacct is the master to trigger an update to SIM.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-15359",
                             "title": "Managing customer addresses simplified",

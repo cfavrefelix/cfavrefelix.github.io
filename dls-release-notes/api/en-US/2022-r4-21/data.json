@@ -21,25 +21,6 @@
                     },
                     "content_parts": [
                         {
-                            "key": "XT-27083",
-                            "title": "Tax management with Sage Intacct",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>UK customers using Sage Intacct for their financial solution can manage tax rates in Sage Intacct and synchronize with Sage Intacct Manufacturing. In <b>Sage Intacct mapping</b>, you can configure the TAXDETAIL object to map tax data between the 2 solutions.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "21.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-26791",
                             "title": "Tax codes defined by country",
                             "highlight": false,
@@ -97,7 +78,7 @@
                     "content_parts": [
                         {
                             "key": "XT-28204",
-                            "title": "Managing non stock items",
+                            "title": "Managing non stock items posting",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -146,11 +127,11 @@
                     "content_parts": [
                         {
                             "key": "XT-26757",
-                            "title": "Tax management - Integration with Intacct (Functional)",
+                            "title": "Tax management",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Taxes are synchronized from Sage Intacct for each update or new record using Smart Events.</p><p>A Smart Event is created for objects related to the tax rates that originate in Sage Intacct.</p>",
+                                    "content": "<p>UK customers using Sage Intacct for their financial solution can manage tax rates in Sage Intacct and synchronize with Sage Intacct Manufacturing. In\u00a0<b>Sage Intacct mapping</b>, you can configure the TAXDETAIL object to map tax data between the 2 solutions.</p><p>Taxes are synchronized from Sage Intacct for each update or new record using Smart Events.</p><p>A Smart Event is created for objects related to the tax rates that originate in Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -258,22 +239,6 @@
                                     "21.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-27915",
-                            "title": "Incorrect French terminology in the Dimensions panel",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The French terminology in the dimension panel for field descriptions has been corrected.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "21.0.0"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -320,6 +285,43 @@
                                 }
                             ],
                             "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25754",
+                            "title": "Notification history improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Notification history</b> page, you can view statuses at-a-glance with color-coded messages. You can search or filter by status for finance, integration with Sage Intacct objects, and stock.</p><p>The <b>Finance</b> and <b>Stock</b> tabs include document links for easy-access.</p><p>The <b>Integration status</b> tab was moved from the <b>Sage Intacct integration</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "21.0.0"
                                 ]

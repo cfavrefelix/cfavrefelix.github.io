@@ -211,7 +211,7 @@
                         },
                         {
                             "key": "XT-27851",
-                            "title": "VAT number not required for a natural person",
+                            "title": "VAT number not required for a physical person",
                             "highlight": false,
                             "content_parts": [
                                 {

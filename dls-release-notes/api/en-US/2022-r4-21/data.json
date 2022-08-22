@@ -21,6 +21,25 @@
                     },
                     "content_parts": [
                         {
+                            "key": "XT-27381",
+                            "title": "Intrastat query",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the <b>Intrastat declaration</b> query to extract transaction details for all dispatches and arrivals of goods to and from other EU countries. The transactions for the selected company and period display in the results grid. You can edit directly in the grid before exporting to an Excel file.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-26791",
                             "title": "Tax codes defined by country",
                             "highlight": false,

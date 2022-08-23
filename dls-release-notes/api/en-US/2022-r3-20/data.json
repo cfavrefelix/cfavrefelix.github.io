@@ -3,7 +3,6 @@
     "title": "2022 R4",
     "language": "en-US",
     "__archive": "/dls-release-notes/api/en-US/archive.json",
-    "next": "2022-r4-21",
     "previous": "2022-r3-19",
     "date": "July",
     "content_parts": [
@@ -26,10 +25,6 @@
                             "title": "User interface improvements",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-21585\" target=\"_blank\">XT-21585</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<ul><li>On the\u00a0<b>Customer</b>\u00a0page, you can find the\u00a0<b>Minimum order amount</b>\u00a0field on the\u00a0<b>Financial</b>\u00a0tab.</li><li><b>Sales shipment</b>,\u00a0<b>Sales invoice</b>, and\u00a0<b>Sales credit memo</b>\u00a0reports are available in English.</li></ul>",
                                     "taxonomies": "all"
@@ -60,10 +55,6 @@
                             "title": "Assign sequence numbers ",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24708\" target=\"_blank\">XT-24708</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>The\u00a0<b>Sequence number assignment</b> page includes <b>Sales</b>,\u00a0<b>Purchasing</b>,\u00a0<b>Stock</b>, and\u00a0<b>Manufacturing</b>\u00a0menus and the related documents. Each document has a default sequence number assigned to it.</p><p>In the side panel, the\u00a0<b>Assign on posting</b>\u00a0checkbox displays when the\u00a0<b>Sales invoice</b> document type and French legislation are selected. When selected, the sequence number is assigned when posted.</p><p>The value of the\u00a0<b>Sequence number value</b> field on the\u00a0<b>Company</b>\u00a0and\u00a0<b>Site</b> pages is employed to generate document numbers when the related sequence number uses a site or company component.</p>",
                                     "taxonomies": "all"
@@ -102,10 +93,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-6967\" target=\"_blank\">XT-6967</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>In the <b>Item-site</b> function, stock related fields do not display for non-stock managed items or for items with a <b>Service</b> item type. In the sales and purchase process, the following controls are performed: </p><ul><li>You can use these items only if they are linked to a stock site.</li><li>You cannot link a stock managed item to a non-stock site.</li></ul><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
@@ -125,10 +112,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-6878\" target=\"_blank\">XT-6878</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>In the purchase document lines and on the edit and detail panels, you can select, display, and manage items that are not stock managed.</p>",
                                     "taxonomies": "all"
                                 }
@@ -147,10 +130,6 @@
                             "title": "Managing non-stock items in the sales process",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-4007\" target=\"_blank\">XT-4007</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>In the sales document lines and on the edit and detail panels, you can select, display, and manage items that are not stock managed.<br/>\u00a0</p>",
                                     "taxonomies": "all"
@@ -182,10 +161,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-26738\" target=\"_blank\">XT-26738</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "When selecting to add an additional address on a customer record but the action is cancelled on the &quot;New customer address&quot; edit panel, a blank address pod is no longer displayed. The action is successfully cancelled.",
                                     "taxonomies": "all"
                                 }
@@ -202,10 +177,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-26737\" target=\"_blank\">XT-26737</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "When adding or editing a customer item in the add or edit panel, the item-customer name is successfully saved and displayed. ",
                                     "taxonomies": "all"
                                 }
@@ -221,10 +192,6 @@
                             "title": "Customer item edit panel displays blank",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-26736\" target=\"_blank\">XT-26736</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "When editing a customer item on the Items tab, the item edit panel correctly displays. The existing item details can be edited.",
                                     "taxonomies": "all"
@@ -260,10 +227,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25972\" target=\"_blank\">XT-25972</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "When creating an individual resource from a group resource, the ID and name are no longer automatically populated with the corresponding group ID and name values.",
                                     "taxonomies": "all"
                                 }
@@ -279,10 +242,6 @@
                             "title": "Item page title: Description is used instead of name",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25920\" target=\"_blank\">XT-25920</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "The item page title has been reviewed to rely on the item name.",
                                     "taxonomies": "all"
@@ -300,10 +259,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25912\" target=\"_blank\">XT-25912</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "When creating a new work order, the list is now updated with the newly created work order when saving.",
                                     "taxonomies": "all"
                                 }
@@ -319,10 +274,6 @@
                             "title": "Tracking overconsumption ",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25369\" target=\"_blank\">XT-25369</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "Overconsumption tracking is now allowed. Tracking can be applied to completed operations.",
                                     "taxonomies": "all"
@@ -340,10 +291,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25338\" target=\"_blank\">XT-25338</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "For Material tracking, the item search criteria has been renamed to &quot;Released item&quot; and the component item and material columns have been renamed to &quot;Component.&quot;<br/>For Time tracking, &quot;Released item&quot; columns have been added.<br/>For Production tracking, &quot;Released item&quot; search criteria has been added and the item columns have been renamed to &quot;Released item.&quot;",
                                     "taxonomies": "all"
                                 }
@@ -359,10 +306,6 @@
                             "title": "Production tracking duplicate entry required for stock detail",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25304\" target=\"_blank\">XT-25304</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "To avoid input duplication, you can no longer manually enter stock details into the work order components grid (material tracking) and work order grid (production tracking). Instead, you can only enter stock details in the stock details panel.",
                                     "taxonomies": "all"
@@ -398,10 +341,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24714\" target=\"_blank\">XT-24714</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>On the <b>Notification history</b> page, you can view the notification history for integrations and services. This helps you identify errors and assist in finding resolutions.</p><p>You can access this function from the <b>Administration &gt; Communication</b> menu.</p>",
                                     "taxonomies": "all"
                                 }
@@ -431,10 +370,6 @@
                             "title": "Intacct integration: Data synchronization",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24176\" target=\"_blank\">XT-24176</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p><font color=\"#172b4d\">On the\u00a0<b>Sage Intacct configuration</b>\u00a0page, go to the\u00a0<b>Integration state</b> tab to identify desynchronized data on objects that originate in Sage Intacct Manufacturing, such as customers, suppliers, items, and business entities.\u00a0</font></p><p><font color=\"#172b4d\">Select a desynchronized line to display the desynchronized field details on a new page with the option to update the field in Sage Intacct Manufacturing.</font></p><p><font color=\"#172b4d\">The\u00a0<b>Customer</b>,\u00a0<b>Supplier</b>,\u00a0<b>Item</b>, and\u00a0<b>Business entity</b>\u00a0pages have an\u00a0<b>Integration state</b> indicator that displays the integration status.</font></p>",
                                     "taxonomies": "all"
@@ -473,10 +408,6 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-25436\" target=\"_blank\">XT-25436</a>",
-                                    "taxonomies": "all"
-                                },
-                                {
                                     "content": "<p>For sales returns, the returned stock is valued at the original delivery cost and not at the current cost. For purchase returns, the returned stock is valued at the original receipt cost and not at the current cost.</p>",
                                     "taxonomies": "all"
                                 }
@@ -495,10 +426,6 @@
                             "title": "Stock detail status in stock entry transactions",
                             "highlight": false,
                             "content_parts": [
-                                {
-                                    "content": "<a href=\"https://jira.sage.com/browse/XT-7520\" target=\"_blank\">XT-7520</a>",
-                                    "taxonomies": "all"
-                                },
                                 {
                                     "content": "<p>You can see the current status of the stock detail entry in the <b>Stock detail status</b> column in functions with stock movements.</p>",
                                     "taxonomies": "all"

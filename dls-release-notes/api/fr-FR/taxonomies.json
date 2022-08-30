@@ -7,15 +7,15 @@
             "pills": false,
             "options": [
                 {
-                    "id": "nouveau",
+                    "id": "news",
                     "title": "Fonctionnalit\u00e9s"
                 },
                 {
-                    "id": "changements",
+                    "id": "changes",
                     "title": "Am\u00e9liorations"
                 },
                 {
-                    "id": "correctifs",
+                    "id": "bug-fixes",
                     "title": "Correctifs"
                 }
             ]

@@ -1,0 +1,354 @@
+{
+    "id": "2022-r4-21",
+    "title": "2022 R5",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r3-20",
+    "date": "Ao\u00fbt",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "Donn\u00e9es de base",
+            "type": "Module",
+            "content_parts": [
+                {
+                    "type": "Groupe",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "Nouveau"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-27381",
+                            "title": "Requ\u00eate relative \u00e0 la d\u00e9claration d\u2019\u00e9change de biens",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la requ\u00eate <b>D\u00e9claration d'\u00e9change de biens</b> pour extraire les d\u00e9tails de transactions pour toutes les exp\u00e9ditions et arriv\u00e9es de marchandises vers et depuis d'autres pays de l'Union Europ\u00e9enne. Les transactions pour la soci\u00e9t\u00e9 et de la p\u00e9riode s\u00e9lectionn\u00e9es s'affichent dans la grille de r\u00e9sultats. Vous pouvez modifier directement dans la grille avant d'exporter vers un fichier Excel.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-26791",
+                            "title": "Codes taxe d\u00e9finis par pays",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les codes taxe sont d\u00e9finis par un pays unique, plut\u00f4t que par la l\u00e9gislation. Tous les codes taxe existants sont fournis en fonction du pays de destination et non de la l\u00e9gislation de l'entreprise.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-25089",
+                            "title": "Association entre le pays et la l\u00e9gislation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Chaque pays fourni par Sage est associ\u00e9 \u00e0 une l\u00e9gislation. Lorsque vous configurez un nouveau pays, vous pouvez ignorer la l\u00e9gislation ou s\u00e9lectionner l'une des valeurs sugg\u00e9r\u00e9es.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "Distribution",
+            "type": "Module",
+            "content_parts": [
+                {
+                    "type": "Groupe",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "Nouveau"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-28204",
+                            "title": "Gestion de la comptabilisation de articles non g\u00e9r\u00e9s en stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les exp\u00e9ditions et les retours de vente, y compris les articles non g\u00e9r\u00e9s en stock, s\u2019affichent correctement dans les comptes des marchandises livr\u00e9es mais non factur\u00e9es.</p><p>Vous pouvez affecter des articles g\u00e9r\u00e9s en stock et non g\u00e9r\u00e9s en stock \u00e0 des types de compte ou \u00e0 des classes de comptabilisation afin qu'ils soient comptabilis\u00e9s sur des comptes du grand livre g\u00e9n\u00e9ral sp\u00e9cifiques.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-23414",
+                            "title": "Cr\u00e9ation d'une exp\u00e9dition de vente en masse \u00e0 partir d'une commande de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>En <b>cr\u00e9ation d'exp\u00e9ditions en masse</b>, vous pouvez cr\u00e9er plusieurs exp\u00e9ditions de vente \u00e0 partir de plusieurs commandes en fonction de filtres et de r\u00e8gles de regroupement.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Groupe",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "Changements"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-26757",
+                            "title": "Gestion des taxes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p> Les clients du Royaume-Uni qui utilisent Sage Intacct pour leur solution financi\u00e8re peuvent g\u00e9rer les taux de taxe dans Sage Intacct et les synchroniser avec Sage Intacct Manufacturing. Dans la fonction <b>Mapping Sage Intacct</b>, vous pouvez configurer l'objet TAXDETAIL pour qu\u2019il mappe les donn\u00e9es de taxe entre les 2 solutions.</p><p>Les taxes sont synchronis\u00e9es depuis Sage Intacct \u00e0 chaque mise \u00e0 jour ou \u00e0 chaque nouvel enregistrement \u00e0 l'aide de Smart Events.</p><p>Un Smart Event est cr\u00e9\u00e9 pour les objets associ\u00e9s aux taux de taxe provenant de Sage Intact</p",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-15359",
+                            "title": "Simplification de la gestion des adresses des clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez l'onglet <b>Adresses</b> de la page <b>Client</b> pour g\u00e9rer toutes les adresses, y compris celles des contacts et des exp\u00e9ditions.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "Groupe",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "Correctifs"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-29275",
+                            "title": "Impossible de s\u00e9lectionner l'emplacement et/ou le lot lors de l'ajout d'une ligne de r\u00e9ception",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous ne pouvez plus saisir ou modifier des d\u00e9tails de stock, tels que le statut et l'emplacement, s'ils sont g\u00e9r\u00e9s, directement dans les volets Nouvelle ligne de r\u00e9ception et Modifier la ligne de r\u00e9ception dans la <b>R\u00e9ception d'achat<br/>. Les d\u00e9tails de stock doivent \u00eatre saisis ou modifi\u00e9s via l'action D\u00e9tails stock sur la ligne.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-27851",
+                            "title": "Num\u00e9ro de TVA plus n\u00e9cessaire pour une personne physique",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le num\u00e9ro de TVA et le SIRET ne sont plus n\u00e9cessaires lors de la cr\u00e9ation d'un fournisseur ou d'un client lorsque l'entit\u00e9 juridique est une personne physique.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "Finance",
+            "type": "Module",
+            "content_parts": [
+                {
+                    "type": "Groupe",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "Correctifs"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-30196",
+                            "title": "Montants de transaction incorrects pour la premi\u00e8re r\u00e9ception de stock d'un article \u00e0 prix moyen \u00e9gal \u00e0 0",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la r\u00e9ception d'un article \u00e0 prix moyen \u00e9gal \u00e0 0, le montant correct de commande est utilis\u00e9 lors du calcul du montant de transaction pour l'\u00e9criture.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "Production",
+            "type": "Module",
+            "content_parts": [
+                {
+                    "type": "Groupe",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "Correctifs"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-29149",
+                            "title": "Filtre de site absent du suivi mati\u00e8re",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le suivi mati\u00e8re contient un crit\u00e8re de filtre de site.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-27379",
+                            "title": "D\u00e9tails article-site pour les fournisseurs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Si un article n'est pas un article achet\u00e9, toutes les informations relatives aux fournisseurs sont supprim\u00e9es.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "Plateforme",
+            "type": "Module",
+            "content_parts": [
+                {
+                    "type": "Groupe",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "Nouveau"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-25754",
+                            "title": "Am\u00e9liorations de l\u2019historique de notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Historique de notifications</b>, vous pouvez visualiser d\u2019un seul coup d'\u0153il tous les \u00e9tats avec les messages associ\u00e9s \u00e0 des codes couleurs. Vous pouvez rechercher ou filtrer par statut pour les modules finances, stock, et pour l'int\u00e9gration avec les objets Sage Intacct. Les onglets <b>Finance</b> et <b>Stock</b> contiennent des liens de documents pour une facilit\u00e9 d\u2019acc\u00e8s accrue. L'onglet <b>Statut d'int\u00e9gration</b> a \u00e9t\u00e9 supprim\u00e9 de la page <b>Mapping Sage Intacct</b>.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-instance"
+                                ],
+                                "version": [
+                                    "21.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

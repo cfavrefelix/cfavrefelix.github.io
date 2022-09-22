@@ -26,7 +26,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the\u00a0<b>Option management</b>\u00a0page, administrators can switch application integration options on or off.</p><p>You can deactivate Sage FRP 1000 and Sage Intacct finance integrations. All related fields, pages, and integration data will be deactivated and removed from the system.</p>",
+                                    "content": "<p>On the\u00a0<b>Option management</b>\u00a0page, administrators can switch application integration options on or off.</p><p>You can deactivate Sage FRP 1000 and Sage Intacct finance integrations. All related fields, pages, and integration data are deactivated and removed from the system.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -131,7 +131,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For US countries, tax is calculated for credit memos using the Avalara integration.</p><p>Basic settings for for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
+                                    "content": "<p>For the US, tax is calculated for credit memos using the Avalara integration.</p><p>Basic settings for for tax categories and tax solutions are provided, but additional settings are needed to link tax rates to document lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -150,7 +150,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For US countries, tax is calculated for sales invoices using the Avalara integration.</p><p>Basic settings for for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
+                                    "content": "<p>For the US, tax is calculated for sales invoices using the Avalara integration.</p><p>Basic settings for for tax categories and tax solutions are provided, but additional settings are needed to link tax rates to document lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -310,7 +310,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Supply and demand transactions with a due date in the past are set to the MRP calculation Start date and included in the calculations.",
+                                    "content": "Supply and demand transactions with a due date in the past are set to the MRP calculation start date and included in the calculations.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -344,7 +344,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><font color=\"#172b4d\">The\u00a0default\u00a0<b>admin</b>\u00a0user and technical admin roles locked to Sage vendors are available when you create a new tenant.\u00a0</font></p><p><font color=\"#172b4d\">Sage creates the relevant authorization group data. You can use the admin roles to set up and configure the system.</font></p>",
+                                    "content": "<p>When you create a new tenant, you can use the admin and technical admin roles to set up and configure your system.</p><p>Sage creates the relevant authorization group data.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

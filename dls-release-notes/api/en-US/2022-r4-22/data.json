@@ -94,6 +94,25 @@
                                     "22.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-15358",
+                            "title": "US tax calculation for sales invoices and credit memos",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For the US, tax is calculated for sales invoices and credit memos using the Avalara integration.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -113,25 +132,6 @@
                             "content_parts": [
                                 {
                                     "content": "<p>On the <b>Posting</b> tab in the <b>Purchase invoice</b> and <b>Purchase credit memo</b> pages, you can view the integration status of the associated accounts receivable invoice with the integrated financial application. If there is an integration error, the respective status is shown, and you can display the error detail by selecting the line in the grid.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "22.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-15358",
-                            "title": "US tax calculation for sales invoices and credit memos",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>For the US, tax is calculated for sales invoices and credit memos using the Avalara integration.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

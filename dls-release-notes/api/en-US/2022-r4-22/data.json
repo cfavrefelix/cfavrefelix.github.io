@@ -82,7 +82,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For US countries, tax is calculated for purchasing documents using the Avalara integration.</p><p>Basic settings for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
+                                    "content": "<p>For US countries, tax is calculated for purchasing documents using the internal tax engine.</p><p>Basic settings for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -127,30 +127,11 @@
                         },
                         {
                             "key": "XT-15358",
-                            "title": "US tax calculation for credit memos",
+                            "title": "US tax calculation for sales invoices and credit memos",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For the US, tax is calculated for credit memos using the Avalara integration.</p><p>Basic settings for for tax categories and tax solutions are provided, but additional settings are needed to link tax rates to document lines.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "22.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-15356",
-                            "title": "US tax calculation for sales invoices",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>For the US, tax is calculated for sales invoices using the Avalara integration.</p><p>Basic settings for for tax categories and tax solutions are provided, but additional settings are needed to link tax rates to document lines.</p>",
+                                    "content": "<p>For the US, tax is calculated for sales invoices and credit memos using the Avalara integration.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -181,22 +162,6 @@
                             "content_parts": [
                                 {
                                     "content": "MRP calculation correctly considers all items included in the item range.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "22.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-31106",
-                            "title": "MRP calculation request fails when selection criteria includes Company",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "MRP calculation request is correct when the selection criteria includes a company.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -304,6 +269,22 @@
                         ]
                     },
                     "content_parts": [
+                        {
+                            "key": "XT-31106",
+                            "title": "MRP calculation request fails when selection criteria includes Company",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "MRP calculation request is correct when the selection criteria includes a company.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-29849",
                             "title": "MRP: Orders with a due date equal to the current date are not included in the calculation",

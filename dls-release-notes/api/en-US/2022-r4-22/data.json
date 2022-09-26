@@ -82,7 +82,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For US countries, tax is calculated for purchasing documents using the internal tax engine.</p><p>Basic settings for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
+                                    "content": "<p>For the US, tax is calculated for purchasing documents using the internal tax engine.</p><p>Basic settings for tax categories and tax solution are provided, but additional settings are needed to link tax rates to document lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

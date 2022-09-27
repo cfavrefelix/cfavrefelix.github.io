@@ -1,0 +1,346 @@
+{
+    "id": "2022-r4-22",
+    "title": "2022 R6",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r4-21",
+    "date": "Septembre",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-28152",
+                            "title": "Gestion des options",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la page <b>Gestion des options</b>, les administrateurs peuvent activer ou d\u00e9sactiver les options d\u2019int\u00e9gration de l\u2019application.</p><p>Vous pouvez d\u00e9sactiver les int\u00e9grations financi\u00e8res Sage FRP 1000 et Sage Intacct. Tous les champs, toutes les pages et toutes les donn\u00e9es d\u2019int\u00e9gration relatifs \u00e0 ces solutions financi\u00e8res sont d\u00e9sactiv\u00e9s et supprim\u00e9s du syst\u00e8me.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-30157",
+                            "title": "Gestion des \u00e9carts de co\u00fbt dans les factures d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>L'\u00e9cart de co\u00fbt entre la r\u00e9ception d'achat et la facture d'achat est enregistr\u00e9 en stock comme correction de la valeur du stock. Dans le journal des stocks, l\u2019\u00e9cart est enregistr\u00e9 comme quantit\u00e9 absorb\u00e9e ou non absorb\u00e9e selon la quantit\u00e9 r\u00e9ceptionn\u00e9e restante.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29191",
+                            "title": "Calcul de la taxe am\u00e9ricaine dans les documents d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les \u00c9tats-Unis, la taxe est calcul\u00e9e dans les documents d'achat \u00e0 l'aide du moteur fiscal interne.</p><p>Des param\u00e8tres de base sont fournis pour les cat\u00e9gories fiscales et la solution fiscale. Des param\u00e8tres suppl\u00e9mentaires sont toutefois n\u00e9cessaires pour lier les taux fiscaux aux lignes de documents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-15358",
+                            "title": "Calcul de la taxe am\u00e9ricaine dans les factures et les avoirs de vente.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les \u00c9tats-Unis, la taxe est calcul\u00e9e dans les factures et les avoirs de vente \u00e0 l'aide de l'int\u00e9gration Avalara.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-30070",
+                            "title": "Statut d'int\u00e9gration financi\u00e8re dans les documents d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans l'onglet <b>Comptabilisation</b> des pages <b>Facture d'achat</b> et <b>Avoir d'achat</b>, vous pouvez visualiser le statut d'int\u00e9gration de la facture comptable client associ\u00e9e avec l'application financi\u00e8re int\u00e9gr\u00e9e. En cas d'erreur d'int\u00e9gration, le statut correspondant s'affiche. Vous pouvez \u00e9galement afficher le d\u00e9tail de l'erreur en s\u00e9lectionnant la ligne dans le tableau.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31743",
+                            "title": "La demande de calcul de CBN ne contient pas l'article fin.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le calcul de CBN prend correctement en compte tous les articles inclus dans la borne d'articles.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30476",
+                            "title": "Erreur lors de la mise \u00e0 jour d'une liste de prix fournisseur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous modifiez un prix fournisseur \u00e0 partir de la fiche article, la valeur de propri\u00e9t\u00e9 du fournisseur est conserv\u00e9e et vous pouvez supprimer la borne de dates.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30333",
+                            "title": "Cr\u00e9er un retour d'achat \u00e0 partir d'une r\u00e9ception d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la cr\u00e9ation d'un retour d'achat \u00e0 partir d'une r\u00e9ception d'achat, la m\u00eame ligne de r\u00e9ception d'achat ne peut plus \u00eatre charg\u00e9e \u00e0 plusieurs reprises.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30325",
+                            "title": "Cr\u00e9er une r\u00e9ception d'achat \u00e0 partir d\u2019une commande d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la cr\u00e9ation d'une r\u00e9ception d'achat \u00e0 partir d'une commande d'achat, la m\u00eame ligne de commande d'achat ne peut plus \u00eatre charg\u00e9e \u00e0 plusieurs reprises.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-28718",
+                            "title": "Entr\u00e9e de stock Si l'emplacement du site n'est pas g\u00e9r\u00e9, aucune invite ne s'affiche.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous n'\u00eates pas invit\u00e9 \u00e0 renseigner l'emplacement en l\u2019absence de gestion d\u2019emplacement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-28223",
+                            "title": "L\u2019en-cours relatif aux commandes de vente n'est pas mis \u00e0 jour lors de la cr\u00e9ation de l'exp\u00e9dition associ\u00e9e.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L\u2019en-cours relatif \u00e0 la quantit\u00e9 r\u00e9elle est correctement mis \u00e0 jour pour la sortie et la r\u00e9ception de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31106",
+                            "title": "La demande de calcul de CBN n\u2019aboutit pas lorsque les crit\u00e8res de s\u00e9lection contiennent une soci\u00e9t\u00e9.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La demande de calcul de CBN s\u2019effectue correctement lorsque les crit\u00e8res de s\u00e9lection contiennent une soci\u00e9t\u00e9.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29849",
+                            "title": "CBN Les commandes dont la date d'\u00e9ch\u00e9ance est \u00e9gale \u00e0 la date actuelle ne sont pas comprises dans le calcul.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les transactions d'approvisionnement et de besoins ayant une date d'\u00e9ch\u00e9ance pass\u00e9e sont d\u00e9finies avec la date de d\u00e9but du calcul de CBN et sont comprises dans les calculs.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de r\u00e9f\u00e9rence",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-23775",
+                            "title": "Mise \u00e0 disposition des r\u00f4les d\u2019administrateur et de configuration",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous cr\u00e9ez une nouvelle instance, vous pouvez utiliser les r\u00f4les d\u2019administrateur et d\u2019administrateur technique pour param\u00e9trer et configurer votre syst\u00e8me.</p><p>Sage cr\u00e9e les donn\u00e9es de groupes d'autorisation ad\u00e9quates.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

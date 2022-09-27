@@ -24,6 +24,11 @@
             "title": "Espagnol ES",
             "id": "es-ES",
             "url": "/dls-release-notes/api/es-ES/archive.json"
+        },
+        {
+            "title": "Anglais - EN",
+            "id": "en-EN",
+            "url": "/dls-release-notes/api/en-EN/archive.json"
         }
     ],
     "releases": [

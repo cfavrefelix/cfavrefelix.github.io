@@ -177,7 +177,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Lorsque vous modifiez un prix fournisseur \u00e0 partir de la fiche article, la valeur de propri\u00e9t\u00e9 du fournisseur est conserv\u00e9e et vous pouvez supprimer la borne de dates.",
+                                    "content": "Lorsque vous modifiez un prix fournisseur \u00e0 partir de la fiche article, la valeur du code fournisseur est conserv\u00e9e et vous pouvez supprimer la borne de dates.",
                                     "taxonomies": "all"
                                 }
                             ],

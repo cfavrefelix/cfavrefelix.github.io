@@ -6,7 +6,7 @@
     "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
     "alternative_langauges": [
         {
-            "title": "English - GB",
+            "title": "English - US",
             "id": "en-US",
             "url": "/dls-release-notes/api/en-US/archive.json"
         },

@@ -287,7 +287,7 @@
                         },
                         {
                             "key": "XT-29849",
-                            "title": "CBN Les commandes dont la date d'\u00e9ch\u00e9ance est \u00e9gale \u00e0 la date actuelle ne sont pas comprises dans le calcul.",
+                            "title": "CBN - Les commandes dont la date d'\u00e9ch\u00e9ance est \u00e9gale \u00e0 la date actuelle ne sont pas comprises dans le calcul.",
                             "highlight": false,
                             "content_parts": [
                                 {

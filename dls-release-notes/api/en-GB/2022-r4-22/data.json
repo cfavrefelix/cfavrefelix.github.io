@@ -3,9 +3,46 @@
     "title": "2022 R6",
     "language": "en-GB",
     "__archive": "/dls-release-notes/api/en-GB/archive.json",
-    "previous": "",
+    "previous": "2022-r4-21",
     "date": "September",
     "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-28152",
+                            "title": "Option management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the\u00a0<b>Option management</b>\u00a0page, administrators can switch application integration options on or off.</p><p>You can deactivate Sage FRP 1000 and Sage Intacct finance integrations. All related fields, pages and integration data are deactivated and removed from the system.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
         {
             "title": "Distribution",
             "id": "distribution",
@@ -259,6 +296,43 @@
                                 }
                             ],
                             "taxonomies": {
+                                "version": [
+                                    "22.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-23775",
+                            "title": "Admin user and Setup role delivery",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create a new tenant, you can use the admin and technical admin roles to set up and configure your system.</p><p>Sage creates the relevant authorisation group data.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "22.0.0"
                                 ]

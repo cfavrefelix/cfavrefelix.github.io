@@ -37,36 +37,6 @@
             "title": "2022 R6",
             "url": "/dls-release-notes/api/en-GB/2022-r4-22/data.json",
             "date": "September"
-        },
-        {
-            "id": "2022-r4-21",
-            "title": "2022 R5",
-            "url": "/dls-release-notes/api/en-GB/2022-r4-21/data.json",
-            "date": "August"
-        },
-        {
-            "id": "2022-r3-20",
-            "title": "2022 R4",
-            "url": "/dls-release-notes/api/en-GB/2022-r3-20/data.json",
-            "date": "July"
-        },
-        {
-            "id": "2022-r3-19",
-            "title": "2022 R3",
-            "url": "/dls-release-notes/api/en-GB/2022-r3-19/data.json",
-            "date": "June"
-        },
-        {
-            "id": "2022-r3-18",
-            "title": "2022 R2",
-            "url": "/dls-release-notes/api/en-GB/2022-r3-18/data.json",
-            "date": "May"
-        },
-        {
-            "id": "2022-r2-17",
-            "title": "2022 R1",
-            "url": "/dls-release-notes/api/en-GB/2022-r2-17/data.json",
-            "date": "April"
         }
     ]
 }

@@ -6,22 +6,22 @@
     "taxonomies": "/dls-release-notes/api/fr-FR/taxonomies.json",
     "alternative_langauges": [
         {
-            "title": "Anglais US",
+            "title": "Anglais - US",
             "id": "en-US",
             "url": "/dls-release-notes/api/en-US/archive.json"
         },
         {
-            "title": "Fran\u00e7ais FR",
+            "title": "Fran\u00e7ais - FR",
             "id": "fr-FR",
             "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
-            "title": "Allemand DE",
+            "title": "Allemand - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
         },
         {
-            "title": "Espagnol ES",
+            "title": "Espagnol - ES",
             "id": "es-ES",
             "url": "/dls-release-notes/api/es-ES/archive.json"
         },

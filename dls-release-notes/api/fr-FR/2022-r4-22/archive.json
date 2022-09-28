@@ -1,5 +1,5 @@
 {
-    "__self": "/dls-release-notes/api/fr-FR/archive.json",
+    "__self": "/dls-release-notes/api/fr-FR/2022-r4-22/archive.json",
     "product": "Sage Intacct Manufacturing",
     "language": "fr-FR",
     "labels": "/dls-release-notes/api/fr-FR/labels.json",
@@ -13,7 +13,7 @@
         {
             "title": "Fran\u00e7ais - FR",
             "id": "fr-FR",
-            "url": "/dls-release-notes/api/fr-FR/archive.json"
+            "url": "/dls-release-notes/api/fr-FR/2022-r4-22/archive.json"
         },
         {
             "title": "Anglais - GB",

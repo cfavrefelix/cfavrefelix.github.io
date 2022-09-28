@@ -221,7 +221,7 @@
                         },
                         {
                             "key": "XT-28718",
-                            "title": "Entr\u00e9e de stock Si l'emplacement du site n'est pas g\u00e9r\u00e9, aucune invite ne s'affiche.",
+                            "title": "Entr\u00e9e de stock si l'emplacement du site n'est pas g\u00e9r\u00e9, aucune invite ne s'affiche.",
                             "highlight": false,
                             "content_parts": [
                                 {

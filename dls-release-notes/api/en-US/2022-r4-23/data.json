@@ -1,0 +1,385 @@
+{
+    "id": "2022-r4-23",
+    "title": "2022 R7",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2022-r4-22",
+    "date": "October",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-32101",
+                            "title": "RSA Tax requirements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-32101\" target=\"_blank\">XT-32101</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>To ensure the usability of tax management for South Africa in sales and purchase documents, the required setup files have been delivered.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31612",
+                            "title": "Option management - Integrations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-31612\" target=\"_blank\">XT-31612</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The option management page has been reorganized to improve the user experience. New sections have been created to group blocks (finance integrations, tax integrations, other integrations).</p><p>In addition, a new section is added for Sage Service Fabric integration. It consists of two blocks, configuration and Tax ID validation. It enables the user to activate or deactivate Service fabric option such as Tax ID controls.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-29899",
+                            "title": "US - Tax management: Master data from Avalara",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-29899\" target=\"_blank\">XT-29899</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Companies, entity use codes and tax codes can now be uploaded directly from Avalara using the data load functions provided in the Avalara configuration page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29889",
+                            "title": "Reordering - Rules per item/site",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-29889\" target=\"_blank\">XT-29889</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>A stock managed item must now be Purchased and/or Manufactured, and the Item-site's Replenishment rules have been simplified:</p><ul><li>The Preferred process is now dependent on item type</li><li>The Batch quantity applies to both Purchasing and Production</li><li>Economic order quantity has been added</li><li>Average daily consumption has been removed</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-28410",
+                            "title": "Purchase invoice: create credit memo from invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-28410\" target=\"_blank\">XT-28410</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The purchase invoice page now has a \"Create credit memo\" button. It enables the user to create a credit memo document directly from the purchase invoice.</p><p>For the credit memo creation to be done, there is mandatory information to be filled out in a dialog box (Reason, Supplier document date, and Total amount). \u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31743",
+                            "title": "MRP calculation request does not include To item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-31743\" target=\"_blank\">XT-31743</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "MRP calculation correctly considers all items included in the item range.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31441",
+                            "title": "Costing: Stock value adjustments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-31441\" target=\"_blank\">XT-31441</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>A cost variance between a purchase receipt and credit memo and a production receipt and closure of a work order is recorded in stock as a stock value correction. For the stock journal, the variance is recorded as an absorbed or non-absorbed amount depending on the remaining receipted quantity.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24991",
+                            "title": "Stock reordering: MRP calculation results justification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-24991\" target=\"_blank\">XT-24991</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Use the\u00a0<b>MRP calculation justification</b>\u00a0page to view data from an MRP calculation request that supports the suggestions generated in the\u00a0<b>MRP calculation result</b>\u00a0page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-28681",
+                            "title": "Stock count 4: stock lock/unlock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-28681\" target=\"_blank\">XT-28681</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Item-sites are <em>locked</em> i.e. stock can be neither receipted nor issued through the stock service, when a Stock count including stock belonging to those item-sites is started. The locks are removed once the Stock count is completed or the stock detail is excluded from the Stock count.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-12017",
+                            "title": "Serial number management: Item updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-12017\" target=\"_blank\">XT-12017</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Serial number management is now available. Use serial numbers to identify material items and track their movements throughout the entire supply chain.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-12015",
+                            "title": "Stock count: Stock count list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-12015\" target=\"_blank\">XT-12015</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Use the <b>Stock count creation</b> page to select stock to count and to create a list of the selected stock items.</p><p>Use the <b>Stock count</b> page to enter the observed physical quantities of stock.</p><p><b>Note</b>: Stock is not adjusted to reflect any variances. This will be available in a future release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31106",
+                            "title": "MRP calculation request fails when selection criteria includes Company",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/XT-31106\" target=\"_blank\">XT-31106</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "MRP calculation request is correct when the selection criteria includes a company.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

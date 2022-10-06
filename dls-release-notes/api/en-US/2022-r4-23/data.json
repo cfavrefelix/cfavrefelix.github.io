@@ -38,25 +38,6 @@
                                     "23.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-31612",
-                            "title": "Option management",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>A section dedicated to Sage Service Fabric is available on the\u00a0<b>Option management</b>\u00a0page. It consists of two blocks:\u00a0<b>Configuration</b>\u00a0and\u00a0<b>Tax ID validation</b>. You can activate or deactivate Sage Service Fabric options such as tax ID controls from this section.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "23.0.0"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -77,50 +58,12 @@
                     },
                     "content_parts": [
                         {
-                            "key": "XT-29899",
-                            "title": "US: Avalara tax management updates",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can upload companies, entity use codes, and tax codes directly from Avalara using the data load functions provided on the <b>Avalara configuration</b> page.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "23.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-29889",
                             "title": "Rules for stock managed items and for the item-site replenishment",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "<p>You need to define a stock managed item as a purchased and/or a manufactured item. On the Item-site page, you can define replenishment rules based on the item type and the replenishment method.<br/>\u00a0</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "23.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-28410",
-                            "title": "Credit memo creation from  purchase invoice",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can create a credit memo from the purchase invoice.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -196,25 +139,6 @@
                                     "23.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-24991",
-                            "title": "Stock reordering: MRP calculation results justification",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Use the\u00a0<b>MRP calculation justification</b>\u00a0page to view data from an MRP calculation request that supports the suggestions generated in the\u00a0<b>MRP calculation result</b>\u00a0page.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "23.0.0"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -234,25 +158,6 @@
                             "content_parts": [
                                 {
                                     "content": "<p>Item-site records are locked during a stock count to prevent changes to the available stock. When the count is complete or the item-site record is excluded from the stock count, the locks are removed and you can issue and receive stock again.\u00a0</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "23.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-12017",
-                            "title": "Serial number management: Item updates",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Serial number management is now available. Use serial numbers to identify material items and track their movements throughout the entire supply chain.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

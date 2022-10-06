@@ -38,6 +38,25 @@
                                     "23.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-31612",
+                            "title": "Option management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A section dedicated to Sage Service Fabric is available on the\u00a0<b>Option management</b>\u00a0page. It consists of two blocks:\u00a0<b>Configuration</b>\u00a0and\u00a0<b>Tax ID validation</b>. You can activate or deactivate Sage Service Fabric options such as tax ID controls from this section.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
                         }
                     ]
                 }

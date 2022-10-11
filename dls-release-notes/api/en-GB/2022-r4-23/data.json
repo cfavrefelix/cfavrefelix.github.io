@@ -1,0 +1,293 @@
+{
+    "id": "2022-r4-23",
+    "title": "2022 R7",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2022-r4-22",
+    "date": "October",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-32101",
+                            "title": "South Africa Tax Setup",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The required setup files for tax management for South Africa in sales and purchase documents are available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31612",
+                            "title": "Option management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A section dedicated to Sage Service Fabric is available on the\u00a0<b>Option management</b>\u00a0page. It consists of two blocks:\u00a0<b>Configuration</b>\u00a0and\u00a0<b>Tax ID validation</b>. You can activate or deactivate Sage Service Fabric options such as tax ID controls from this section.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-29899",
+                            "title": "Avalara tax management updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can upload companies, entity use codes, and tax codes directly from Avalara using the data load functions provided on the <b>Avalara configuration</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29889",
+                            "title": "Replenishment controls on item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You need to define a stock managed item as a purchased and/or a manufactured item. On the Item-site page, you can define replenishment rules based on the item type and the replenishment method.<br/>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-28410",
+                            "title": "Credit note creation from purchase invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create a credit note from the purchase invoice.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-31441",
+                            "title": "Stock value adjustments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A cost variance between a purchase receipt and credit note and a production receipt and closure of a work order is recorded in stock as a stock value correction. For the stock journal, the variance is recorded as an absorbed or non-absorbed amount depending on the remaining receipted quantity.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24991",
+                            "title": "MRP calculation results justification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the\u00a0<b>MRP calculation justification</b>\u00a0page to view data from an MRP calculation request that supports the suggestions generated in the\u00a0<b>MRP calculation result</b>\u00a0page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-12015",
+                            "title": "Stock count list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the <b>Stock count creation</b> page to select stock to count and to create a list of the selected stock items.</p><p>Use the <b>Stock count</b> page to enter the observed physical quantities of stock.</p><p><b>Note</b>: Stock is not adjusted to reflect any variances. This will be available in a future release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-28681",
+                            "title": "Stock count record lock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Item-site records are locked during a stock count to prevent changes to the available stock. When the count is complete or the item-site record is excluded from the stock count, the locks are removed and you can issue and receive stock again.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31743",
+                            "title": "MRP calculation request does not include To item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "MRP calculation correctly considers all items included in the item range.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31106",
+                            "title": "MRP calculation request fails when selection criteria includes Company",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "MRP calculation request is correct when the selection criteria includes a company.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

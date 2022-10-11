@@ -16,16 +16,6 @@
             "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
-            "title": "German - DE",
-            "id": "de-DE",
-            "url": "/dls-release-notes/api/de-DE/archive.json"
-        },
-        {
-            "title": "Spanish - ES",
-            "id": "es-ES",
-            "url": "/dls-release-notes/api/es-ES/archive.json"
-        },
-        {
             "title": "English - GB",
             "id": "en-GB",
             "url": "/dls-release-notes/api/en-GB/archive.json"
@@ -33,8 +23,14 @@
     ],
     "releases": [
         {
+            "id": "2022-r4-23",
+            "title": "2022 R7 (October)",
+            "url": "/dls-release-notes/api/en-GB/2022-r4-23/data.json",
+            "date": "October"
+        },
+        {
             "id": "2022-r4-22",
-            "title": "2022 R6",
+            "title": "2022 R6 (September)",
             "url": "/dls-release-notes/api/en-GB/2022-r4-22/data.json",
             "date": "September"
         }

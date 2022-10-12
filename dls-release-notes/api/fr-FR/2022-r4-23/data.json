@@ -1,0 +1,293 @@
+{
+    "id": "2022-r4-23",
+    "title": "2022 R7",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2022-r4-22",
+    "date": "Octobre",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-32101",
+                            "title": "Configuration de taxes pour l'Afrique du Sud",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les fichiers de configuration n\u00e9cessaires \u00e0 la gestion des taxes en Afrique du Sud sont disponibles dans les documents de vente et d'achat.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31612",
+                            "title": "Gestion des options",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Une section d\u00e9di\u00e9e \u00e0 Sage Service Fabric est disponible dans la page <b>Gestion des options</b>. Elle se compose de deux blocs :\u00a0<b>Configuration</b> et <b>Validation du n\u00b0 de TVA</b>. Vous pouvez activer ou d\u00e9sactiver les options de Sage Service Fabric, telles que les contr\u00f4les des num\u00e9ros de TVA, \u00e0 partir de cette section.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-29899",
+                            "title": "Mises \u00e0 jour de la gestion des taxes Avalara",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez t\u00e9l\u00e9charger des soci\u00e9t\u00e9s, des codes d\u2019exon\u00e9ration entit\u00e9/usage et des codes taxe directement \u00e0 partir d'Avalara en utilisant les fonctions de chargement de donn\u00e9es fournies dans la page <b>Configuration Avalara</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29889",
+                            "title": "Contr\u00f4les de r\u00e9approvisionnement des articles",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous devez d\u00e9finir tout \u00e9l\u00e9ment g\u00e9r\u00e9 en stock comme \u00e9tant un \u00e9l\u00e9ment achet\u00e9 et/ou fabriqu\u00e9. Dans la page Article-site, vous pouvez d\u00e9finir des r\u00e8gles de r\u00e9approvisionnement en fonction du type d'article et de la m\u00e9thode de r\u00e9approvisionnement.<br/>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-28410",
+                            "title": "Cr\u00e9ation d'un avoir \u00e0 partir d\u2019une facture d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez cr\u00e9er un avoir \u00e0 partir d\u2019une facture d'achat.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-31441",
+                            "title": "R\u00e9gularisations de la valeur du stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Un \u00e9cart de co\u00fbt entre une r\u00e9ception d'achat et un avoir, et entre une r\u00e9ception de production et le solde d'un ordre de fabrication est enregistr\u00e9 dans le stock comme une r\u00e9gularisation de la valeur du stock. Dans le journal des stocks, l\u2019\u00e9cart est enregistr\u00e9 comme quantit\u00e9 absorb\u00e9e ou non absorb\u00e9e selon la quantit\u00e9 r\u00e9ceptionn\u00e9e restante.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24991",
+                            "title": "Justification de r\u00e9sultats de calculs CBN",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la page <b>Justification de calcul CBN</b> pour visualiser les donn\u00e9es d'une demande de calcul de CBN prenant en charge les suggestions g\u00e9n\u00e9r\u00e9es dans la page <b>R\u00e9sultats du calcul de CBN</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-12015",
+                            "title": "Liste d'inventaire",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la page <b>Cr\u00e9ation d\u2019inventaire</b> pour s\u00e9lectionner le stock \u00e0 inventorier et cr\u00e9er une liste des articles de stock s\u00e9lectionn\u00e9s.</p><p>Utilisez la page <b>Inventaire</b> pour renseigner les quantit\u00e9s physiques de stock constat\u00e9es.</p><p><b>Remarque</b> : le stock n'est pas r\u00e9gularis\u00e9 pour refl\u00e9ter les \u00e9carts. Cette fonctionnalit\u00e9 sera disponible dans une version ult\u00e9rieure.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2022 R4 (23.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-28681",
+                            "title": "Verrou d'enregistrements d'inventaires",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les enregistrements d'articles-sites sont verrouill\u00e9s lors d'un inventaire pour \u00e9viter toute modification du stock disponible. Lorsque l'inventaire est termin\u00e9 ou que l'enregistrement de l\u2019article-site est exclu de l'inventaire, les verrous sont supprim\u00e9s et vous pouvez de nouveau sortir et entrer du stock.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-31743",
+                            "title": "La demande de calcul de CBN ne contient pas l'article fin.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le calcul de CBN prend correctement en compte tous les articles compris dans la borne d'articles.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31106",
+                            "title": "La demande de calcul de CBN n\u2019aboutit pas lorsque les crit\u00e8res de s\u00e9lection comprennent une soci\u00e9t\u00e9.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La demande de calcul de CBN s\u2019effectue correctement lorsque les crit\u00e8res de s\u00e9lection comprennent une soci\u00e9t\u00e9.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "23.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

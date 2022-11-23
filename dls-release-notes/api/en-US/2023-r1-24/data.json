@@ -110,7 +110,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The purchase receipt lines grid is populates correctly with the purchase order lines selected in the selection panel.",
+                                    "content": "The purchase receipt lines grid populates correctly with the purchase order lines selected in the selection panel.",
                                     "taxonomies": "all"
                                 }
                             ],

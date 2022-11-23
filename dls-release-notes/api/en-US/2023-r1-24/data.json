@@ -22,12 +22,12 @@
                     "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (24.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
                     "content_parts": [
                         {
-                            "key": "XT-31061",
-                            "title": "NexTreeM - Technical debt, UI refactoring",
+                            "key": "XT-33628",
+                            "title": "Bank Manager",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The tax setup for South Africa has been delivered for the following:</p><ul><li>Tax codes</li><li>Tax values</li><li>Tax determination lines</li></ul><p>\u00a0<br/>On the sales invoice line the action 'Price search' has been changed to 'Search price'.</p>",
+                                    "content": "<p>When you integrate with Sage Intacct, you can use Bank Manager to search for and retrieve unmatched transactions from bank feeds imported into Sage Intacct. You can search by bank account and date range.</p><p>Setting up matching rules facilitates automatic matching and creates journal entries that are sent back to Sage Inacct where you can complete the reconciliation process.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -37,9 +37,25 @@
                                 ],
                                 "version": [
                                     "24.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31061",
+                            "title": "Tax setup for South Africa",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The tax setup for South Africa includes:</p><ul><li>Tax codes</li><li>Tax values</li><li>Tax determination lines</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "24.0.0"
                                 ]
                             }
                         }
@@ -56,20 +72,17 @@
                     "content_parts": [
                         {
                             "key": "XT-33892",
-                            "title": "Account page - isActive not respected in duplication",
+                            "title": "Account page: isActive not respected in duplication",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When an inactive record is duplicated, the record resulting from the duplication is now also set to inactive.",
+                                    "content": "When an inactive record is duplicated, the record resulting from the duplication is also set to inactive.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "24.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -93,20 +106,17 @@
                     "content_parts": [
                         {
                             "key": "XT-32735",
-                            "title": "Purchase receipt | PO selection doesn't populate the receipt grid",
+                            "title": "Purchase receipt: PO selection doesn't populate the receipt grid",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The purchase receipt lines grid is now populated correctly with the purchase order lines selected via the &quot;Select from order&quot; sidebar.",
+                                    "content": "The purchase receipt lines grid is populates correctly with the purchase order lines selected in the selection panel.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "24.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -131,7 +141,7 @@
                     "content_parts": [
                         {
                             "key": "XT-28329",
-                            "title": "Stock count 5: adjustments through the new stock service",
+                            "title": "Stock count posting creates a Stock adjustment for a quantity variance",
                             "highlight": false,
                             "content_parts": [
                                 {

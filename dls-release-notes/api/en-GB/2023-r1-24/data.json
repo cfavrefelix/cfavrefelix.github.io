@@ -1,0 +1,166 @@
+{
+    "id": "2023-r1-24",
+    "title": "2022 R8",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2022-r4-23",
+    "date": "November",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (24.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-33628",
+                            "title": "Bank Manager",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you integrate with Sage Intacct, you can use Bank Manager to search for and retrieve unmatched transactions from bank feeds imported into Sage Intacct. You can search by bank account and date range.</p><p>Setting up matching rules facilitates automatic matching and creates journal entries that are sent back to Sage Intacct where you can complete the reconciliation process.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "24.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31061",
+                            "title": "Tax setup for South Africa",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The tax setup for South Africa includes:</p><ul><li>Tax codes</li><li>Tax values</li><li>Tax determination lines</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "24.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-33892",
+                            "title": "Account page: isActive not respected in duplication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When an inactive record is duplicated, the record resulting from the duplication is also set to inactive.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "24.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-32735",
+                            "title": "Purchase receipt: PO selection doesn't populate the receipt grid",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The purchase receipt lines grid populates correctly with the purchase order lines selected in the selection panel.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "24.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (24.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-28329",
+                            "title": "Stock count posting creates a Stock adjustment for a quantity variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A\u00a0<b>Stock adjustment</b>\u00a0is created when you post a stock count if a quantity variance exists between the counted quantity of an item and the stock quantity.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "24.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

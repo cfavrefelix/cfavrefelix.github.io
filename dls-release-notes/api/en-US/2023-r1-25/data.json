@@ -1,0 +1,308 @@
+{
+    "id": "2023-r1-25",
+    "title": "2022 R9",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r1-24",
+    "date": "December",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-33656",
+                            "title": "Duplicate forms and documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can duplicate forms and documents on the following pages:</p><ul><li>Bill of materials</li><li>Container</li><li>Location</li><li>Location type</li><li>Storage zone</li><li>Stock sequence number</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-29440",
+                            "title": "Standard cost variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For standard cost valued items, the stock journal entry for receipts calculates and records the difference between the actual and standard cost as the non-absorbed amount.</p><p>Subsequent cost variances, relative to the original receipt, generate a value correction in the stock journal entry.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-35359",
+                            "title": "Purchase Requisition | Save button not available dynamically when duplicating ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When duplicating a purchase requisition, you can save and create an identical requisition without making any changes to the duplicated record.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30332",
+                            "title": "Purchase return - workflow after changing quantity of an item.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When changing the quantity of an item in a purchase return, you need to submit for approval before being able to approve or reject the return.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-34378",
+                            "title": "Assembly orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can assign a work <b>Category</b> to create a work order without operations or without components. The default <b>Assembly</b>, <b>Normal</b>, and <b>Rework</b> categories determine if the routing and/or bill of material is loaded to the work order. <b>Uses routing</b> and <b>Uses bill of material</b> checkboxes, and a <b>Category</b> field in the work order header confirm the assigned category. You can create additional work categories. You can also add a routing and a bill of material, and unplanned operations and components to a work order by selecting the <b>Uses routing</b> and <b>Uses bill of material</b> checkbox, and the <b>Add operation</b> and <b>Add component</b> button respectively.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-33932",
+                            "title": "Stock detailed inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Stock detailed inquiry</b> provides stock data for individual items per site. Data includes stock levels, stock status, lot details, and serial number data.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                    "content_parts": [
+                        {
+                            "key": "XT-24886",
+                            "title": "Custom dashboards",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Create dashboards to keep track of key data such as sales, purchase orders, and more. You can start with a predefined template and customize as needed or build your own dashboard.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                    "content_parts": [
+                        {
+                            "key": "XT-23772",
+                            "title": "Support access",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the\u00a0<b>Support access</b> page, you can give a Sage support technician access to your tenant if you need help. The support access is limited and you can revoke access at any time.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "content_parts": [
+                        {
+                            "key": "XT-35646",
+                            "title": "Stock sequence number: Populated fields not clearing when a component type is changed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you change a component type on the stock sequence number, the &#39;Constant&#39; column only includes the allowed values for the component type.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34866",
+                            "title": "Sequence number: System skipping nr. 10 and multiples of 10 when giving Numbers to documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Document numbers automatically assigned to newly created documents are no longer skipping the number 10, and multiples of 10.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

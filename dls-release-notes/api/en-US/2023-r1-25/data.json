@@ -283,20 +283,17 @@
                         },
                         {
                             "key": "XT-34866",
-                            "title": "Sequence number: System skipping nr. 10 and multiples of 10 when giving Numbers to documents",
+                            "title": "Sequence numbers skip 10 and multiples of 10 on new documents",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Document numbers automatically assigned to newly created documents are no longer skipping the number 10, and multiples of 10.",
+                                    "content": "Document numbers automatically assigned to newly created documents no longer skip the number 10 and multiples of 10.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "25.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

@@ -110,7 +110,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35359",
-                            "title": "Purchase Requisition | Save button not available dynamically when duplicating ",
+                            "title": "Purchase requisition: Save button not available when duplicating ",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -126,7 +126,7 @@
                         },
                         {
                             "key": "XT-30332",
-                            "title": "Purchase return - workflow after changing quantity of an item.",
+                            "title": "Purchase return: Workflow after changing the quantity of an item",
                             "highlight": false,
                             "content_parts": [
                                 {

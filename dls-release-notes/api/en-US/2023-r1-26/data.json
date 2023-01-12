@@ -3,7 +3,6 @@
     "title": "2023 R1",
     "language": "en-US",
     "__archive": "/dls-release-notes/api/en-US/archive.json",
-    "previous": "2023-r1-24",
     "date": "January",
     "content_parts": [
         {
@@ -22,20 +21,17 @@
                     "content_parts": [
                         {
                             "key": "XT-35980",
-                            "title": "Bank manager | matching rules list doesn't accept more than 20 records",
+                            "title": "Bank Manager Matching rules limited to 20 records",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The Bank Manager&#39;s matching rules page allows you to define over 20 rules to define the appropriate GL accounts and VAT accounts given a keyword.",
+                                    "content": "On the Bank Manager Matching rules page, you can define over 20 rules for the appropriate GL accounts and VAT accounts.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "26.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -59,12 +55,12 @@
                     "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
                     "content_parts": [
                         {
-                            "key": "XT-34460",
-                            "title": "Bank Manager",
+                            "key": "XT-34868",
+                            "title": "Match AR invoices in Bank Manager",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In Bank Manager, you have access to additional record statuses and you can manage bank feeds asynchronously when there are more than 100 lines.</p>",
+                                    "content": "<p>Use Bank Manager to automatically match to open customer invoices for the current bank feed. If at least one possible match with the bank transaction feed is found, the <b>Accounts receivable matching</b> page displays and selects all invoices for that customer by due date. If there are no matches, all AR invoices for that customer display.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -253,6 +249,25 @@
                     },
                     "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
                     "content_parts": [
+                        {
+                            "key": "XT-33069",
+                            "title": "Onboarding email notifications for functional administrators",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you begin your subscription, email notifications keep you informed of important events.</p><ol><li>As soon as your tenant is up and running, you\u2019re notified so you can begin administrative tasks without delay.</li><li>You receive an email when you add users to a tenant. After that, you have options on how and when to notify your users of their access to the tenant.</li></ol>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-24886",
                             "title": "Custom dashboards",

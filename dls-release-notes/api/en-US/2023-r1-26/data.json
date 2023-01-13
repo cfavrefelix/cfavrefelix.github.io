@@ -21,7 +21,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35980",
-                            "title": "Bank Manager Matching rules limited to 20 records",
+                            "title": "Matching rules limited to 20 records",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -56,7 +56,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35726",
-                            "title": "Create AR payments in Bank Manager",
+                            "title": "Create AR payments",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -75,7 +75,7 @@
                         },
                         {
                             "key": "XT-34996",
-                            "title": "Bank Manager includes entity-level data for multi-entity general account structures",
+                            "title": "Manage entity-level data for multi-entity general account structures",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -94,7 +94,7 @@
                         },
                         {
                             "key": "XT-34868",
-                            "title": "Match AR invoices in Bank Manager",
+                            "title": "Match AR invoices",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -113,7 +113,7 @@
                         },
                         {
                             "key": "XT-34460",
-                            "title": "Bank Manager",
+                            "title": "Manage bank feeds asynchronously",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -168,6 +168,63 @@
                     },
                     "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
                     "content_parts": [
+                        {
+                            "key": "XT-35744",
+                            "title": "Stock movement refactoring - Average cost items ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For average cost items, the stock journal shows the order cost equal to the valued cost and order amount equal to the movement amount for all transactions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34379",
+                            "title": "Avalara notification history",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Notification history</b> page, you can view the following integration statuses for Avalara:</p><ul><li>Tax calculations for sales invoices and sales credit memo when creating and updating</li><li>Final Tax calculation for sales invoices and sales credit memo when posting</li><li>Company queries</li><li>Entity use queries</li><li>Tax code queries</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31174",
+                            "title": "Generate serial numbers on stock issue",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Generate serial numbers at stock issue for items that are serial number managed at issue only.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-29440",
                             "title": "Standard cost variance",
@@ -249,6 +306,25 @@
                     },
                     "_jql": "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
                     "content_parts": [
+                        {
+                            "key": "XT-31173",
+                            "title": "Allocate serial numbers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Assign or generate serial numbers at stock allocation for items that are serial number managed for receipt and issue only.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-34378",
                             "title": "Assembly orders",

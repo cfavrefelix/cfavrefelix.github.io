@@ -12,6 +12,40 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-34868",
+                            "title": "Match AR invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use Bank Manager to automatically match to open customer invoices for the current bank feed. If at least one possible match with the bank transaction feed is found, the <b>Accounts receivable matching</b> page displays and selects all invoices for that customer by due date. If there are no matches, all AR invoices for that customer display.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Bug Fixes",
                     "taxonomies": {
                         "_type": [
@@ -61,82 +95,6 @@
                         "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
                     ],
                     "content_parts": [
-                        {
-                            "key": "XT-35726",
-                            "title": "Create AR payments",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>From the <b>Transaction workbench</b>, you can view open customer invoices for the current bank feed and select those you want to pay. The payment is sent to Sage Intacct.</p><p>If there are no customer invoices for the current bank feed, you can create an AR advance for a customer and send it to Sage Intacct.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "26.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-34996",
-                            "title": "Manage entity-level data for multi-entity general account structures",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<ul><li>Journal entry and AR invoice searches are limited to the related level.</li><li>Journal entries are generated at the entity level.</li><li>Duplicate entries can be unlinked.</li><li>When the Transaction workbench switches to asynchronous mode, you need to rerun the matching rules. This removes the posting checkboxes and only line ready for posting are considered.</li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "26.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-34868",
-                            "title": "Match AR invoices",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Use Bank Manager to automatically match to open customer invoices for the current bank feed. If at least one possible match with the bank transaction feed is found, the <b>Accounts receivable matching</b> page displays and selects all invoices for that customer by due date. If there are no matches, all AR invoices for that customer display.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "25.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-34460",
-                            "title": "Manage bank feeds asynchronously",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>In Bank Manager, you have access to additional record statuses and you can manage bank feeds asynchronously when there are more than 100 lines.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "25.0.0"
-                                ]
-                            }
-                        },
                         {
                             "key": "XT-33656",
                             "title": "Duplicate forms and documents",

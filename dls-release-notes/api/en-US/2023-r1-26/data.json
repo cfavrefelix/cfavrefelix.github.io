@@ -25,12 +25,69 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-35726",
+                            "title": "Create AR payments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Transaction workbench</b>, you can view open customer invoices for the current bank feed and select those you want to pay. The payment is sent to Sage Intacct.</p><p>If there are no customer invoices for the current bank feed, you can create an AR advance for a customer and send it to Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34996",
+                            "title": "Manage entity-level data for multi-entity general account structures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Journal entry and AR invoice searches are limited to the related level.</li><li>Journal entries are generated at the entity level.</li><li>Duplicate entries can be unlinked.</li><li>When the Transaction workbench switches to asynchronous mode, you need to rerun the matching rules. This removes the posting checkboxes and only line ready for posting are considered.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-34868",
                             "title": "Match AR invoices",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "<p>Use Bank Manager to automatically match to open customer invoices for the current bank feed. If at least one possible match with the bank transaction feed is found, the <b>Accounts receivable matching</b> page displays and selects all invoices for that customer by due date. If there are no matches, all AR invoices for that customer display.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34460",
+                            "title": "Manage bank feeds asynchronously",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In Bank Manager, you have access to additional record statuses and you can manage bank feeds asynchronously when there are more than 100 lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

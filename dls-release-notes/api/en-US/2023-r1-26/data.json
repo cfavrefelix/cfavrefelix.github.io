@@ -7,7 +7,7 @@
     "date": "January",
     "content_parts": [
         {
-            "title": "Bank manager",
+            "title": "Bank Manager",
             "id": "bank-manager",
             "type": "module",
             "content_parts": [
@@ -20,8 +20,8 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
                     ],
                     "content_parts": [
                         {
@@ -111,8 +111,8 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
                     ],
                     "content_parts": [
                         {

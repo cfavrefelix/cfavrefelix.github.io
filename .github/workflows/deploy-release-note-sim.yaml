@@ -37,11 +37,17 @@ jobs:
       # - run: git --work-tree build add --all
       # - run: git commit -m "Automatic Deploy action run by github-actions"
       # - run: git push origin HEAD:gh-pages --force
-      - run: tar -czvf github-pages.tar.gz ./build
+       
+      - run: mv ./build ./dls-release-notes
+      - run: mkdir ./build
+      - run: mv ./dls-release-notes ./build/dls-release-notes
+      
+      # ./build/dls-release-notes
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        with: 
-          path: dls-release-notes
+        with:
+          path: dls-release-notes/build
       
   # Deployment job
   deploy:

@@ -39,8 +39,9 @@ jobs:
       # - run: git push origin HEAD:gh-pages --force
       - run: tar -czvf github-pages.tar.gz ./build
       - name: Upload artifact
-        path: dls-release-notes
         uses: actions/upload-pages-artifact@v1
+        with: 
+          path: dls-release-notes
       
   # Deployment job
   deploy:

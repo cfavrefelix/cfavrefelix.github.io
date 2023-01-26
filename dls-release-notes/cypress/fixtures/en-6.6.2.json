@@ -1,0 +1,78 @@
+{
+  "id": "6.6.2",
+  "title": "6.6.2",
+  "language": "en-GB",
+  "__archive": "/dls-release-notes/api/en-GB/archive.json",
+  "previous": "6.6.1",
+  "next": "6.6.3",
+  "date": "Date",
+  "content_parts": [
+    {
+      "content": "<p>Summary content</p>",
+      "taxonomies": "all"
+    },
+    {
+      "id": "module-1",
+      "type": "module",
+      "title": "Module 1",
+      "content_parts": [
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["red"],
+            "shape": ["square"]
+          }
+        },
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["blue"],
+            "shape": ["square"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-2",
+      "type": "module",
+      "title": "Module 2",
+      "content_parts": [
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["red"],
+            "shape": ["square"]
+          }
+        },
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["blue"],
+            "shape": ["square"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "module-3",
+      "type": "module",
+      "title": "Module 3",
+      "content_parts": [
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["red"],
+            "shape": ["square"]
+          }
+        },
+        {
+          "content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas placerat felis viverra turpis condimentum mollis. Donec dignissim, nibh vitae convallis tincidunt, velit ex varius risus, ac rhoncus tellus elit non ante. Maecenas quis mattis est. Ut nisl eros, cursus ut posuere at, mollis sed mi. Donec mollis dui eu sollicitudin viverra. Suspendisse facilisis faucibus odio ut porta. Sed posuere mi dui, vitae molestie sem consectetur et. Ut sit amet eros ac nulla aliquam viverra ut vel justo. Phasellus ac ultrices odio, sed feugiat mi. Donec lobortis euismod dignissim. Sed dapibus tristique gravida. Duis vel enim sed risus facilisis pretium sed sit amet erat. Vestibulum dictum commodo nibh a tincidunt. Maecenas arcu nibh, porta ut vestibulum sit amet, hendrerit quis nisl. Etiam turpis erat, eleifend et fringilla non, placerat ac nisi.</p>",
+          "taxonomies": {
+            "color": ["blue"],
+            "shape": ["square"]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+openapi: 3.0.0
+info:
+  title: Release Notes API
+  description: Backend specification for the release notes example application.
+  contact:
+    email: mark.mizen@sage.com
+  license:
+    name: Internal Licence
+  version: 1.0.0
+paths:
+  /{language}/archive:
+    get:
+      operationId: getArchive
+      summary: Lists all the packages saved
+      parameters: 
+      - name: language
+        in: path
+        description: The language code for the data
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: List of versions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ArchiveResponseModel'
+  /{language}/taxonomies:
+    get:
+      operationId: getTaxonomies
+      summary: Lists all the packages saved
+      parameters: 
+      - name: language
+        in: path
+        description: The language code for the data
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: List of versions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/TaxonomiesResponseModel'
+  /{language}/labels:
+    get:
+      operationId: getLabels
+      summary: Lists all the packages saved
+      parameters: 
+      - name: language
+        in: path
+        description: The language code for the data
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: List of versions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/LabelResponseModel'
+  /{language}/{release}:
+    get:
+      operationId: getVersion
+      summary: Lists all the packages saved
+      parameters: 
+      - name: language
+        in: path
+        description: The language code for the data
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      - name: release
+        in: path
+        description: The ID for the specific release
+        required: true
+        style: simple
+        explode: false
+        schema:
+          type: string
+      responses:
+        "200":
+          description: List of versions
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/ReleaseNoteResponseModel'
+components:
+  schemas:
+    ResponseModelBase:
+      required: 
+      - __self
+      properties:
+        __self: 
+          type: string
+          example: https://eg.com/api/
+          
+    ArchiveResponseModel:
+      allOf:
+        - $ref: '#/components/schemas/ResponseModelBase'
+        - type: object
+          required: 
+            - product
+            - language
+            - alternative_langauges
+            - taxonomies
+            - releases
+            - labels
+          properties:
+            product:
+              type: string
+              example: 'Product Name'
+            language: 
+              type: string
+              example: 'en-GB'
+            alternative_langauges: 
+              type: array
+              items: 
+                $ref: '#/components/schemas/AlternativeLanguageModel'
+              example:
+              - 'https://eg.com/api/en-GB'
+              - 'https://eg.com/api/fr-FR'
+              - 'https://eg.com/api/de-DE'
+            taxonomies: 
+              type: string
+              example: 'https://eg.com/api/en-GB/taxonomies'
+            releases: 
+              type: array
+              items: 
+                $ref: '#/components/schemas/ReleaseModel'
+              example: 
+              - id: demo-2
+                title: Demo 2
+                url: 'https://eg.com/api/en-GB/demo-2'
+              - id: demo-1
+                title: Demo 1
+                url: 'https://eg.com/api/en-GB/demo-1'
+            labels:
+              type: string
+              example: 'https://eg.com/api/en-GB/labels'
+              
+    TaxonomiesResponseModel:
+      allOf:
+        - $ref: '#/components/schemas/ResponseModelBase'
+        - type: object
+          required: 
+            - taxonomies
+          properties:
+            taxonomies:
+              type: object
+              additionalProperties:
+                type: array
+                items: 
+                  $ref: '#/components/schemas/TaxonomiesModel'
+          example: 
+            __self: /dls-release-notes/api/en-GB/taxonomies.json
+            taxonomies:
+              - id: legislations
+                title: Legislation
+                options:
+                  - id: belgium-be
+                    title: BE Belgium
+                  - id: france-fr
+                    title: FR France
+                  - id: germany-de
+                    title: DE Germany
+                  - id: spain-es
+                    title: ES Spain
+                  - id: united-kingdom-uk
+                    title: UK United Kingdon
+              - id: contract
+                title: Contract
+                options:
+                  - id: essential
+                    title: Essential
+                  - id: standard
+                    title: Standard
+                  - id: premium
+                    title: Premium
+                    
+    LabelResponseModel:
+      type: object
+      additionalProperties:
+        type: string
+      example:
+       buttons.next: Next version
+       buttons.previous: Previous version
+       buttons.clear: Clear
+       links.back-to-top: Back to top
+       links.see-all-versions: View all versions
+       links.go-back: Go back
+       links.view-latest: View latest version
+       titles.modules: Module
+       titles.language: Language
+       titles.version: Version
+       subtitle.prefix: What's new in
+       filters.applied: applied
+       dropdown.select: Select
+       dropdown.selected: selected
+       dropdown.select-language: Select Language
+       dropdown.select-version: Select Version
+       titles.filters: Filters
+       titles.not-found: Version not found
+       messages.not-found: We can’t find what you’re looking for. Please try again using a different version or language.
+       messages.all-parts-filtered: Try changing your filters to see content.
+       page-title.divider: ' | '
+       page-title.suffix: Release Notes Demo
+    ReleaseNoteResponseModel:
+      allOf:
+        - $ref: '#/components/schemas/ResponseModelBase'
+        - type: object
+          required:
+            - id
+            - date
+            - language
+            - content_parts
+          properties:
+            id:
+              type: string
+            title: 
+              type: string
+            date: 
+              type: string
+            language: 
+              type: string
+            previous:
+              type: string
+            next:
+              type: string
+            content_parts: 
+              type: array
+              items:
+                $ref: '#/components/schemas/ReleaseNotePart'
+            __archive:
+              type: string
+          example: 
+            id: demo-2
+            title: Demo 2
+            language: en-GB
+            __archive: 'https://eg.com/api/en-GB/archive'
+            previous: demo-1
+            next: demo-3
+            date: December 2020
+            content_parts:
+            - content: '<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>'
+            - type: module
+              id: contracts
+              title: Contacts
+              content_parts:
+                - content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                - title: 'Example of titled sub-part'
+                  content: <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    ReleaseModel:
+      required:
+        - id
+        - url
+        - title
+        - date
+      properties:
+        id: 
+          type: string
+        url: 
+          type: string
+        title: 
+          type: string
+        date: 
+          type: string
+
+    AlternativeLanguageModel:
+      required:
+        - id
+        - url
+        - title
+      properties:
+        id: 
+          type: string
+        url: 
+          type: string
+        title: 
+          type: string
+  
+    ReleaseNotePart:
+      properties:
+        title: 
+          type: string
+        content: 
+          type: string
+        type: 
+          type: string
+        tags: 
+          type: array
+          items: 
+            type: string
+        taxonomies: 
+          oneOf:
+            - type: string
+            - type: object
+              additionalProperties:
+                type: array
+                items: 
+                  type: string
+        content_parts: 
+          type: array
+          items: 
+            $ref: '#/components/schemas/ReleaseNotePart'
+            
+    TaxonomiesModel:
+      required:
+        - id
+        - title
+        - options
+      properties:
+        id: 
+          type: string
+        title: 
+          type: string
+        behaviour: 
+          type: string
+        options: 
+          type: array
+          items:
+            $ref: '#/components/schemas/TaxonomiesOptionModel'
+        
+    TaxonomiesOptionModel:
+      required:
+        - id
+        - title
+      properties:
+        id: 
+          type: string
+        title: 
+          type: string

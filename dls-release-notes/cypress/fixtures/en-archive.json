@@ -1,0 +1,37 @@
+{
+    "__self": "/dls-release-notes/api/en-GB/archive.json",
+    "product": "Example Product Name",
+    "language": "en-GB",
+    "labels": "/dls-release-notes/api/en-GB/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
+    "alternative_langauges": [
+      {
+        "title": "English",
+        "id": "en-GB",
+        "url": "/dls-release-notes/api/en-GB/archive.json"
+      },
+      {
+        "title": "French",
+        "id": "fr-FR",
+        "url": "/dls-release-notes/api/fr-FR/archive.json"
+      }
+    ],
+    "releases": [
+      {
+        "id": "6.6.3",
+        "title": "6.6.3",
+        "url": "/dls-release-notes/api/en-GB/6.6.3/data.json"
+      },
+      {
+        "id": "6.6.2",
+        "title": "6.6.2",
+        "url": "/dls-release-notes/api/en-GB/6.6.2/data.json"
+      },
+      {
+        "id": "6.6.1",
+        "title": "6.6.1",
+        "url": "/dls-release-notes/api/en-GB/6.6.1/data.json"
+      }
+    ]
+  }
+  

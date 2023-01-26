@@ -1,0 +1,42 @@
+{
+    "__self": "/dls-release-notes/api/fr-FR/taxonomies.json",
+    "taxonomies": [
+      {
+        "id": "color",
+        "title": "Color",
+        "options": [
+          {
+            "id": "blue",
+            "title": "Blue"
+          },
+          {
+            "id": "green",
+            "title": "Green"
+          },
+          {
+            "id": "yellow",
+            "title": "Yellow"
+          },
+          {
+            "id": "red",
+            "title": "Red"
+          }
+        ]
+      },
+      {
+        "id": "shape",
+        "title": "Shape",
+        "options": [
+          {
+            "id": "square",
+            "title": "Square"
+          },
+          {
+            "id": "circle",
+            "title": "Circle"
+          }
+        ]
+      }
+    ]
+  }
+  

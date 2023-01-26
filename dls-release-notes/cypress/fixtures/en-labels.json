@@ -1,0 +1,25 @@
+{
+    "buttons.next": "buttons.next",
+    "buttons.previous": "buttons.previous",
+    "buttons.clear": "buttons.clear",
+    "links.back-to-top": "links.back-to-top",
+    "links.see-all-versions": "links.see-all-versions",
+    "links.go-back": "links.go-back",
+    "links.view-latest": "links.view-latest",
+    "titles.modules": "titles.modules",
+    "titles.language": "titles.language",
+    "titles.version": "titles.version",
+    "subtitle.prefix": "subtitle.prefix",
+    "filters.applied": "filters.applied",
+    "dropdown.select": "dropdown.select",
+    "dropdown.selected": "dropdown.selected",
+    "dropdown.select-language": "dropdown.select-language",
+    "dropdown.select-version": "dropdown.select-version",
+    "titles.filters": "titles.filters",
+    "titles.not-found": "titles.not-found",
+    "messages.not-found": "messages.not-found",
+    "messages.all-parts-filtered": "messages.all-parts-filtered",
+    "page-title.divider": "page-title.divider",
+    "page-title.suffix": "page-title.suffix"
+  }
+  

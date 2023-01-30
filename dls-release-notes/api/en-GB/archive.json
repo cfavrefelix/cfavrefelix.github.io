@@ -1,9 +1,9 @@
 {
-    "__self": "/dls-release-notes/api/en-US/archive.json",
+    "__self": "/dls-release-notes/api/en-GB/archive.json",
     "product": "Sage Intacct Manufacturing",
-    "language": "en-US",
-    "labels": "/dls-release-notes/api/en-US/labels.json",
-    "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
+    "language": "en-GB",
+    "labels": "/dls-release-notes/api/en-GB/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
     "alternative_langauges": [
         {
             "title": "English - US",
@@ -25,56 +25,26 @@
         {
             "id": "2023-r1-26",
             "title": "2023 R1 (January)",
-            "url": "/dls-release-notes/api/en-US/2023-r1-26/data.json",
+            "url": "/dls-release-notes/api/en-GB/2023-r1-26/data.json",
             "date": "January"
         },
         {
             "id": "2023-r1-24",
             "title": "2022 R8 (November)",
-            "url": "/dls-release-notes/api/en-US/2023-r1-24/data.json",
+            "url": "/dls-release-notes/api/en-GB/2023-r1-24/data.json",
             "date": "December"
         },
         {
             "id": "2022-r4-23",
             "title": "2022 R7 (October)",
-            "url": "/dls-release-notes/api/en-US/2022-r4-23/data.json",
+            "url": "/dls-release-notes/api/en-GB/2022-r4-23/data.json",
             "date": "November"
         },
         {
             "id": "2022-r4-22",
             "title": "2022 R6 (September)",
-            "url": "/dls-release-notes/api/en-US/2022-r4-22/data.json",
+            "url": "/dls-release-notes/api/en-GB/2022-r4-22/data.json",
             "date": "September"
-        },
-        {
-            "id": "2022-r4-21",
-            "title": "2022 R5",
-            "url": "/dls-release-notes/api/en-US/2022-r4-21/data.json",
-            "date": "August"
-        },
-        {
-            "id": "2022-r3-20",
-            "title": "2022 R4",
-            "url": "/dls-release-notes/api/en-US/2022-r3-20/data.json",
-            "date": "July"
-        },
-        {
-            "id": "2022-r3-19",
-            "title": "2022 R3",
-            "url": "/dls-release-notes/api/en-US/2022-r3-19/data.json",
-            "date": "June"
-        },
-        {
-            "id": "2022-r3-18",
-            "title": "2022 R2",
-            "url": "/dls-release-notes/api/en-US/2022-r3-18/data.json",
-            "date": "May"
-        },
-        {
-            "id": "2022-r2-17",
-            "title": "2022 R1",
-            "url": "/dls-release-notes/api/en-US/2022-r2-17/data.json",
-            "date": "April"
         }
     ]
 }

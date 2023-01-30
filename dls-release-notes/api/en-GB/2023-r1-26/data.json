@@ -1,8 +1,8 @@
 {
     "id": "2023-r1-26",
     "title": "2023 R1",
-    "language": "en-US",
-    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
     "previous": "2023-r1-24",
     "date": "January",
     "content_parts": [
@@ -345,7 +345,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can assign a work <b>Category</b> to a new work order. Assign the default <b>Normal</b> category to create the work order with operations and components, or the default <b>Assembly</b> or <b>Rework</b> category to create the work order without operations or components. You can create additional work categories.<br/><b>Uses routing</b> and <b>Uses bill of material</b> checkboxes, and a <b>Category</b> field in the work order header confirm the assigned category. Select these checkboxes to add a routing and/or a bill of material to a work order after creating a work order.<br/>Add unplanned operations and unplanned components to a work order from the <b>Add operation</b> and <b>Add component</b> buttons respectively.</p>",
+                                    "content": "<p>You can assign or create categories for new work orders. Predefined categories include\u00a0<b>Normal</b>\u00a0and\u00a0<b>Assembly</b>\u00a0or\u00a0<b>Rework</b>\u00a0for work orders with or without components and operations respectively.\u00a0</p><p>For existing work orders, you can add a routing and/or bill of material, and add unplanned operations and components.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -1,0 +1,76 @@
+{
+  "name": "sage-release-notes",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://sage.github.io/dls-release-notes/",
+  "dependencies": {
+    "carbon-react": "^104.58.0",
+    "dompurify": "^2.2.6",
+    "i18n-js": "^3.8.0",
+    "jest-fetch-mock": "^3.0.3",
+    "postinstall-postinstall": "^2.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-markdown": "^8.0.1",
+    "react-responsive": "^8.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^5.0.0",
+    "react-useportal": "^1.0.16",
+    "styled-components": "^5.3.3",
+    "typescript": "^4.6.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:ci": "set BROWSER=NONE && react-scripts start",
+    "build": "react-scripts build",
+    "build-custom": "node ./scripts/build.js",
+    "test": "start-server-and-test start:ci http://localhost:3000/dls-release-notes test:integration:run",
+    "test:integration:run": "cypress run --e2e --browser chrome",
+    "test:integration:open": "cypress open --e2e --browser chrome",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/dompurify": "^2.2.0",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-helmet": "^6.1.0",
+    "@types/react-responsive": "^8.0.2",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/styled-components": "^5.1.7",
+    "cypress": "10.9.0",
+    "cypress-react-selector": "^2.3.6",
+    "eslint-plugin-chai-friendly": "^0.6.0",
+    "eslint-plugin-cypress": "^2.11.2",
+    "gh-pages": "^3.1.0",
+    "rewire": "^5.0.0",
+    "sass": "^1.49.9",
+    "start-server-and-test": "^1.12.0"
+  }
+}

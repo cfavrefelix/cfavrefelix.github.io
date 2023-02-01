@@ -1,0 +1,50 @@
+{
+    "__self": "/dls-release-notes/api/en-GB/archive.json",
+    "product": "Sage Intacct Manufacturing",
+    "language": "en-GB",
+    "labels": "/dls-release-notes/api/en-GB/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
+    "alternative_langauges": [
+        {
+            "title": "English - US",
+            "id": "en-US",
+            "url": "/dls-release-notes/api/en-US/archive.json"
+        },
+        {
+            "title": "French - FR",
+            "id": "fr-FR",
+            "url": "/dls-release-notes/api/fr-FR/archive.json"
+        },
+        {
+            "title": "English - GB",
+            "id": "en-GB",
+            "url": "/dls-release-notes/api/en-GB/archive.json"
+        }
+    ],
+    "releases": [
+        {
+            "id": "2023-r1-26",
+            "title": "2023 R1 (January)",
+            "url": "/dls-release-notes/api/en-GB/2023-r1-26/data.json",
+            "date": "January"
+        },
+        {
+            "id": "2023-r1-24",
+            "title": "2022 R8 (November)",
+            "url": "/dls-release-notes/api/en-GB/2023-r1-24/data.json",
+            "date": "December"
+        },
+        {
+            "id": "2022-r4-23",
+            "title": "2022 R7 (October)",
+            "url": "/dls-release-notes/api/en-GB/2022-r4-23/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2022-r4-22",
+            "title": "2022 R6 (September)",
+            "url": "/dls-release-notes/api/en-GB/2022-r4-22/data.json",
+            "date": "September"
+        }
+    ]
+}

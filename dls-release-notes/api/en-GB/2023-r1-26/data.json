@@ -1,0 +1,552 @@
+{
+    "id": "2023-r1-26",
+    "title": "2023 R1",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2023-r1-24",
+    "date": "January",
+    "content_parts": [
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35726",
+                            "title": "Create AR payments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Transaction workbench</b>, you can view open customer invoices for the current bank feed and select those you want to pay. The payment is sent to Sage Intacct.</p><p>If there are no customer invoices for the current bank feed, you can create an AR advance for a customer and send it to Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34996",
+                            "title": "Manage entity-level data for multi-entity general account structures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Journal entry and AR invoice searches are limited to the related level.</li><li>Journal entries are generated at the entity level.</li><li>Duplicate entries can be unlinked.</li><li>When the Transaction workbench switches to asynchronous mode, you need to rerun the matching rules. This removes the posting checkboxes and only lines ready for posting are considered.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34868",
+                            "title": "Match AR invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use Bank Manager to automatically match to open customer invoices for the current bank feed. If at least one possible match with the bank transaction feed is found, the <b>Accounts receivable matching</b> page displays and selects all invoices for that customer by due date. If there are no matches, all AR invoices for that customer display.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34460",
+                            "title": "Manage bank feeds asynchronously",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In Bank Manager, you have access to additional record statuses and you can manage bank feeds asynchronously when there are more than 100 lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35980",
+                            "title": "Matching rules limited to 20 records",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Bank Manager Matching rules page, you can define over 20 rules for the appropriate GL accounts and VAT accounts.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-33656",
+                            "title": "Duplicate forms and documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can duplicate forms and documents on the following pages:</p><ul><li>Bill of material</li><li>Container</li><li>Location</li><li>Location type</li><li>Storage zone</li><li>Stock sequence number</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35744",
+                            "title": "Stock movement: Average cost items ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For average cost items, the stock journal shows the order cost equal to the valued cost and order amount equal to the movement amount for all transactions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34379",
+                            "title": "Avalara notification history",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Notification history</b> page, you can view the following integration statuses for Avalara:</p><ul><li>Tax calculations for sales invoices and sales credit notes when creating and updating</li><li>Final Tax calculation for sales invoices and sales credit notes when posting</li><li>Company queries</li><li>Entity use queries</li><li>Tax code queries</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-35176",
+                            "title": "Sales order detailed allocation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can perform detailed stock allocations on sales order lines. When the order ships, these allocations are transferred to the related shipment lines.</p><p>You don't have to allocate stock on sales order lines before shipment. You can allocate stock on shipment lines if you prefer.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29440",
+                            "title": "Standard cost variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For standard cost valued items, the stock journal entry for receipts calculates and records the difference between the actual and standard cost as the non-absorbed amount.</p><p>Subsequent cost variances, relative to the original receipt, generate a value correction in the stock journal entry.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35359",
+                            "title": "Purchase requisition: Save button not available when duplicating ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When duplicating a purchase requisition, you can save and create an identical requisition without making any changes to the duplicated record.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30332",
+                            "title": "Purchase return: Workflow after changing the quantity of an item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When changing the quantity of an item in a purchase return, you need to submit for approval before being able to approve or reject the return.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-34378",
+                            "title": "Assembly orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can assign or create categories for new work orders. Predefined categories include\u00a0<b>Normal</b>\u00a0and\u00a0<b>Assembly</b>\u00a0or\u00a0<b>Rework</b>\u00a0for work orders with or without components and operations respectively.\u00a0</p><p>For existing work orders, you can add a routing and/or bill of material, and add unplanned operations and components.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-33932",
+                            "title": "Stock detailed inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Stock detailed inquiry</b> provides stock data for individual items per site. Data includes stock levels, stock status, lot details, and serial number data.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-33474",
+                            "title": "Component allocation from work orders and material tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can allocate stock from a <b>Work order</b> and from <b>Material tracking</b>. Select <b>Allocate stock</b> from the <b>More actions</b> icon for a component line to allocate stock from individual locations. The work order and material tracking component line displays the <b>Allocation status</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-33069",
+                            "title": "Onboarding email notifications for functional administrators",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you begin your subscription, email notifications keep you informed of important events.</p><ol><li>As soon as your tenant is up and running, you\u2019re notified so you can begin administrative tasks without delay.</li><li>You receive an email when you add users to a tenant. After that, you have options on how and when to notify your users of their access to the tenant.</li></ol>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24886",
+                            "title": "Custom dashboards",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Create dashboards to keep track of key data such as sales, purchase orders, and more. You can start with a predefined template and customise as needed or build your own dashboard.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-23772",
+                            "title": "Support access",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the\u00a0<b>Support access</b> page, you can give a Sage support technician access to your tenant if you need help. The support access is limited and you can revoke access at any time.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35646",
+                            "title": "Stock sequence number: Populated fields not clearing when a component type is changed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you change a component type on the stock sequence number, the &#39;Constant&#39; column only includes the allowed values for the component type.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34866",
+                            "title": "Sequence numbers skip 10 and multiples of 10 on new documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Document numbers automatically assigned to newly created documents no longer skip the number 10 and multiples of 10.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

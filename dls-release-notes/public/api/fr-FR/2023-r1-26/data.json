@@ -64,7 +64,7 @@
                         },
                         {
                             "key": "XT-34868",
-                            "title": "Rapprochement des factures comptables clients ",
+                            "title": "Rapprocher des factures comptables clients ",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -196,7 +196,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35744",
-                            "title": "Mouvement de stock Articles \u00e0 prix moyen ",
+                            "title": "Mouvement de stock : articles \u00e0 prix moyen ",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -287,7 +287,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35359",
-                            "title": "Demande d'achat Le bouton Enregistrer n'est pas disponible lors de la duplication. ",
+                            "title": "Demande d'achat : le bouton Enregistrer n'est pas disponible lors de la duplication. ",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -303,7 +303,7 @@
                         },
                         {
                             "key": "XT-30332",
-                            "title": "Retour d\u2019achat Workflow apr\u00e8s modification de la quantit\u00e9 d'un article",
+                            "title": "Retour d\u2019achat : workflow apr\u00e8s modification de la quantit\u00e9 d'un article",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -379,11 +379,11 @@
                         },
                         {
                             "key": "XT-33474",
-                            "title": "Allocation de composants \u00e0 partir d\u2019ordres de fabrication et de suivi mati\u00e8re",
+                            "title": "Allocation de composants \u00e0 partir d\u2019ordres de fabrication et de suivis mati\u00e8re",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous pouvez allouer du stock \u00e0 partir d'un <b>Ordre de fabrication</b> et \u00e0 partir d\u2019un <b>Suivi mati\u00e8re</b>. S\u00e9lectionnez l\u2019ic\u00f4ne <b>Plus d'options</b>, puis <b>Allouer stock</b> sur une ligne de composant pour allouer du stock \u00e0 partir d'emplacements individuels. La ligne de composant de l\u2019ordre de fabrication et du suivi mati\u00e8re affiche le <b>statut d'allocation</b>.</p>",
+                                    "content": "<p>Vous pouvez allouer du stock \u00e0 partir d'un <b>Ordre de fabrication</b> et d\u2019un <b>Suivi mati\u00e8re</b>. S\u00e9lectionnez l\u2019ic\u00f4ne <b>Plus d'options</b>, puis <b>Allouer stock</b>, sur une ligne de composant pour allouer du stock \u00e0 partir d'emplacements individuels. La ligne de composant de l\u2019ordre de fabrication et du suivi mati\u00e8re affiche le <b>statut d'allocation</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -514,7 +514,7 @@
                     "content_parts": [
                         {
                             "key": "XT-35646",
-                            "title": "Compteur de stock Les champs aliment\u00e9s ne sont pas r\u00e9initialis\u00e9s lorsqu'un type de composant est modifi\u00e9.",
+                            "title": "Compteur de stock : les champs aliment\u00e9s ne sont pas r\u00e9initialis\u00e9s lorsqu'un type de composant est modifi\u00e9.",
                             "highlight": false,
                             "content_parts": [
                                 {

@@ -1,0 +1,279 @@
+{
+    "id": "2023-r2-27",
+    "title": "2023 R2",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r1-26",
+    "date": "February",
+    "content_parts": [
+        {
+            "title": "All Modules",
+            "id": "all-modules",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'All Modules' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-36345",
+                            "title": "Correct and resend documents to Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>If a document does not transfer successfully to Sage Intacct, you can correct journal entries and customer and supplier invoices. From the <b>Notification history</b> page, you can access the document and make corrections to attributes and dimensions or add a missing supplier invoice number that is required in Sage Intacct.</p><p>After making corrections, you can resend the document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38087",
+                            "title": "Post multiple payments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>After matching customer invoices and AR advance payments on the <b>AR matching</b> page and return to the <b>Transaction workbench</b>, you can post all these at the same time. When you select <b>Post</b>, the journal entries are created and sent to Sage Intacct for all transactions that are ready to post.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38416",
+                            "title": "Sales invoice and credit memo lines report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Sales invoice line</b> page, you can display a list of sales invoice and credit memo lines with detailed information. You can also export this list to an Excel or CSV file.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38408",
+                            "title": "Purchase order report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Purchase order line</b> inquiry page, you can display the list of purchase order lines according to selected criteria.\u00a0<br/>This page also displays the total number of selected purchase order lines and purchase orders, as well as the total ordered amount and total remaining amount.<br/>You can export the result as an Excel or CSV file.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38404",
+                            "title": "Sales orders report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Sales order line</b> inquiry page, you can display the list of sales order lines according to selected criteria.\u00a0<br/>This pages also displays the corresponding total number of sales order lines and sales orders, as well as the total ordered amount and total remaining amount.<br/>You can export the result as an Excel or CSV file.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38401",
+                            "title": "Shipment preparation pick list printing",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can print a sales shipment pick list report from the <b>Sales shipment</b> page for sales shipments that are not shipped yet.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38384",
+                            "title": "Sales order confirmation printing",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can print a sales order confirmation as a PDF from the <b>Sales order</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38399",
+                            "title": "Purchase order PDF sent by email to suppliers ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Purchase order</b> page, you can email a PDF of a purchase order to your supplier.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-31254",
+                            "title": "Work-in-progress movement posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Closing a completed work order on the work order page will now reflect the work-in-progress costs in your accounting documents.\u00a0</p><p>When you close a work order, the work-in-progress cost variances generate the related journal entries. This includes all operating costs such as production, material, setup time, and runtime tracking. You can define different accounts for each movement in a dedicated work-in-progress journal entry type.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

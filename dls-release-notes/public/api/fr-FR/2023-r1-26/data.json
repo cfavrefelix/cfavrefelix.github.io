@@ -1,0 +1,552 @@
+{
+    "id": "2023-r1-26",
+    "title": "2023 R1",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2023-r1-24",
+    "date": "Janvier",
+    "content_parts": [
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35726",
+                            "title": "Cr\u00e9er des r\u00e8glements comptables clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans le <b>Plan de travail de transactions</b>, vous pouvez afficher les factures clients ouvertes relatives au flux bancaire en cours et s\u00e9lectionner celles que vous souhaitez r\u00e9gler. Le r\u00e8glement est envoy\u00e9 \u00e0 Sage Intacct.</p><p>S'il n'y a pas de factures clients pour le flux bancaire en cours, vous pouvez cr\u00e9er une avance client et l'envoyer \u00e0 Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34996",
+                            "title": "G\u00e9rer les donn\u00e9es de niveau entit\u00e9 pour les structures de comptes g\u00e9n\u00e9raux multi-entit\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Les recherches d\u2019\u00e9critures et de factures comptables clients sont limit\u00e9es au niveau associ\u00e9.</li><li>Les \u00e9critures sont g\u00e9n\u00e9r\u00e9es au niveau entit\u00e9.</li><li>Il est possible de dissocier des \u00e9critures en double.</li><li>Lorsque le plan de travail de transactions passe en mode asynchrone, vous devez relancer les r\u00e8gles de correspondance. Ce mode r\u00e9initialise les cases \u00e0 cocher de comptabilisation et seules les lignes pr\u00eates \u00e0 \u00eatre comptabilis\u00e9es sont prises en compte.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34868",
+                            "title": "Rapprochement des factures comptables clients ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez Bank Manager pour rapprocher automatiquement les factures clients ouvertes relatives au flux bancaire en cours. S\u2019il existe au moins un rapprochement possible avec le flux de transaction bancaire, la page de <b>rapprochement des factures comptables clients</b> s'affiche et toutes les factures pour ce client sont s\u00e9lectionn\u00e9es par ordre de date d'\u00e9ch\u00e9ance \u00e0 hauteur du montant de la ligne de l'enregistrement bancaire. En l\u2019absence de rapprochement possible, toutes les factures comptables clients s'affichent pour ce client.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34460",
+                            "title": "G\u00e9rer les flux bancaires de mani\u00e8re asynchrone",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans Bank Manager, vous avez acc\u00e8s \u00e0 des statuts d'enregistrements suppl\u00e9mentaires et vous pouvez g\u00e9rer les flux bancaires de mani\u00e8re asynchrone lorsqu'il y a plus de 100 lignes.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35980",
+                            "title": "R\u00e8gles de correspondance limit\u00e9es \u00e0 20 enregistrements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sur la page des r\u00e8gles de correspondance du Bank Manager, vous pouvez d\u00e9finir plus de 20 r\u00e8gles pour les comptes g\u00e9n\u00e9raux et les comptes de TVA concern\u00e9s.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-33656",
+                            "title": "Dupliquer des formulaires et des documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez dupliquer des formulaires et des documents sur les pages suivantes :</p><ul><li>Nomenclature</li><li>Conteneur</li><li>Lieu</li><li>Type d'emplacement</li><li>Zone de stockage</li><li>Compteur</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35744",
+                            "title": "Mouvement de stock Articles \u00e0 prix moyen ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les articles \u00e0 prix moyen, le journal de stock affiche un co\u00fbt de commande \u00e9gal au co\u00fbt valoris\u00e9 et un montant de commande \u00e9gal au montant du mouvement pour toutes les transactions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34379",
+                            "title": "Historique de notification Avalara",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Historique de notification</b>, vous pouvez visualiser les statuts d\u2019int\u00e9gration suivants pour Avalara :</p><ul><li>calcul de taxe pour les factures de vente et les avoirs de vente en cr\u00e9ation et mise \u00e0 jour,</li><li>calcul de taxe final pour les factures de vente et les avoirs de vente en comptabilisation,</li><li>chargement des soci\u00e9t\u00e9s,</li><li>chargement des codes exon\u00e9ration entit\u00e9 / usage,</li><li>chargement des codes taxes.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-35176",
+                            "title": "Allocation d\u00e9taill\u00e9e des commandes de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez effectuer des allocations de stock d\u00e9taill\u00e9es sur des lignes de commandes de vente. Lorsque la commande est exp\u00e9di\u00e9e, ces allocations sont transf\u00e9r\u00e9es sur les lignes d'exp\u00e9dition associ\u00e9es.</p><p>Vous n'avez pas besoin d'allouer de stock sur les lignes de commandes avant l'exp\u00e9dition. Si vous pr\u00e9f\u00e9rez, vous pouvez allouer du stock sur des lignes d'exp\u00e9dition.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29440",
+                            "title": "\u00c9cart de co\u00fbt standard",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les articles valoris\u00e9s au co\u00fbt standard, l'\u00e9criture du journal de stock pour les r\u00e9ceptions calcule et enregistre la diff\u00e9rence entre le co\u00fbt r\u00e9el et le co\u00fbt standard comme montant non absorb\u00e9.</p><p>Les \u00e9carts de co\u00fbt ult\u00e9rieurs par rapport \u00e0 la r\u00e9ception d'origine g\u00e9n\u00e8rent une correction de valeur dans l'\u00e9criture du journal de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35359",
+                            "title": "Demande d'achat Le bouton Enregistrer n'est pas disponible lors de la duplication. ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de la duplication d'une demande d'achat, vous pouvez enregistrer et cr\u00e9er une demande identique sans modifier l'enregistrement dupliqu\u00e9.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-30332",
+                            "title": "Retour d\u2019achat Workflow apr\u00e8s modification de la quantit\u00e9 d'un article",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous modifiez la quantit\u00e9 d'un article pour un retour d'achat, vous devez soumettre cette modification pour approbation avant de pouvoir approuver ou rejeter le retour.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-34378",
+                            "title": "Ordres de fabrication d'assemblage",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez affecter ou cr\u00e9er des cat\u00e9gories pour les nouveaux ordres de fabrication. Les cat\u00e9gories pr\u00e9d\u00e9finies incluent <b>Normal</b> et <b>Assemblage</b> ou <b>Reprise</b> pour les ordres de fabrication avec ou sans composants et op\u00e9rations respectivement.\u00a0</p><p>Pour les ordres de fabrication existants, vous pouvez ajouter une gamme et / ou une nomenclature ainsi que des op\u00e9rations et des composants non planifi\u00e9s.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-33932",
+                            "title": "Consultation d\u00e9taill\u00e9e de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La <b>Consultation d\u00e9taill\u00e9e de stock</b> fournit des donn\u00e9es de stock pour des articles individuels par site. Ces donn\u00e9es incluent les niveaux de stock, les statuts de stock, les d\u00e9tails de lots et les donn\u00e9es relatives aux num\u00e9ros de s\u00e9rie.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-33474",
+                            "title": "Allocation de composants \u00e0 partir d\u2019ordres de fabrication et de suivi mati\u00e8re",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez allouer du stock \u00e0 partir d'un <b>Ordre de fabrication</b> et \u00e0 partir d\u2019un <b>Suivi mati\u00e8re</b>. S\u00e9lectionnez l\u2019ic\u00f4ne <b>Plus d'options</b>, puis <b>Allouer stock</b> sur une ligne de composant pour allouer du stock \u00e0 partir d'emplacements individuels. La ligne de composant de l\u2019ordre de fabrication et du suivi mati\u00e8re affiche le <b>statut d'allocation</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-33069",
+                            "title": "Notifications d'onboarding par e-mail pour les administrateurs fonctionnels",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous d\u00e9marrez votre abonnement, les notifications par e-mail vous informent des \u00e9v\u00e9nements importants.</p><ol><li>D\u00e8s que votre tenant est op\u00e9rationnel, vous \u00eates averti pour que vous puissiez effectuer des t\u00e2ches administratives sans d\u00e9lai.</li><li>Vous recevez un e-mail lorsque vous ajoutez des utilisateurs \u00e0 un tenant. Par la suite, vous disposez d\u2019options pour d\u00e9finir la fa\u00e7on et le moment de notifier vos utilisateurs concernant leur acc\u00e8s au tenant.</li></ol>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "26.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-24886",
+                            "title": "Tableaux de bord personnalis\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Cr\u00e9ez des tableaux de bord pour suivre des donn\u00e9es cl\u00e9s telles que les commandes de vente, d\u2019achat, etc. Vous pouvez d\u00e9buter avec un mod\u00e8le pr\u00e9d\u00e9fini et le personnaliser selon vos besoins ou construire votre propre tableau de bord.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de r\u00e9f\u00e9rence",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-23772",
+                            "title": "Acc\u00e8s assistance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Acc\u00e8s assistance</b>, vous pouvez donner acc\u00e8s \u00e0 votre tenant \u00e0 un technicien Sage si vous avez besoin d'assistance. L'acc\u00e8s \u00e0 l\u2019assistance est limit\u00e9 et vous pouvez en r\u00e9voquer l'acc\u00e8s \u00e0 tout moment.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (26.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))",
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R1 (25.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-35646",
+                            "title": "Compteur de stock Les champs aliment\u00e9s ne sont pas r\u00e9initialis\u00e9s lorsqu'un type de composant est modifi\u00e9.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous modifiez un type de composant du compteur de stock, la colonne \u2018Constante\u2019 inclut uniquement les valeurs autoris\u00e9es pour le type de composant.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34866",
+                            "title": "Les num\u00e9ros de s\u00e9quence omettent le nombre 10 et les multiples de 10 pour les nouveaux documents.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les num\u00e9ros affect\u00e9s de fa\u00e7on automatique aux nouveaux documents n\u2019omettent plus le nombre 10 et les multiples de 10.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "25.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

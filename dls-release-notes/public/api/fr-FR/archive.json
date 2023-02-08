@@ -23,20 +23,26 @@
     ],
     "releases": [
         {
+            "id": "2023-r1-26",
+            "title": "2023 R1 (janvier)",
+            "url": "/dls-release-notes/api/fr-FR/2023-r1-26/data.json",
+            "date": "Janvier"
+        },
+        {
             "id": "2023-r1-24",
-            "title": "2022 R8 (Novembre)",
+            "title": "2022 R8 (novembre)",
             "url": "/dls-release-notes/api/fr-FR/2023-r1-24/data.json",
             "date": "D\u00e9cembre"
         },
         {
             "id": "2022-r4-23",
-            "title": "2022 R7 (Octobre)",
+            "title": "2022 R7 (octobre)",
             "url": "/dls-release-notes/api/fr-FR/2022-r4-23/data.json",
             "date": "Novembre"
         },
         {
             "id": "2022-r4-22",
-            "title": "2022 R6 (Septembre)",
+            "title": "2022 R6 (septembre)",
             "url": "/dls-release-notes/api/fr-FR/2022-r4-22/data.json",
             "date": "Septembre"
         },
@@ -56,13 +62,13 @@
             "id": "2022-r3-19",
             "title": "2022 R3",
             "url": "/dls-release-notes/api/fr-FR/2022-r3-19/data.json",
-            "date": "Juin"
+            "date": "juin"
         },
         {
             "id": "2022-r3-18",
             "title": "2022 R2",
             "url": "/dls-release-notes/api/fr-FR/2022-r3-18/data.json",
-            "date": "Mai"
+            "date": "mai"
         },
         {
             "id": "2022-r2-17",

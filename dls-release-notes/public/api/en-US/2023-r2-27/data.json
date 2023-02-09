@@ -213,12 +213,50 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-38403",
+                            "title": "Job traveler print enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The work order job traveler prints:</p><ul><li>Components not linked to an operation in a separate table</li><li>Individual component and production operation instructions</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-38399",
                             "title": "Purchase order PDF sent by email to suppliers ",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "<p>From the <b>Purchase order</b> page, you can email a PDF of a purchase order to your supplier.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38390",
+                            "title": "Sales order confirmation PDF sent by email to customers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Sales order</b> page, you can email a PDF of a sales order confirmation to your customer.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -252,6 +290,44 @@
                         "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-38406",
+                            "title": "Production operation and component instructions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can add free-format instructions and links to supporting documentation for individual components in a bill of material and production operations in a routing. The instructions are included when the bill of material or routing is added to a new work order.<br/>Note that existing work orders are not updated if the instructions are edited or deleted in the bill of material or routing.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34377",
+                            "title": "Work order pick list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can print a pick list from the work order listing the components needed for production.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-31254",
                             "title": "Work-in-progress movement posting",

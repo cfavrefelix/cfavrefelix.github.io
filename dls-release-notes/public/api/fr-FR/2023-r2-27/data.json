@@ -1,0 +1,315 @@
+{
+    "id": "2023-r2-27",
+    "title": "2023 R2",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2023-r1-26",
+    "date": "F\u00e9vrier",
+    "content_parts": [
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38087",
+                            "title": "Comptabiliser plusieurs r\u00e8glements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Apr\u00e8s avoir effectu\u00e9 le rapprochement des factures clients avec la ligne de relev\u00e9 bancaire, ou bien saisi les \u00e9l\u00e9ments n\u00e9cessaires \u00e0 une avance comptable client dans la page de <b>Rapprochement des factures clients</b>, vous pouvez comptabiliser tous ces \u00e9l\u00e9ments en m\u00eame temps dans le <b>Plan de travail de transactions</b>. Lorsque vous s\u00e9lectionnez <b>Comptabiliser</b>, les \u00e9critures sont cr\u00e9\u00e9es et envoy\u00e9es \u00e0 Sage Intacct pour toutes les transactions pr\u00eates \u00e0 \u00eatre comptabilis\u00e9es.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38416",
+                            "title": "\u00c9dition de lignes de factures et d\u2019avoirs de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la page <b>Ligne de facture de vente</b>, vous pouvez afficher une liste de lignes de factures et d\u2019avoirs de vente accompagn\u00e9es d\u2019informations d\u00e9taill\u00e9es. Vous pouvez \u00e9galement exporter cette liste vers un fichier Excel ou CSV.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38408",
+                            "title": "\u00c9dition de commandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la page de consultation <b>Ligne de commande d'achat</b>, vous pouvez afficher une liste de lignes de commandes d'achat en fonction des crit\u00e8res s\u00e9lectionn\u00e9s.\u00a0<br/>Cette page affiche \u00e9galement le nombre total de lignes de commandes d'achat et de commandes d'achat s\u00e9lectionn\u00e9es, ainsi que le montant total command\u00e9 et le montant total restant.<br/>Vous pouvez exporter le r\u00e9sultat sous forme d\u2019un fichier Excel ou CSV.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38404",
+                            "title": "\u00c9dition de commandes de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la page de consultation <b>Ligne de commande de vente</b>, vous pouvez afficher une liste de lignes de commande de vente en fonction des crit\u00e8res s\u00e9lectionn\u00e9s.\u00a0<br/>Cette page affiche \u00e9galement le nombre total correspondant de lignes de commandes de vente et de commandes de vente, ainsi que le montant total command\u00e9 et le montant total restant.<br/>Vous pouvez exporter le r\u00e9sultat sous forme d\u2019un fichier Excel ou CSV.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38401",
+                            "title": "Impression de la liste de pr\u00e9paration d'exp\u00e9dition",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez imprimer une liste de pr\u00e9paration d'exp\u00e9dition de vente \u00e0 partir de la page <b>Exp\u00e9dition de vente</b> pour les exp\u00e9ditions de vente qui n\u2019ont pas encore \u00e9t\u00e9 exp\u00e9di\u00e9es.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38384",
+                            "title": "Impression de la confirmation de commande de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez imprimer la confirmation d\u2019une commande de vente au format PDF dans la page <b>Commande de vente</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38403",
+                            "title": "Am\u00e9liorations de l'impression de la fiche suiveuse",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La fiche suiveuse de l\u2019ordre de fabrication permet d\u2019imprimer les \u00e9l\u00e9ments suivants :</p><ul><li>les composants non li\u00e9s \u00e0 une op\u00e9ration dans une table s\u00e9par\u00e9e,</li><li>les instructions relatives aux composants et op\u00e9rations de production individuels.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38399",
+                            "title": "Commande d\u2019achat au format PDF envoy\u00e9e par e-mail aux fournisseurs ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>\u00c0 partir de la page <b>Commande d\u2019achat</b>, vous pouvez envoyer par e-mail \u00e0 votre fournisseur une commande d\u2019achat au format PDF.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38390",
+                            "title": "Confirmation de commande de vente au format PDF envoy\u00e9e par e-mail aux clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>\u00c0 partir de la page <b>Commande de vente</b>, vous pouvez envoyer par e-mail \u00e0 votre client la confirmation d\u2019une commande de vente au format PDF.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38406",
+                            "title": "Instructions relatives aux composants et op\u00e9rations de production",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez ajouter des instructions sous format libre ainsi que des liens vers de la documentation pour des composants sp\u00e9cifiques d\u2019une nomenclature et des op\u00e9rations de production d\u2019une gamme. Les instructions sont incluses lorsque la nomenclature ou la gamme est ajout\u00e9e \u00e0 un nouvel ordre de fabrication.<br/>Notez que les ordres de fabrication existants ne sont pas mis \u00e0 jour si les instructions sont modifi\u00e9es ou supprim\u00e9es de la nomenclature ou de la gamme.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34377",
+                            "title": "Liste de pr\u00e9paration d\u2019ordre de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez imprimer une liste de pr\u00e9paration \u00e0 partir d\u2019un ordre de fabrication r\u00e9pertoriant les composants n\u00e9cessaires \u00e0 la production.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31254",
+                            "title": "Comptabilisation d\u2019un mouvement d\u2019en-cours",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le solde d\u2019un ordre de fabrication finalis\u00e9 dans la page des ordres de fabrication refl\u00e8te les co\u00fbts des en-cours dans vos documents comptables.\u00a0</p><p>Lorsque vous soldez un ordre de fabrication, les \u00e9carts de co\u00fbt des en-cours g\u00e9n\u00e8rent les \u00e9critures associ\u00e9es. Sont inclus tous les co\u00fbts d'exploitation tels que la production, la mati\u00e8re, le temps de r\u00e9glage et le suivi d'op\u00e9ration. Vous pouvez d\u00e9finir diff\u00e9rents comptes pour chaque mouvement dans un type d'\u00e9criture d\u2019en-cours d\u00e9di\u00e9.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

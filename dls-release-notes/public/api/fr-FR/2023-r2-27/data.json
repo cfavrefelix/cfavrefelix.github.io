@@ -7,6 +7,46 @@
     "date": "F\u00e9vrier",
     "content_parts": [
         {
+            "title": "Tous les modules",
+            "id": "all-modules",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (27.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'All Modules' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-36345",
+                            "title": "Corriger et renvoyer des documents \u00e0 Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Si le transfert d\u2019un document vers Sage Intacct ne s\u2019effectue pas correctement, vous pouvez corriger les \u00e9critures et les factures clients et fournisseurs. \u00c0 partir de la page <b>Historique des notifications</b>, vous pouvez acc\u00e9der au document et apporter des corrections aux attributs et aux dimensions ou ajouter un num\u00e9ro de facture fournisseur manquant et demand\u00e9 dans Sage Intacct.</p><p>Apr\u00e8s avoir apport\u00e9 des corrections, vous pouvez renvoyer le document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "27.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Bank Manager",
             "id": "bank-manager",
             "type": "module",

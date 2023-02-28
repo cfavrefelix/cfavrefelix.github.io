@@ -64,6 +64,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-40283",
+                            "title": "Edit dimensions and projected stock for purchasing and sales documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can access dimensions and projected stock from the <b>More actions</b>\u00a0icon.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-40242",
                             "title": "Update quantities for purchase requisitions",
                             "highlight": false,

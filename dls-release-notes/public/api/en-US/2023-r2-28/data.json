@@ -1,0 +1,472 @@
+{
+    "id": "2023-r2-28",
+    "title": "2023 R2",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r2-27",
+    "date": "March",
+    "content_parts": [
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38290",
+                            "title": "Matching rules for bank accounts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can enter or select a bank account to create a matching rule that only applies to transaction feeds from that bank.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-40242",
+                            "title": "Update quantities for purchase requisitions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you add lines from a purchase requisition to a purchase order, you can update the\u00a0<b>Quantities to order</b>\u00a0field at the same time.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38747",
+                            "title": "Attribute and dimension updates on source documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><font color=\"#172b4d\">When a stock journal entry does not transfer successfully to Sage Intacct due to incorrect attribute and dimension assignments, you can correct the assignments on the original stock receipt. From the\u00a0<b>Notification history</b>\u00a0page, you can access the source document and make corrections as needed.</font></p><p><font color=\"#172b4d\">After making corrections, you can resend the document.</font></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-36277",
+                            "title": "Order to order for manufactured items",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can automatically create a work order from a confirmed sales order in the item-site record for a manufactured item. The production receipt corresponding to the work order does not automatically allocate the sales order line.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29441",
+                            "title": "Standard cost variance and journal posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you use standard cost accounting, standard cost variance postings are generated to reconcile standard costs with the actual purchase costs. You can define the GL accounts per posting class to reflect the purchase variances.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-39268",
+                            "title": "Add notes to Sales documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can enter <b>Internal notes</b> on the <b>Customer</b> page.<br/>You can enter <b>Internal</b> and <b>External notes</b> on the <b>Sales order</b> page at the header and line levels.<br/>The <b>Sales order</b> confirmation PDF includes the external notes from the document header and the document lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38876",
+                            "title": "Add notes to purchasing documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can enter <b>Internal notes</b> on the <b>Supplier</b> page.<br/>You can enter <b>Internal</b> and <b>External notes</b> on the <b>Purchase requisition</b>, <b>Purchase order</b>, <b>Purchase receipt</b>, and <b>Purchase credit memo pages</b>\u00a0at the header and line levels.<br/>On the <b>Purchase order</b> page, the <b>Supplier delivery mode</b> and <b>Buyer</b> are displayed.<br/>The <b>Purchase order</b> PDF includes the following additional information: delivery mode, expected delivery date, and external notes from the document header and the document lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-39090",
+                            "title": "Sales shipment: Serial number allocation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31171",
+                            "title": "Serial number management: Pregeneration of serial numbers on work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Select the <b>Pregenerate serial number for work order</b> checkbox for a routing to pregenerate serial numbers when a work order is released for production. The pregenerated serial numbers are printed on the job traveler.<br/>You can manually assign serial numbers to a work order and remove serial numbers from a work order if there is a discrepancy between the work order planned quantity and the completed quantity.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-37693",
+                            "title": "MRP calculation justification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you select an item from the <b>MRP calculation justification</b> page, additional information for demand and supply transactions, such as document type and document number, displays in a pop-up window.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-37542",
+                            "title": "Work order: Released quantity can be set to less than the Completed quantity",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can no longer set the work order released quantity to a value less than the completed quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38959",
+                            "title": "Simplified import template",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can use simplified import templates to load data from your previous\u00a0application\u00a0quickly.<br/>Sage delivers simplified import templates for the following elements:</p><ul class=\"alternate\" type=\"square\"><li>Business entities</li><li>Companies</li><li>Items</li><li>Suppliers</li><li>Customers</li><li>Item suppliers, customers, and allergens</li><li>Daily and weekly shifts</li><li>Shift details</li><li>Capability levels</li><li>Sites</li><li>Labor and tool resources</li><li>Bills of materials</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38392",
+                            "title": "View main list items by group",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can group records in the list for columns that can display multiple values, such as a status or reference data. When you select the grouping option, records are sorted by category, and you can see the number of records per category.</p><p><span class=\"image-wrap\" style=\"\"><a id=\"753018_thumb\" href=\"/secure/attachment/753018/753018_groupedList.PNG\" title=\"groupedList.PNG\" file-preview-type=\"image\" file-preview-id=\"753018\" file-preview-title=\"groupedList.PNG\"><img src=\"https://jira.sage.com/secure/thumbnail/753018/_thumb_753018.png\" style=\"border: 0px solid black\" role=\"presentation\"/></a></span></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34294",
+                            "title": "Main list enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can export content in the main list to an Excel or CSV file.</p><ul class=\"alternate\" type=\"square\"><li>The export is not limited to what is visible on the page.\u00a0</li><li>List filters apply to the export.</li><li>Exporting without filters can cause a time-out error because the file is too large.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29887",
+                            "title": "Define widgets on dashboards",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create 2 types of widgets with the dashboard wizard:</p><ul><li>Tile widgets with grouped data</li><li>List widgets</li></ul><p>You can select:</p><ul><li>A main data source</li><li>A list of properties to use</li><li>Filters based on selected properties and the conditions associated with them</li></ul><p>For tiles, you can define:</p><ul><li>The displayed value</li><li>The grouping method: count, minimum, maximum, or sum</li></ul><p>For lists, you can define:</p><ul><li>The sorting order</li><li>The columns displayed</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-34307",
+                            "title": "Open column panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You cannot hide required columns, but you can change their order on the grid.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -270,25 +270,6 @@
                                     "28.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-31171",
-                            "title": "Serial number management: Pregeneration of serial numbers on work orders",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Select the <b>Pregenerate serial number for work order</b> checkbox for a routing to pregenerate serial numbers when a work order is released for production. The pregenerated serial numbers are printed on the job traveler.<br/>You can manually assign serial numbers to a work order and remove serial numbers from a work order if there is a discrepancy between the work order planned quantity and the completed quantity.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "28.0.0"
-                                ]
-                            }
                         }
                     ]
                 },

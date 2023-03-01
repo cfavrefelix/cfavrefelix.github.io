@@ -69,7 +69,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can access dimensions and projected stock from the <b>More actions</b>\u00a0icon.</p><p>\u00a0</p>",
+                                    "content": "<p>You can access dimensions and projected stock from the <b>More actions</b>\u00a0icon.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -259,6 +259,44 @@
                             "content_parts": [
                                 {
                                     "content": "<p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31172",
+                            "title": "Serial number management: Receipt of serial numbers into stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Serial numbers for items issued from stock can be retained if the item is received back into stock,</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31171",
+                            "title": "Serial number management: Pregeneration of serial numbers on work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Select the <b>Pregenerate serial number for work order</b> checkbox for a routing to pregenerate serial numbers when a work order is released for production. You can view the pregenerated serial numbers from the work order.<br/>You can manually assign serial numbers to a work order and remove serial numbers from a work order if there is a discrepancy between the work order planned quantity and the completed quantity.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

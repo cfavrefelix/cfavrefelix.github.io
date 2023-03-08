@@ -194,8 +194,46 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-41922",
+                            "title": "Item description defaults to item name",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create a sales order or a sales invoice, the item description defaults to the item name if you don\u2019t enter a description.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41920",
+                            "title": "Display item ID",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You have the option to display the item ID in these grids. Because it does not display by default, you need to select it in the column panel.</p><ul><li>Purchase order lines grid</li><li>Item-site main list</li><li>Routing main list</li><li>Bill of materials main list and components grid</li><li>Work order main list and components grid</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-39268",
-                            "title": "Add notes to Sales documents",
+                            "title": "Add notes to sales documents",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -259,6 +297,25 @@
                             "content_parts": [
                                 {
                                     "content": "<p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-35530",
+                            "title": "Stock count: Serial number management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can link serial numbers to a <b>Stock count</b>. The serial numbers are posted with the counted item when the stock count is posted.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -438,6 +495,25 @@
                             "content_parts": [
                                 {
                                     "content": "<p>You can export content in the main list to an Excel or CSV file.</p><ul class=\"alternate\" type=\"square\"><li>The export is not limited to what is visible on the page.\u00a0</li><li>List filters apply to the export.</li><li>Exporting without filters can cause a time-out error because the file is too large.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31929",
+                            "title": "Static resources in report templates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can upload files such as images and fonts to use as references in the stylesheet or HTML report layout.<br/>For example, you can include a company logo in every document with a unique reference to an image or use a font not present in the system.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

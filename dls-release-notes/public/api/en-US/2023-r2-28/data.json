@@ -126,7 +126,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can generate and assign serial numbers to components and products as needed. You can manage serial numbers for multiple applications:\u00a0</p><ul><li><b>Item updates</b></li></ul><p>Use serial numbers to identify material items and track their movements throughout the entire supply chain.</p><ul><li><b>Generation of serial numbers on stock receipt</b>\u00a0</li></ul><p>Serial numbers are automatically generated on stock receipt for serial number managed items. The numbers are defined according to the serial number sequence setup linked to the item.</p><ul><li><b>Receipt of supplier serial numbers</b></li></ul><p>You can assign serial numbers provided by suppliers at the point of receiving or issuing stock to stock items. A new line action on the stock receipt and stock issue page opens a new screen to assign these serial numbers and validate the assignment.</p><ul><li><b>Work orders</b>\u00a0</li></ul><p>Select the\u00a0<b>Pregenerate serial number for work order</b>\u00a0checkbox for a routing to pregenerate serial numbers when a work order is released for production. You can view the pregenerated serial numbers from the work order.<br/>You can manually assign serial numbers to a work order and remove serial numbers from a work order if there is a discrepancy between the work order planned quantity and the completed quantity.\u00a0</p><ul><li><b>Stocks</b></li></ul><p>Serial numbers for items issued from stock can be retained if the item is received back into stock.\u00a0</p><p>You can link serial numbers to a stock count. The serial numbers are posted with the counted item when the stock count is posted.</p><ul><li><b>Allocate serial numbers</b></li></ul><p>You can assignment serial numbers to stock allocations for items that are serial number managed. For documents for an issue from stock, such as a sales shipment, the prior allocation of stock and serial numbers is required. For other documents, such as sales orders, the prior allocation of stock and serial numbers is required.</p><ul><li><b>Sales shipment</b></li></ul><p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.\u00a0</p><ul><li><b>Issue existing serial numbers</b></li></ul><p>On the <b>Stock issue</b>, <b>Material tracking</b>, and <b>Stock adjustment</b> pages, you can enter existing serial numbers when issuing stock to a single, serialized stock item. On the <b>Stock adjustment</b> page, you can select serial numbers for items of source locations that need to be moved to 1 to multiple target locations.</p>",
+                                    "content": "<p>You can generate and assign serial numbers to components and products as needed. You can manage serial numbers for multiple applications:\u00a0</p><ul><li><b>Items</b></li></ul><p>Use serial numbers to identify material items and track their movements throughout the entire supply chain.</p><ul><li><b>Generate serial numbers on stock receipt</b>\u00a0</li></ul><p>Serial numbers are automatically generated on stock receipt for serial number managed items. The numbers are defined according to the serial number sequence setup linked to the item.</p><ul><li><b>Receipt of supplier serial numbers</b></li></ul><p>You can assign serial numbers provided by suppliers at the point of receiving or issuing stock to stock items. A new line action on the stock receipt and stock issue page opens a new screen to assign these serial numbers and validate the assignment.</p><ul><li><b>Work orders</b>\u00a0</li></ul><p>Select the\u00a0<b>Pregenerate serial number for work order</b>\u00a0checkbox for a routing to pregenerate serial numbers when a work order is released for production. You can view the pregenerated serial numbers from the work order.<br/>You can add serial numbers to a work order and remove serial numbers from a work order if there is a discrepancy between the work order planned quantity and the completed quantity.\u00a0</p><ul><li><b>Stock</b></li></ul><p>Serial numbers for items issued from stock can be retained if the item is received back into stock.\u00a0</p><p>You can link serial numbers to a stock count. The serial numbers are posted with the counted item when the stock count is posted.</p><ul><li><b>Allocate serial numbers</b></li></ul><p>You can assignment serial numbers to stock allocations for items that are serial number managed. For documents for an issue from stock, such as a sales shipment, the prior allocation of stock and serial numbers is required. For other documents, such as sales orders, the prior allocation of stock and serial numbers is not required.</p><ul><li><b>Sales shipment</b></li></ul><p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.\u00a0</p><ul><li><b>Issue existing serial numbers</b></li></ul><p>On the <b>Stock issue</b>, <b>Material tracking</b>, and <b>Stock adjustment</b> pages, you can enter existing serial numbers when issuing stock to a single, serialized stock item. On the <b>Stock adjustment</b> page, you can select serial numbers for items in source locations that need to be moved to 1 or multiple target locations.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -213,25 +213,6 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-41922",
-                            "title": "Item description defaults to item name",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>When you create a sales order or a sales invoice, the item description defaults to the item name if you don\u2019t enter a description.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "28.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-41920",
                             "title": "Display item ID",
                             "highlight": false,
@@ -309,25 +290,6 @@
                         "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
                     ],
                     "content_parts": [
-                        {
-                            "key": "XT-39090",
-                            "title": "Sales shipment: Serial number allocation",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>When you create a sales shipment, serial numbers that are allocated on sales order lines are transferred to the sales shipment lines.<br/>When you delete a sales shipment line or deallocate stock, serial numbers linked to the deleted line are automatically deallocated.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "28.0.0"
-                                ]
-                            }
-                        },
                         {
                             "key": "XT-35530",
                             "title": "Stock count: Serial number management",

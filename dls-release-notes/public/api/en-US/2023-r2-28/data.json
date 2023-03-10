@@ -404,7 +404,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can group records in the list for columns that can display multiple values, such as a status or reference data. When you select the grouping option, records are sorted by category, and you can see the number of records per category.</p><p><span class=\"image-wrap\" style=\"\"><a id=\"753018_thumb\" href=\"/secure/attachment/753018/753018_groupedList.PNG\" title=\"groupedList.PNG\" file-preview-type=\"image\" file-preview-id=\"753018\" file-preview-title=\"groupedList.PNG\"><img src=\"https://jira.sage.com/secure/thumbnail/753018/_thumb_753018.png\" style=\"border: 0px solid black\" role=\"presentation\"/></a></span></p>",
+                                    "content": "<p>You can group records in the list for columns that can display multiple values, such as a status or reference data. When you select the grouping option, records are sorted by category, and you can see the number of records per category.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

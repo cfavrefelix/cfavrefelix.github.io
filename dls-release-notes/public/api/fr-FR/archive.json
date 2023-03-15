@@ -16,12 +16,23 @@
             "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
+            "title": "Allemand - DE",
+            "id": "de-DE",
+            "url": "/dls-release-notes/api/de-DE/archive.json"
+        },
+        {
             "title": "Anglais - GB",
             "id": "en-GB",
             "url": "/dls-release-notes/api/en-GB/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2023-r2-28",
+            "title": "2023 R2 (mars)",
+            "url": "/dls-release-notes/api/fr-FR/2023-r2-28/data.json",
+            "date": "Mars"
+        },
         {
             "id": "2023-r2-27",
             "title": "2023 R2 (f\u00e9vrier)",

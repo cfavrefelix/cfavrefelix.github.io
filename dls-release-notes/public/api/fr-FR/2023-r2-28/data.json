@@ -1,0 +1,515 @@
+{
+    "id": "2023-r2-28",
+    "title": "2023 R2",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2023-r2-27",
+    "date": "Mars",
+    "content_parts": [
+        {
+            "title": "Bank Manager",
+            "id": "bank-manager",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Bank Manager' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Bank Manager' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38290",
+                            "title": "R\u00e8gles de correspondance pour les comptes bancaires",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez renseigner ou s\u00e9lectionner un compte bancaire pour cr\u00e9er une r\u00e8gle de correspondance s'appliquant uniquement aux lignes de relev\u00e9s bancaires de cette banque.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-40283",
+                            "title": "Modifier les sections et le stock projet\u00e9 pour les documents d'achat et de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez acc\u00e9der aux sections et au stock projet\u00e9 \u00e0 partir de l'ic\u00f4ne <b>Plus d'options</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-40242",
+                            "title": "Mettre \u00e0 jour les quantit\u00e9s pour les demandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous ajoutez des lignes \u00e0 une commande d'achat \u00e0 partir d\u2019une demande d\u2019achat, vous pouvez en m\u00eame temps mettre \u00e0 jour le champ <b>Quantit\u00e9s \u00e0 commander</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38747",
+                            "title": "Mises \u00e0 jour des attributs et des sections dans les documents d\u2019origine",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><font color=\"#172b4d\">Lorsqu'une \u00e9criture de stock n\u2019est pas correctement transf\u00e9r\u00e9e vers Sage Intacct en raison d'erreurs d\u2019affectations d'attributs et de sections, vous pouvez apporter des corrections \u00e0 la r\u00e9ception de stock d'origine. \u00c0 partir de la page <b>Historique de notification</b>, vous pouvez acc\u00e9der au document d\u2019origine et apporter les corrections n\u00e9cessaires.</font></p><p><font color=\"#172b4d\">Vous pouvez ensuite renvoyer le document.</font></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31175",
+                            "title": "Gestion des num\u00e9ros de s\u00e9rie",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Selon vos besoins, vous pouvez g\u00e9n\u00e9rer et affecter des num\u00e9ros de s\u00e9rie aux composants et aux articles. Vous pouvez g\u00e9rer les num\u00e9ros de s\u00e9rie pour de nombreuses applications.\u00a0</p><ul><li><b>Articles</b></li></ul><p>Utilisez les num\u00e9ros de s\u00e9rie pour identifier les articles mati\u00e8re et suivre leurs mouvements tout au long de la cha\u00eene d'approvisionnement.</p><ul><li><b>G\u00e9n\u00e9rer des num\u00e9ros de s\u00e9rie sur les entr\u00e9es de stock</b>\u00a0</li></ul><p>Les num\u00e9ros de s\u00e9rie sont g\u00e9n\u00e9r\u00e9s de fa\u00e7on automatique \u00e0 l\u2019entr\u00e9e de stock pour les articles g\u00e9r\u00e9s avec num\u00e9ros de s\u00e9rie. Les num\u00e9ros sont d\u00e9finis en fonction du param\u00e9trage de la s\u00e9quence de num\u00e9ros de s\u00e9rie li\u00e9 \u00e0 l'article.</p><ul><li><b>R\u00e9ception de num\u00e9ros de s\u00e9rie fournisseurs</b></li></ul><p>Vous pouvez attribuer des num\u00e9ros de s\u00e9rie fournisseurs lors de l\u2019entr\u00e9e ou de la sortie d\u2019articles de stock. Sur les pages <b>Entr\u00e9e de stock</b> et <b>Sortie de stock</b>, vous pouvez attribuer ces num\u00e9ros de s\u00e9rie et valider l'attribution.</p><ul><li><b>Ordres de fabrication</b>\u00a0</li></ul><p>S\u00e9lectionnez la case \u00e0 cocher <b>Pr\u00e9g\u00e9n\u00e9rer le num\u00e9ro de s\u00e9rie pour l'ordre de fabrication</b> pour une gamme afin de pr\u00e9g\u00e9n\u00e9rer les num\u00e9ros de s\u00e9rie lorsqu'un ordre de fabrication est lanc\u00e9 en production. Vous pouvez afficher les num\u00e9ros de s\u00e9rie pr\u00e9g\u00e9n\u00e9r\u00e9s \u00e0 partir de l'ordre de fabrication.<br/>Vous pouvez ajouter et supprimer des num\u00e9ros de s\u00e9rie \u00e0 un ordre de fabrication s'il existe un \u00e9cart entre la quantit\u00e9 planifi\u00e9e et la quantit\u00e9 finalis\u00e9e de cet ordre de fabrication.\u00a0</p><ul><li><b>Stock</b></li></ul><p>Les num\u00e9ros de s\u00e9rie pour des articles sortis du stock peuvent \u00eatre conserv\u00e9s si l'article est remis en stock.\u00a0</p><p>Vous pouvez lier des num\u00e9ros de s\u00e9rie \u00e0 un inventaire. Les num\u00e9ros de s\u00e9rie sont comptabilis\u00e9s avec l'article compt\u00e9 lors de la comptabilisation de l'inventaire.</p><ul><li><b>Attribuer des num\u00e9ros de s\u00e9rie</b></li></ul><p>Vous pouvez attribuer des num\u00e9ros de s\u00e9rie \u00e0 des allocations de stock pour les articles qui sont g\u00e9r\u00e9s avec num\u00e9ros de s\u00e9rie. Pour les documents relatifs \u00e0 une sortie de stock, comme les exp\u00e9ditions de vente, l'attribution pr\u00e9alable de stock et de num\u00e9ros de s\u00e9rie est n\u00e9cessaire. Pour les autres documents, comme les commandes de vente, l'attribution pr\u00e9alable de stock et de num\u00e9ros de s\u00e9rie n\u2019est pas n\u00e9cessaire.</p><ul><li><b>Exp\u00e9dition de vente</b></li></ul><p>Lorsque vous cr\u00e9ez une exp\u00e9dition de vente, les num\u00e9ros de s\u00e9rie attribu\u00e9s sur les lignes de commandes de vente sont transf\u00e9r\u00e9s sur les lignes d'exp\u00e9ditions de vente.<br/>Lorsque vous supprimez une ligne d'exp\u00e9dition de vente ou que vous d\u00e9sallouez du stock, les num\u00e9ros de s\u00e9rie li\u00e9s \u00e0 la ligne supprim\u00e9e sont automatiquement d\u00e9sallou\u00e9s.\u00a0</p><ul><li><b>Sortir des num\u00e9ros de s\u00e9rie existants</b></li></ul><p>Sur les pages <b>Sortie de stock</b>, <b>Suivi mati\u00e8re</b> et <b>R\u00e9gularisation de stock</b>, vous pouvez renseigner des num\u00e9ros de s\u00e9rie existants lors d\u2019une sortie de stock vers un article de stock unique s\u00e9rialis\u00e9. Sur la page <b>R\u00e9gularisation de stock</b>, vous pouvez s\u00e9lectionner des num\u00e9ros de s\u00e9rie pour des articles localis\u00e9s dans des emplacements d\u2019origine et devant \u00eatre d\u00e9plac\u00e9s vers un ou plusieurs emplacements cibles.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-36277",
+                            "title": "Approvisionnement \u00e0 la demande pour des articles fabriqu\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez cr\u00e9er un ordre de fabrication de fa\u00e7on automatique \u00e0 partir d'une commande de vente confirm\u00e9e dans la fiche article-site d\u2019un article fabriqu\u00e9. La r\u00e9ception de production correspondant \u00e0 l\u2019ordre de fabrication n'alloue pas la ligne de commande de vente de fa\u00e7on automatique.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29441",
+                            "title": "\u00c9cart de co\u00fbt standard et comptabilisation des \u00e9critures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous utilisez la comptabilit\u00e9 des co\u00fbts standard, des \u00e9critures d'\u00e9cart de co\u00fbt standard sont g\u00e9n\u00e9r\u00e9es pour rapprocher les co\u00fbts standard des co\u00fbts d'achat r\u00e9els. Vous pouvez d\u00e9finir les comptes g\u00e9n\u00e9raux par classe de comptabilisation pour refl\u00e9ter les \u00e9carts au niveau des achats.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41922",
+                            "title": "La description de l'article est aliment\u00e9e par d\u00e9faut avec le nom de l'article.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous cr\u00e9ez une commande ou une facture de vente, la description de l'article est aliment\u00e9e par d\u00e9faut avec le nom de l'article si vous ne renseignez pas de description.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41920",
+                            "title": "Afficher le code de l'article",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous avez la possibilit\u00e9 d'afficher le code de l'article dans les tableaux suivants. Ce code ne s'affiche pas par d\u00e9faut. Vous devez donc le s\u00e9lectionner dans le volet des colonnes.</p><ul><li>Lignes de commandes d'achat</li><li>Liste principale de l\u2019article-site</li><li>Liste principale de la gamme</li><li>Liste principale des nomenclatures et tableau des composants</li><li>Liste principale des ordres de fabrication et tableau des composants</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-39268",
+                            "title": "Ajouter des notes aux documents de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez renseigner des <b>Notes internes</b> sur la page <b>Client</b>.<br/>Vous pouvez renseigner des <b>Notes internes</b> et des <b>Notes externes</b> sur la page <b>Commande de vente</b> au niveau de l'en-t\u00eate et des lignes.<br/>Le PDF de confirmation de la <b>Commande de vente</b> contient les notes externes de l'en-t\u00eate et des lignes du document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38876",
+                            "title": "Ajouter des notes aux documents d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez renseigner des <b>Notes internes</b> sur la page <b>Fournisseur</b>.<br/>Vous pouvez renseigner des <b>Notes internes</b> et des <b>Notes externes</b> sur les pages <b>Demande d'achat</b>, <b>Commande d\u2019achat</b>, <b>R\u00e9ception d\u2019achat</b> et <b>Avoir d'achat</b> au niveau de l'en-t\u00eate et des lignes.<br/>Sur la page <b>Commande d\u2019achat</b>, le <b>Mode de livraison</b> et l\u2019<b>Acheteur par d\u00e9faut</b> sont affich\u00e9s.<br/>Le PDF li\u00e9 \u00e0 la <b>Commande d\u2019achat</b> comprend les informations suppl\u00e9mentaires suivantes : mode de livraison, date de livraison attendue et notes externes en provenance de l'en-t\u00eate et des lignes du document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-37693",
+                            "title": "Justification de calcul CBN",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous s\u00e9lectionnez un article \u00e0 partir de la page <b>Justification de calcul CBN</b>, des informations suppl\u00e9mentaires pour les transactions de besoins et d'approvisionnement, comme le type et le num\u00e9ro de document, s'affichent dans une fen\u00eatre contextuelle. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-37542",
+                            "title": "Ordre de fabrication : la quantit\u00e9 lanc\u00e9e peut \u00eatre d\u00e9finie comme \u00e9tant inf\u00e9rieure \u00e0 la quantit\u00e9 finalis\u00e9e.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous ne pouvez plus d\u00e9finir une quantit\u00e9 lanc\u00e9e de l\u2019ordre de fabrication inf\u00e9rieure \u00e0 la quantit\u00e9 finalis\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-38959",
+                            "title": "Mod\u00e8le d'import simplifi\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez utiliser des mod\u00e8les d'import simplifi\u00e9s pour charger rapidement les donn\u00e9es de votre application pr\u00e9c\u00e9dente.<br/>Sage fournit des mod\u00e8les d'import simplifi\u00e9s pour les \u00e9l\u00e9ments suivants :</p><ul class=\"alternate\" type=\"square\"><li>entit\u00e9s commerciales,</li><li>soci\u00e9t\u00e9s,</li><li>articles,</li><li>fournisseurs,</li><li>clients,</li><li>articles-fournisseurs, articles-clients, allerg\u00e8nes,</li><li>horaires journaliers, horaires hebdomadaires,</li><li>d\u00e9tails horaires,</li><li>niveaux d'aptitude,</li><li>sites,</li><li>ressources main-d'\u0153uvre, ressources outil,</li><li>nomenclatures.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38392",
+                            "title": "Afficher les articles de la liste principale par groupe",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez regrouper des enregistrements de la liste pour les colonnes pouvant afficher des valeurs multiples, comme des statuts ou des donn\u00e9es de r\u00e9f\u00e9rence. Lorsque vous s\u00e9lectionnez l'option de regroupement, les enregistrements sont tri\u00e9s par cat\u00e9gorie et vous pouvez visualiser le nombre d'enregistrements par cat\u00e9gorie.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-34294",
+                            "title": "Am\u00e9liorations de la liste principale",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez exporter le contenu de la liste principale vers un fichier Excel ou CSV.</p><ul class=\"alternate\" type=\"square\"><li>L'export ne se limite pas \u00e0 ce qui est visible sur la page.\u00a0</li><li>Les filtres de liste s'appliquent \u00e0 l'export.</li><li>L'export sans filtres peut entra\u00eener une erreur de d\u00e9lai d'attente car le fichier est trop volumineux.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31929",
+                            "title": "Ressources statiques dans les mod\u00e8les d\u2019\u00e9ditions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez t\u00e9l\u00e9charger des fichiers tels que des images et des polices pour les utiliser comme r\u00e9f\u00e9rences dans la feuille de style ou la mise en page des \u00e9ditions HTML.<br/>Par exemple, vous pouvez inclure un logo de soci\u00e9t\u00e9 dans chaque document avec une r\u00e9f\u00e9rence unique \u00e0 une image ou utiliser une police absente du syst\u00e8me.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-29887",
+                            "title": "D\u00e9finir des widgets dans les tableaux de bord",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez cr\u00e9er 2 types de widgets avec l'assistant de cr\u00e9ation des tableaux de bord :</p><ul><li>des widgets sous forme de vignettes avec des regroupements de donn\u00e9es,</li><li>des widgets sous forme de listes.</li></ul><p>Vous pouvez s\u00e9lectionner :</p><ul><li>une source de donn\u00e9es principale,</li><li>une liste de propri\u00e9t\u00e9s \u00e0 utiliser,</li><li>des filtres bas\u00e9s sur des propri\u00e9t\u00e9s s\u00e9lectionn\u00e9es et les conditions qui leur sont associ\u00e9es.</li></ul><p>Pour les vignettes, vous pouvez d\u00e9finir :</p><ul><li>la valeur affich\u00e9e,</li><li>la m\u00e9thode de regroupement : minimum, maximum, comptage s\u00e9par\u00e9, somme ou moyenne.</li></ul><p>Pour les listes, vous pouvez d\u00e9finir :</p><ul><li>l'ordre de tri,</li><li>les colonnes affich\u00e9es.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-34307",
+                            "title": "Ouvrir le volet des colonnes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous ne pouvez pas masquer les colonnes obligatoires, mais vous pouvez modifier leur ordre dans le tableau.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "28.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

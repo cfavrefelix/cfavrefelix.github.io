@@ -251,25 +251,6 @@
                             }
                         },
                         {
-                            "key": "XT-39268",
-                            "title": "Add notes to sales documents",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can enter <b>Internal notes</b> on the <b>Customer</b> page.<br/>You can enter <b>Internal</b> and <b>External notes</b> on the <b>Sales order</b> page at the header and line levels.<br/>The <b>Sales order</b> confirmation PDF includes the external notes from the document header and the document lines.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "28.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-38876",
                             "title": "Add notes to purchasing documents",
                             "highlight": false,
@@ -297,39 +278,6 @@
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Improvements",
-                    "taxonomies": {
-                        "_type": [
-                            "changes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (28.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-37693",
-                            "title": "MRP calculation justification",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>When you select an item from the <b>MRP calculation justification</b> page, additional information for demand and supply transactions, such as document type and document number, displays in a pop-up window.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "28.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "group",
                     "title": "Bug Fixes",
@@ -394,7 +342,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         },
@@ -413,7 +361,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         },
@@ -432,7 +380,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         },
@@ -451,7 +399,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         },
@@ -470,7 +418,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         }
@@ -503,7 +451,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "28.0.0"
+                                    
                                 ]
                             }
                         }

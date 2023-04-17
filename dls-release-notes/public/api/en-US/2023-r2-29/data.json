@@ -103,7 +103,7 @@
                         },
                         {
                             "key": "XT-41925",
-                            "title": "Report for sales quotes",
+                            "title": "Sales quotes",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -122,11 +122,11 @@
                         },
                         {
                             "key": "XT-38947",
-                            "title": "Buy-to-order for purchased items",
+                            "title": "Buy-to-order and Make-to-order",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>You can create a purchase order from a sales order for an item that is replenished as a purchased <b>Buy-to-order</b> item.</li><li>Buy-to-order items are allocated to the sales order line when received into stock from a <b>Purchase receipt</b>.</li><li>A <b>Production tracking</b> allocates stock to a sales order line if the work order was created from a sales order.</li></ul>",
+                                    "content": "<p>For <b>Purchasing: Buy-to-order</b></p><ul><li>You can create a purchase order from a sales order for an item that is replenished as a purchased <b>Buy-to-order</b> item.</li><li>Buy-to-order items are allocated to the sales order line when received into stock from a <b>Purchase receipt</b>.</li></ul><p>For <b>Manufacturing: Make-to-order</b></p><ul><li>A <b>Production tracking</b> allocates stock to a sales order line if the work order was created from a sales order.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -159,7 +159,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Use categories to run reports by category and/or analyze grouped data. When an item, supply, or customer is added to a category, that information displays on their respective pages.</p><ul><li>Define categories to group items by category such as allergens or hazards.</li><li>Define shared or individual categories for suppliers and customers.</li></ul>",
+                                    "content": "<p>Use categories to run reports by category and/or analyze grouped data. When an item, supplier, or customer is added to a category, that information displays on their respective pages.</p><ul><li>Define categories to group items by category such as allergens or hazards.</li><li>Define shared or individual categories for suppliers and customers.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

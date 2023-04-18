@@ -1,0 +1,422 @@
+{
+    "id": "2023-r2-29",
+    "title": "2023 R4",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2023-r2-28",
+    "date": "April",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41010",
+                            "title": "Correct and resend journal entries",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When journal entries for sales and purchase invoices and credit notes, sales shipments, purchase receipts, sales returns, purchase returns and stock issues do not transfer successfully to Sage Intacct due to incorrect attribute and dimension assignments, you can correct the assignments on the original documents. On the <b>Notification history</b> page, you can access the source document and make corrections as needed.</p><p>After making corrections, you can resend the document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-40999",
+                            "title": "Document limit extended for mapping",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can map more than 1000 documents when you select one of the create all actions.<br/>This applies to the <b>Sage Intacct Mapping</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31255",
+                            "title": "Stock value adjustment posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A stock value adjustment from a purchase credit note value that is different from the original purchase receipt value for an item generates journal entry lines. The journal entry is sent to your financial solution.</p><p>Financial information for reporting, forecasting and auditing purposes remain complete, accurate and up-to-date.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-43169",
+                            "title": "US: Customer and supplier tax IDs not required",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A tax ID is not required for US suppliers, customers and business entities.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43156",
+                            "title": "Notes on sales invoices and credit notes; display the item ID on Purchase order line inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>You can add internal\u00a0and\u00a0external notes to\u00a0sales invoices and sales credit notes.</li><li>On the <b>Purchase order line</b> inquiry page, you can display the <b>Item ID</b> column by selecting it from the <b>Open panel column</b> icon.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43153",
+                            "title": "Print paid amounts from Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When an accounts receivable advance is created and applied to an accounts receivable invoice in Sage Intacct, the sales invoice in Sage Intacct Manufacturing can be printed with the payment information.</p><p>If the <b>Update amount paid on sales document reports</b> is active for a company, sales invoices and sales credit notes include the updated amount paid when printed.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41925",
+                            "title": "Sales quotes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can manage sales quotes on the <b>Sales order</b> page using the <b>Quote</b> status, which replaces the <b>Draft</b> status. You can also print a quote and send it by email to the customer.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38947",
+                            "title": "Buy-to-order and Make-to-order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For <b>Purchasing: Buy-to-order</b></p><ul><li>You can create a purchase order from a sales order for an item that is replenished as a purchased <b>Buy-to-order</b> item.</li><li>Buy-to-order items are allocated to the sales order line when received into stock from a <b>Purchase receipt</b>.</li></ul><p>For <b>Manufacturing: Make-to-order</b></p><ul><li>A <b>Production tracking</b> allocates stock to a sales order line if the work order was created from a sales order.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42488",
+                            "title": "Item, supplier and customer categories",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use categories to run reports by category and/or analyse grouped data. When an item, supplier or customer is added to a category, that information displays on their respective pages.</p><ul><li>Define categories to group items by category such as allergens or hazards.</li><li>Define shared or individual categories for suppliers and customers.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44673",
+                            "title": "Net price decimal precision on direct sales invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Direct sales invoice lines display values rounded to the number of decimal places for the currency.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44160",
+                            "title": "AR invoice not marked as printed when sales invoice is printed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When a sales invoice is printed with an active Sage Intacct integration, the printed status for corresponding accounts receiveable invoice is now correctly updated.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-31256",
+                            "title": "Stock count adjustment posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Adjustments recorded in a stock count generate journal entries and are sent to your financial solution.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-40240",
+                            "title": "Actions on Purchasing and Sales pages moved to top",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On <b>Purchasing</b> and <b>Sales</b> pages, you can access standard actions like <b>Duplicate</b>, <b>Delete</b> or <b>Print</b> on the top of each page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-39129",
+                            "title": "Main list grouping",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Group lines in the main list by columns representing a fixed choice, such as status or date, or columns that represent another record.</p><p>When you select <b>Group by this column</b> next to a column title, the list displays the lines nested by group. You can expand each group to view all the lines in the group.</p><p>Grouping is not saved when you navigate away from the page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38425",
+                            "title": "Main list enhancements for Purchasing and Sales",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The main list on <b>Purchasing</b> and <b>Sales</b> pages are easier to work with:</p><ul><li>Sort documents by number and date</li><li>Number, date and status columns always display</li><li>Check marks easily identify sent or printed documents</li><li>Amounts and quantities include currency and unit symbols</li><li>Select the document number to see full details</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

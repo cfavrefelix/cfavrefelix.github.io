@@ -401,7 +401,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The main list on <b>Purchasing</b> and <b>Sales</b> pages are easier to work with:</p><ul><li>Sort documents by number and date</li><li>Number, date and status columns always display</li><li>Check marks easily identify sent or printed documents</li><li>Amounts and quantities include currency and unit symbols</li><li>Select the document number to see full details</li></ul>",
+                                    "content": "<p>The main list on <b>Purchasing</b> and <b>Sales</b> pages are easier to work with:</p><ul><li>Sort documents by number and date.</li><li>Number, date and status columns always display.</li><li>Check marks easily identify sent or printed documents.</li><li>Amounts and quantities include currency and unit symbols.</li><li>Select the document number to see full details.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

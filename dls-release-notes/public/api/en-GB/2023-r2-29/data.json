@@ -363,7 +363,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On <b>Purchasing</b> and <b>Sales</b> pages, you can access standard actions like <b>Duplicate</b>, <b>Delete</b> or <b>Print</b> on the top of each page.</p>",
+                                    "content": "<p>On <b>Purchasing</b> and <b>Sales</b> pages, you can access standard actions like <b>Duplicate</b>, <b>Delete</b> or <b>Print</b> from the top of each page.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

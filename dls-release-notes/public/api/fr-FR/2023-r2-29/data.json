@@ -401,7 +401,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>La liste principale des pages relatives aux <b>Achats</b> et aux <b>Ventes</b> est plus facile \u00e0 utiliser :</p><ul><li>vous pouvez trier les documents par num\u00e9ro et par date,</li><li>les colonnes des num\u00e9ros, des dates et des statuts s'affichent en permanence,</li><li>des coches identifient facilement les documents envoy\u00e9s ou imprim\u00e9s,</li><li>les montants et les quantit\u00e9s contiennent les symboles de devise et d'unit\u00e9,</li><li>Vous pouvez s\u00e9lectionner le num\u00e9ro du document pour afficher tous les d\u00e9tails</li></ul>",
+                                    "content": "<p>La liste principale des pages relatives aux <b>Achats</b> et aux <b>Ventes</b> est plus facile \u00e0 utiliser :</p><ul><li>vous pouvez trier les documents par num\u00e9ro et par date,</li><li>les colonnes des num\u00e9ros, des dates et des statuts s'affichent en permanence,</li><li>des coches identifient facilement les documents envoy\u00e9s ou imprim\u00e9s,</li><li>les montants et les quantit\u00e9s contiennent les symboles de devise et d'unit\u00e9,</li><li>Vous pouvez s\u00e9lectionner le num\u00e9ro du document pour afficher tous les d\u00e9tails.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

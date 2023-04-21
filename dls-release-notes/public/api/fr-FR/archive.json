@@ -11,6 +11,11 @@
             "url": "/dls-release-notes/api/en-US/archive.json"
         },
         {
+            "title": "Anglais - GB",
+            "id": "en-GB",
+            "url": "/dls-release-notes/api/en-GB/archive.json"
+        },
+        {
             "title": "Fran\u00e7ais - FR",
             "id": "fr-FR",
             "url": "/dls-release-notes/api/fr-FR/archive.json"
@@ -19,17 +24,18 @@
             "title": "Allemand - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
-        },
-        {
-            "title": "Anglais - GB",
-            "id": "en-GB",
-            "url": "/dls-release-notes/api/en-GB/archive.json"
         }
     ],
     "releases": [
         {
+            "id": "2023-r2-29",
+            "title": "2023 R4 (avril)",
+            "url": "/dls-release-notes/api/fr-FR/2023-r2-29/data.json",
+            "date": "Avril"
+        },
+        {
             "id": "2023-r2-28",
-            "title": "2023 R2 (mars)",
+            "title": "2023 R3 (mars)",
             "url": "/dls-release-notes/api/fr-FR/2023-r2-28/data.json",
             "date": "Mars"
         },

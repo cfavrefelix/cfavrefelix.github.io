@@ -1,0 +1,422 @@
+{
+    "id": "2023-r2-29",
+    "title": "2023 R4",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2023-r2-28",
+    "date": "Avril",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41010",
+                            "title": "Corriger et renvoyer des \u00e9critures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque des \u00e9critures de factures et d\u2019avoirs de vente et d'achat, d\u2019exp\u00e9ditions de vente, de r\u00e9ceptions d'achat, de retours de ventes et d'achat, et de sorties de stock ne sont pas correctement transf\u00e9r\u00e9es vers Sage Intacct en raison d'affectations d'attributs et de sections incorrectes, vous pouvez corriger les affectations sur les documents d'origine. Sur la page <b>Historique de notification</b>, vous pouvez acc\u00e9der au document source et apporter les corrections n\u00e9cessaires.</p><p>Apr\u00e8s avoir apport\u00e9 des corrections, vous pouvez renvoyer le document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-40999",
+                            "title": "Nouvelle limite pour le mapping de documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez mapper plus de 1 000 documents lorsque vous s\u00e9lectionnez l'une des actions Tout cr\u00e9er.<br/>Ceci s'applique \u00e0 la page <b>Sage Intacct Mapping</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-31255",
+                            "title": "Comptabilisation de r\u00e9gularisation de valeur de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Une r\u00e9gularisation de valeur de stock issue d'une valeur d\u2019avoir d'achat diff\u00e9rente de la valeur de la r\u00e9ception d'achat d\u2019origine pour un article g\u00e9n\u00e8re des lignes d\u2019\u00e9critures. L'\u00e9criture est envoy\u00e9e \u00e0 votre solution financi\u00e8re.</p><p>Les informations financi\u00e8res \u00e0 des fins de reporting, de pr\u00e9vision et d\u2019audit demeurent compl\u00e8tes, exactes et \u00e0 jour.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-43169",
+                            "title": "US :  num\u00e9ros de TVA client et fournisseur non demand\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Un num\u00e9ro de TVA n\u2019est pas demand\u00e9 pour les fournisseurs, clients et entit\u00e9s commerciales am\u00e9ricaines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43156",
+                            "title": "Notes sur les factures et les avoirs de vente ; affichage du code article dans la consultation des lignes de commandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>Vous pouvez ajouter des notes internes et externes aux factures et avoirs de vente.</li><li>Sur la page de consultation <b>Ligne de commande d'achat</b>, vous pouvez afficher la colonne <b>Code article</b> en la s\u00e9lectionnant avec l'ic\u00f4ne <b>Ouvrir le volet des colonnes</b>.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43153",
+                            "title": "Imprimer les montants r\u00e9gl\u00e9s \u00e0 partir de Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsqu'une avance client est cr\u00e9\u00e9e et appliqu\u00e9e \u00e0 une facture client dans Sage Intacct, la facture de vente dans Sage Intacct Manufacturing peut \u00eatre imprim\u00e9e avec les informations de r\u00e8glement.</p><p>Si la <b>Mise \u00e0 jour du montant r\u00e9gl\u00e9 sur les \u00e9ditions des documents de vente</b> est active pour une soci\u00e9t\u00e9, les factures et les avoirs de vente contiennent le montant pay\u00e9 mis \u00e0 jour lors de l'impression.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41925",
+                            "title": "Devis de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez g\u00e9rer les devis de vente dans la page <b>Commande de vente</b> avec le statut <b>Devis</b> qui remplace le statut <b>Brouillon</b>. Vous pouvez \u00e9galement imprimer un devis et l'envoyer par e-mail au client.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38947",
+                            "title": "Achat \u00e0 la demande et fabrication \u00e0 la commande",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les <b>Achats</b> :<b> achat \u00e0 la demande</b></p><ul><li>Vous pouvez cr\u00e9er une commande d\u2019achat issue d\u2019une commande de vente pour un article r\u00e9approvisionn\u00e9 en tant qu'article <b>achet\u00e9 \u00e0 la demande</b>.</li><li>Les articles achet\u00e9s \u00e0 la demande sont attribu\u00e9s \u00e0 la ligne de commande de vente lorsqu'ils sont re\u00e7us en stock \u00e0 partir d'une <b>r\u00e9ception d'achat</b>.</li></ul><p>Pour la <b>Production :</b><b> fabrication \u00e0 la commande</b></p><ul><li>Un <b>Suivi de production</b> attribue du stock \u00e0 une ligne de commande de vente si l\u2019ordre de fabrication a \u00e9t\u00e9 cr\u00e9\u00e9 \u00e0 partir d'une commande de vente.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42488",
+                            "title": "Cat\u00e9gories articles, fournisseurs et clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez des cat\u00e9gories pour g\u00e9n\u00e9rer des \u00e9ditions par cat\u00e9gorie et/ou analyser des donn\u00e9es group\u00e9es. Lorsqu'un article, un fournisseur ou un client est ajout\u00e9 \u00e0 une cat\u00e9gorie, cette information s'affiche sur leurs pages respectives.</p><ul><li>D\u00e9finissez des cat\u00e9gories pour regrouper les articles par cat\u00e9gorie, comme les allerg\u00e8nes ou les dangers.</li><li>D\u00e9finissez des cat\u00e9gories communes ou individuelles pour les fournisseurs et les clients.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44673",
+                            "title": "Pr\u00e9cision d\u00e9cimale du prix net sur les factures de vente directes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les lignes de factures de vente directes affichent les valeurs en devise de transaction arrondies au nombre de d\u00e9cimales de cette devise.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44160",
+                            "title": "Facture client non signal\u00e9e comme imprim\u00e9e lors de l'impression de la facture de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsqu'une facture de vente est imprim\u00e9e avec une int\u00e9gration Sage Intacct active, le statut d\u2019impression de la facture client correspondante est d\u00e9sormais correctement mis \u00e0 jour.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-31256",
+                            "title": "Comptabilisation des r\u00e9gularisations d\u2019inventaire",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les r\u00e9gularisations enregistr\u00e9es pour un inventaire g\u00e9n\u00e8rent des \u00e9critures envoy\u00e9es \u00e0 votre solution financi\u00e8re.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exp\u00e9rience utilisateur",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R2 (29.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-40240",
+                            "title": "Actions sur les pages relatives aux achats et aux ventes d\u00e9plac\u00e9es vers le haut",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur les pages relatives aux <b>Achats</b> et aux <b>Ventes</b>, vous pouvez acc\u00e9der aux actions standard telles que la duplication, la suppression ou l\u2019impression en haut de chaque page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-39129",
+                            "title": "Regroupement de la liste principale",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Regroupez les lignes de la liste principale par colonne repr\u00e9sentant un choix fixe, comme le statut ou la date, ou par colonne repr\u00e9sentant une autre fiche.</p><p>Lorsque vous s\u00e9lectionnez <b>Grouper selon cette colonne</b> en regard d'un titre de colonne, la liste affiche les lignes imbriqu\u00e9es par groupe. Vous pouvez d\u00e9plier chaque groupe pour afficher toutes les lignes du groupe.</p><p>Le regroupement n'est pas enregistr\u00e9 lorsque vous quittez la page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38425",
+                            "title": "Am\u00e9liorations de la liste principale pour les achats et les ventes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La liste principale des pages relatives aux <b>Achats</b> et aux <b>Ventes</b> est plus facile \u00e0 utiliser :</p><ul><li>vous pouvez trier les documents par num\u00e9ro et par date,</li><li>les colonnes des num\u00e9ros, des dates et des statuts s'affichent en permanence,</li><li>des coches identifient facilement les documents envoy\u00e9s ou imprim\u00e9s,</li><li>les montants et les quantit\u00e9s contiennent les symboles de devise et d'unit\u00e9,</li><li>Vous pouvez s\u00e9lectionner le num\u00e9ro du document pour afficher tous les d\u00e9tails</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "29.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

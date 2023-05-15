@@ -1,0 +1,420 @@
+{
+    "id": "2023-r3-30",
+    "title": "2023 R5",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r2-29",
+    "date": "May",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44964",
+                            "title": "Miscellaneous enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>On the <b>Work order</b> page, the item ID can be displayed in the grid. When you print the pick list, it includes the finished item ID in the header.</li><li>On the <b>Sales shipment</b> page, you can edit the tracking number on the header even if the shipment is posted.</li><li>On the <b>Sales order line</b> inquiry page, the item name can be displayed in the <b>Results</b> grid. The shipping date ranges are based on the level shipping date at the line level, and an order date range is added to the header.</li><li>On the <b>Purchase receipt</b>, page the item ID displays in the list of order lines to add and can be displayed in the <b>Lines</b> grid.</li><li>On the <b>Stock receipt</b>, <b>Stock issue</b>, and <b>Stock adjustment</b> pages, the Item ID can be displayed in the lines grid.</li></ul><p>\u00a0\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42331",
+                            "title": "Correct attributes and dimensions on failed transfers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can make corrections to source documents when journal entries for stock and stock count adjustments do not transfer successfully to Sage Intacct due to incorrect attribute and dimension assignments.</p><p>On the <b>Notification history</b> page, you can access the source document, make changes, and resend.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44277",
+                            "title": "Customers page: Not all columns have the search bar available",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Main customer list, you can filter the Name column by typing a name or select a name from the list. The selection list includes all business entities not just customers.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45068",
+                            "title": "Notification history: Unexpected results",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Stock tab, there are no unexpected errors when documents are managed correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45058",
+                            "title": "Sales order: Line panel doesn't close",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The sales order line detail panel closes as expected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45055",
+                            "title": "Sales shipment: Packing slip not translated into French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The packing slip the sales shipment is translated into French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45054",
+                            "title": "Sales shipment: Pick list not translated into French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The pick list is translated into French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43694",
+                            "title": "Sales shipment: Print option not available for packing list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can print the &quot;Pick list&quot; or the &quot;Packing list&quot; depending on the main status.<br/>When the status is &quot;Ready to Process&quot; or &quot;Ready to Ship,&quot; the &quot;Pick list&quot; prints when you select the Print icon.<br/>When the status is &quot;Posting in Progress,&quot; &quot;Shipped,&quot; or &quot;Invoiced,&quot; the &quot;Packing slip&quot; prints.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41927",
+                            "title": "Serial number management: Work orders and Material tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create a <b>Material tracking</b>, all serial numbers allocated to the corresponding work order are transferred to the <b>Material tracking</b>.<br/>When you save a <b>Material tracking</b>, allocated serial numbers are saved in the <b>Material issue</b>.<br/>If you change an allocated serial number range in a <b>Material tracking</b>, the previously allocated serial numbers are automatically deallocated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45056",
+                            "title": "Duplicating a routing loses the operations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Duplicating a routing preserves the list of production operations in the new routing.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44880",
+                            "title": "Sage Intacct timeouts during integration",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The timeout was increased to 10 minutes.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-38720",
+                            "title": "BOM: Decimal places display",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Decimal places are displayed to the number of decimal places defined for the unit of measurement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-43813",
+                            "title": "Dashboards: Two new widgets",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create line and bar chart widgets.</p><p>For each widget, you can</p><ul><li>Select and filter data.</li><li>Define how data is grouped and sorted.</li><li>Customize colors.</li><li>Add calls to action.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42927",
+                            "title": "View and filter main status",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For purchasing and sales documents, the main list displays the main document status. You can select a status in the dropdown to display all documents with the selected status. When you select a record, you see the status next to the document title and documents with the same status display in the selection list.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42204",
+                            "title": "Key actions display above the grid",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you select record from the Main list, the actions to add a line in the <b>Items</b> grid or in a panel display directly above the grid.</p><p>If you there are lines to add from the original request, an action to add lines also displays above the grid.</p><p>This improvement was applied to <b>Purchasing</b> and <b>Sales</b> pages.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-39879",
+                            "title": "Improved field organization",
+                            "highlight": false,
+                            "content_parts": [
+                                
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ],
+                                "content": [
+                                    "empty"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

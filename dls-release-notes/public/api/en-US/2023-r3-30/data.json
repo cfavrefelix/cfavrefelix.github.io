@@ -302,7 +302,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you select a record from the Main list, the actions to add a line in the <b>{</b>}grid or in a panel display directly above the grid.</p><p>If there are lines to add from the original request, an action to add lines also displays above the grid.</p><p>This improvement was applied to <b>Purchasing</b> and <b>Sales</b> pages.</p>",
+                                    "content": "<p>When you select a record from the Main list, the actions to add a line in the grid or in a panel display directly above the grid.</p><p>If there are lines to add from the original request, an action to add lines also displays above the grid.</p><p>This improvement was applied to <b>Purchasing</b> and <b>Sales</b> pages.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

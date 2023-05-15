@@ -9,19 +9,15 @@
             "title": "English - US",
             "id": "en-US",
             "url": "/dls-release-notes/api/en-US/archive.json"
-        },
-        {
-            "title": "English - GB",
-            "id": "en-GB",
-            "url": "/dls-release-notes/api/en-GB/archive.json"
-        },
-        {
-            "title": "French - FR",
-            "id": "fr-FR",
-            "url": "/dls-release-notes/api/fr-FR/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2023-r3-30",
+            "title": "2023 R5 (May)",
+            "url": "/dls-release-notes/api/en-US/2023-r3-30/data.json",
+            "date": "May"
+        },
         {
             "id": "2023-r2-29",
             "title": "2023 R4 (April)",

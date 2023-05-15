@@ -62,36 +62,6 @@
                             }
                         }
                     ]
-                },
-                {
-                    "type": "group",
-                    "title": "Bug Fixes",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-44277",
-                            "title": "Customers page: Not all columns have the search bar available",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "On the Main customer list, you can filter the Name column by typing a name or select a name from the list. The selection list includes all business entities not just customers.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "30.0.0"
-                                ]
-                            }
-                        }
-                    ]
                 }
             ]
         },
@@ -113,22 +83,6 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-45068",
-                            "title": "Notification history: Unexpected results",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "On the Stock tab, there are no unexpected errors when documents are managed correctly.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "30.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-45058",
                             "title": "Sales order: Line panel doesn't close",
                             "highlight": false,
@@ -145,44 +99,12 @@
                             }
                         },
                         {
-                            "key": "XT-45055",
-                            "title": "Sales shipment: Packing slip not translated into French",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The packing slip the sales shipment is translated into French.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "30.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-45054",
                             "title": "Sales shipment: Pick list not translated into French",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "The pick list is translated into French.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "30.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-43694",
-                            "title": "Sales shipment: Print option not available for packing list",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can print the &quot;Pick list&quot; or the &quot;Packing list&quot; depending on the main status.<br/>When the status is &quot;Ready to Process&quot; or &quot;Ready to Ship,&quot; the &quot;Pick list&quot; prints when you select the Print icon.<br/>When the status is &quot;Posting in Progress,&quot; &quot;Shipped,&quot; or &quot;Invoiced,&quot; the &quot;Packing slip&quot; prints.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],

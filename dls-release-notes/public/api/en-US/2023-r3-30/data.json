@@ -53,6 +53,72 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-43504",
+                            "title": "Order-to-order process management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On sales order lines, you can open the <b>Supply order assignment</b> window to display all the supply orders linked to the sales order line. You can select a link to open the supply order document.<br/>On work order headers and on purchase order lines, you can open the <b>Demand order assignment</b> window to display all the demand order lines linked to the work order or to the purchase order line. You can select a link to open the demand order document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41787",
+                            "title": "Stock lot updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create a stock receipt  for a lot managed item, you can select an existing lot number, enter a new one, or leave it blank and a new one is automatically assigned based on the sequence number.<br/>You can also import lot details.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Bug Fixes",
                     "taxonomies": {
                         "_type": [
@@ -178,6 +244,63 @@
                             "taxonomies": {
                                 "version": [
                                     "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44877",
+                            "title": "Error in production tracking (work order)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Production tracking has been updated to allow the tracking of work orders without a routing and without a Bill of material.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44876",
+                            "title": "When the user launches an MRP request they don't see any requests in the queue",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The MRP calculation request, now updates the MRP calculation results before starting the calculation, so the user is aware of the progress of the MRP calculation.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44875",
+                            "title": "The customer can't enter Purchase orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The purchase order does not check for available requisitions on loading, only when the Select from requisition button is clicked.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         },

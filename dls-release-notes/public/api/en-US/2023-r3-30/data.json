@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>On the <b>Work order</b> page, the item ID can be displayed in the grid. When you print the pick list, it includes the finished item ID in the header.</li><li>On the <b>Sales shipment</b> page, you can edit the tracking number on the header even if the shipment is posted.</li><li>On the <b>Sales order line</b> inquiry page, the item name can be displayed in the <b>Results</b> grid. The shipping date ranges are based on the level shipping date at the line level, and an order date range is added to the header.</li><li>On the <b>Purchase receipt</b> page, the item ID displays in the list of order lines to add and can be displayed in the <b>Lines</b> grid.</li><li>On the <b>Stock receipt</b>, <b>Stock issue</b>, and <b>Stock adjustment</b> pages, the Item ID can be displayed in the lines grid.</li></ul><p>\u00a0\u00a0</p>",
+                                    "content": "<ul><li>On the <b>Work order</b> page, the item ID can be displayed in the grid. When you print the pick list, it includes the finished item ID in the header.</li><li>On the <b>Sales shipment</b> page, you can edit the tracking number on the header even if the shipment is posted.</li><li>On the <b>Sales order line</b> inquiry page, the item name can be displayed in the <b>Results</b> grid. The shipping date ranges are based on the level shipping date at the line level, and an order date range is added to the header.</li><li>On the <b>Purchase receipt</b> page, the item ID displays in the <b>Lines</b> grid when you add lines from orders.</li><li>On the <b>Stock receipt</b>, <b>Stock issue</b>, and <b>Stock adjustment</b> pages, the Item ID can be displayed in the lines grid.</li></ul><p>\u00a0\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -56,6 +56,36 @@
                                 "software": [
                                     "multi-tenant"
                                 ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44277",
+                            "title": "Customers page: Not all columns have the search bar available",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Main customer list, you can filter the &quot;Name&quot; column by typing a name or select a name from the list. The selection list includes all business entities, not just customers.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
                                 "version": [
                                     "30.0.0"
                                 ]
@@ -149,6 +179,38 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-45617",
+                            "title": "Invalid purchase unit management when stock unit and purchase unit are different",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase order for an item when the stock unit and purchase unit are different.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45068",
+                            "title": "Notification history: Unexpected results",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the &quot;Stock&quot; tab, there are no unexpected errors when documents are managed correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-45058",
                             "title": "Sales order: Line panel doesn't close",
                             "highlight": false,
@@ -165,12 +227,44 @@
                             }
                         },
                         {
+                            "key": "XT-45055",
+                            "title": "Sales shipment: Packing slip not translated into French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The packing slip for the sales shipment is translated into French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-45054",
                             "title": "Sales shipment: Pick list not translated into French",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "The pick list is translated into French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43694",
+                            "title": "Sales shipment: Print option not available for packing list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can print the &quot;Pick list&quot; or the &quot;Packing list&quot; depending on the main status.<br/>When the status is &quot;Ready to Process&quot; or &quot;Ready to Ship,&quot; the &quot;Pick list&quot; prints when you select the &quot;Print&quot; icon.<br/>When the status is &quot;Posting in Progress,&quot; &quot;Shipped,&quot; or &quot;Invoiced,&quot; the &quot;Packing slip&quot; prints.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -310,7 +404,39 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The purchase order does not check for available requisitions on loading, only when the Select from requisition button is clicked.",
+                                    "content": "The purchase order does not check for available requisitions on loading, only when you select &quot;Add lines from requisitions.&quot;",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44516",
+                            "title": "The customer can't enter Purchase orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The purchase order does not check for available requisitions on loading, only when you select &quot;Add lines from requisitions.&quot;",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42167",
+                            "title": "Error on Item integration when items are imported",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Asynchronous creation of items and other objects can now be managed through the mapping. In addition, mass creation performance and timeout have been improved.",
                                     "taxonomies": "all"
                                 }
                             ],

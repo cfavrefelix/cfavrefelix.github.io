@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>On the <b>Work order</b> page, the item ID can be displayed in the grid. When you print the pick list, it includes the finished item ID in the header.</li><li>On the <b>Sales shipment</b> page, you can edit the tracking number on the header even if the shipment is posted.</li><li>On the <b>Sales order line</b> inquiry page, the item name can be displayed in the <b>Results</b> grid. The shipping date ranges are based on the level shipping date at the line level, and an order date range is added to the header.</li><li>On the <b>Purchase receipt</b> page, the item ID displays in the <b>Lines</b> grid when you add lines from orders.</li><li>On the <b>Stock receipt</b>, <b>Stock issue</b>, and <b>Stock adjustment</b> pages, the Item ID can be displayed in the lines grid.</li></ul><p>\u00a0\u00a0</p>",
+                                    "content": "<ul><li>On the <b>Work order</b> page, the item ID can be displayed in the grid. When you print the pick list, it includes the finished item ID in the header.</li><li>On the <b>Sales shipment</b> page, you can edit the tracking number on the header even if the shipment is posted.</li><li>On the <b>Sales order line</b> inquiry page, the item name can be displayed in the <b>Results</b> grid. The shipping date ranges are based on the shipping date at the line level, and an order date range is added to the header.</li><li>On the <b>Purchase receipt</b> page, the item ID displays in the <b>Lines</b> grid when you add lines from orders.</li><li>On the <b>Stock receipt</b>, <b>Stock issue</b>, and <b>Stock adjustment</b> pages, the item ID can be displayed in the lines grid.</li></ul><p>\u00a0\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -81,7 +81,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Main customer list, you can filter the &quot;Name&quot; column by typing a name or select a name from the list. The selection list includes all business entities, not just customers.",
+                                    "content": "On the main customer list, you can filter the &quot;Name&quot; column by typing a name or selecting a name from the list. The selection list includes all business entities, not just customers.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -178,6 +178,54 @@
                         "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-46029",
+                            "title": "Sales return request page: The sales return request approval message is not translated to French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The sales return request approval message is provided in French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46028",
+                            "title": "Purchase requisition page: The purchase requisition approval message not translated to French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The purchase requisition approval message is provided in French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46026",
+                            "title": "Purchase order page: The purchase order document not available in French",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Purchase order documents are available in French.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-45617",
                             "title": "Invalid purchase unit management when stock unit and purchase unit are different",
@@ -362,20 +410,17 @@
                         },
                         {
                             "key": "XT-44877",
-                            "title": "Error in production tracking (work order)",
+                            "title": "Error in production tracking for work orders",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Production tracking has been updated to allow the tracking of work orders without a routing and without a Bill of material.",
+                                    "content": "Production tracking has been updated so you can track work orders without a routing and without a bill of material.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "30.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -385,16 +430,13 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The MRP calculation request, now updates the MRP calculation results before starting the calculation, so the user is aware of the progress of the MRP calculation.",
+                                    "content": "The MRP calculation request updates the MRP calculation results before starting the calculation, so you are aware of the MRP calculation progress.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "30.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -415,37 +457,18 @@
                             }
                         },
                         {
-                            "key": "XT-44516",
-                            "title": "The customer can't enter Purchase orders",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The purchase order does not check for available requisitions on loading, only when you select &quot;Add lines from requisitions.&quot;",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "30.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-42167",
-                            "title": "Error on Item integration when items are imported",
+                            "title": "Integration when items are imported",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Asynchronous creation of items and other objects can now be managed through the mapping. In addition, mass creation performance and timeout have been improved.",
+                                    "content": "You can create items and other objects asynchronously by mapping them. Mass creation performance and timeouts are improved.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "30.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -500,6 +523,52 @@
                                 "software": [
                                     "multi-tenant"
                                 ],
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (30.0.0)\") AND (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status IN (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45234",
+                            "title": "Printing takes too long and timesout and no PDF to display",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The printing no longer timesout and you can print PDFs.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "30.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44748",
+                            "title": "Item ID disappears from the Sales order Lines and Work orders Components grids",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Display settings are maintained when you scroll through records and the item ID does not disappear.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
                                 "version": [
                                     "30.0.0"
                                 ]

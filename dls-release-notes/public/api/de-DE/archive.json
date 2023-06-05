@@ -1,0 +1,37 @@
+{
+    "__self": "/dls-release-notes/api/de-DE/archive.json",
+    "product": "Sage Intacct Manufacturing",
+    "language": "de-DE",
+    "labels": "/dls-release-notes/api/de-DE/labels.json",
+    "taxonomies": "/dls-release-notes/api/de-DE/taxonomies.json",
+    "alternative_langauges": [
+        {
+            "title": "Englisch - US",
+            "id": "en-US",
+            "url": "/dls-release-notes/api/en-US/archive.json"
+        },
+        {
+            "title": "Englisch - GB",
+            "id": "en-GB",
+            "url": "/dls-release-notes/api/en-GB/archive.json"
+        },
+        {
+            "title": "Franz\u00f6sisch - FR",
+            "id": "fr-FR",
+            "url": "/dls-release-notes/api/fr-FR/archive.json"
+        },
+        {
+            "title": "Deutsch - DE",
+            "id": "de-DE",
+            "url": "/dls-release-notes/api/de-DE/archive.json"
+        }
+    ],
+    "releases": [
+        {
+            "id": "2023-r3-30",
+            "title": "2023 R5 (Mai)",
+            "url": "/dls-release-notes/api/de-DE/2023-r3-30/data.json",
+            "date": "Mai"
+        }
+    ]
+}

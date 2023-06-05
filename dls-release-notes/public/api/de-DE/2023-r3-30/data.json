@@ -28,7 +28,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>Auf der Seite <b>Fertigungsauftrag</b> kann die Artikel-ID in der Tabelle angezeigt werden. Wenn Sie die Kommissionierliste drucken, umfasst diese die Artikel-ID des Fertigprodukts in der Kopfzeile.</li><li>Auf der Seite <b>Warenausgang</b> k\u00f6nnen Sie die R\u00fcckmeldungsnummer in der Kopfzeile bearbeiten, auch wenn der Versand bereits gebucht ist.</li><li>Auf der Abfrageseite <b>Verkaufsauftragszeile</b> kann der Artikelname in der Tabelle <b>Ergebnisse</b> angezeigt werden. Die Versanddatumsbereiche basieren auf dem Versanddatum auf Zeilenebene, und ein Auftragsdatumsbereich wird zur Kopfzeile hinzugef\u00fcgt.</li><li>Auf der Seite <b>Wareneingang</b> wird die Artikel-ID in der Tabelle <b>Zeilen</b> angezeigt, wenn Sie Zeilen aus Bestellungen hinzuf\u00fcgen.</li><li>Auf den Seiten <b>Bestandseingang</b>, <b>Bestandsabgang</b> und <b>Bestandskorrektur</b> kann die Artikel-ID in der Tabelle Zeilen angezeigt werden.</li></ul><p>\u00a0\u00a0</p>",
+                                    "content": "<ul><li>Auf der Seite <b>Fertigungsauftrag</b> kann die Artikel-ID in der Tabelle angezeigt werden. Wenn Sie die Kommissionierliste drucken, umfasst diese die Artikel-ID des Fertigprodukts in der Kopfzeile.</li><li>Auf der Seite <b>Warenausgang</b> k\u00f6nnen Sie die R\u00fcckmeldungsnummer in der Kopfzeile bearbeiten, auch wenn der Versand bereits gebucht ist.</li><li>Auf der Abfrageseite <b>Verkaufsauftragszeile</b> kann der Artikelname in der Tabelle <b>Ergebnisse</b> angezeigt werden. Die Versanddatumsbereiche basieren auf dem Versanddatum auf Zeilenebene und ein Auftragsdatumsbereich wird zur Kopfzeile hinzugef\u00fcgt.</li><li>Auf der Seite <b>Wareneingang</b> wird die Artikel-ID in der Tabelle <b>Zeilen</b> angezeigt, wenn Sie Zeilen aus Bestellungen hinzuf\u00fcgen.</li><li>Auf den Seiten <b>Bestandseingang</b>, <b>Bestandsabgang</b> und <b>Bestandskorrektur</b> kann die Artikel-ID in der Tabelle Zeilen angezeigt werden.</li></ul><p>\u00a0\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -80,7 +80,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "In der Hauptkundenliste k\u00f6nnen Sie die Spalte &quot;Name&quot; filtern, indem Sie einen Namen eingeben oder einen Namen aus der Liste ausw\u00e4hlen.  Die Auswahlliste umfasst alle Gesch\u00e4ftsentit\u00e4ten, nicht nur Kunden.",
+                                    "content": "In der Hauptkundenliste k\u00f6nnen Sie die Spalte <b>Name</b> filtern, indem Sie einen Namen eingeben oder einen Namen aus der Liste ausw\u00e4hlen.  Die Auswahlliste umfasst alle Gesch\u00e4ftsentit\u00e4ten, nicht nur Kunden.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -247,7 +247,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Im Register &quot;Bestand&quot; treten keine unerwarteten Fehler auf, wenn die Dokumente korrekt verwaltet werden.",
+                                    "content": "Im Register <b>Bestand</b> treten keine unerwarteten Fehler auf, wenn die Dokumente korrekt verwaltet werden.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -311,7 +311,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Sie k\u00f6nnen die &quot;Kommissionierliste&quot; oder den &quot;Lieferschein&quot; abh\u00e4ngig vom Hauptstatus drucken.<br/>Im Status &quot;Bereit zur Verarbeitung&quot; oder &quot;Bereit zum Versand&quot; wird die &quot;Kommissionierliste&quot; gedruckt, wenn Sie auf das Symbol &quot;Drucken&quot; klicken.<br/>Im Status &quot;Buchung in Bearbeitung&quot;, &quot;Versendet&quot; oder &quot;Fakturiert&quot; wird der &quot;Lieferschein&quot; gedruckt.<br/>",
+                                    "content": "Sie k\u00f6nnen die <b>Kommissionierliste</b> oder den <b>Lieferschein</b> abh\u00e4ngig vom Hauptstatus drucken.<br/>Im Status <b>Bereit zur Verarbeitung</b> oder <b>Bereit zum Versand</b> wird die <b>Kommissionierliste</b> gedruckt, wenn Sie auf das Symbol <b>Drucken</b> klicken.<br/>Im Status <b>Buchung in Bearbeitung</b>, <b>Versendet</b> oder <b>Fakturiert</b> wird der <b>Lieferschein</b> gedruckt.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -445,7 +445,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Die Bestellung pr\u00fcft beim Laden nicht auf verf\u00fcgbare Anforderungen, sondern nur, wenn Sie auf &quot;Zeilen aus Anforderungen hinzuf\u00fcgen&quot; klicken.&quot;",
+                                    "content": "Die Bestellung pr\u00fcft beim Laden nicht auf verf\u00fcgbare Anforderungen, sondern nur, wenn Sie auf <b>Zeilen aus Anforderungen hinzuf\u00fcgen</b> klicken.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -543,11 +543,11 @@
                     "content_parts": [
                         {
                             "key": "XT-45234",
-                            "title": "Drucken dauert zu lange und es gibt eine Zeit\u00fcberschreitung, und es wird keine PDF-Datei angezeigt",
+                            "title": "Drucken dauert zu lange und es gibt eine Zeit\u00fcberschreitung und es wird keine PDF-Datei angezeigt",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Der Druckvorgang dauert nicht mehr so lange, und PDFs k\u00f6nnen gedruckt werden.",
+                                    "content": "Der Druckvorgang dauert nicht mehr so lange und PDFs k\u00f6nnen gedruckt werden.",
                                     "taxonomies": "all"
                                 }
                             ],

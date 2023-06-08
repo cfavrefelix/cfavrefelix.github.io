@@ -312,7 +312,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can print the &quot;Pick list&quot; or the &quot;Packing list&quot; depending on the main status.<br/>When the status is &quot;Ready to Process&quot; or &quot;Ready to Ship,&quot; the &quot;Pick list&quot; prints when you select the &quot;Print&quot; icon.<br/>When the status is &quot;Posting in Progress,&quot; &quot;Shipped,&quot; or &quot;Invoiced,&quot; the &quot;Packing slip&quot; prints.<br/>",
+                                    "content": "You can print the &quot;Pick list&quot; or the &quot;Packing list&quot; depending on the main status.<br/>When the status is &quot;Ready to Process&quot; or &quot;Ready to Ship&quot;, the &quot;Pick list&quot; prints when you select the &quot;Print&quot; icon.<br/>When the status is &quot;Posting in Progress&quot;, &quot;Shipped&quot;, or &quot;Invoiced&quot;, the &quot;Packing slip&quot; prints.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -446,7 +446,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The purchase order does not check for available requisitions on loading, only when you select &quot;Add lines from requisitions.&quot;",
+                                    "content": "The purchase order does not check for available requisitions on loading, only when you select &quot;Add lines from requisitions&quot;.",
                                     "taxonomies": "all"
                                 }
                             ],

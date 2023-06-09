@@ -91,7 +91,7 @@
                         },
                         {
                             "key": "XT-23278",
-                            "title": "Disabling the approval process for purchase orders",
+                            "title": "Disable the approval process for purchase orders",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -232,45 +232,39 @@
                     "content_parts": [
                         {
                             "key": "XT-47961",
-                            "title": "Site address not refreshed in the dedicated tab after updating in P.Order",
+                            "title": "Site address not refreshed purchase order update",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "the site address is well-updated when the line site changes.",
+                                    "content": "The site address updates when the line site address changes.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-46524",
-                            "title": "Impossible to enter 2 stock receipts w/o lot number",
+                            "title": "Cannot enter 2 stock receipts without a lot number",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When two stock receipts for the same stock lot-managed item are entered and saved, it is now possible to post both records without an error that the lot number is already referenced on the saving of the second stock receipt.",
+                                    "content": "When 2 stock receipts for the same stock lot-managed item are entered and saved, you can post both records without an error even though the lot number is already referenced when saving the second stock receipt.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-45732",
-                            "title": "Stock journal inquiry, the link to open the corresponding document does not work",
+                            "title": "Stock journal inquiry: Corresponding document link does not work",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -286,11 +280,11 @@
                         },
                         {
                             "key": "XT-45209",
-                            "title": "[Purchase order] function: approval request message sent by email, the whole text is not translated into French.",
+                            "title": "Purchase orders: Approval request email not completely translated into French",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The purchase order approval request, sent by email, has been simplified and is now available in French.",
+                                    "content": "The purchase order approval request, sent by email, is available in French.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -453,7 +447,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When working with a purchase order, the step flow at the top of the page provides an instant view of where the document is in the process.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b> on your MS computer or <b>command + Enter</b> on a Mac.</p><p>In the <b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p><p>In the column panel, you can select which columns you want to display or hide such as <b>Item ID</b> and <b>Price origin</b>. Some columns display by default and cannot be hidden.</p>",
+                                    "content": "<p>When working with a purchase order, the step flow at the top of the page provides an instant view of where the document is in the process.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b> on your MS computer or <b>command + Enter</b> on a Mac.</p><p>In the <b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p><p>In the column panel, you can select which columns you want to display or hide such as <b>Item description</b> and <b>Price origin</b>. Required columns display by default and cannot be hidden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -472,7 +466,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b> on your MS computer or <b>command + Enter</b> on a Mac.</p><p>In the <b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p><p>In the column panel, you can select which columns you want to display or hide such as <b>Item ID</b> and <b>Price origin</b>. Some columns display by default and cannot be hidden.</p>",
+                                    "content": "<p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b> on your MS computer or <b>command + Enter</b> on a Mac.</p><p>In the <b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p><p>In the column panel, you can select which columns you want to display or hide such as <b>Item description</b>\u00a0and <b>Price origin</b>. Required columns display by default and cannot be hidden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -529,7 +523,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When creating or modifying a purchasing or sales document, the <b>Cancel</b> and <b>Save</b> buttons display at the bottom of the screen.</p><p>When you modify a document, these buttons are replaced with the next logical step in the workflow, such as <b>Submit for approval</b> or <b>Reject</b> and <b>Approve</b>. The buttons that display depend on the document status.</p>",
+                                    "content": "<p>When creating or modifying a purchasing or sales document, the <b>Cancel</b> and <b>Save</b> buttons display at the bottom of the page.</p><p>When you modify a document, these buttons are replaced with the next logical step in the workflow, such as <b>Submit for approval</b> or <b>Reject</b> and <b>Approve</b>. The buttons that display depend on the document status.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

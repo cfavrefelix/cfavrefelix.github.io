@@ -69,7 +69,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<ul><li>When you close a purchase order a confirmation message is displayed.</li><li>On the <b>Sales invoice line inquiry</b> page, you can display 3 additional bill-to fields in the <b>Results</b> grid: <b>City</b>, <b>Region</b> and <b>Postal code</b>.</li></ul>",
+                                    "content": "<ul><li>When you close a purchase order a confirmation message is displayed.</li><li>On the <b>Sales invoice line inquiry</b> page, you can display 3 additional bill-to fields in the <b>Results</b> grid: <b>City</b>, <b>County</b> and <b>Postal code</b>.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

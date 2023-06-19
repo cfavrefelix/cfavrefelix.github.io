@@ -1,6 +1,6 @@
 {
     "__self": "/dls-release-notes/api/en-GB/archive.json",
-    "product": "Sage Intacct Manufacturing",
+    "product": "Sage Distribution and Manufacturing Operations",
     "language": "en-GB",
     "labels": "/dls-release-notes/api/en-GB/labels.json",
     "taxonomies": "/dls-release-notes/api/en-GB/taxonomies.json",
@@ -27,6 +27,12 @@
         }
     ],
     "releases": [
+        {
+            "id": "2023-r3-31",
+            "title": "2023 R6 (June)",
+            "url": "/dls-release-notes/api/en-GB/2023-r3-31/data.json",
+            "date": "June"
+        },
         {
             "id": "2023-r3-30",
             "title": "2023 R5 (May)",

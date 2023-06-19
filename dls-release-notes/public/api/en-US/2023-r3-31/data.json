@@ -7,13 +7,6 @@
     "date": "June",
     "content_parts": [
         {
-            "id": "intro",
-            "type": "intro",
-            "title": "Introduction",
-            "content": "<p>XT 2023 R3 (31.0.0)</p>",
-            "taxonomies": "all"
-        },
-        {
             "title": "All Modules",
             "id": "all-modules",
             "type": "module",

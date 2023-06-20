@@ -177,7 +177,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can manage the stock cost of an item using the First In First Out (FIFO) valuation method. When you select this method on the <b>Item-site</b> page, the FIFO valuation method creates unique cost tiers as items are received into stock.\u00a0 The tiers are then consumed in chronological order as the stock is sold or issued.\u00a0</p><p>The FIFO cost stack inquiry displays the active cost tiers with the original quantity, quantity remaining and the associated costs. \u00a0</p>",
+                                    "content": "<p>You can manage the stock cost of an item using the First In First Out (FIFO) valuation method. When you select this method on the <b>Item-site</b> page, the FIFO valuation method creates unique cost tiers as items are received into stock.\u00a0 The tiers are then consumed in chronological order as the stock is sold or issued.\u00a0</p><p>The <b>FIFO cost stack</b> inquiry displays the active cost tiers with the original quantity, quantity remaining and the associated costs. \u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -196,7 +196,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To post a <b>Stock count</b>, the counted quantity of a stock item needs to be greater than or equal to the allocated quantity of the item otherwise an error is displayed, and the count posting is blocked.</p><p>You can view stock allocations for an item on the <b>Stock detailed inquiry</b> page. From the <b>More actions</b> icon for an inspection status or lot, select <b>Allocations</b>. The individual document numbers and quantity of stock allocated to each document is displayed.</p>",
+                                    "content": "<p>To post a <b>Stock count</b>, the counted quantity of a stock item needs to be greater than or equal to the allocated quantity of the item, otherwise an error is displayed and the count posting is blocked.</p><p>You can view stock allocations for an item on the <b>Stock detailed inquiry</b> page. From the <b>More actions</b> icon for an inspection status or lot, select <b>Allocations</b>. The individual document numbers and quantity of stock allocated to each document is displayed.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

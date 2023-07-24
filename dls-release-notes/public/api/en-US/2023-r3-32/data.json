@@ -88,7 +88,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>At the company level</b></p><p>You can define required dimensions at the company level on the <b>Company</b> page. A control ensures that the required dimensions and attributes are assigned, or an error message displays when trying to save or post. They apply to all purchasing and sales invoices and credit notes for that company and all financial sites.</p><p><b>At the account level for Sage Intacct integrations only</b></p><p>You can define required dimensions and attributes at the GL account level in Sage Intacct. If the required assignments are missing when creating AP/AR invoices and journal entries on a document line, an error message displays.</p><p>Required dimensions and attributes defined in Sage Intacct display on the <b>Account</b> page in the <b>Required dimensions</b> grid.</p>",
+                                    "content": "<p><b>At the company level</b></p><p>You can define required dimensions at the company level on the <b>Company</b> page. A control ensures that the required dimensions and attributes are assigned, or an error message displays when trying to save or post. They apply to all purchasing and sales invoices and credit memos for that company and all financial sites.</p><p><b>At the account level for Sage Intacct integrations only</b></p><p>You can define required dimensions and attributes at the GL account level in Sage Intacct. If the required assignments are missing when creating AP/AR invoices and journal entries on a document line, an error message displays.</p><p>Required dimensions and attributes defined in Sage Intacct display on the <b>Account</b> page in the <b>Required dimensions</b> grid.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -126,7 +126,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Notification history</b> page ,you can export the data in the <b>Results</b> grids on all tabs.</p>",
+                                    "content": "<p>On the <b>Notification history</b> page, you can export the data in the <b>Results</b> grids on all tabs.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -288,7 +288,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Items:</b></p><ul><li>On the <b>Item</b> page, the <b>Commodity code</b> formatting control has been removed.</li></ul><p><b>Purchasing</b></p><ul><li>On the <b>Purchase order</b> page, you can see the print status on the Information tab.</li></ul><p><b>Sales</b></p><ul><li>On the <b>Sales shipment</b> lines grid, you can display the <b>Allocated quantity</b> column from the <b>Column settings</b>.</li><li>The <b>Stock available</b> quantity is displayed on the <b>Projected stock</b> window available from the <b>Sales order</b> line and from the <b>Item</b> page. It is also displayed on the <b>Stock</b> tab from the <b>Sales order</b> line panel.</li></ul>",
+                                    "content": "<p><b>Items</b></p><ul><li>On the <b>Item</b> page, the <b>Commodity code</b> formatting control has been removed.</li></ul><p><b>Purchasing</b></p><ul><li>On the <b>Purchase order</b> page, you can see the print status on the Information tab.</li></ul><p><b>Sales</b></p><ul><li>On the <b>Sales shipment</b> lines grid, you can display the <b>Allocated quantity</b> column from the <b>Column settings</b>.</li><li>The <b>Stock available</b> quantity is displayed on the <b>Projected stock</b> window available from the <b>Sales order</b> line and from the <b>Item</b> page. It is also displayed on the <b>Stock</b> tab from the <b>Sales order</b> line panel.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -359,7 +359,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Sales shipment</b>, <b>Sales return request</b>, and\u00a0<b>Sales return receipt pages</b>, ** you can enter customer and internal notes at the header and line levels.<br/>You have the option to include customer notes from the header and line level to the sales invoice and packing slip PDFs.</p>",
+                                    "content": "<p>On the <b>Sales shipment</b>, <b>Sales return request</b>, and\u00a0<b>Sales return receipt pages</b>, you can enter customer and internal notes at the header and line levels.<br/>You have the option to include customer notes from the header and line level to the sales invoice and packing slip PDFs.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -729,20 +729,17 @@
                     "content_parts": [
                         {
                             "key": "XT-50075",
-                            "title": "xtrem-reporting/ReportTemplate issue in Code for sageJobTravelerTemplate",
+                            "title": "Report template issue in code for sageJobTravelerTemplate",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Report template (sageJobTravelerTemplate): Set the max rows per page to 100000 to ensure all component records are displayed on the pdf. ",
+                                    "content": "Report template (sageJobTravelerTemplate): Set the maximum rows per page to 100,000 to ensure all component records are displayed on the PDF. ",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -767,39 +764,33 @@
                         },
                         {
                             "key": "XT-49407",
-                            "title": "Record count in the header title of the gadget, doesn't match the number of records displayed in the gadget",
+                            "title": "Record count in widget header title doesn't match the number of records displayed in the gadget",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Dashboard table widgets display an accurate record count.",
+                                    "content": "Dashboard table widgets display accurate record count.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "32.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-48815",
-                            "title": "Widget having entry mode 'Stock Allocation' does not work with fields 'Document line' and 'Order document line' ",
+                            "title": "Widget for Stock Allocation does not work with  Document lines and Order document line fields",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The properties nested beneath object references are now accessible.",
+                                    "content": "These fields are available for Stock allocation.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "32.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

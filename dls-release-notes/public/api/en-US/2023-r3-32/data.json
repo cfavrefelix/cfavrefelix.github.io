@@ -150,7 +150,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
                     ],
                     "content_parts": [
                         {
@@ -383,7 +383,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
                     ],
                     "content_parts": [
                         {
@@ -393,6 +393,22 @@
                             "content_parts": [
                                 {
                                     "content": "You can delete the item after entering a quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48680",
+                            "title": "Purchase receipt: Post button is active even when no stock details are entered",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The purchase receipt Post button is hidden when at least one line has a stock detailed status equal to required.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -638,7 +654,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
                     ],
                     "content_parts": [
                         {
@@ -724,7 +740,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
                     ],
                     "content_parts": [
                         {
@@ -845,9 +861,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-48505",
+                            "title": "Purchase order: Origin tab displays information for all items",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Only the origin for the current item being viewed displays.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-47975",
                             "title": "When adding an item to a line for a sales order, the lookup does not work in the panel",

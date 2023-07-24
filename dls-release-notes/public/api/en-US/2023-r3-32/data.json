@@ -590,6 +590,25 @@
                             }
                         },
                         {
+                            "key": "XT-44431",
+                            "title": "Multi-level MRP calculation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>MRP calculation request</b> explodes work order suggestions into requirements for the component items, according to the bill of material definition, when the <b>Explode bill of material</b> checkbox is selected. MRP subsequently processes these component requirements together with any other supply and demand, to determine shortages and create suggestions for the items.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-44419",
                             "title": "Item traceability",
                             "highlight": false,

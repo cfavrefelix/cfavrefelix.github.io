@@ -1,0 +1,862 @@
+{
+    "id": "2023-r3-32",
+    "title": "2023 R7",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r3-31",
+    "date": "July",
+    "content_parts": [
+        {
+            "title": "All Modules",
+            "id": "all-modules",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'All Modules' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-18926",
+                            "title": "Printing enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Printing performance enhancements</b></p><p>Time-outs no longer occur when there is a long list of print requests or when you are printing a large document.</p><p><b>Print multiple sales orders at once</b></p><p>From the sales order main list, you can select and print multiple records.\u00a0</p><p>The following documents are printed according to the document status:</p><ul><li><b>Quote:</b> Sales order quotes are printed.</li><li><b>Confirmed/Partially shipped:</b> Sales order confirmations are printed.</li></ul><p>You can check the progress and results on the <b>Batch task history</b> page (Menu Administration &gt; Scheduler).</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49981",
+                            "title": "Schedule journal entry generation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In addition to generating journal entries immediately, you can schedule a generation task for a specific date and time.</p><p>You can view the status of a scheduled task on the <b>Batch task history</b> page, under the <b>Administration &gt; Scheduler</b> menu. The <b>Logs</b> tab provides details for each task.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47431",
+                            "title": "Define required dimensions and attributes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>At the company level</b></p><p>You can define required dimensions at the company level on the <b>Company</b> page. A control ensures that the required dimensions and attributes are assigned, or an error message displays when trying to save or post. They apply to all purchasing and sales invoices and credit notes for that company and all financial sites.</p><p><b>At the account level for Sage Intacct integrations only</b></p><p>You can define required dimensions and attributes at the GL account level in Sage Intacct. If the required assignments are missing when creating AP/AR invoices and journal entries on a document line, an error message displays.</p><p>Required dimensions and attributes defined in Sage Intacct display on the <b>Account</b> page in the <b>Required dimensions</b> grid.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46943",
+                            "title": "Sage Intacct integration enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Item ID consistency</b>\u00a0</p><ul><li>When you integrate with Sage Intacct, you can no longer edit the Item ID for integrated items.</li></ul><p><b>Master data integration links</b></p><ul><li>On the <b>Customer</b>, <b>Supplier</b>, and <b>Item</b> pages, a link takes you to the corresponding record in Sage Intacct.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45215",
+                            "title": "Export results on Notification history page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Notification history</b> page ,you can export the data in the <b>Results</b> grids on all tabs.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50633",
+                            "title": "Authorization roles are not working correctly when printing a sales invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Printing a sales invoice no longer displays an error message for a permitted user.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50622",
+                            "title": "Authorization roles are not working correctly when closing a work order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Work order closure no longer displays an error message for a permitted user.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50461",
+                            "title": "Unable to change the authorization group for an user",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "No error message is displayed when changing a user&#39;s authorization group.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48531",
+                            "title": "Supply and demand order management enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>View projected stock<br/>On the <b>Sales order</b> page, from a sales order line, you can display the <b>Projected stock</b> available for 7 days starting from the shipping date of the sales order, and not from today's date.</p><p>Access assigned orders<br/>You can access the <b>Assigned orders</b> window in edit mode or in display mode, depending on the document or line status:</p><ul><li>From the <b>Sales order</b> lines and the <b>Work order</b> page, you can access the <b>Assigned orders</b> window in edit mode when the status for the line is <b>Pending</b> or <b>In progress</b>. For all other statuses, the <b>Assigned orders</b> window is in display mode.</li><li>From the <b>Purchase order</b> lines, you can access the <b>Assigned orders</b> window in edit mode when the status for the line is <b>Draft</b>, <b>Pending</b>, or <b>In progress</b>. For all other statuses, the <b>Assigned orders</b> window is in display mode.</li></ul><p>Controls on <b>Demand order</b> and <b>Supply order</b> windows</p><ul><li>On the <b>Work order</b> page, an error message is displayed in the <b>Demand order</b> window when you assign a quantity greater than the actual quantity on the demand order or greater than the work order released quantity.</li><li>On the <b>Purchase order</b> page, an error message is displayed on the <b>Demand order</b> window when you assign a quantity greater than the actual quantity on the demand order or greater than the purchase order line quantity in stock unit.</li><li>On the <b>Sales order</b> page, an error message is displayed on the <b>Supply order</b> window when you assign a quantity greater than the actual quantity on the supply order or higher than the sales order line quantity in stock unit.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47096",
+                            "title": "Automated detailed stock allocation on Work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Work order</b> page, you can allocate stock records to the work order component lines according to an allocation request. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47010",
+                            "title": "Disabling approval management on the Purchase requisition and Sales return request",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the\u00a0<b>Site</b> page, you can disable the approval process for the purchase requisitions and orders, and sales return requests. When the approval process is off, you only need to confirm the documents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46939",
+                            "title": "Distribution enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Items:</b></p><ul><li>On the <b>Item</b> page, the <b>Commodity code</b> formatting control has been removed.</li></ul><p><b>Purchasing</b></p><ul><li>On the <b>Purchase order</b> page, you can see the print status on the Information tab.</li></ul><p><b>Sales</b></p><ul><li>On the <b>Sales shipment</b> lines grid, you can display the <b>Allocated quantity</b> column from the <b>Column settings</b>.</li><li>The <b>Stock available</b> quantity is displayed on the <b>Projected stock</b> window available from the <b>Sales order</b> line and from the <b>Item</b> page. It is also displayed on the <b>Stock</b> tab from the <b>Sales order</b> line panel.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42179",
+                            "title": "Gross profit and cost of sales",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Sales order</b>, <b>Sales invoice</b>, and <b>Sales credit memo</b> pages, you can view the total <b>Gross profit</b> on the <b>Totals</b> tab. <br/>In the <b>Lines</b> grid and line panel, you can also view the <b>Gross profit amount</b> and the <b>Stock cost amount</b> for each sales document line. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44443",
+                            "title": "Stock lot management for stock count",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you perform stock movements linked to a stock change made during a count session, the control of stock lot numbers follows the same stock lot numbering rules applied in other pages.  </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-40590",
+                            "title": "Add customer and internal notes to sales documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Sales shipment</b>, <b>Sales return request</b>, and\u00a0<b>Sales return receipt pages</b>, ** you can enter customer and internal notes at the header and line levels.<br/>You have the option to include customer notes from the header and line level to the sales invoice and packing slip PDFs.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49802",
+                            "title": "Sales order line panel: Error caused when trying to delete item after entering quantity",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can delete the item after entering a quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48414",
+                            "title": "Updated site address is not printed on the purchase order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you update the site address, site name, or supplier name on a purchase order, the updated information is reflected on the printed document.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48355",
+                            "title": "Sales return request Credit memo button hidden for a \"Receipt and credit memo\" return type",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On a sales return request, the &quot;Credit memo&quot; button displays when using a &quot;Receipt and credit memo&quot; return type.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47799",
+                            "title": "Stock tab does not always display for managed stock item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The &quot;Stock&quot; tab displays correctly in the sales shipment line panel.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47682",
+                            "title": "Sales shipment: Stock fields duplicated in line panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The stock fields are no longer duplicated in the &quot;Information&quot; and &quot;Stock&quot; tabs.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46957",
+                            "title": "Unclear error when creating a sales invoice from a sales shipment",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "It is no longer possible to have a sequence number at a company or site definition level with a length of 0 in the related component.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46520",
+                            "title": "Supplier packing slip field disabled when purchase receipt created from an order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you create a purchase receipt from an order, the &quot;Supplier packing slip&quot; field is enabled so you can include the supplier reference.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46307",
+                            "title": "Over allocating on sales shipments and purchase returns",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A control applied to the &quot;Sales shipment&quot; and &quot;Purchase return&quot; pages prevents over allocating items.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44878",
+                            "title": "Production tracking receipt error when component stock is allocated to the work order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Production tracking no longer displays an error when the Automatic material tracking checkbox is selected if component stock is allocated to the work order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47236",
+                            "title": "Build and track from the bill of material",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can track receipts from production for a bill of material (BOM) using the <b>Track</b> action in the <b>Bill of material</b> page. If the BOM has a routing assigned to it, all trackings associated with the receipt from production are created automatically and displayed on the <b>Trackings</b> tab. A link to view each individual transaction document is provided. A work order, a production tracking document, a material issue document, and a time tracking document can be created, according to the bill of material and routing definitions.<br/>Note that that if the stock item is managed with serial numbers, you cannot track a production receipt from the <b>Bill of material</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46941",
+                            "title": "Manufacturing costs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When the status of a bill of material or routing is changed from <b>In development</b> or <b>Suspended</b> to <b>Available to use</b>, the total cost can change. A warning suggests you should recalculate the costs.<br/>The <b>Indirect</b> cost field is no longer displayed for an item-site record.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44419",
+                            "title": "Item traceability",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the stock <b>Item traceability</b> inquiry to trace transactions that have used a specific lot or serial number. The search lists all transactions that reference the lot or serial number. A link to view each individual transaction document is provided.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47426",
+                            "title": "Work order deallocation: Save button not enabled after clearing a row",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The deallocation of stock in the detailed stock allocation panel on a document line works as expected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42713",
+                            "title": "Operation field is missing on the Bill Of Material import template",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The &quot;Bill Of Material&quot; import template includes the operation field.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45789",
+                            "title": "Dashboard wizard improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create widgets more easily and with enhanced options such as:</p><ul><li>Additional filter operators for numerical fields</li><li>Custom labels for X and Y axes on chart widgets</li><li>Two different aggregation methods for the same field, such as minimum and maximum</li><li>Search fields added to selection lists</li><li>Default presentations for different data types</li><li>Divisors simply the display of large amounts</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50075",
+                            "title": "xtrem-reporting/ReportTemplate issue in Code for sageJobTravelerTemplate",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Report template (sageJobTravelerTemplate): Set the max rows per page to 100000 to ensure all component records are displayed on the pdf. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49896",
+                            "title": "Active template value is reverted to the default template when a tenant is upgraded to a newer version",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Report template:  Active template value was reverted to the default template when a tenant was upgraded to the latest version.  This was fixed by setting the active template field as isOwnedByCustomer and removing the vendor check so that the isOwndedByCustomer fields are skipped during the upgrade process. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49407",
+                            "title": "Record count in the header title of the gadget, doesn't match the number of records displayed in the gadget",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Dashboard table widgets display an accurate record count.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48815",
+                            "title": "Widget having entry mode 'Stock Allocation' does not work with fields 'Document line' and 'Order document line' ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The properties nested beneath object references are now accessible.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47325",
+                            "title": "Quick entry and enhanced grid management for purchasing and sales",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Improvements for purchasing and sales documents such as orders, invoices, receipts, credit memos, and so on.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b>\u00a0on your MS computer or\u00a0<b>command + Enter</b>\u00a0on a Mac.</p><p>In the\u00a0<b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p><p>In the column panel, you can select which columns you want to display or hide. Required columns display by default and cannot be hidden.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47975",
+                            "title": "When adding an item to a line for a sales order, the lookup does not work in the panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When there are items with the same name, the lookup works correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

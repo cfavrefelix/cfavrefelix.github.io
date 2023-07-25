@@ -716,7 +716,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can create widgets more easily and with enhanced options such as:</p><ul><li>Additional filter operators for numerical fields</li><li>Custom labels for X and Y axes on chart widgets</li><li>Two different aggregation methods for the same field, such as minimum and maximum</li><li>Search fields added to selection lists</li><li>Default presentations for different data types</li><li>Divisors simply the display of large amounts</li></ul>",
+                                    "content": "<p>You can create widgets more easily and with enhanced options such as:</p><ul><li>Additional filter operators for numerical fields</li><li>Custom labels for X and Y axes on chart widgets</li><li>Two different aggregation methods for the same field, such as applying minimum and maximum as methods on a field</li><li>Search fields added to selection lists</li><li>Default presentations for different data types</li><li>Divisors simplify the display of large amounts</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

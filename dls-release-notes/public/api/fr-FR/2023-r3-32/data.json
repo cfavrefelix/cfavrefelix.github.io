@@ -1,0 +1,904 @@
+{
+    "id": "2023-r3-32",
+    "title": "2023 R7",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2023-r3-31",
+    "date": "July",
+    "content_parts": [
+        {
+            "title": "Tous les modules",
+            "id": "all-modules",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'All Modules' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-18926",
+                            "title": "Am\u00e9lioration de l'impression",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Am\u00e9lioration des performances d'impression</b></p><p>Les d\u00e9passements de d\u00e9lais ne surviennent plus en cas de longue liste de demandes d'impression ou lors de l'impression d'un document volumineux.</p><p><b>Imprimer plusieurs commandes de vente \u00e0 la fois</b></p><p>Vous pouvez effectuer plusieurs impressions \u00e0 partir de la liste principale des commandes de vente.\u00a0</p><p>Les documents suivants sont imprim\u00e9s en fonction de leur statut :</p><ul><li><b>Devis :</b> Les devis des commandes de vente sont imprim\u00e9s.</li><li><b>Confirm\u00e9/partiellement exp\u00e9di\u00e9 :</b> Les confirmations de commande de vente sont imprim\u00e9es.</li></ul><p>Vous pouvez consulter la progression et les r\u00e9sultats sur la page <b>Historique t\u00e2ches batch</b>.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49981",
+                            "title": "Planifier la g\u00e9n\u00e9ration d'\u00e9criture",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>En plus de g\u00e9n\u00e9rer des \u00e9critures instantan\u00e9ment, vous pouvez planifier une t\u00e2che de g\u00e9n\u00e9ration pour un jour et une heure sp\u00e9cifiques.</p><p>Vous pouvez consulter l'\u00e9tat d'une t\u00e2che planifi\u00e9e sur la page <b>Historique t\u00e2ches batch</b>, dans le menu <b>Administration < Planificateur</b>. L'onglet <b>Logs</b> fournit des d\u00e9tails sur chaque t\u00e2che.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47431",
+                            "title": "D\u00e9finir les sections et les attributs requis",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Au niveau de la soci\u00e9t\u00e9</b></p><p>Vous pouvez d\u00e9finir les sections requises sur la page <b>Soci\u00e9t\u00e9</b>. Un contr\u00f4le permet de s'assurer que les sections et attributs requis sont assign\u00e9s, sinon un message d'erreur appara\u00eet lorsque le syst\u00e8me tente de sauvegarder ou de comptabiliser. Elles s'appliquent \u00e0 toutes les factures d'achat et de vente ainsi qu'aux avoirs pour cette soci\u00e9t\u00e9 et tous les sites financiers.</p><p><b>Uniquement au niveau du compte pour les int\u00e9grations Sage Intacct</b></p><p>Vous pouvez d\u00e9finir les sections et attributs requis au niveau du Compte g\u00e9n\u00e9ral dans Sage Intacct. Si les affectations requises manquent lors de la cr\u00e9ation des factures Fournisseur/Client et des \u00e9critures sur une ligne de document, un message d'erreur s'affiche.</p><p>Les sections et attributs requis d\u00e9finis dans Sage Intacct s'affichent dans la page <b>Compte</b> dans le tableau <b>Sections demand\u00e9es</b>.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46943",
+                            "title": "Am\u00e9lioration des int\u00e9grations Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Coh\u00e9rence du code article</b>\u00a0</p><ul><li>Lorsque vous int\u00e9grez Sage Intacct, vous ne pouvez plus modifier le code de l'article pour les articles int\u00e9gr\u00e9s.</li></ul><p><b>Liens d'int\u00e9gration des donn\u00e9es de base</b></p><ul><li>Sur les pages <b>Client</b>, <b>Fournisseur</b> et <b>Article</b>, un lien vous permet d'acc\u00e9der \u00e0 l'enregistrement correspondant dans Sage Intacct.</li></ul>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45215",
+                            "title": "Exporter les r\u00e9sultats sur la page Historique de notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Historique de notification</b>, vous pouvez exporter les donn\u00e9es des tableaux <b>R\u00e9sultats</b> de tous les onglets.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50633",
+                            "title": "Les r\u00f4les d'autorisation ne fonctionnent pas correctement lors de l'impression d'une facture de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L'impression d'une facture de vente n'affiche plus de message d'erreur pour un utilisateur autoris\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50622",
+                            "title": "Les r\u00f4les d'autorisation ne fonctionnent pas correctement lors de la cl\u00f4ture d'un ordre de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La cl\u00f4ture d'un ordre de fabrication n'affiche plus de message d'erreur pour un utilisateur autoris\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50461",
+                            "title": "Impossible de modifier le groupe d'autorisation d'un utilisateur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Aucun message d'erreur ne s'affiche lorsque vous modifiez le groupe d'autorisation d'un utilisateur.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48531",
+                            "title": "Am\u00e9lioration de la gestion des ordres d'offre et de demande",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Voir le stock projet\u00e9<br/>Sur la page <b>Commande de vente</b>, \u00e0 partir d'une ligne de commande de vente, vous pouvez afficher le <b>Stock projet\u00e9</b> disponible pour 7 jours \u00e0 partir de la date d'exp\u00e9dition de la commande de vente, et non \u00e0 partir de la date d'aujourd'hui.</p><p>Acc\u00e9der aux commandes allou\u00e9es<br/>Vous pouvez acc\u00e9der \u00e0 la fen\u00eatre <b>Commandes allou\u00e9es</b> en mode \u00e9dition ou en mode affichage, selon le statut du document ou de la ligne.</p><ul><li>\u00c0 partir des lignes de <b>Commande de vente</b> et de la page <b>Ordre de fabrication</b>, vous pouvez acc\u00e9der \u00e0 la fen\u00eatre <b>Commandes allou\u00e9es</b> en mode \u00e9dition lorsque le statut de la ligne est <b>En attente</b> ou <b>En cours</b>. Pour tous les autres statuts, la fen\u00eatre <b>Commandes allou\u00e9es</b> est en mode affichage.</li><li>\u00c0 partir des lignes de <b>Commande d'achat</b>, vous pouvez acc\u00e9der \u00e0 la fen\u00eatre <b>Commandes allou\u00e9es</b> en mode \u00e9dition lorsque le statut de la ligne est <b>Brouillon</b>, <b>En attente</b> ou <b>En cours</b>. Pour tous les autres statuts, la fen\u00eatre <b>Commandes allou\u00e9es</b> est en mode affichage.</li></ul><p>Contr\u00f4les dans les fen\u00eatres <b>Affecter l\u2019ordre</b></p><ul><li>Sur la page <b>Ordre de fabrication</b>, un message d'erreur s'affiche lorsque vous affectez une quantit\u00e9 sup\u00e9rieure \u00e0 la quantit\u00e9 effective du besoin d'approvisionnement ou sup\u00e9rieure \u00e0 la quantit\u00e9 valid\u00e9e du bon de fabrication.</li><li>Sur la page <b>Commande d'achat</b>, un message d'erreur s'affiche lorsque vous affectez une quantit\u00e9 sup\u00e9rieure \u00e0 la quantit\u00e9 effective du besoin d'approvisionnement ou sup\u00e9rieure \u00e0 la quantit\u00e9 de la ligne de commande d'achat en unit\u00e9 de stock.</li><li>Sur la page <b>Commande de vente</b>, un message d'erreur s'affiche lorsque vous affectez une quantit\u00e9 sup\u00e9rieure \u00e0 la quantit\u00e9 effective de l'ordre d'approvisionnement ou sup\u00e9rieure \u00e0 la quantit\u00e9 de la ligne de commande de vente en unit\u00e9 de stock.</li></ul>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47096",
+                            "title": "Automatisation de la r\u00e9partition d\u00e9taill\u00e9e des stocks des Ordres de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Ordre de fabrication</b>, vous pouvez s\u00e9lectionner <b>Allouer stock</b> dans le sous-menu <b>Plus d'actions</b> en haut de la page pour allouer des enregistrements de stock aux lignes de composants de l'ordre de fabrication pour les articles g\u00e9r\u00e9s en stock.\u00a0\u00a0</p><p>Une demande d'allocation est cr\u00e9\u00e9e pour les lignes de composants de l'ordre fabrication en attente ou en cours, et dont le stock n'a \u00e9t\u00e9 que partiellement allou\u00e9 ou pas allou\u00e9 du tout.\u00a0</p><p>Les d\u00e9tails de stock \u00e0 allouer et les lignes d'ordre de fabrication sont mis \u00e0 jour en fonction de la disponibilit\u00e9 et de l'\u00e9tat du stock.\u00a0</p><p>Vous pouvez r\u00e9p\u00e9ter cette op\u00e9ration jusqu'\u00e0 ce que toutes les lignes de composants de l'ordre de fabrication soient allou\u00e9es. Vous pouvez toujours manuellement allouer le stock par ligne de composant.\u00a0</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47010",
+                            "title": "D\u00e9sactivation de la gestion des approbations pour les Demandes d'achat et Demandes de retour des ventes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Site</b>, vous pouvez d\u00e9sactiver le m\u00e9canisme d'approbation des demandes d'achat et commandes, ainsi que des demandes de retour de vente. Lorsque le processus d'approbation est termin\u00e9, il vous suffit de valider les documents.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46939",
+                            "title": "Am\u00e9liorations relatives \u00e0 la distribution",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Articles</b></p><ul><li>Sur la page <b>Article</b>, le contr\u00f4le du formatage du <b>Code marchandise</b> a \u00e9t\u00e9 supprim\u00e9.</li></ul><p><b>Achats</b></p><ul><li>Sur la page <b>Commande d'achat</b>, vous pouvez consulter l'\u00e9tat de l'impression dans l'onglet Informations.</li></ul><p><b>Masse salariale</b></p><ul><li>Dans le tableau des lignes <b>Exp\u00e9dition de vente</b>, vous pouvez afficher la colonne <b>Quantit\u00e9 allou\u00e9e</b> \u00e0 partir des options de colonne.</li><li>La quantit\u00e9 de <b>Stock disponible</b> est affich\u00e9e dans la fen\u00eatre <b>Stock projet\u00e9</b> disponible depuis la ligne <b>Commande de vente</b> et la page <b>Article</b>. Il est \u00e9galement affich\u00e9 dans l'onglet <b>Stock</b> du volet de la ligne de <b>Commande de vente</b>.</li></ul>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42179",
+                            "title": "Profit brut et co\u00fbt des ventes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur les pages <b>Commande de vente</b>, <b>Facture de vente</b> et <b>Avoir de vente</b>, vous pouvez visualiser le total de la marge brute dans l'onglet <b>Totaux</b>. <br/>Dans le tableau et le volet des lignes, vous pouvez aussi consulter le <b>Montant de profit brut</b> et le <b>Montant du co\u00fbt du stock</b> pour chaque ligne du document de vente. </p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-44443",
+                            "title": "Gestion des lots de stock pour l'inventaire",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque vous effectuez des mouvements de stock li\u00e9s \u00e0 un changement de stock effectu\u00e9 lors d'une session de comptage, le contr\u00f4le des num\u00e9ros de lots de stock suit les m\u00eames r\u00e8gles de num\u00e9rotation que celles appliqu\u00e9es dans les autres pages.  </p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-40590",
+                            "title": "Ajouter des notes clients et internes aux documents de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur les pages <b>Exp\u00e9dition de vente</b>, <b>Demande de retour de vente</b> et <b>R\u00e9ception de retour de vente</b>, vous pouvez saisir des notes clients et internes au niveau de l'en-t\u00eate et de la ligne.<br/>Vous avez la possibilit\u00e9 d'inclure ces notes dans l'en-t\u00eate et la ligne des factures de vente ainsi que dans les bons de livraison au format PDF.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49802",
+                            "title": "Volet ligne commande de vente : Erreur lors de la suppression d'un article apr\u00e8s avoir saisi une quantit\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez supprimer l'article apr\u00e8s avoir saisi une quantit\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48680",
+                            "title": "R\u00e9ception d\u2019achat : Le bouton de comptabilisation est actif m\u00eame si aucun d\u00e9tail de stock n'est saisi.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le bouton de comptabilisation de la r\u00e9ception d'achat est masqu\u00e9 lorsqu'au moins une ligne a un statut de d\u00e9tail du stock \u00e9gal \u00e0 \"demand\u00e9\".",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48414",
+                            "title": "L'adresse du site mis \u00e0 jour n'est pas imprim\u00e9e sur la commande d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous mettez \u00e0 jour l'adresse et le nom du site ou du fournisseur sur une commande d'achat, les informations mises \u00e0 jour apparaissent sur le document imprim\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48355",
+                            "title": "Le bouton Avoir de retour de vente est masqu\u00e9 pour un retour de type \u00ab\u00a0R\u00e9ception et avoir\u00a0\u00bb.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Dans une demande de retour de vente, le bouton &quot;Avoir&quot; s'affiche lorsqu'il s'agit d'un type de retour &quot;R\u00e9ception et Avoir&quot;.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47799",
+                            "title": "L'onglet Stock ne s'affiche pas toujours pour l'article en stock g\u00e9r\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L'onglet &quot;Stock&quot; s'affiche correctement dans le volet Exp\u00e9dition de ventes.<br/>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47682",
+                            "title": "Exp\u00e9dition de vente : Champs de stock dupliqu\u00e9s dans le volet de ligne",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les champs de stock ne sont plus dupliqu\u00e9s dans les onglets &quot;Information&quot; et &quot;Stock&quot;.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46957",
+                            "title": "Erreur impr\u00e9cise lors de la cr\u00e9ation d'une facture de vente \u00e0 partir d'une exp\u00e9dition de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Il n'est plus possible d'avoir un compteur pour la d\u00e9finition d'une Soci\u00e9t\u00e9 ou d'un site avec une longueur de 0 dans le composant li\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46520",
+                            "title": "Le champ du bon de livraison du fournisseur est d\u00e9sactiv\u00e9 lorsque la r\u00e9ception est cr\u00e9\u00e9e \u00e0 partir d'une commande",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous cr\u00e9ez une r\u00e9ception d'achat \u00e0 partir d'une commande, le champ &quot;Bon de livraison fournisseur&quot; est activ\u00e9 afin que vous puissiez inclure la r\u00e9f\u00e9rence du fournisseur.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46307",
+                            "title": "Surallocation sur les exp\u00e9ditions de ventes et les retours d'achats",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Un contr\u00f4le des pages &quot;Exp\u00e9dition de vente&quot; et &quot;Retour d'achat&quot; permet d'\u00e9viter la surallocation d'articles.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44878",
+                            "title": "Erreur de r\u00e9ception du suivi de production lorsque le stock Allou\u00e9 est affect\u00e9 \u00e0 l'ordre de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le suivi de production n'affiche plus d'erreur lorsque la case Suivi mati\u00e8re automatique est coch\u00e9e si le stock Allou\u00e9 est affect\u00e9 \u00e0 l'ordre de fabrication.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47236",
+                            "title": "Build et suivre \u00e0 partir de la nomenclature",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez suivre les r\u00e9ceptions de production pour une nomenclature gr\u00e2ce \u00e0 la fonction <b>Suivi</b> de la page <b>Nomenclature</b>. Si une gamme est affect\u00e9e \u00e0 la nomenclature, tous les suivis associ\u00e9s \u00e0 la r\u00e9ception de production sont cr\u00e9\u00e9s automatiquement et affich\u00e9s dans l'onglet <b>Suivi</b>. Un lien permettant de consulter chaque document de transaction individuel est disponible. Un ordre de fabrication, un document de suivi de production, un document de sortie mati\u00e8re et un document de suivi des temps peuvent \u00eatre cr\u00e9\u00e9s, en fonction de la nomenclature et des d\u00e9finitions de la gamme.<br/>Notez que si l'article en stock est g\u00e9r\u00e9 par num\u00e9ros de s\u00e9rie, vous ne pouvez pas suivre une r\u00e9ception de production depuis la page <b>Nomenclature</b>.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46941",
+                            "title": "Co\u00fbts de production",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsque le statut d'une nomenclature ou d'une gamme passe de <b>En d\u00e9veloppement</b> ou <b>Suspendue</b> \u00e0 <b>Exploitation</b>, le co\u00fbt total peut changer. Un message d'alerte vous invite \u00e0 recalculer les co\u00fbts.<br/>Le champ <b>Co\u00fbt</b> indirect n'est plus affich\u00e9 pour un article-site.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44431",
+                            "title": "Calcul CBN multi-niveaux",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La <b>Demande de calcul CBN</b> \u00e9clate les suggestions d'ordre de fabrication en besoins pour les articles composants, selon la d\u00e9finition de la nomenclature, lorsque la case <b>\u00c9clater une nomenclature</b> est coch\u00e9e. Le CBN traite ensuite ces besoins en composants, ainsi que toute autre offre et demande, pour d\u00e9finir les ruptures de stock et cr\u00e9er des suggestions pour ces articles.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-44419",
+                            "title": "Tra\u00e7abilit\u00e9 article",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Consultez la <b>Tra\u00e7abilit\u00e9 article</b> en stock pour retrouver les transactions qui ont utilis\u00e9 un lot ou un num\u00e9ro de s\u00e9rie sp\u00e9cifique. La recherche r\u00e9pertorie toutes les transactions qui renvoient au num\u00e9ro de lot ou de s\u00e9rie. Un lien permettant de consulter chaque document de transaction individuel est disponible.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47426",
+                            "title": "D\u00e9sallocation d'ordre de fabrication : Le bouton Enregistrer est d\u00e9sactiv\u00e9 apr\u00e8s effacement d'une ligne",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La d\u00e9sallocation du stock dans le volet d\u00e9taill\u00e9 de r\u00e9partition du stock sur une ligne de document fonctionne comme pr\u00e9vu.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42713",
+                            "title": "Le champ Op\u00e9ration est manquant dans le mod\u00e8le d'importation de Nomenclature.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le mod\u00e8le d'importation de &quot;Nomenclature&quot; comprend le champ op\u00e9ration.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45789",
+                            "title": "Am\u00e9lioration de l'assistant tableau de bord",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez cr\u00e9er des widgets plus facilement et avec des options am\u00e9lior\u00e9es telles que :</p><ul><li>Op\u00e9rateurs de filtre suppl\u00e9mentaires pour les champs num\u00e9riques</li><li>\u00c9tiquettes personnalis\u00e9es pour les axes X et Y dans les widgets graphiques</li><li>Deux m\u00e9thodes d'agr\u00e9gation diff\u00e9rentes pour un m\u00eame champ, en appliquant par exemple un minimum et un maximum \u00e0 un champ.</li><li>Champs de recherche ajout\u00e9s aux listes de s\u00e9lection</li><li>Pr\u00e9sentations par d\u00e9faut pour diff\u00e9rents types de donn\u00e9es</li><li>Les diviseurs simplifient l'affichage de quantit\u00e9s importantes</li></ul>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50075",
+                            "title": "Signaler un probl\u00e8me de mod\u00e8le d\u2019\u00e9dition dans le code pour sageJobTravelerTemplate",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Mod\u00e8le d'\u00e9dition (sageJobTravelerTemplate) : D\u00e9finissez le nombre maximum de lignes par page \u00e0 100 000 pour vous assurer que tous les composants sont affich\u00e9s sur le PDF. ",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49896",
+                            "title": "La valeur du mod\u00e8le actif est r\u00e9tablie sur le mod\u00e8le par d\u00e9faut lorsqu'une instance est mise \u00e0 niveau vers une version plus r\u00e9cente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Mod\u00e8le d'\u00e9dition :  La valeur du mod\u00e8le actif \u00e9tait r\u00e9tablie sur le mod\u00e8le par d\u00e9faut lorsqu'une instance \u00e9tait mise \u00e0 niveau vers la derni\u00e8re version.  Ce probl\u00e8me a \u00e9t\u00e9 r\u00e9solu en d\u00e9finissant le champ du mod\u00e8le actif comme \u00ab\u00a0isOwnedByCustomer\u00a0\u00bb et en supprimant la v\u00e9rification vendeur pour que les champs \u00ab\u00a0isOwndedByCustomer\u00a0\u00bb soient ignor\u00e9s au cours du processus de mise \u00e0 niveau. ",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49407",
+                            "title": "Le comptage dans l'en-t\u00eate du widget ne correspond pas au nombre affich\u00e9 dans le gadget",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les widgets du tableau de bord affichent un comptage d\u00e9taill\u00e9.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48815",
+                            "title": "Le widget pour l'Allocation de stock ne fonctionne pas avec les Lignes de document et les Lignes de document de commande.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Ces champs sont disponibles pour l'Allocation de stock.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exp\u00e9rience utilisateur",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47325",
+                            "title": "Saisie rapide et gestion am\u00e9lior\u00e9e des tableaux d'achat et de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Am\u00e9liorations pour les documents d'achat et de vente tels que les ordres, les factures, les re\u00e7us, les avoirs, etc.</p><p>Gr\u00e2ce \u00e0 la fonctionnalit\u00e9 de saisie rapide, vous pouvez ajouter des lignes directement dans le tableau et les ajouter au document en appuyant sur <b>Ctrl + Entr\u00e9e</b> sur Windows ou <b>Commande + Entr\u00e9e</b> sur Mac.</p><p>Dans le <b>Volet des lignes</b>, vous pouvez ajouter plusieurs lignes et faire d\u00e9filer toutes les lignes du document.</p><p>Dans le <b>Volet des colonnes</b>, vous pouvez s\u00e9lectionner les colonnes \u00e0 afficher ou \u00e0 masquer,. Les colonnes choisies s'affichent par d\u00e9faut et ne peuvent pas \u00eatre masqu\u00e9es.</p>",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R3 (32.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R3 (32.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-50375,XT-48711,XT-47961,XT-47921,XT-47458,XT-46676,XT-46524,XT-46321)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48505",
+                            "title": "Commande d\u2019achat :  L'onglet Origine affiche des informations sur tous les articles",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Seule l'origine de l'article en cours de consultation s'affiche.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47975",
+                            "title": "Lors de l'ajout d'un article \u00e0 la ligne d'une commande de fabrication, la recherche ne fonctionne pas dans le volet",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque plusieurs articles portent le m\u00eame nom, la recherche fonctionne correctement.",
+                                    "taxonomies": "tout"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "32.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

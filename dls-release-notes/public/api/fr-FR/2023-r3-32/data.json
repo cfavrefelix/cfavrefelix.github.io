@@ -1,7 +1,7 @@
 {
     "id": "2023-r3-32",
     "title": "2023 R7",
-    "language": "en-US",
+    "language": "fr-FR",
     "__archive": "/dls-release-notes/api/fr-FR/archive.json",
     "previous": "2023-r3-31",
     "date": "July",
@@ -725,7 +725,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "32.0.0"
+                                    
                                 ]
                             }
                         }
@@ -790,7 +790,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "32.0.0"
+                                    
                                 ]
                             }
                         },
@@ -806,7 +806,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "32.0.0"
+                                    
                                 ]
                             }
                         }
@@ -866,7 +866,7 @@
                     "content_parts": [
                         {
                             "key": "XT-48505",
-                            "title": "Commande d\u2019achat :  L'onglet Origine affiche des informations sur tous les articles",
+                            "title": "Commande d\u2019achat : L'onglet Origine affiche des informations sur tous les articles",
                             "highlight": false,
                             "content_parts": [
                                 {

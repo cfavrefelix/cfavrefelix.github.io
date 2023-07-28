@@ -88,7 +88,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>At the company level</b></p><p>You can define required dimensions at the company level on the <b>Company</b> page. A control ensures that the required dimensions and attributes are assigned, or an error message displays when trying to save or post. They apply to all purchasing and sales invoices and credit notes for that company and all financial sites.</p><p><b>At the account level for Sage Intacct integrations only</b></p><p>You can define required dimensions and attributes at the GL account level in Sage Intacct. If the required assignments are missing when creating AP/AR invoices and journal entries on a document line, an error message displays.</p><p>Required dimensions and attributes defined in Sage Intacct display on the <b>Account</b> page in the <b>Required dimensions</b> grid.</p>",
+                                    "content": "<p><b>At the company level</b></p><p>You can define required dimensions at the company level on the <b>Company</b> page. A control ensures that the required dimensions and attributes are assigned, or an error message displays when trying to save or post. They apply to all purchasing and sales invoices and credit notes for that company, and all financial sites.</p><p><b>At the account level for Sage Intacct integrations only</b></p><p>You can define required dimensions and attributes at the GL account level in Sage Intacct. If the required assignments are missing when creating AP/AR invoices and journal entries on a document line, an error message displays.</p><p>Required dimensions and attributes defined in Sage Intacct display on the <b>Account</b> page in the <b>Required dimensions</b> grid.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -246,11 +246,11 @@
                         },
                         {
                             "key": "XT-47096",
-                            "title": "Automated detailed stock allocation on Work orders",
+                            "title": "Automated detailed stock allocation on work orders",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Work order</b> page, you can select <b>Allocate stock</b> from the <b>More actions</b> menu top of the page to allocate stock records to the work order component lines for items that are stock managed.\u00a0\u00a0</p><p>An allocation request is created for work order component lines that are pending or in progress, and where the stock has only been partially allocated or not allocated at all.\u00a0</p><p>The stock details to be allocated and the work order lines are updated according to stock availability and status.\u00a0</p><p>You can repeat this until all work order component lines are allocated. You can still manually allocate stock per component line.\u00a0</p>",
+                                    "content": "<p>On the <b>Work order</b> page, you can select <b>Allocate stock</b> from the <b>More actions</b> menu at the top of the page to allocate stock records to the work order component lines for items that are stock managed.\u00a0\u00a0</p><p>An allocation request is created for work order component lines that are pending or in progress, and where the stock has only been partially allocated or not allocated at all.\u00a0</p><p>The stock details to be allocated and the work order lines are updated according to stock availability and status.\u00a0</p><p>You can repeat this until all work order component lines are allocated. You can still manually allocate stock per component line.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -265,7 +265,7 @@
                         },
                         {
                             "key": "XT-47010",
-                            "title": "Disabling approval management on the Purchase requisition and Sales return request",
+                            "title": "Disabling approval management on the purchase requisition and sales return request",
                             "highlight": false,
                             "content_parts": [
                                 {

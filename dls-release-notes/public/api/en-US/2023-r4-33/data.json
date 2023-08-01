@@ -308,7 +308,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "For the following reports, the date format is based on the user\u2019s connection language:<br/>\u2022packingSlip<br/>\u2022purchaseOrderTemplate<br/>\u2022salesCreditMemo<br/>\u2022salesInvoice<br/>\u2022salesOrder<br/>\u2022salesOrderQuote<br/>\u2022salesShipmentPickList<br/>",
+                                    "content": "For the following reports, the date format is based on the user\u2019s connection language:<br/>Packing slip<br/>Purchase order<br/>Sales credit memo<br/>Sales invoice<br/>Sales order<br/>Sales order quote<br/>Sales shipment picklist<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -448,7 +448,7 @@
                     "content_parts": [
                         {
                             "key": "XT-50620",
-                            "title": "Unclear screen is shown when attempting to change the role more than once",
+                            "title": "Unclear screen displays when attempting to change roles more than once",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -459,34 +459,28 @@
                             "taxonomies": {
                                 "version": [
                                     "33.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-49932",
-                            "title": "User Experience / Incomplete visualization of drop-down menu values / SIM-CY23M02-ID044 ",
+                            "title": "Not all dropdown menu values are visible",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Field height calculation improved.",
+                                    "content": "Field height calculation improved so that all values are visible.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "33.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-48548",
-                            "title": "Item ID does not remain in the assigned location on the Components Grid within Work Order Entry",
+                            "title": "Item ID does not remain in the assigned location in the Components grid on Work orders",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -497,9 +491,6 @@
                             "taxonomies": {
                                 "version": [
                                     "33.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

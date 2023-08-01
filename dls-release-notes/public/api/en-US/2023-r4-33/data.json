@@ -1,0 +1,629 @@
+{
+    "id": "2023-r4-33",
+    "title": "2023 R8",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r3-32",
+    "date": "August",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47957",
+                            "title": "Include dimensions in the Journal entry inquiry report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Journal entry inquiry</b> page, you can include dimensions and attributes in the journal entries export to support dimensional analysis in your external accounting software.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42017",
+                            "title": "Filter on document lines ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can filter on the line status for sales and purchasing documents.</p><p>This is not included on purchasing invoices and credit memos.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42719",
+                            "title": "Item page: Item description is limited to 250 characters",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The item description is increased to a maximum length of 250 characters.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51698",
+                            "title": "Stock inquiry enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Stock inquiry</b> page, a dynamic list displays the items with additional information about the quantities and the total stock value. You can sort, filter, and group by <b>Item ID</b>, <b>Name</b>, <b>Category</b>, and <b>Site</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50117",
+                            "title": "Sales credit memo and sales shipment batch printing from the main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Sales credit memo</b> and <b>Sales shipment</b> main lists, you can select and print multiple records. From the <b>Batch task history</b> page, you can track the progress of batch actions from the <b>Logs</b> tab, and you can download reports.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48537",
+                            "title": "Print purchase receipt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Purchase receipt</b> page, you can print the purchase receipt to track the actual receipt against the delivery note.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41499",
+                            "title": "Automatic detailed stock deallocation on sales orders and work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<ul><li>On the\u00a0<b>Sales order</b> page, you can select <b>Deallocate stock</b> to deallocate stock records from the sales order lines for items that are stock managed. A deallocation request is created for the partially or fully stock allocated sales order lines that are pending or in progress. You can still manually deallocate stock per sales order line.</li></ul><ul><li>On the <b>Work order</b> page, you can select <b>Deallocate stock</b> to deallocate stock records from the work order component lines for items that are stock managed. A deallocation request is created for the partially or fully stock allocated work order component lines that are pending or in progress. You can still manually deallocate stock per line.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41492",
+                            "title": "Automatic detailed stock allocation on sales orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the\u00a0<b>Sales order</b> page, you can use the <b>Allocate stock</b> action to allocate stock records to the sales order lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-47210",
+                            "title": "Add internal notes to Purchase invoices and Purchase returns",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the purchase invoices and purchase returns, you can add internal notes for the entire document and for each line.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50896",
+                            "title": "Mass invoice generation error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The tax determination rules can return no tax without any errors. The document displays with a tax calculation failed status when the tax is mandatory.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50185",
+                            "title": "Tax date information column should not display in sales order line grid",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The tax date does not display in the sales order lines.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49076",
+                            "title": "When filtering data on the Sales order line inquiry page, the totals displayed do not update when the grid data is filtered",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When exiting the &#39;Sales order line inquiry&#39; page, you are no longer prompted to save changes. In addition, an asterisk indicates that the &#39;Company&#39; field is a required field.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47385",
+                            "title": "Purchase and sales documents: incorrect date format",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For the following reports, the date format is based on the user\u2019s connection language:<br/>\u2022packingSlip<br/>\u2022purchaseOrderTemplate<br/>\u2022salesCreditMemo<br/>\u2022salesInvoice<br/>\u2022salesOrder<br/>\u2022salesOrderQuote<br/>\u2022salesShipmentPickList<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49771",
+                            "title": "Entering a purchase invoice creates a generic error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Posting a purchase invoice generated a validation error when the underlying purchase receipt was not yet invoiced, contained items that were non-lot-managed, and were previously upgraded with a script. This has now been corrected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-46231",
+                            "title": "Work in Progress inquiry update",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A new <b>Work in progress inquiry</b> displays a summary of costs by work order.<br/>The previous Work in progress inquiry is renamed <b>Work in progress transaction inquiry</b> and displays the cost of individual trackings.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49494",
+                            "title": "Error when adding dimensions to a work order ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An error is no longer displayed when adding work order dimensions.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50620",
+                            "title": "Unclear screen is shown when attempting to change the role more than once",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Screen rendering optimized.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-49932",
+                            "title": "User Experience / Incomplete visualization of drop-down menu values / SIM-CY23M02-ID044 ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Field height calculation improved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48548",
+                            "title": "Item ID does not remain in the assigned location on the Components Grid within Work Order Entry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Configured column order is retained when changing records.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50783",
+                            "title": "MRP calculation results: Item ID and column filters",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Column filters have been added to the <b>Details</b> grid in the <b>MRP calculation results</b> page. The <b>Item ID</b> is also displayed.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-26043",
+                            "title": "Stock valuation report by user",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Stock valuation</b> report runs asynchronously to generate a set of valuation results by user.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-49838",
+                            "title": "Miscellaneous improvement for sales and purchasing documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Miscellaneous improvements include:</p><ul><li>A warning icon alerts you if a customer is on hold.</li><li>Purchase invoice single status includes the matching status and the stock status.</li><li>Purchase credit memo single status includes the stock transaction status.</li><li>The <b>Printed</b> and <b>Sent</b> statuses for individual documents displays as a checkbox.</li><li>For sales orders, the <b>Open</b> action is only available on closed lines.</li><li>The tax calculation status includes <b>Not done</b> and <b>In progress</b>.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-39883",
+                            "title": "Key information displays on sales and purchasing documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The main record display sales and purchasing documents include:</p><ul><li>A step flow that displays a horizontal list of steps in the document process. The current step is highlighted.</li><li>An indicator bar displays key information like amounts, totals, and dates. Indicators displayed vary by document type.</li><li>Some indicators include icons:</li></ul><ul><li>A checkmark when the earliest date expected is not reached when the minimum amount is reached.</li><li>A warning when the earliest date expected is reached when the minimum amount is not reached, and saving the record is possible.</li><li>An error when the earliest date expected is reached when the minimum amount is not reached, and saving the record is not possible.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

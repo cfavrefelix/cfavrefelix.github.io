@@ -60,6 +60,25 @@
                                     "33.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-41333",
+                            "title": "Schedule and track batch tasks",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Job scheduler</b> page, you can schedule batch tasks with detailed settings like start and end dates and frequency for a specific job. Track current and past jobs on the <b>Batch task history</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -507,6 +526,25 @@
                             "taxonomies": {
                                 "version": [
                                     "33.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46350",
+                            "title": "Empty categories excluded from grouped main list data",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Empty categories included in grouped main list data.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         }

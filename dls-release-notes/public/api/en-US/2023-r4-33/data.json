@@ -271,6 +271,22 @@
                             }
                         },
                         {
+                            "key": "XT-50626",
+                            "title": "Sales orders: Shipping a line item with a failed tax calculation removes ship-to address and creates new shipment",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In Sales orders, when shipping a line item that has a failed tax calculation, the ship-to-address details are kept and a separate sales shipment is no longer created.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-50185",
                             "title": "Tax date information column should not display in sales order line grid",
                             "highlight": false,
@@ -378,7 +394,7 @@
                     "content_parts": [
                         {
                             "key": "XT-46231",
-                            "title": "Work in Progress inquiry update",
+                            "title": "Work in progress inquiry update",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -540,7 +556,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Stock valuation</b> report runs asynchronously to generate a set of valuation results by user.</p><p>\u00a0</p>",
+                                    "content": "<p>The <b>Stock valuation</b> report runs asynchronously to generate a set of valuation results by user.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

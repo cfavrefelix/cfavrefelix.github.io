@@ -242,11 +242,11 @@
                     "content_parts": [
                         {
                             "key": "XT-47210",
-                            "title": "Add internal notes to Purchase invoices and Purchase returns",
+                            "title": "Add internal notes to purchase invoices and purchase returns",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the purchase invoices and purchase returns, you can add internal notes for the entire document and for each line.\u00a0</p>",
+                                    "content": "<p>On the <b>Purchase invoice</b> and <b>Purchase return</b> pages, you can add internal notes for the entire document and for each line.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],

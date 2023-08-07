@@ -24,6 +24,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-49917",
+                            "title": "Create custom fields",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create custom fields to manage data related to your specific business activities. From the top of the page, you can access the <b>Create custom</b> field wizard that guides you through the process. Custom fields display in the main list and are available in the API.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-47957",
                             "title": "Include dimensions in the Journal entry inquiry report",
                             "highlight": false,
@@ -469,6 +488,39 @@
             "id": "platform",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48678",
+                            "title": "Data import enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Data import templates are now managed in a flat file format. You can easily and dynamically delete, group, reorder, and insert missing fields. You can also validate your import templates.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "33.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Bug Fixes",

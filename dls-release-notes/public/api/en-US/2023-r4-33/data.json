@@ -91,7 +91,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51456,XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
                     ],
                     "content_parts": [
                         {
@@ -270,7 +270,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51456,XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
                     ],
                     "content_parts": [
                         {
@@ -371,7 +371,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51456,XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
                     ],
                     "content_parts": [
                         {
@@ -441,7 +441,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51456,XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
                     ],
                     "content_parts": [
                         {
@@ -478,7 +478,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (33.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (33.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-51456,XT-51199,XT-50633,XT-50622,XT-50461,XT-50075,XT-49993,XT-49896)"
                     ],
                     "content_parts": [
                         {
@@ -634,7 +634,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Miscellaneous improvements include:</p><ul><li>A warning icon alerts you if a customer is on hold.</li><li>Purchase invoice single status includes the matching status and the stock status.</li><li>Purchase credit memo single status includes the stock transaction status.</li><li>The <b>Printed</b> and <b>Sent</b> statuses for individual documents displays as a checkbox.</li><li>For sales orders, the <b>Open</b> action is only available on closed lines.</li><li>The tax calculation status includes <b>Not done</b> and <b>In progress</b>.</li></ul>",
+                                    "content": "<p>Miscellaneous improvements for sales orders:</p><ul><li>A warning icon alerts you if a customer is on hold.</li><li>The <b>Open</b> action is only available on closed lines.</li></ul><p>Miscellaneous improvement for purchasing:</p><ul><li>Purchase invoice single status includes the matching status and the stock status.</li><li>Purchase credit memo single status includes the stock transaction status.</li></ul><p>Miscellaneous improvement for purchasing and sales:</p><ul><li>The <b>Printed</b> and <b>Sent</b> statuses for individual documents display as a checkbox.</li><li>The tax calculation status includes <b>Not done</b> and <b>In progress.</b></li><li>When the main document status for the tax calculation is <b>Error</b>, the <b>Information</b> tab displays <b>Not done</b> and <b>In progress.</b></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

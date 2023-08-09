@@ -156,7 +156,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Auf der Seite <b>Bestandsanfrage</b> werden die Artikel in einer dynamischen Liste mit zus\u00e4tzlichen Informationen \u00fcber die Mengen und den Gesamtbestandswert angezeigt. Es kann nach <b>Artikel-ID</b>, <b>Name</b>, <b>Kategorie</b> und <b>Standort</b> sortiert, gefiltert und gruppiert werden.</p>",
+                                    "content": "<p>Auf der Seite <b>Bestandsabfrage</b> werden die Artikel in einer dynamischen Liste mit zus\u00e4tzlichen Informationen zu den Mengen und dem Gesamtbestandswert angezeigt. Es kann nach <b>Artikel-ID</b>, <b>Name</b>, <b>Kategorie</b> und <b>Standort</b> sortiert, gefiltert und gruppiert werden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -724,7 +724,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Die Hauptdatensatzanzeige von Verkaufs- und Einkaufsdokumenten umfasst:</p><ul><li>Einen Schrittablauf, der eine horizontale Liste der Schritte im Dokumentprozess anzeigt. Der aktuelle Schritt wird hervorgehoben.</li><li>In einer Indikatorleiste werden wichtige Informationen wie Betr\u00e4ge, Summen und Datumsangaben angezeigt. Die angezeigten Indikatoren variieren je nach Dokumenttyp.</li></ul><p>Einige Indikatoren umfassen Symbole:</p><ul><li>Ein H\u00e4kchen, wenn das fr\u00fcheste erwartete Datum nicht erreicht ist, wenn der Mindestbetrag erreicht ist.</li><li>Eine Warnung, wenn das fr\u00fcheste erwartete Datum erreicht ist, wenn der Mindestbetrag nicht erreicht ist und der Datensatz gespeichert werden kann.</li><li>Einen Fehler, wenn das fr\u00fcheste erwartete Datum erreicht ist, wenn der Mindestbetrag nicht erreicht ist und der Datensatz nicht gespeichert werden kann.</li></ul>",
+                                    "content": "<p>Die Hauptdatensatzanzeige von Verkaufs- und Einkaufsdokumenten umfasst:</p><ul><li>Einen Schrittablauf, der eine horizontale Liste der Schritte im Dokumentprozess anzeigt. Der aktuelle Schritt wird hervorgehoben.</li><li>Eine Indikatorleiste, in der wichtige Informationen wie Betr\u00e4ge, Summen und Datumsangaben angezeigt werden. Die angezeigten Indikatoren variieren je nach Dokumenttyp.</li></ul><p>Einige Indikatoren umfassen Symbole:</p><ul><li>Ein H\u00e4kchen, wenn das fr\u00fcheste erwartete Datum nicht erreicht ist, wenn der Mindestbetrag erreicht ist.</li><li>Eine Warnung, wenn das fr\u00fcheste erwartete Datum erreicht ist, wenn der Mindestbetrag nicht erreicht ist und der Datensatz gespeichert werden kann.</li><li>Einen Fehler, wenn das fr\u00fcheste erwartete Datum erreicht ist, wenn der Mindestbetrag nicht erreicht ist und der Datensatz nicht gespeichert werden kann.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

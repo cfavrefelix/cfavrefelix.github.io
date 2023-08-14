@@ -329,7 +329,7 @@
                         },
                         {
                             "key": "XT-50626",
-                            "title": "Commandes de vente : L'exp\u00e9dition d'un article dont le calcul de taxe a \u00e9chou\u00e9 supprime l'adresse de livraison et cr\u00e9e un nouvel envoi.",
+                            "title": "Commandes de vente : L'exp\u00e9dition d'un article dont le calcul de taxe a \u00e9chou\u00e9 supprime l'adresse de livraison et cr\u00e9e un nouvel envoi",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -361,7 +361,7 @@
                         },
                         {
                             "key": "XT-49076",
-                            "title": "Lors du filtrage des donn\u00e9es sur la page de consultation des lignes de commande de vente, les totaux affich\u00e9s ne sont pas mis \u00e0 jour lorsque les donn\u00e9es du tableau sont filtr\u00e9es.",
+                            "title": "Lors du filtrage des donn\u00e9es sur la page de consultation des lignes de commande de vente, les totaux affich\u00e9s ne sont pas mis \u00e0 jour lorsque les donn\u00e9es du tableau sont filtr\u00e9es",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -381,7 +381,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Pour les \u00e9tats suivants, le format de la date est bas\u00e9 sur la langue de connexion de l'utilisateur :<br/>Bon de livraison<br/>Commande d\u2019achat<br/>avoir de vente,<br/>facture de vente,<br/>Commande de vente<br/>Devis de commande de vente<br/>Liste des exp\u00e9ditions de vente<br/>",
+                                    "content": "Pour les \u00e9tats suivants, le format de la date est bas\u00e9 sur la langue de connexion de l'utilisateur :<br/>Bon de livraison<br/>Commande d\u2019achat<br/>avoir de vente<br/>facture de vente<br/>Commande de vente<br/>Devis de commande de vente<br/>Liste des exp\u00e9ditions de vente<br/>",
                                     "taxonomies": "tout"
                                 }
                             ],
@@ -554,7 +554,7 @@
                     "content_parts": [
                         {
                             "key": "XT-50620",
-                            "title": "Un affichage confus appara\u00eet lorsque plusieurs tentatives de changement de r\u00f4le sont effectu\u00e9es.",
+                            "title": "Un affichage confus appara\u00eet lorsque plusieurs tentatives de changement de r\u00f4le sont effectu\u00e9es",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -586,7 +586,7 @@
                         },
                         {
                             "key": "XT-48548",
-                            "title": "L'ID de l'article ne reste pas \u00e0 l'emplacement attribu\u00e9 dans le tableau des composants des ordres de fabrication.",
+                            "title": "L'ID de l'article ne reste pas \u00e0 l'emplacement attribu\u00e9 dans le tableau des composants des ordres de fabrication",
                             "highlight": false,
                             "content_parts": [
                                 {

@@ -1,0 +1,697 @@
+{
+    "id": "2023-r4-34",
+    "title": "2023 R9",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r4-33",
+    "date": "September",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51523",
+                            "title": "Sage Intacct integration improvements for asynchronous operations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can manage asynchronous integrations with Sage Intacct items on the <b>Integration</b> page. This page includes a list of items being processed that you can filter by key (item name) status, and version.</p><p>Use the refresh button to synchronize all items or you can select and synchronize specific items in the list.</p><p><b>Note</b>: This information no longer displays on the <b>Notification history</b> page or the <b>Sage Intacct mapping</b> page on the <b>Data</b> tab.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45904",
+                            "title": "Sales and Purchasing enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Sales improvements</b></p><p>For sales documents, the <b>Origin</b> tab in the <b>Line</b> panel displays the originating document for the current line.</p><p><b>Purchasing improvements</b></p><p>For purchase orders, you can duplicate a line on the main list.</p><p>For purchase invoices and credit memos, you can filter by status and access the <b>Add line from</b> action from the <b>Add line</b> button.</p><p>For purchase invoices, receipts, and returns, the document status displays in the <b>Add lines from</b> window.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51300",
+                            "title": "Stock deallocation process",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Deallocating reserved stock from an order processes the lots using a FEFO (First Expired, First Out) or FIFO (First In, First Out) method which is determined by the <b>Lot management</b> and <b>Expiration date management</b> rules for each item.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50121",
+                            "title": "Purchase order batch printing from the main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Purchase order</b> main list, you can select and print multiple records.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47100",
+                            "title": "Stock Allocation result inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the <b>Allocation result</b> inquiry in the <b>Stock inquiries</b> menu to view allocation and deallocation details for an order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41494",
+                            "title": "Mass work order stock allocation and deallocation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can allocate and deallocate stock from component lines for all or a group of work orders linked to a site.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48417",
+                            "title": "Sales: Repeat customer notes on subsequent documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For sales orders, shipments, invoices, and return requests, you can repeat customer notes on all subsequent documents.</p><p>If you enter customers notes on the line level in the <b>Line</b> panel, you can also repeat these notes on lines in subsequent documents.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (34.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-53093,XT-52437,XT-52295,XT-52242,XT-51894,XT-51874,XT-50765,XT-50764,XT-46509)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53603",
+                            "title": "Purchase requisition: It is no longer possible to add a supplier on approved requisitions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For an approved purchase requisition, you can no longer add or delete a line. Only certain actions such as the &quot;Apply default supplier&quot; and adding a supplier in the edit line panel can be changed, as well as all subsequent fields like the price, currency, and amount.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-53427",
+                            "title": "Sales orders: Filter not available in the Select sold-to customer field lookup",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Sales order page, the sold-to customer lookup includes the ability to filter columns.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-53313",
+                            "title": "MRP calculation result: line incorrectly displays as ordered",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the MRP calculation results page, when you select Create work order or Create purchase order for a suggestion, the line status no longer changes when you close the panel by selecting the X icon in the panel.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52411",
+                            "title": "Header alignement purchase requisition, and receipt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Extra space at the bottom of the header of the purchase requisition and receipt is removed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52069",
+                            "title": "Set dimensions action is available for documents that are closed, posted, or shipped",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For sales and purchasing documents, the Set dimension button is not available for documents that are closed, posted, or shipped. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52058",
+                            "title": "Sales Invoice & Purchase Credit Note | Add line action button/Phantom row is displayed while document is in posted status",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Sales invoices and Purchase credit memos, the phantom row is hidden when the document is in &#39;Posted&#39; or &#39;Posting in progress&#39; status. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51835",
+                            "title": "Need to reprint a purchase order that is fully processed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Purchase orders can be printed even if they are closed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46721",
+                            "title": "Purchase orders: Items to select not restricted to those available from the supplier",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A list of items only contains the items available from the supplier.<br/>If the item is stock managed, the filter is combined with item sites.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46266",
+                            "title": "Sales return request: Create button removed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Create button is no longer available on the Sales return request page because you cannot create a return request on this page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51581",
+                            "title": "Tracking from a BoM and a work order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Use the <b>Trackings</b> tab in the <b>Bill of material</b> page to view a summary of the work orders created to build or maintain the BOM and any related material, production, or time tracking documents.<br/>Use the <b>Trackings</b> block in the <b>Work order</b> page to view the same material, production, and time tracking documents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (34.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-53093,XT-52437,XT-52295,XT-52242,XT-51894,XT-51874,XT-50765,XT-50764,XT-46509)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53819",
+                            "title": "MRP calculation justification: Company, site, and item filters unavailable",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A Site ID, Company ID, and Item ID filter is available in the Details grid.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52298",
+                            "title": "Time tracking fails if WO routing or BOM is in development",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The time tracking works correctly when a WO routing or BOM status is changed to in development.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52294",
+                            "title": "Production tracking fails if a WO routing or BOM is in development",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The production tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to in development.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51761",
+                            "title": "Only the last time tracking in work order operations is considered for costs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "All time tracking created in work order operations are considered for setup and run time costs and completed quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51753",
+                            "title": "Work order creation crash when not confirmed by clicking on cross icon",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An error is no longer displayed if you exit the New work order panel before entering or selecting any field values.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50776",
+                            "title": "MRP caclulation result page displays unclear error message",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "After deleting an item and opening a previous MRP calculation request including the deleted item, the error message no longer displays.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-46194",
+                            "title": "Material tracking fails if a work order routing or BOM is in development",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The material tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to in development.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45034",
+                            "title": "Work order status not updated when material tracking created",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The work order status updates correctly when a material tracking is created.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45007",
+                            "title": "Work order: When changing released quantity, component quantity included through material tracking shouldn't be changed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Work order: The quantity of components included through material tracking does not change when changing the released quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-32283",
+                            "title": "MRP calculation result: company, site, and item filters unavailable",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the MRP calculation result page, the company, site, and item filters are available to use.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (34.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-53093,XT-52437,XT-52295,XT-52242,XT-51894,XT-51874,XT-50765,XT-50764,XT-46509)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53835",
+                            "title": "Sorting on custom fields sometimes not work",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The issue related to the sorting of custom fields has been resolved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (34.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-53093,XT-52437,XT-52295,XT-52242,XT-51894,XT-51874,XT-50765,XT-50764,XT-46509)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-50297",
+                            "title": "Unable to delete an Item-site supplier",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Item-site page, you can delete a supplier from an item-site at the line level.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (34.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-53093,XT-52437,XT-52295,XT-52242,XT-51894,XT-51874,XT-50765,XT-50764,XT-46509)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53900",
+                            "title": "Partially received Sales return requests are not displayed with the 'Open statuses'",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Partially received Sales return requests are now displayed with the &#39;Open statuses&#39; filter of the main list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "34.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

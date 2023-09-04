@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can manage asynchronous integrations with Sage Intacct items on the <b>Integration</b> page. This page includes a list of items being processed that you can filter by key (item name) status, and version.</p><p>Use the refresh button to synchronize all items or you can select and synchronize specific items in the list.</p><p><b>Note</b>: This information no longer displays on the <b>Notification history</b> page or the <b>Sage Intacct mapping</b> page on the <b>Data</b> tab.</p>",
+                                    "content": "<p>You can manage asynchronous integrations with Sage Intacct items on the <b>Integration</b> page. This page includes a list of items being processed that you can filter by key (item name), status, and version.</p><p>Use the refresh button to synchronize all items or you can select and synchronize specific items in the list.</p><p><b>Note</b>: This information no longer displays on the <b>Notification history</b> page or the <b>Sage Intacct mapping</b> page on the <b>Data</b> tab.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -122,7 +122,7 @@
                         },
                         {
                             "key": "XT-47100",
-                            "title": "Stock Allocation result inquiry",
+                            "title": "Stock allocation result inquiry",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -178,7 +178,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For sales orders, shipments, invoices, and return requests, you can repeat customer notes on all subsequent documents.</p><p>If you enter customers notes on the line level in the <b>Line</b> panel, you can also repeat these notes on lines in subsequent documents.\u00a0</p>",
+                                    "content": "<p>For sales orders, shipments, invoices, and return requests, you can repeat customer notes on all subsequent documents.</p><p>If you enter customer notes on the line level in the <b>Line</b> panel, you can also repeat these notes on lines in subsequent documents.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -239,11 +239,11 @@
                         },
                         {
                             "key": "XT-53313",
-                            "title": "MRP calculation result: line incorrectly displays as ordered",
+                            "title": "MRP calculation result: Line incorrectly displays as ordered",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the MRP calculation results page, when you select Create work order or Create purchase order for a suggestion, the line status no longer changes when you close the panel by selecting the X icon in the panel.",
+                                    "content": "On the MRP calculation results page, when you select Create work order or Create purchase order for a suggestion, the line status no longer changes when you select the X icon to close the panel.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -255,20 +255,17 @@
                         },
                         {
                             "key": "XT-52411",
-                            "title": "Header alignement purchase requisition, and receipt",
+                            "title": "Extra space on Purchase requisition and Purchase receipt pages",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Extra space at the bottom of the header of the purchase requisition and receipt is removed.",
+                                    "content": "The extra space at the bottom of the header section on the Purchase requisition and Purchase receipt pages was removed.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "34.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -290,20 +287,17 @@
                         },
                         {
                             "key": "XT-52058",
-                            "title": "Sales Invoice & Purchase Credit Note | Add line action button/Phantom row is displayed while document is in posted status",
+                            "title": "Sales invoice and Purchase credit note pages: Add line action button displays on an empty row while posting",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Sales invoices and Purchase credit memos, the phantom row is hidden when the document is in &#39;Posted&#39; or &#39;Posting in progress&#39; status. ",
+                                    "content": "On the Sales invoice and Purchase credit memo pages, the empty row is hidden when the document is posted or posting in progress. ",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "34.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -434,7 +428,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The time tracking works correctly when a WO routing or BOM status is changed to in development.",
+                                    "content": "The time tracking works correctly when a WO routing or BOM status is changed to In development.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -450,7 +444,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The production tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to in development.",
+                                    "content": "The production tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to In development.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -514,7 +508,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The material tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to in development.",
+                                    "content": "The material tracking works correctly when a work order is selected and tracked using a work order routing or BOM that has been changed to In development.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -542,11 +536,11 @@
                         },
                         {
                             "key": "XT-45007",
-                            "title": "Work order: When changing released quantity, component quantity included through material tracking shouldn't be changed",
+                            "title": "Work order: When changing released quantity, component quantity included through material tracking should not change",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Work order: The quantity of components included through material tracking does not change when changing the released quantity.",
+                                    "content": "The quantity of components included through material tracking does not change when changing the released quantity.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -595,20 +589,17 @@
                     "content_parts": [
                         {
                             "key": "XT-53835",
-                            "title": "Sorting on custom fields sometimes not work",
+                            "title": "Sorting on custom fields sometimes does not work",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The issue related to the sorting of custom fields has been resolved.",
+                                    "content": "The issue related to sorting custom fields was resolved.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "34.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -672,20 +663,17 @@
                     "content_parts": [
                         {
                             "key": "XT-53900",
-                            "title": "Partially received Sales return requests are not displayed with the 'Open statuses'",
+                            "title": "Partially received sales return requests do not display with open statuses",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Partially received Sales return requests are now displayed with the &#39;Open statuses&#39; filter of the main list.",
+                                    "content": "Partially received sales return requests display when you filter for Open statuses on the main list.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "34.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

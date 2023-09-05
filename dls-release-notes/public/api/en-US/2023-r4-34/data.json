@@ -83,6 +83,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-53188",
+                            "title": "Manage allocations for sales order and shipment lines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From sales order and shipment lines, you can view where stock is allocated for the same item so you can review allocations and make effective decisions when there is a shortage.</p><p>Use the line action <b>Transfer allocations</b> to move stock from another document or documents to the current document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-51300",
                             "title": "Stock deallocation process",
                             "highlight": false,

@@ -164,7 +164,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can allocate and deallocate stock from component lines for all or a group of work orders linked to a site.</p>",
+                                    "content": "<p>Use the <b>Work order mass allocation</b> page to allocate and deallocate stock from component lines for all or a group of work orders linked to a site.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

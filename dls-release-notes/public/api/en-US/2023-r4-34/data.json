@@ -41,25 +41,6 @@
                                     "34.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-45904",
-                            "title": "Sales and Purchasing enhancements",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p><b>Sales improvements</b></p><p>For sales documents, the <b>Origin</b> tab in the <b>Line</b> panel displays the originating document for the current line.</p><p><b>Purchasing improvements</b></p><p>For purchase orders, you can duplicate a line on the main list.</p><p>For purchase invoices and credit memos, you can filter by status and access the <b>Add line from</b> action from the <b>Add line</b> button.</p><p>For purchase invoices, receipts, and returns, the document status displays in the <b>Add lines from</b> window.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "34.0.0"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -668,6 +649,39 @@
             "id": "user-experience",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (34.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-45904",
+                            "title": "Sales and Purchasing enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Sales improvements</b></p><p>For sales documents, the <b>Origin</b> tab in the <b>Line</b> panel displays the originating document for the current line.</p><p><b>Purchasing improvements</b></p><p>For purchase orders, you can duplicate a line on the main list.</p><p>For purchase invoices and credit memos, you can filter by status and access the <b>Add line from</b> action from the <b>Add line</b> button.</p><p>For purchase invoices, receipts, and returns, the document status displays in the <b>Add lines from</b> window.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "34.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Bug Fixes",

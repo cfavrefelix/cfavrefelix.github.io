@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve performance, the integration of large item data sets to Sage Intacct is now managed asynchronously.<br/>Use the <b>Integration</b> page in the <b>Administration &gt; Communication</b> menu to view the item integration status. This page includes a list of items being processed that you can filter by key (item name), status, and object.<br/>Select the <b>Last message</b> icon to view error message details for a line with an <b>Error</b> status.<br/>Select the <b>Refresh</b> button to synchronise all items or you can select and synchronise specific items in the list.<br/><b>Note</b>: This information no longer displays on the <b>Notification history</b> page or the <b>Sage Intacct mapping</b> page on the <b>Data</b> tab.</p>",
+                                    "content": "<p>To improve performance, the integration of large item data sets to Sage Intacct is now managed asynchronously.<br/>Use the <b>Integration</b> page in the <b>Administration &gt; Communication</b> menu to view the item integration status. This page includes a list of items being processed that you can filter by key (item name), status and object.<br/>Select the <b>Last message</b> icon to view error message details for a line with an <b>Error</b> status.<br/>Select the <b>Refresh</b> button to synchronise all items or you can select and synchronise specific items in the list.<br/><b>Note</b>: This information no longer displays on the <b>Notification history</b> page or the <b>Sage Intacct mapping</b> page on the <b>Data</b> tab.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -324,7 +324,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Sales invoice and Purchase credit memo pages, the empty row is hidden when the document is posted or posting in progress. ",
+                                    "content": "On the Sales invoice and Purchase credit note pages, the empty row is hidden when the document is posted or posting in progress. ",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -759,7 +759,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Sales improvements</b></p><p>For sales documents, the <b>Origin</b> tab in the <b>Line</b> panel displays the originating document for the current line.</p><p><b>Purchasing improvements</b></p><p>For purchase orders, you can duplicate a line on the main list.</p><p>For purchase invoices and credit memos, you can filter the lines by status and access the <b>Add line from</b> action from the <b>Add line</b> button.</p><p>For purchase invoices, receipts and returns, the document status displays in the <b>Add lines from</b> window.</p>",
+                                    "content": "<p><b>Sales improvements</b></p><p>For sales documents, the <b>Origin</b> tab in the <b>Line</b> panel displays the originating document for the current line.</p><p><b>Purchasing improvements</b></p><p>For purchase orders, you can duplicate a line on the main list.</p><p>For purchase invoices and credit notes, you can filter the lines by status and access the <b>Add line from</b> action from the <b>Add line</b> button.</p><p>For purchase invoices, receipts and returns, the document status displays in the <b>Add lines from</b> window.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

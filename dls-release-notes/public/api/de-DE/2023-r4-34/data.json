@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Um die Leistung zu verbessern, wird die Integration gro\u00dfer Artikeldatens\u00e4tze in Sage Intacct jetzt asynchron verwaltet.<br/>Auf der Seite <b>Integration</b> im Men\u00fc <b>Administration > Kommunikation</b> kann der Integrationsstatus des Artikels angezeigt werden. Diese Seite enth\u00e4lt eine Liste der verarbeiteten Elemente, die nach Schl\u00fcssel (Artikelname), Status und Objekt gefiltert werden k\u00f6nnen.<br/>\u00dcber das Symbol <b>Letzte Meldung</b> k\u00f6nnen die Details zu Fehlermeldungen f\u00fcr eine Zeile mit dem Status <b>Fehler</b> angezeigt werden.<br/>\u00dcber die Schaltfl\u00e4che <b>Aktualisieren</b> werden alle Artikel synchronisiert. Um nur bestimmte Artikel zu synchronisieren, k\u00f6nnen diese in der Liste ausgew\u00e4hlt werden.<br/><b>Hinweis:</b> Diese Informationen werden nicht mehr auf der Seite <b>Benachrichtigungsverlauf</b> oder auf der Seite <b>Mapping Sage Intacct</b> im Register <b>Daten</b> angezeigt.</p>",
+                                    "content": "<p>Zur Verbesserung der Leistung wird die Integration gro\u00dfer Artikeldatens\u00e4tze in Sage Intacct jetzt asynchron verwaltet.<br/>Auf der Seite <b>Integration</b> im Men\u00fc <b>Administration > Kommunikation</b> kann der Integrationsstatus des Artikels angezeigt werden. Diese Seite enth\u00e4lt eine Liste der verarbeiteten Elemente, die nach Schl\u00fcssel (Artikelname), Status und Objekt gefiltert werden k\u00f6nnen.<br/>\u00dcber das Symbol <b>Letzte Meldung</b> k\u00f6nnen die Details zu Fehlermeldungen f\u00fcr eine Zeile mit dem Status <b>Fehler</b> angezeigt werden.<br/>\u00dcber die Schaltfl\u00e4che <b>Aktualisieren</b> werden alle Artikel synchronisiert. Um nur bestimmte Artikel zu synchronisieren, k\u00f6nnen diese in der Liste ausgew\u00e4hlt werden.<br/><b>Hinweis:</b> Diese Informationen werden nicht mehr auf der Seite <b>Benachrichtigungsverlauf</b> oder auf der Seite <b>Mapping Sage Intacct</b> im Register <b>Daten</b> angezeigt.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -140,7 +140,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In der Hauptliste f\u00fcr <b>Bestellungen</b> k\u00f6nnen mehrere Datens\u00e4tze ausgew\u00e4hlt und gedruckt werden.<br/>Auf der Seite <b>Verlauf Batchaufgaben</b> im Register <b>Protokolle</b> kann der Fortschritt von Batch-Aktionen verfolgt und die Ergebnisse in der Tabelle <b>Protokolle</b> exportiert werden. </p>",
+                                    "content": "<p>In der Hauptliste f\u00fcr <b>Bestellungen</b> k\u00f6nnen mehrere Datens\u00e4tze ausgew\u00e4hlt und gedruckt werden.<br/>Auf der Seite <b>Verlauf Batchaufgaben</b> im Register <b>Protokolle</b> k\u00f6nnen der Fortschritt von Batch-Aktionen verfolgt und die Ergebnisse in der Tabelle <b>Protokolle</b> exportiert werden. </p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -159,7 +159,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>\u00dcber die Abfrage <b>Ergebnis Reservierung</b> im Men\u00fc <b>Bestandsabfragen</b> k\u00f6nnen die Ergebnisse der Massenreseriverung und der Aufhebung der Reservierung f\u00fcr Auftr\u00e4ge angezeigt werden.</p>",
+                                    "content": "<p>\u00dcber die Abfrage <b>Ergebnis Reservierung</b> im Men\u00fc <b>Bestandsabfragen</b> k\u00f6nnen die Ergebnisse der Massenreservierung und der Aufhebung der Reservierung f\u00fcr Auftr\u00e4ge angezeigt werden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -356,7 +356,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Die Schaltfl\u00e4che \u201eErstellen\u201c ist auf der Seite \u201eRetrouenanforderung\u201c nicht mehr verf\u00fcgbar, da auf dieser Seite keine Retourenanforderung erstellet werden kann.",
+                                    "content": "Die Schaltfl\u00e4che \u201eErstellen\u201c ist auf der Seite \u201eRetrouenanforderung\u201c nicht mehr verf\u00fcgbar, da auf dieser Seite keine Retourenanforderung erstellt werden kann.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -666,7 +666,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Der Fehler \u201eBad Gateway\u201c beim Verbrauch von SMDO-APIs wurde behoben.",
+                                    "content": "Der Fehler \u201eBad Gateway\u201c beim Verbrauch von SDMO-APIs wurde behoben.",
                                     "taxonomies": "all"
                                 }
                             ],

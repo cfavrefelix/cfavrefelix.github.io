@@ -6,122 +6,128 @@
     "taxonomies": "/dls-release-notes/api/fr-FR/taxonomies.json",
     "alternative_langauges": [
         {
-            "title": "English - US",
+            "title": "Anglais - US",
             "id": "en-US",
             "url": "/dls-release-notes/api/en-US/archive.json"
         },
         {
-            "title": "English - GB",
+            "title": "Anglais - GB",
             "id": "en-GB",
             "url": "/dls-release-notes/api/en-GB/archive.json"
         },
         {
-            "title": "French - FR",
+            "title": "Fran\u00e7ais - FR",
             "id": "fr-FR",
             "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
-            "title": "German - DE",
+            "title": "Allemand - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
         }
     ],
     "releases": [
         {
+            "id": "2023-r4-34",
+            "title": "2023 R9 (septembre)",
+            "url": "/dls-release-notes/api/fr-FR/2023-r4-34/data.json",
+            "date": "Septembre"
+        },
+        {
             "id": "2023-r4-33",
-            "title": "2023 R8 (August)",
+            "title": "2023 R8 (ao\u00fbt)",
             "url": "/dls-release-notes/api/fr-FR/2023-r4-33/data.json",
-            "date": "August"
+            "date": "Ao\u00fbt"
         },
         {
             "id": "2023-r3-32",
-            "title": "2023 R7 (July)",
+            "title": "2023 R7 (juillet)",
             "url": "/dls-release-notes/api/fr-FR/2023-r3-32/data.json",
-            "date": "July"
+            "date": "Juillet"
         },
         {
             "id": "2023-r3-31",
-            "title": "2023 R6 (June)",
+            "title": "2023 R6 (juin)",
             "url": "/dls-release-notes/api/fr-FR/2023-r3-31/data.json",
-            "date": "June"
+            "date": "Juin"
         },
         {
             "id": "2023-r3-30",
-            "title": "2023 R5 (May)",
+            "title": "2023 R5 (mai)",
             "url": "/dls-release-notes/api/fr-FR/2023-r3-30/data.json",
-            "date": "May"
+            "date": "Mai"
         },
         {
             "id": "2023-r2-29",
-            "title": "2023 R4 (April)",
+            "title": "2023 R4 (avril)",
             "url": "/dls-release-notes/api/fr-FR/2023-r2-29/data.json",
-            "date": "April"
+            "date": "Avril"
         },
         {
             "id": "2023-r2-28",
-            "title": "2023 R3 (March)",
+            "title": "2023 R3 (mars)",
             "url": "/dls-release-notes/api/fr-FR/2023-r2-28/data.json",
-            "date": "March"
+            "date": "Mars"
         },
         {
             "id": "2023-r2-27",
-            "title": "2023 R2 (February)",
+            "title": "2023 R2 (f\u00e9vrier)",
             "url": "/dls-release-notes/api/fr-FR/2023-r2-27/data.json",
-            "date": "February"
+            "date": "F\u00e9vrier"
         },
         {
             "id": "2023-r1-26",
-            "title": "2023 R1 (January)",
+            "title": "2023 R1 (janvier)",
             "url": "/dls-release-notes/api/fr-FR/2023-r1-26/data.json",
-            "date": "January"
+            "date": "Janvier"
         },
         {
             "id": "2023-r1-24",
-            "title": "2022 R8 (November)",
+            "title": "2022 R8 (novembre)",
             "url": "/dls-release-notes/api/fr-FR/2023-r1-24/data.json",
-            "date": "December"
+            "date": "D\u00e9cembre"
         },
         {
             "id": "2022-r4-23",
-            "title": "2022 R7 (October)",
+            "title": "2022 R7 (octobre)",
             "url": "/dls-release-notes/api/fr-FR/2022-r4-23/data.json",
-            "date": "November"
+            "date": "Novembre"
         },
         {
             "id": "2022-r4-22",
-            "title": "2022 R6 (September)",
+            "title": "2022 R6 (septembre)",
             "url": "/dls-release-notes/api/fr-FR/2022-r4-22/data.json",
-            "date": "September"
+            "date": "Septembre"
         },
         {
             "id": "2022-r4-21",
             "title": "2022 R5",
             "url": "/dls-release-notes/api/fr-FR/2022-r4-21/data.json",
-            "date": "August"
+            "date": "Ao\u00fbt"
         },
         {
             "id": "2022-r3-20",
             "title": "2022 R4",
             "url": "/dls-release-notes/api/fr-FR/2022-r3-20/data.json",
-            "date": "July"
+            "date": "Juillet"
         },
         {
             "id": "2022-r3-19",
             "title": "2022 R3",
             "url": "/dls-release-notes/api/fr-FR/2022-r3-19/data.json",
-            "date": "June"
+            "date": "juin"
         },
         {
             "id": "2022-r3-18",
             "title": "2022 R2",
             "url": "/dls-release-notes/api/fr-FR/2022-r3-18/data.json",
-            "date": "May"
+            "date": "Mai"
         },
         {
             "id": "2022-r2-17",
             "title": "2022 R1",
             "url": "/dls-release-notes/api/fr-FR/2022-r2-17/data.json",
-            "date": "April"
+            "date": "Avril"
         }
     ]
 }

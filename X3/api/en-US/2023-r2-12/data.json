@@ -1,0 +1,1465 @@
+{
+    "id": "2023-r2-12",
+    "title": "2023 R2",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r1-12",
+    "date": "12.0.34",
+    "content_parts": [
+        {
+            "title": "APIs",
+            "id": "apis",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'APIs' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-285816",
+                            "title": "Product return: Mutation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-285816\" target=\"_blank\">X3-285816</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Used to create, update, and delete product returns from work orders</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Compliance",
+            "id": "compliance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Compliance' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-297874",
+                            "title": "TicketBAI - Auto-invoice management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-297874\" target=\"_blank\">X3-297874</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The creation of the purchase invoice for a supplier with auto-invoice flag generates a sales invoice that must not be posted and sent to the TBAI Tax Authority. <br/>The creation of the sales invoice with the auto-invoice flag will prevent the sending of this invoice to the TBAI Tax Authority because the customer send it by auto-invoicing to the TBAI Tax Authority.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "spain-spa"
+                                ],
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-295993",
+                            "title": "Control of SIREN/SIRET Ids against the database SIRENE",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-295993\" target=\"_blank\">X3-295993</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This new function helps users to better secure some key legal information required in France.\u00a0</p><p>It improves the controls of the SIREN / SIRET ids\u00a0 that identify the companies and sites in France.\u00a0\u00a0SIRET id becomes key with the e-invoicing as participating to the identification of senders and receivers.\u00a0</p><p>This process controls that these ids are populated in the relevant master data (Companies, sites, business partners) and verifies they reference a live site in the French official database SIRENE.\u00a0It controls if associated information (Name of the entity, address) are consistent and identifies duplicates as well.\u00a0</p><p>The result of the process is a log that assists users in the update and the validation of their master data.</p><p>This new fun<font color=\"#172b4d\">ction (Common data &gt; BPs <em>&gt; U</em></font>tilities) is controled by a new activity code (EINSI) that is triggered if the French localisation (KFR) is activated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "france-fra"
+                                ],
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Distribution' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-296503",
+                            "title": "Mobile Automation - Select stock line in the Miscellaneous issue transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296503\" target=\"_blank\">X3-296503</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the <b>Miscellaneous issue</b> transaction, you can select the stock line to issue.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-296350",
+                            "title": "Rewriting the import of shipments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296350\" target=\"_blank\">X3-296350</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The SHIP import template allowing to import purchase shipments\u00a0 has be rewritten to meet the expectations. The SHIP import template covers the ability to import shipments,\u00a0 shipments by container and pre-receipt.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-294784",
+                            "title": "Mobile Automation - In the Purchase receipt transaction you can select the shipment number",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-294784\" target=\"_blank\">X3-294784</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the <b>Purchase receipt</b> transaction, you can specify the shipment number when the purchase order line has been shipped over several purchase shipments.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-286481",
+                            "title": "Mobile Automation - Enter the packing slip in the Purchase receipt transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-286481\" target=\"_blank\">X3-286481</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the\u00a0<b>Purchase receipt</b> transaction, you can enter or scan the supplier packing slip. It is automatically populated on the purchase receipt document created is Sage X3.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-282520",
+                            "title": "Mobile Automation - Select stock line in the Subcontract transfer transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-282520\" target=\"_blank\">X3-282520</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the\u00a0<b>Subcontract transfer</b> transaction, you can select the stock line to transfer.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-282519",
+                            "title": "Mobile Automation - Select stock line in the Intersite transfer transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-282519\" target=\"_blank\">X3-282519</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the\u00a0<b>Intersite transfer</b> transaction, you can select the stock line to transfer.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-268503",
+                            "title": "Mobile Automation - Distribution overview enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-268503\" target=\"_blank\">X3-268503</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<ul><li>View stock by product site, View stock by location, View stock by License plate number:<ul><li>The response time is now improved when opening inquiries</li><li>The product picture is now more readable</li></ul></li><li>When it opens, the dropdown list of entry transactions allows the user to list all authorized values.</li><li>On Pick ticket, a dialog message now confirms the user choice when answering the question \"Set the pick ticket to deliverable?\"</li><li>On Putaway, it is now possible to use the product filter on the Select a product page.\u00a0</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-265157",
+                            "title": "Mobile Automation - Scan composite codes to enter product data in the Stock change transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-265157\" target=\"_blank\">X3-265157</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>In the\u00a0<b>Stock change</b> transaction, when you scan a GS1 composite barcode, a QR code, or a Data Matrix code, the following product data is read and entered: 01-Global Trade Item Number, 10-Batch or Lot number, 21-Serial number.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-in-progress"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND ((issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Distribution' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-299557",
+                            "title": "PTMENTIONS06 field in invoice reports should allow another selection option.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-299557\" target=\"_blank\">X3-299557</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The &quot;PORMENT06&quot; parameter has been created. When set to &quot;Yes&quot;, the PTMENTION06 field in the TMPSRPT table is filled with &quot;---------&quot; for invoices.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "portugal-por"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-295030",
+                            "title": "POR (LEG): SAF-T extraction  with parameter SAFTPRDKIT set to \"No\"",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-295030\" target=\"_blank\">X3-295030</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "In this bug, there is a change of behavior. <br/>The SAFTPRDKIT parameter will have a different behavior for flexible or fixed kits.<br/>For flexible kits:<br/>Irrespective of the value of the SAFTPRDKIT parameter, in SAFT, all lines for a kit are included in the SAFT communication.<br/>For fixed kits:<br/>If the parameter is set to Yes, all lines for a kit are included in the SAFT communication. If this parameter is set to No, only lines different from 3 to 9 LINTYP are included.<br/>For the credit notes of this type of kit, X3 controls that is not possible to select only one component. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "portugal-por"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Finance' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-296977",
+                            "title": "E-invoicing - Collect outbound e-invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296977\" target=\"_blank\">X3-296977</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>The objective is to select customer invoices that must be submitted as electronic invoices.\u00a0</p><p>Transactions processed are Sales or AR invoices (excluding direct G/L entries), posted (including invoices, credit or debit notes but excluding proformas), associated to a customer that accepts electronic invoices and of course not already processed <sup>(1)</sup>.</p><p>Users can define additional criteria (date, module, customer...) to refine the selection.\u00a0</p><p>The result of the process is the creation of a record in a new table for each selected invoice. These records identify the invoices to be processed in an e-invoicing perspective through the outbound e-invoice dashboard.</p><p>This process can be triggered automatically through recurring tasks.</p><p><sup>(1)</sup> The ability to cancel a posted invoice is available in some legislation but should be restricted in the context of the e-invoicing.</p><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "draft"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-296793",
+                            "title": "E-invoicing - Map inbound e-invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296793\" target=\"_blank\">X3-296793</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>The objective is to provide the users with the ability to map the data of inbound suppliers electronic invoices with the in-product data. The e-invoices will first have to be collected\u00a0 in an upstream process, not yet available.</p><p>The function is available here : Declarations &gt; E-invoicing &gt; Receiving &gt; Supplier e-invoice mapping</p><p>This feature offer the following functionalities :</p><ul><li>A submission screen allows to select the collected e-invoices to process using several criteria and to indicate the mapping rules to apply.</li><li>A confirmation step is available</li><li>Once the mapping process has been executed a log is provided to indicate the results of the mapping including success, errors and warnings</li><li>This process is designed to be launched as well through automated recuring tasks.</li></ul><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-294750",
+                            "title": "E-invoicing - Tooling",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-294750\" target=\"_blank\">X3-294750</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>Tools are delivered with the objective of helping the generation and the ingestion of electronic invoices, especially for the management of XML files. This includes :</p><ul><li>The ability to design the structure and the content of the XML files to be processed in/out. This is delivered through an 'XML designer' that provides the following main functionnalities:<ul><li>Definition of XML formats, as many than needed</li><li>Links to XSD files (standard and extensions)</li><li>Generation of tags from the XSDs</li><li>Mapping rules, associating each tag of the XML file to the Sage X3 corresponding property. These properties are created through standard classes and representations defined from the e-invoice snapshot (See the outbound e-invoices dashboard).</li></ul></li><li>Predefined setting rules\u00a0 based on the UBL 2.1 format. This format has the triple benefit to be the most common international format, to be included in the 3 Core formats required by the French Authorities, and to be one of the format that is eligible to the exchanges with the Sage Network. Please consider that the standard settings and the associated classes and representations are delivered in this release for demo purposes. They will be largely amended and enriched in the next releases</li></ul><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-294602",
+                            "title": "E-invoicing - Master data updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-294602\" target=\"_blank\">X3-294602</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>The objective is to allow the users to setup the management of the e-invoicing outbound and inbound flows.</p><p>Please make sure the new EINVOICE general parameter\u00a0 (Chapter Common data &gt; Invoicing rules) is set to YES. This general parameter defined at the company level drives e-invoicing feature for this company.</p><p>This feature provides the following new fields in the existing features:</p><ul><li>In the Companies and Site records, Accounting tab, a new field called 'Service ID' identifies the Site/company as member of the e-invoicing flow. If this is blank at the site level, the Service ID at the level of the company is used</li><li>In the Business Partner records, a new field called 'Electronic invoice type' identifies how the BP is managed in an electronic point of view. This field is available in the PB exceptions as well.\u00a0</li><li>Depending on\u00a0 the 'Electronic invoice type' field, a new field 'Service ID' is available and the user can enter the optional complementary service code that identifies the Partner as sender/receiver.\u00a0</li><li>The user must also define the e-invoicing mapping that must be apply to generate the e-invoice. This e-invoicing mapping refers to the 'Mapping ID' created in the 'XML mapping rules' function. This field is available in the PB exceptions as well.\u00a0</li></ul><p>In the Customer Invoice Types, two new fields linked to the e-invoicing feature are available:</p><ul><li>Invoice type code and Factored invoice type code - Both fields are linked to the 206 miscellaneous table and are used to transcode the Sage X3 invoice type to its related invoice type code that must be communicated in the XML files.</li></ul><p>In the Sales Invoices, a new mandatory field named 'Business process type' is available:</p><ul><li>The first character, indicates whether the invoice is a services invoice (S* types), or a goods invoice (B* types). Additional values may be used ((M* types for mixte invoices, 'A*' for Public sector).</li><li>The second character, the figure, indicates if the status of the invoice (to be paid, already paid, prepayment...)</li></ul><p>It is defaulted ('B1') but may be changed.</p><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-289364",
+                            "title": "E-invoicing - Create inbound e-invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-289364\" target=\"_blank\">X3-289364</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>The objective is to provide the users with a list of inbound suppliers electronic invoices that have been mapped with the in-product data.</p><p>This feature works as a workbench:</p><ul><li>Supplier invoices have been prepared in two upstream processes that can be triggered manually or through recuring tasks.\u00a0<ul><li>The first one will collect the e-invoices to be created in both Purchase and AP modules from the Sage Network. Please note that this process is not yet available and will be delivered later.</li><li>The second one maps some XML properties with the mandatory Sage X3 fields to create the invoices (Site, date, supplier, type of transaction - invoice /credit note, currency, total amount, module whom to create the invoice). For example, the mapping is in charge of the determination of the BP code (internal Sage X3 codification)\u00a0 from the Supplier name or tax Id (as communcated in the XML file).</li></ul></li><li>Users can select supplier invoices to be processed using criteria (company, site, date, supplier...). Functional user rights (access limited to a company or a site) apply.</li><li>From this list, users can finalize the mapping, and trigger actions, like the generation of the selected invoices if not already processed. The additional action, not yet available, will enable users to refuse an invoice.</li><li>The creation process is supported by import/export templates. The result is the creation of the corresponding transaction, either as purchase invoice or as AP invoice, depending on the mapping. The invoice is created with the its header and one generic line.\u00a0</li><li>This process is designed to be launched as well through automated recuring tasks.</li></ul><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-285021",
+                            "title": "E-invoicing - Create outbound e-invoices",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-285021\" target=\"_blank\">X3-285021</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>This feature is part of the e-invoicing framework in progress.</p><p>The objective is to provide the users with a list of the customer electronic invoices (outbound flow) and the related actions to be triggered depending on the status of the invoices.</p><p>This feature works as a workbench:</p><ul><li>Customers invoices to be considered have been selected in an upstream process that collects the customer invoices created and posted in both Sales and AR modules.</li><li>Users can select a list of customer invoices using criteria (company, site, date, Customer). Functional user rights (access limited to a company or a site) apply.</li><li>From this list, users can trigger actions, like the creation of a snapshot of the selected invoices in dedicated tables, and/or the generation of the e-invoices for selected invoices if not already processed.</li><li>The creation of a snapshop of the invoice in a new set of tables provides a lot of benefits as support of the outbound e-invoice generation :<ul><li>Snapshot principle avoid to modify the current billing processes.</li><li>All customer invoice transactions whatever their origin (Sales or AR modules) are merged in the same data source. As a result, one unique process, one unique mapping.</li><li>Data can be reorganized and transformed, simplifying the mapping with the source and the targetted structured format (UBL 2.1)</li><li>The transformation is processed by scripts, ensuring better performance than complex formulas</li><li>The snapshot, because not accessible by the users, is intangible.</li></ul></li><li>The generation of the e-invoices applies the mapping rules as described in the XML designer to the data source and create the file accordingly. In the future, it will be possible to trigger a pdf as well.</li><li>This process is designed to be launched as well through automated recurring tasks.</li></ul><p><b>Please note the following important information:</b></p><ul><li>All features related to the e-invoicing are managed by a new activity code, EINV. This activity code is defaulted to \u2018No\u2019.</li><li>The e-invoicing framework adds new functions, it doesn't change the existing processes.\u00a0</li><li>All these features are still in construction in this release and delivered with the objective to provide an overview of the future framework that will be available in the future to manage electronic invoices. In this context, these features should not be used in a production environment.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Manufacturing' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-299425",
+                            "title": "Mobile automation - suggested location for WO production tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-299425\" target=\"_blank\">X3-299425</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Production reporting displays now the suggested location.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-299424",
+                            "title": "Mobile Automation: Filter for the components to be tracked",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-299424\" target=\"_blank\">X3-299424</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>To filter the list of components to be tracked for a work order, set the <b>Stock withdrawal</b> mode in the <b>Material tracking plan</b> entry transaction.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-298908",
+                            "title": "The change manager for a change request can only be modified by an admin user",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-298908\" target=\"_blank\">X3-298908</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Any user approved as a change manger for a change request can change the change manager to a different change manager, if the <b>CCMUPDCHGM-Allow change manager update</b> parameter (TC chapter, CCM group) is set to <b>Yes</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-280532",
+                            "title": "Mobile Automation: View product image in Production tracking and Material consumption",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-280532\" target=\"_blank\">X3-280532</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The <b>Mobile Automation Manufacturing</b> transactions <b>Work order production tracking</b> and <b>Material consumption</b> display the product image.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND ((issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Manufacturing' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-293815",
+                            "title": "Error in Components replacement function (REMPLCOMP)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-293815\" target=\"_blank\">X3-293815</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "A conversion must exist in the UOM conversion function (GESTCO) between the original and the replacement component units. If the unit conversion does not exist, the component is not replaced and a warning message is displayed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-253388",
+                            "title": "Work order, Production tracking, Material tracking functions: No released product line linked to unexpected/unplanned material with multiple released products",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-253388\" target=\"_blank\">X3-253388</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "The default link type is set to \u201cReleased product\u201d. The user can then directly enter the work order line number of the released product or choose it from the selection list. If the user wants to link the unexpected material to the whole work order, they have the possibility to choose \u201cComplete order\u201d as the link type . In this case, the order line number is always 0.<br/>Please check in all these three functions that the link type and the order line number are available to use.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "12.0.34"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-226431",
+                            "title": "Manufacturing Improvements 2023/R2",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-226431\" target=\"_blank\">X3-226431</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>1)In function GESMWW \u201cWhere-used work center\u201d the button \u201cGraph\u201d allows the user to have a view on work center in graphic form.<br/>2)In the Enterprise planning function from a TPF (Transfer request) line it is now possible to tunnel to a Sales order.<br/>3)In function FUNBENCHM \u201cMaterial tracking plan\u201d field \u201clocation\u201d now becomes automatically set. Either with the \u201cdefault location\u201d defined in the issue rule or with a location where stock is available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Platform' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-296948",
+                            "title": "SQL Server secure connection with the Console (1)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296948\" target=\"_blank\">X3-296948</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>SQL Server secure connections can be implemented through the Console (Requires PowerShell SQLServer module release 22).</p><p>Please review the online help and How-to Guides for more detail.</p><p>Make sure you review the pre-requisites for all components concerning MS PowerShell and the MS SQL Server module for PowerShell.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-295762",
+                            "title": "\"Forgot password?\": Reset password link",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-295762\" target=\"_blank\">X3-295762</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The login screen includes a link to reset the user's password when basic authentication is used (Not recommended for production instances).</p><p>The user will receive an email containing temporary links to reset their password.</p><p><b>This requires the Notification Server to be active</b> for the Sage X3 solution.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-295709",
+                            "title": "Sage X3 Runtime JSON parser",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-295709\" target=\"_blank\">X3-295709</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>A set of native X3 language instructions have been developed for JSON parsing and the construction of JSON streams, to provide an efficient and fast way of handling JSON streams.</p><p>For more details, please review the Developer documentation for the JSON instructions (openJson, closeJson, getJsonStr, getJson, setjsonInt, setjsonStr,\u00a0etc.)</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-292381",
+                            "title": "STS / Sage Auth integration for Service Fabric",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-292381\" target=\"_blank\">X3-292381</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Customer Administrators can register their organizations and companies with Sage through the Administration &gt; Organizations menu. This is needed in several cases such as e-invoicing.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-290587",
+                            "title": "Runtime ADX and FDE caching (1)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-290587\" target=\"_blank\">X3-290587</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Sage X3 Runtime contains and enhanced cache for scripts and tables.</p><p>Memory requirements have been refined.</p><p>Please check the updated Runtime requirements, especially variables maxmem (Memory management) and adxmpr (Cache management).</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-290345",
+                            "title": "Runtime tags on batch jobs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-290345\" target=\"_blank\">X3-290345</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>You can now use Runtime tags to direct individual batch jobs to a specific Runtime service or a specific group of Runtime services. Please check the online help and the How-to Guides for more details.</p><p>This is useful when there is a need to dedicate some resources to certain types of batch jobs as opposed to the \"general\" batch jobs, or in multi-timezone implementations where there are groups of Runtimes specialized in a timezone where some date/time-sensitive jobs need to be directed specifically.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-287129",
+                            "title": "X3 GraphQL Queries - MVP - Package management (Sage & Partners)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-287129\" target=\"_blank\">X3-287129</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>GraphQL Packages are described in the Sage X3 Package dictionary (Development &gt; Data &amp; parameters &gt; API &gt; Packages).</p><p>Partners and customers can create new add-on packages in the dictionary for their customizations and extensions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-278666",
+                            "title": "Extensibility framework - Script mutations - MVP",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-278666\" target=\"_blank\">X3-278666</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The GraphQL API queries are now described in the X3 metadata dictionary (Tables, Data models, Node bindings...)</p><p>A series of new functions in Sage X3 may be used to manage and extend the GraphQL APIs: Development &gt; Data &amp; parameters &gt; API.</p><p>Please refer to the training sessions, how-to guides and online help for more details.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-271480",
+                            "title": "X3 GraphQL Queries - MVP - Node generation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-271480\" target=\"_blank\">X3-271480</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>GraphQL API schemas are now described directly in the Sage X3 metadata dictionary, in the Development &gt; API menu: Packages, Data models, Node bindings, Enum exceptions, Operations, and Binding dictionary.</p><p>The Tables and Data models in X3 contain property names (Friendly GraphQL notation) and package information.</p><p>Custom GraphQL query schemas are generated when Node bindings are validated after Data models or Operations have been saved.</p><p>Please check the relevant documentation in the online help for the new Sage X3 functions, and on developer.sage.com for a full how-to guide on how to extend and use the Sage X3 GraphQL API.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = X3 AND ((issuetype = Epic AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done','Review To Do','Review In Progress','Review To Validate','Communicated, Draft') AND 'X3 Release Note Grouping' = 'Platform' AND statusCategory in ('In Progress', Done) AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"2023 R2 (12.0.34)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "X3-301947",
+                            "title": "Management of Runtime prerequisite packages",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-301947\" target=\"_blank\">X3-301947</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Runtime pre-requisite packages are described by a <b>package.json</b> manifest and centralized in the <b>Dependencies</b>\u00a0repository.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-301326",
+                            "title": "Successful print jobs: Status and retention for traceability",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-301326\" target=\"_blank\">X3-301326</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Print jobs that are successful are now retained for a period of time and will be shown in the Print Supervision function (PSIMP) for as long as they are retained.</p><p>The default retention period is 15 minutes.</p><p>The retention period can be modified through the Console, in the Print Server expert parameters.</p><p>Please see the Print Server online help for more detail.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-300884",
+                            "title": "Simplify Excel add-in layout and user experience",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-300884\" target=\"_blank\">X3-300884</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>We have enhanced the user interface for the Microsoft Excel Add-in with an improved ribbon and a more consistent experience.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-300757",
+                            "title": "Remove license restriction popup messages",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-300757\" target=\"_blank\">X3-300757</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The popup message \"Access restricted by the license\" has been removed when entering a function that is not allowed for the user's badge. The user can see why the function is restricted when tapping or clicking the read-only indicator on the right panel.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-296249",
+                            "title": "Syracuse technical compliance and security - 2023 R2",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-296249\" target=\"_blank\">X3-296249</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Syracuse Server compliance and miscellaneous modifications:<br/>The SOAP Web Service pool will not start if the maximum size or the initialization size are 0.\u00a0Default values are set as follows:</p><ul><li>Maximum size: 4</li><li>Initialization size: 2</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-292456",
+                            "title": "Runtime: Update MS VC redistributables",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-292456\" target=\"_blank\">X3-292456</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Runtime now supports and uses the latest Microsoft VC Redistributables.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-292455",
+                            "title": "Runtime: Update MS Powershell",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-292455\" target=\"_blank\">X3-292455</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Sage X3 Runtime and Console now support PowerShell 7.3.</p><p>(The minimum requirement is PowerShell 7.2.)</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-292450",
+                            "title": "Runtime and Print Server: Update database clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-292450\" target=\"_blank\">X3-292450</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Runtime and Print Server now support and use the latest ODBC clients for Oracle and Microsoft SQL Server and Azure Elastic Pools.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-287038",
+                            "title": "Sage X3 user interface enhancements (1)",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-287038\" target=\"_blank\">X3-287038</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Sage X3 user interface enhancements for readability and accessibility - Batch 1:</p><ul><li>Readability of left lists with alternating lines, hover &amp; selected colors, and left list header enhancements</li><li>Readability of grid sections in Sage X3 screens: Alternating lines, hover &amp; selected colors, field highlight for editable fields, uniform background (Removed of textured backgrounds)</li><li>Performance of complex screen rendering (See relevant note in this section)</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-281781",
+                            "title": "Powershell script: Oracle database",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-281781\" target=\"_blank\">X3-281781</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>The Oracle database is configured through Powershell when installing or updating Sage X3. Please check the installation online help for more detail.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-279745",
+                            "title": "UX - Performance of classic screen rendering V31",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-279745\" target=\"_blank\">X3-279745</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Complex (large) windows with a lot of tabs can load much faster with the 'Auto-collapse' feature, which can be activated from the 'Display' section in the user profile (Link in the user's name on the top menu bar).</p><p>This option accelerates the rendering of complex Sage X3 windows by displaying the header and first section expanded by default, but the others collapsed by default.</p><p>The settings are automatically saved for you when you expand or collapse other sections (tabs) and then exit the function. You will find the tabs as you have left them when you come back to the function.</p><p>Use the 'Reset auto-collapse settings' link in your user profile to reset all tabs to the default settings with two sections expanded and the others collapsed by default.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "X3-272524",
+                            "title": "Support and security of Elasticsearch 8",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<a href=\"https://jira.sage.com/browse/X3-272524\" target=\"_blank\">X3-272524</a>",
+                                    "taxonomies": "all"
+                                },
+                                {
+                                    "content": "<p>Sage X3 now supports Elasticsearch 8 and Elastic cloud with a new dedicated page in Sage X3 to set up Elasticsearch security and connection security. This is accessible in Sage X3 via Administration &gt; Usage &gt; Search &gt; Search server settings.</p><ul><li>Support of Elasticsearch 8</li><li>Support of Elastic Cloud</li><li>Support of secure databases and secure connections</li><li>Dedicated setup page</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "on-premise",
+                                    "single-tenant",
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "12.0.34"
+                                ],
+                                "statusNote": [
+                                    "review-to-do"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

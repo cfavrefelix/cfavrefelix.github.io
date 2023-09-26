@@ -1,0 +1,45 @@
+{
+    "__self": "/dls-release-notes/api/en-US/archive.json",
+    "product": "Sage X3",
+    "language": "en-US",
+    "labels": "/dls-release-notes/api/en-US/labels.json",
+    "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
+    "alternative_langauges": [
+        {
+            "title": "English - US",
+            "id": "en-US",
+            "url": "/dls-release-notes/api/en-US/archive.json"
+        },
+        {
+            "title": "French - FR",
+            "id": "fr-FR",
+            "url": "/dls-release-notes/api/fr-FR/archive.json"
+        }
+    ],
+    "releases": [
+        {
+            "id": "2023-r2-12",
+            "title": "2023 R2 (12.0.34)",
+            "url": "/dls-release-notes/api/en-US/2023-r2-12/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2023-r1-12",
+            "title": "2023 R1 (12.0.33)",
+            "url": "/dls-release-notes/api/en-US/2023-r1-12/data.json",
+            "date": "May"
+        },
+        {
+            "id": "2022-r4-12",
+            "title": "2022 R4 (12.0.32)",
+            "url": "/dls-release-notes/api/en-US/2022-r4-12/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2022-r3-12",
+            "title": "2022 R3 (12.0.31)",
+            "url": "/dls-release-notes/api/en-US/2022-r3-12/data.json",
+            "date": "August"
+        }
+    ]
+}

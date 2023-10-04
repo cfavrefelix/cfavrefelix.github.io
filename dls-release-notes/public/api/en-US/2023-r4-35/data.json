@@ -350,7 +350,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "There is no longer be an error message when resynchronizing customers and suppliers.",
+                                    "content": "An error message is no longer displayed when resynchronizing customers and suppliers.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -573,7 +573,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Groups maintained when you filter the list.",
+                                    "content": "Groups are maintained when you filter the list.",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -1,0 +1,766 @@
+{
+    "id": "2023-r4-35",
+    "title": "2023 R10",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2023-r4-34",
+    "date": "October",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53262",
+                            "title": "Sage Intacct Integration performance enhancement for customer and supplier integration ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p>Customer and supplier data no longer displays on the\u00a0<b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-47242",
+                            "title": "Stock valuation report additional selection criteria, option to display zero values and total",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve usability, additional selection criteria are included for the <b>Stock valuation</b> report. The <b>Stock valuation</b> can be refined further by excluding any item-site record that does not have a quantity on-hand or value.<br/>The <b>Total stock value</b> displays above the results grid for comparison to the stock account balance in the financial application.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53910",
+                            "title": "Unable to use customize columns on the Stock journal jnquiry page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Stock journal inquiry page, you can display or hide columns in the Column panel.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52068",
+                            "title": "Translation | Tab titles not translatable in i18n file",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Tab and block names are translatable in the side panel of the sales and purchase documents.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53732",
+                            "title": "Schedule a mass stock allocation to work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Work order mass allocation</b> page you can schedule a batch task using predefined business rules to reserve component stock in advance of production or to clear stock reserved at a site. Scheduling this task increases time available for higher-value tasks.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51472",
+                            "title": "Tax updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Tax updates to support your business needs and improve integration with Sage Intacct include:</p><p><b>Modify tax categories</b></p><p>On the <b>Tax</b> page, you can modify a tax category if it is not assigned to a tax determination <font color=\"#172b4d\">rule and if the tax is not in use on a document.</font></p><p><b>New tax category for Sage Intacct integration</b></p><p>When integrating from Sage Intacct, tax codes are categorized as <b>Placeholder tax</b>.</p><p>When you import tax codes with no category defined, they are categorized as <b>Placeholder tax</b>.</p><p>For US taxes, you can reassign the category before using the code in a determination rule or document. You can select a city, state, county, or special district tax after the import or integration.</p><p><b>Tax propagation for Order-to-order invoices</b></p><p>Sales order taxes are propagated to the respective sales invoice lines, saving time and ensuring consistency. You only need to determine taxes for sales invoice lines not based on a sales order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-41577",
+                            "title": "Mass sales order allocation and deallocation - Automated detailed stock allocation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Sales order mass allocation</b> page, you can mass allocate and deallocate stock on sales order lines, for all or a group of sales orders at a site.</p><p>You can schedule allocation and deallocation jobs using the <b>Schedule</b> button. This create a new batch task to be run once, or on daily or weekly basis.</p><p>The ability to perform mass stock allocation and deallocation will make your tasks more efficient and easier. It'll help improving your stock allocation priority management, reducing shortage impact on the business of strategic customers, and therefore strengthen your business-to-business relationship.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-48419",
+                            "title": "Note propagation when creating purchase documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Save time and improve internal communication and communication with suppliers by repeating notes on purchase documents.<br/>On purchase requisitions, purchase orders, purchase receipts and purchase invoices, you can repeat the supplier notes on all subsequent documents. You can also repeat the notes at the line level on all subsequent document lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-55268",
+                            "title": "Gross price is set to 0 when applying a default supplier",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For purchase requisitions, the gross price does not set to 0 when you apply a default supplier.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54691",
+                            "title": "Missing lookup filters for suppliers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For purchase documents, you can filter on suppliers.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54556",
+                            "title": "Sales shipment: Lines grid status error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "&nbsp;In Sales shipment, the error was resolved and the All open status was removed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53157",
+                            "title": "Attribute and dimension controls for sales documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To avoid errors with Sage Intacct integration, you can define required attributes and dimensions for sales documents.</p><p>When you define required attributes and dimensions, new sales return receipts or sales return requests cannot be created if the required settings are missing or if a GL account is not set up for journal entries for sales return receipts.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Gateway",
+            "id": "gateway",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Gateway' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53657",
+                            "title": "Synchronization errors with Sage Intacct for customers and suppliers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "There is no longer be an error message when resynchronizing customers and suppliers.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53953",
+                            "title": "Work order tracking: Tracking lines inquiries and tracking grids export",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the grids in the <b>Production tracking</b>, <b>Material tracking</b>, and <b>Time tracking</b> pages there are 2 options for extracting tracking data: Excel or CSV.<br/>The <b>Production tracking line inquiry</b>, <b>Material tracking line inquiry</b>, and <b>Time tracking line inquiry</b> pages provide visibility at tracking line level with filters and export options, and links to open the tracking document or work order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-52378",
+                            "title": "Include or exclude demand from sales quotes in an MRP calculation request",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can optionally include demand from sales quotes in an <b>MRP calculation request</b>. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-55032",
+                            "title": "Routing duplication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can duplicate a routing at a site. The complete sequence of shop floor processes is duplicated, including the operation resources.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53832",
+                            "title": "Unsaved changes message in Work in Progress inquiry removed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Unsaved changes window is no longer displayed when exiting the Work in progress inquiry page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50015",
+                            "title": "Save button missing from Production tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Stock details added to a Production tracking can be saved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45164",
+                            "title": "Bill of material: Site and base quantity must be marked as mandatory fields",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You need to enter a Site and a Base quantity on the Bill of material page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-45037",
+                            "title": "Work orders: Decreasing the required quantity of fully allocated components",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can no longer decrease the required quantity of a work order component when stock has been allocated to the component in full.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-53972",
+                            "title": "Adding non-stock item to sales orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The ability to save non-stock items is restored.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-53421",
+                            "title": "Groups removed when filtering a list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Groups maintained when you filter the list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50183",
+                            "title": "Issue on the Item List screen, after applying a filter and grouping by a field",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Filters can be applied to grouped data.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-40544",
+                            "title": "Item duplication: Item site is duplicated but site is empty",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you duplicate an item that has an item-site page, the item-site is duplicated and displays in the grid as expected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-52488",
+                            "title": "Main list enhancements ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you define multiple filters for a main list, you can remove all filters at once.</p><p><b>Easy access to key actions</b></p><p>For sales and purchasing, you can access document-level actions like <b>Set dimensions</b>, <b>Send</b>, <b>Print</b>, and so on from the <b>More actions</b> menu on a row.</p><p>For purchase orders, main list row actions include access to the relevant business action in the document workflow.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-52486",
+                            "title": "Dashboard enhancements allow for more data to display",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In table widgets, you can add up to 99 columns to view more information at a glance.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-54630",
+                            "title": "Duplicate action removed from certain pages",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "&nbsp;On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does apply to these documents.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54526",
+                            "title": "Sales order: Delivery mode available to display on main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Sales order page, you can display the delivery mode on the main list from the column setting panel.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

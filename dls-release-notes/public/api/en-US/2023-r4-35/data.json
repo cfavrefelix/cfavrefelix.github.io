@@ -25,7 +25,7 @@
                     "content_parts": [
                         {
                             "key": "XT-53262",
-                            "title": "Sage Intacct Integration performance enhancement for customer and supplier integration ",
+                            "title": "Sage Intacct integration enhancement for customer and supplier data",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -44,11 +44,11 @@
                         },
                         {
                             "key": "XT-47242",
-                            "title": "Stock valuation report additional selection criteria, option to display zero values and total",
+                            "title": "Stock valuation report enhancements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve usability, additional selection criteria are included for the <b>Stock valuation</b> report. The <b>Stock valuation</b> can be refined further by excluding any item-site record that does not have a quantity on-hand or value.<br/>The <b>Total stock value</b> displays above the results grid for comparison to the stock account balance in the financial application.</p>",
+                                    "content": "<p>To improve usability, additional selection criteria are included for the <b>Stock valuation</b> report and you can further refine the results by excluding any item-site record that does not have a quantity on-hand or value.<br/>The <b>Total stock value</b> displays above the results grid for comparison to the stock account balance in the financial application.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -171,11 +171,11 @@
                         },
                         {
                             "key": "XT-41577",
-                            "title": "Mass sales order allocation and deallocation - Automated detailed stock allocation",
+                            "title": "Mass sales order stock allocation and deallocation",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the <b>Sales order mass allocation</b> page, you can mass allocate and deallocate stock on sales order lines, for all or a group of sales orders at a site.</p><p>You can schedule allocation and deallocation jobs using the <b>Schedule</b> button. This create a new batch task to be run once, or on daily or weekly basis.</p><p>The ability to perform mass stock allocation and deallocation will make your tasks more efficient and easier. It'll help improving your stock allocation priority management, reducing shortage impact on the business of strategic customers, and therefore strengthen your business-to-business relationship.</p>",
+                                    "content": "<p>From the <b>Sales order mass allocation</b> page, save time when you mass allocate and deallocate stock on sales order lines for all orders or a group of orders at a site. This improves priority management and reduces shortage impacts on strategic customers.</p><p>You can schedule allocation and deallocation tasks by creating batch tasks to be run once or on a schedule.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -387,7 +387,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the grids in the <b>Production tracking</b>, <b>Material tracking</b>, and <b>Time tracking</b> pages there are 2 options for extracting tracking data: Excel or CSV.<br/>The <b>Production tracking line inquiry</b>, <b>Material tracking line inquiry</b>, and <b>Time tracking line inquiry</b> pages provide visibility at tracking line level with filters and export options, and links to open the tracking document or work order.</p>",
+                                    "content": "<p>You can export tracking data to an Excel or a CSV file from the <b>Production tracking</b>, <b>Material tracking</b>, and <b>Time tracking</b> pages.<br/>The <b>Production tracking line inquiry</b>, <b>Material tracking line inquiry</b>, and <b>Time tracking line inquiry</b> pages provide visibility of tracking data at line level. You can apply filters, export the results, and open the tracking document or work order from the results.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -406,7 +406,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can optionally include demand from sales quotes in an <b>MRP calculation request</b>. </p>",
+                                    "content": "<p>You can optionally include demand from sales quotes in an MRP calculation request. </p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -500,7 +500,7 @@
                         },
                         {
                             "key": "XT-45164",
-                            "title": "Bill of material: Site and base quantity must be marked as mandatory fields",
+                            "title": "Bill of material: Site and base quantity need to be marked as mandatory fields",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -585,7 +585,7 @@
                         },
                         {
                             "key": "XT-50183",
-                            "title": "Issue on the Item List screen, after applying a filter and grouping by a field",
+                            "title": "Item main list: Grouping lost when applying a filter",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -596,9 +596,6 @@
                             "taxonomies": {
                                 "version": [
                                     "35.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

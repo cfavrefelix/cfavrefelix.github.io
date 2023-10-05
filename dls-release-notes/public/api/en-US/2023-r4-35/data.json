@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p><img class=\"emoticon\" src=\"/images/icons/emoticons/information.png\" height=\"16\" width=\"16\" align=\"absmiddle\" alt=\"\" border=\"0\"/> Customer and supplier data no longer displays on the\u00a0<b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
+                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p>Customer and supplier data no longer displays on the <b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -689,7 +689,7 @@
                     "content_parts": [
                         {
                             "key": "XT-52486",
-                            "title": "Dashboard enhancements allow for more data to display",
+                            "title": "Dashboard enhancements to display more data",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -722,11 +722,11 @@
                     "content_parts": [
                         {
                             "key": "XT-54630",
-                            "title": "Duplicate action removed from certain pages",
+                            "title": "Duplicate action removed from Sales shipment and Sales return pages",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "&nbsp;On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does apply to these documents.",
+                                    "content": "On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does apply to these documents.",
                                     "taxonomies": "all"
                                 }
                             ],

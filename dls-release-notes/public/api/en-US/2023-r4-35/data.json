@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p>Customer and supplier data no longer displays on the\u00a0<b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
+                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p><img class=\"emoticon\" src=\"/images/icons/emoticons/information.png\" height=\"16\" width=\"16\" align=\"absmiddle\" alt=\"\" border=\"0\"/> Customer and supplier data no longer displays on the\u00a0<b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

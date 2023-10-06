@@ -399,11 +399,11 @@
                         },
                         {
                             "key": "XT-52378",
-                            "title": "Include or exclude demand from sales quotes in an MRP calculation request",
+                            "title": "Include or exclude sales quotes in an MRP calculation request",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can optionally include demand from sales quotes in an MRP calculation request. </p>",
+                                    "content": "<p>You can optionally include sales quotes in the request criteria for an MRP calculation request. </p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -726,7 +726,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does apply to these documents.",
+                                    "content": "On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does not apply to these documents.",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -72,32 +72,16 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-53910",
-                            "title": "Unable to use customize columns on the Stock journal jnquiry page",
+                            "title": "Unable to use customize columns on the Stock journal inquiry page",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "On the Stock journal inquiry page, you can display or hide columns in the Column panel.<br/>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "35.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-52068",
-                            "title": "Translation: Tab titles not translatable in i18n file",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Tab and block names are translatable in the side panel of the sales and purchase documents.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -205,7 +189,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Save time and improve internal communication and communication with suppliers by repeating notes on purchase documents.<br/>On purchase requisitions, purchase orders, purchase receipts and purchase invoices, you can repeat the supplier notes on all subsequent documents. You can also repeat the notes at the line level on all subsequent document lines.</p>",
+                                    "content": "<p>Save time and improve internal communication and communication with suppliers by repeating notes on purchase documents.<br/>On purchase requisitions, purchase orders, purchase receipts, and purchase invoices, you can repeat the supplier notes on all subsequent documents. You can also repeat the notes at the line level on all subsequent document lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -229,7 +213,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
@@ -239,38 +223,6 @@
                             "content_parts": [
                                 {
                                     "content": "For purchase requisitions, the gross price does not set to 0 when you apply a default supplier.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "35.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54691",
-                            "title": "Missing lookup filters for suppliers",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "For purchase documents, you can filter on suppliers.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "35.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54556",
-                            "title": "Sales shipment: Lines grid status error",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "&nbsp;In Sales shipment, the error was resolved and the All open status was removed.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -338,7 +290,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Gateway' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Gateway' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
@@ -460,7 +412,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
@@ -545,7 +497,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
@@ -614,12 +566,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-40544",
-                            "title": "Item duplication: Item site is duplicated but site is empty",
+                            "title": "Item duplication: Item-site is duplicated but site is empty",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -717,9 +669,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54655,XT-54460,XT-54241)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2023 R4 (35.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2023 R4 (35.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-55371,XT-54915,XT-54702,XT-54655,XT-54460,XT-54241,XT-53955)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-54691",
+                            "title": "Missing lookup filters for suppliers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For purchase documents, you can filter on suppliers.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-54630",
                             "title": "Duplicate action removed from Sales shipment and Sales return pages",
@@ -727,6 +695,22 @@
                             "content_parts": [
                                 {
                                     "content": "On the Sales shipment and Sales return pages, the ability to duplicate was removed because it does not apply to these documents.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "35.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54556",
+                            "title": "Sales shipment: Lines grid status error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "&nbsp;In Sales shipment, the error was resolved and the All open status was removed.",
                                     "taxonomies": "all"
                                 }
                             ],

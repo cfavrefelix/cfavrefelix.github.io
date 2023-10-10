@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p>Customer and supplier data no longer displays on the <b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
+                                    "content": "<p>To improve performance, integrating customers and supplier data from Sage Intacct is managed as asynchronous transactions on the <b>Integration</b> page. You can also view error messages, if any.</p><p>Customer and supplier data no longer display on the <b>Notification history</b> or the\u00a0<b>Sage Intacct mapping</b> pages.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -48,7 +48,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve usability, additional selection criteria are included for the <b>Stock valuation</b> report and you can further refine the results by excluding any item-site record that does not have a quantity on-hand or value.<br/>The <b>Total stock value</b> displays above the results grid for comparison to the stock account balance in the financial application.</p>",
+                                    "content": "<p>To improve usability, additional selection criteria are included for the <b>Stock valuation</b> report and you can further refine the results by excluding any item-site record that does not have a quantity on-hand or value.</p><p>The <b>Total stock value</b> displays above the results grid for comparison to the stock account balance in the financial application.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -118,7 +118,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the <b>Work order mass allocation</b> page you can schedule a batch task using predefined business rules to reserve component stock in advance of production or to clear stock reserved at a site. Scheduling this task increases time available for higher-value tasks.</p>",
+                                    "content": "<p>From the <b>Work order mass allocation</b> page, you can schedule a batch task using predefined business rules to reserve component stock in advance of production or to clear stock reserved at a site. Scheduling this task increases time available for higher-value tasks.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -449,7 +449,7 @@
                         },
                         {
                             "key": "XT-45164",
-                            "title": "Bill of material: Site and base quantity need to be marked as mandatory fields",
+                            "title": "Bill of material: Site and base quantity need to be marked as required fields",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -469,7 +469,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can no longer decrease the required quantity of a work order component when stock has been allocated to the component in full.",
+                                    "content": "You can no longer decrease the required quantity of a work order component when stock was allocated to the component in full.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -710,7 +710,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "&nbsp;In Sales shipment, the error was resolved and the All open status was removed.",
+                                    "content": "&nbsp;On the Sales shipment page, the error was resolved and the All open status was removed.",
                                     "taxonomies": "all"
                                 }
                             ],

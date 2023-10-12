@@ -28,10 +28,16 @@
     ],
     "releases": [
         {
+            "id": "2023-r4-35",
+            "title": "2023 R10 (octobre)",
+            "url": "/dls-release-notes/api/fr-FR/2023-r4-35/data.json",
+            "date": "Octobre"
+        },
+        {
             "id": "2023-r4-34",
             "title": "2023 R9 (septembre)",
             "url": "/dls-release-notes/api/fr-FR/2023-r4-34/data.json",
-            "date": "Septembre"
+            "date": "Octobre"
         },
         {
             "id": "2023-r4-33",

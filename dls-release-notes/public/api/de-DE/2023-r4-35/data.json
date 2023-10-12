@@ -77,7 +77,7 @@
                     "content_parts": [
                         {
                             "key": "XT-53910",
-                            "title": "Die Spalten auf der Seite <b>Abfrage Bestandsjournal</b> k\u00f6nnen nicht personalisiert werden",
+                            "title": "Die Spalten auf der Seite Abfrage Bestandsjournal k\u00f6nnen nicht personalisiert werden",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -156,7 +156,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Auf der Seite <b>Massenreservierung Verkaufsauftrag</b> kann Zeit gespart werden, wenn eine Massenbestandsreservierung bzw. Aufhebung der Reservierung in Verkaufsauftragszeilen f\u00fcr alle Auftr\u00e4ge oder eine Gruppe von Auftr\u00e4gen an einem Standort durchgef\u00fchrt wird. Dadurch werden das Priorit\u00e4tsmanagement verbessert und die Auswirkungen von Engp\u00e4ssen auf strategische Kunden verringert.</p><p>Es k\u00f6nnen Reservierungs- und Aufhebungsaufgaben geplant werden, indem Batchaufgaben erstellt werden, die einmalig oder gem\u00e4\u00df einem Zeitplan ausgef\u00fchrt werden.</p>",
+                                    "content": "<p>Auf der Seite <b>Massenreservierung Verkaufsauftrag</b> kann als Zeitersparnis eine Massenbestandsreservierung bzw. Aufhebung der Reservierung in Verkaufsauftragszeilen f\u00fcr alle Auftr\u00e4ge oder eine Gruppe von Auftr\u00e4gen an einem Standort durchgef\u00fchrt werden. Dadurch werden das Priorit\u00e4tsmanagement verbessert und die Auswirkungen von Engp\u00e4ssen auf strategische Kunden verringert.</p><p>Es k\u00f6nnen Reservierungs- und Aufhebungsaufgaben geplant werden, indem Batchaufgaben erstellt werden, die einmalig oder gem\u00e4\u00df einem Zeitplan ausgef\u00fchrt werden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -433,7 +433,7 @@
                         },
                         {
                             "key": "XT-50015",
-                            "title": "Schaltfl\u00e4che <b>Speichern</b> fehlt in der Fertigungsr\u00fcckmeldung",
+                            "title": "Schaltfl\u00e4che Speichern fehlt in der Fertigungsr\u00fcckmeldung",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -469,7 +469,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Die erforderliche Menge einer Fertigungsauftragskomponente kann nicht mehr verringert werden, wenn der Komponente der Bestand vollst\u00e4ndig zugewiesen wurde.",
+                                    "content": "Die erforderliche Menge einer Fertigungsauftragskomponente kann nicht mehr verringert werden, wenn der Bestand der Komponente vollst\u00e4ndig zugewiesen wurde.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -534,7 +534,7 @@
                         },
                         {
                             "key": "XT-50183",
-                            "title": "Hauptliste Artikel: Gruppierungen werden entfernt, wenn ein Filter angewendet wird",
+                            "title": "Hauptliste Artikel: Gruppierungen werden bei Anwendung eines Filters entfernt",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -612,7 +612,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Werden mehrere Filter f\u00fcr eine Hauptliste definiert, k\u00f6nnen alle Filter gleichzeitig entfernt werden.</p><p><b>Einfacher Zugriff auf Schl\u00fcsselaktionen</b></p><p>F\u00fcr Verkauf und Einkauf sind \u00fcber das Men\u00fc <b>Weitere Aktionen</b> in einer Zeile Aktionen auf Dokumentebene verf\u00fcgbar, wie <b>Sektoren setzen</b>, <b>Senden</b>, <b>Drucken</b>, usw. </p><p>Bei Bestellungen umfassen die Zeilenaktionen in der Hauptliste den Zugriff auf die entsprechende Gesch\u00e4ftsaktion im Dokument-Workflow.</p>",
+                                    "content": "<p>Werden mehrere Filter f\u00fcr eine Hauptliste definiert, k\u00f6nnen alle Filter gleichzeitig entfernt werden.</p><p><b>Einfacher Zugriff auf Schl\u00fcsselaktionen</b></p><p>F\u00fcr Verkauf und Einkauf sind \u00fcber das Men\u00fc <b>Weitere Aktionen</b> in einer Zeile Aktionen auf Dokumentebene verf\u00fcgbar, wie zum Beispiel <b>Sektoren setzen</b>, <b>Senden</b>, <b>Drucken</b>. </p><p>Bei Bestellungen umfassen die Zeilenaktionen in der Hauptliste den Zugriff auf die entsprechende Gesch\u00e4ftsaktion im Dokument-Workflow.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -690,7 +690,7 @@
                         },
                         {
                             "key": "XT-54630",
-                            "title": "Aktion <b>Duplizieren</b> wurde von den Seiten <b>Warenausgang</b> und <b>Verkaufsretoure</b> entfernt",
+                            "title": "Die Aktion Duplizieren wurde von den Seiten Warenausgang und Verkaufsretoure entfernt",
                             "highlight": false,
                             "content_parts": [
                                 {

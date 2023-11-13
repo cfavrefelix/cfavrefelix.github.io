@@ -89,7 +89,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you integrate with Sage Intacct, the on-hold status and credit limit information for customers, along with the on-hold behavior, are synchronized from Sgae Intacct .\u00a0 Read-only properties were added to provide more insight into the financial position of the customer and align the solution behavior with Sage Intacct.</p><ul><li>The credit limit is displayed on the <b>Customer</b> page.</li><li>The selected behavior when processing a sales transaction for an on-hold customer is displayed and refreshed from the <b>Company</b> page.</li></ul>",
+                                    "content": "<p>When you integrate with Sage Intacct, the on-hold status and credit limit information for customers, along with the on-hold behavior, are synchronized from Sage Intacct .\u00a0 Read-only properties were added to provide more insight into the financial position of the customer and align the solution behavior with Sage Intacct.</p><ul><li>The credit limit is displayed on the <b>Customer</b> page.</li><li>The selected behavior when processing a sales transaction for an on-hold customer is displayed and refreshed from the <b>Company</b> page.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

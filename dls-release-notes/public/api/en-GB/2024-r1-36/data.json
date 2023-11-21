@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you integrate items with Sage Intacct, you can view the synchronization status on the <b>Item</b> page main list so that you don't need to navigate to another page to view statuses.</p>",
+                                    "content": "<p>When you integrate items with Sage Intacct, you can view the synchronisation status on the <b>Item</b> page main list so that you don't need to navigate to another page to view statuses.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -165,7 +165,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For legislations such as the US, you can set up tax zones that include multiple sales tax categories including city, county, state, and special taxes. When you ship to a customer where multiple taxes apply, you can assign an appropriate tax zone, so you no longer need to enter each tax category to each line of the transaction.</p><p>Use the <b>Tax zone</b> page to set up your tax zones based on your tax categories.\u00a0</p>",
+                                    "content": "<p>For legislations such as the US, you can set up tax zones that include multiple sales tax categories including city, county, state and special taxes. When you ship to a customer where multiple taxes apply, you can assign an appropriate tax zone, so you no longer need to enter each tax category to each line of the transaction.</p><p>Use the <b>Tax zone</b> page to set up your tax zones based on your tax categories.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -764,7 +764,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Variances display above the grid for purchase credit memos.",
+                                    "content": "Variances display above the grid for purchase credit notes.",
                                     "taxonomies": "all"
                                 }
                             ],

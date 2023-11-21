@@ -28,6 +28,12 @@
     ],
     "releases": [
         {
+            "id": "2024-r1-36",
+            "title": "2023 R11 (November)",
+            "url": "/dls-release-notes/api/en-GB/2024-r1-36/data.json",
+            "date": "November"
+        },
+        {
             "id": "2023-r4-35",
             "title": "2023 R10 (October)",
             "url": "/dls-release-notes/api/en-GB/2023-r4-35/data.json",

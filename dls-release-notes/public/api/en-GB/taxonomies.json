@@ -2,6 +2,38 @@
     "__self": "/dls-release-notes/api/en-GB/taxonomies.json",
     "taxonomies": [
         {
+            "id": "legislation",
+            "title": "Legislation",
+            "pills": true,
+            "options": [
+                {
+                    "id": "france-fra",
+                    "title": "France (FRA)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "germany-ger",
+                    "title": "Germany (GER)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "great-britain-bri",
+                    "title": "Great Britain (BRI)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "south-africa-zaf",
+                    "title": "South Africa (ZAF)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
+                    "id": "united-states-usa",
+                    "title": "United States (USA)",
+                    "color": "rgba(0,0,0,.3)"
+                }
+            ]
+        },
+        {
             "id": "_type",
             "title": "Update type",
             "pills": false,

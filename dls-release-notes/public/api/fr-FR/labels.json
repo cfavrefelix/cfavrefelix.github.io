@@ -11,6 +11,7 @@
     "links.go-back": "Retour",
     "links.view-latest": "Derni\u00e8re version",
     "titles.anchorNav": "Aller \u00e0",
+    "titles.sidebar-links": "Liens utiles",
     "titles.language": "Langue",
     "titles.version": "Version",
     "subtitle.prefix": "Nouveaut\u00e9s",
@@ -21,7 +22,7 @@
     "dropdown.select-version": "S\u00e9lectionner la version",
     "titles.filters": "Filtrer",
     "titles.not-found": "Version introuvable",
-    "messages.not-found": "Aucun r\u00e9sultat pour votre recherche. R\u00e9essayez avec une autre langue ou version.",
+    "messages.not-found": "Nous ne trouvons pas ce que vous recherchez. R\u00e9essayez avec une autre langue ou version.",
     "messages.all-parts-filtered": "Essayez de modifier vos crit\u00e8res de filtre pour plus de r\u00e9sultats.",
     "page-title.divider": " | ",
     "page-title.suffix": "Sage Distribution and Manufacturing Operations"

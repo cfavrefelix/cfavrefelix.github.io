@@ -89,7 +89,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Bei der Integration mit Sage Intacct, werden der Status der Kundensperre sowie das Kreditlimit des Kunden zusammen mit dem Verhalten im Falle einer Sperre aus Sage Intacct synchronisiert.\u00a0 Schreibgesch\u00fctzte Eigenschaften wurden hinzugef\u00fcgt, um einen besseren Einblick in die finanzielle Lage des Kunden zu erhalten und das Verhalten der L\u00f6sung mit Sage Intacct abzustimmen.</p><ul><li>Das Kreditlimit wird auf der Seite <b>Kunde</b> angezeigt.</li><li>Das ausgew\u00e4hlte Verhalten bei der Verarbeitung einer Verkaufstransaktion f\u00fcr einen gesperrten Kunden wird auf der Seite <b>Unternehmen</b> angezeigt und aktualisiert.</li></ul>",
+                                    "content": "<p>Bei der Integration mit Sage Intacct werden der Status der Kundensperre sowie das Kreditlimit des Kunden zusammen mit dem Verhalten im Falle einer Sperre aus Sage Intacct synchronisiert.\u00a0 Schreibgesch\u00fctzte Eigenschaften wurden hinzugef\u00fcgt, um einen besseren Einblick in die finanzielle Lage des Kunden zu erhalten und das Verhalten der L\u00f6sung mit Sage Intacct abzustimmen.</p><ul><li>Das Kreditlimit wird auf der Seite <b>Kunde</b> angezeigt.</li><li>Das ausgew\u00e4hlte Verhalten bei der Verarbeitung einer Verkaufstransaktion f\u00fcr einen gesperrten Kunden wird auf der Seite <b>Unternehmen</b> angezeigt und aktualisiert.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -442,7 +442,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Um alle Ebenen der Organisation bereitzustellen, die einen Druck einer mehrstufigen St\u00fcckliste darstellen oder generieren m\u00fcssen, k\u00f6nnen auf der Seite <b>St\u00fcckliste</b> alle Ebenen der St\u00fcckliste bis zur Komponente oder dem Rohstoff der niedrigsten Ebene gedruckt und die Komponentenliste exportiert werden. Der gedruckte Report kann f\u00fcr eine einzelne oder mehrere St\u00fccklisten erstellt werden und optional Standardkosten und Anweisungen enthalten.<br/>Bevor die Komponentenliste exportiert werden kann, muss die PDF-Datei herunterladen geladen und die Komponentenliste ge\u00f6ffnet werden, die als Anhang bereitgestellt wird.</p>",
+                                    "content": "<p>Um alle Ebenen der Organisation bereitzustellen, die einen Druck einer mehrstufigen St\u00fcckliste darstellen oder generieren m\u00fcssen, k\u00f6nnen auf der Seite <b>St\u00fcckliste</b> alle Ebenen der St\u00fcckliste bis zur Komponente oder dem Rohstoff der niedrigsten Ebene gedruckt und die Komponentenliste exportiert werden. Der gedruckte Report kann f\u00fcr eine einzelne oder mehrere St\u00fccklisten erstellt werden und optional Standardkosten und Anweisungen enthalten.<br/>Bevor die Komponentenliste exportiert werden kann, muss die PDF-Datei heruntergeladen und die Komponentenliste ge\u00f6ffnet werden, die als Anhang bereitgestellt wird.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -553,7 +553,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Bei Ausf\u00fchrung einer Batchaufgabe, wird \u00fcber ein Benachrichtigungssymbol darauf hingewiesen, dass die Aufgabe abgeschlossen ist. \u00dcber diese Benachrichtigung kann das Dokument zu der Batchaufgabe heruntergeladen und der Verlauf der Batchaufgaben angezeigt werden.</p>",
+                                    "content": "<p>Bei Ausf\u00fchrung einer Batchaufgabe wird \u00fcber ein Benachrichtigungssymbol darauf hingewiesen, dass die Aufgabe abgeschlossen ist. \u00dcber diese Benachrichtigung kann das Dokument zu der Batchaufgabe heruntergeladen und der Verlauf der Batchaufgaben angezeigt werden.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -621,7 +621,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Der Benutzer kann die MRP-Berechtigungen [Synchronisierung MRP, MRP-Berechnung] in Administration&gt;Benutzer und Sicherheit&gt;Rollen korrekt aktivieren",
+                                    "content": "Der Benutzer kann die MRP-Berechtigungen [Synchronisierung MRP, MRP-Berechnung] in Administration &gt; Benutzer und Sicherheit &gt; Rollen korrekt aktivieren",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -714,7 +714,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Bei Verkaufs- und Einkaufsdokumenten k\u00f6nnen mehrere Schl\u00fcsselaktionen aus der Hauptliste ausgef\u00fchrt werdeen, um Zeit zu sparen.</p><p>Zus\u00e4tzliche Aktionen umfassen:</p><ul><li>Best\u00e4tigen</li><li>Zur Genehmigung \u00fcbermitteln</li><li>Genehmigen oder ablehnen</li><li>L\u00f6schen</li><li>Buchen</li><li>Abschlie\u00dfen</li></ul><p>Die verf\u00fcgbaren Aktionen h\u00e4ngen vom Dokumenttyp und den Benutzerberechtigungen ab.</p>",
+                                    "content": "<p>Bei Verkaufs- und Einkaufsdokumenten k\u00f6nnen mehrere Schl\u00fcsselaktionen aus der Hauptliste ausgef\u00fchrt werden, um Zeit zu sparen.</p><p>Zus\u00e4tzliche Aktionen umfassen:</p><ul><li>Best\u00e4tigen</li><li>Zur Genehmigung \u00fcbermitteln</li><li>Genehmigen oder ablehnen</li><li>L\u00f6schen</li><li>Buchen</li><li>Abschlie\u00dfen</li></ul><p>Die verf\u00fcgbaren Aktionen h\u00e4ngen vom Dokumenttyp und den Benutzerberechtigungen ab.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

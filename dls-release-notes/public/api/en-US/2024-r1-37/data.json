@@ -44,6 +44,25 @@
                                     "validated-by-po/pm"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-57510",
+                            "title": "Notifications for bill of material exports, journal entry generation and MRP calculation requests",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To let you know that a task is finished, a notification displays when a bill of material export is completed, a journal entry is generated and an MRP calculation request is completed.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -291,6 +310,25 @@
                             }
                         },
                         {
+                            "key": "XT-48952",
+                            "title": "Dimension controls for purchase orders and purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Entry of purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions, or GL accounts are missing, and if required dimensions are defined for a company or an account.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-43685",
                             "title": "Landed cost posting - Purchase receipts ",
                             "highlight": false,
@@ -500,25 +538,6 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-59205",
-                            "title": "Sage user A receives an error while browsing an item while Sage user B does not",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "A fix was applied to prevent this null pointer issue from happening in the future.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-58112",
                             "title": "Administrator rights",
                             "highlight": false,
@@ -536,20 +555,17 @@
                         },
                         {
                             "key": "XT-56960",
-                            "title": "Unable to turn MRP options ON in the Roles for System Administrator",
+                            "title": "MRP options in administrator roles",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The user is correctly able to turn on the MRP permissions [Mrp Synchronization, Mrp Calculation] in Administration&gt;Users and security&gt;Roles",
+                                    "content": "You can select MRP synchronization and calculation options for system administrator roles.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -569,6 +585,49 @@
                                 ],
                                 "statusNote": [
                                     "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42664",
+                            "title": "Stock value changes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To adjust the Average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a Stock value change a check is applied whether all 'Required dimensions' defined at the Company level and/or Account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -600,6 +659,39 @@
                             "content_parts": [
                                 {
                                     "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Accept all variances</li></ul><p>Actions available depend on the document type and your user permissions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56495",
+                            "title": "Notification indicator enhancement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A golden badge displays on the bell icon to alert users when a new notification is available.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

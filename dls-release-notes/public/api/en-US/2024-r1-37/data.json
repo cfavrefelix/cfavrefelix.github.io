@@ -100,7 +100,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The progress bar on the Batch task history page updates correctly.<br/><br/>",
+                                    "content": "The progress bar on the Batch task history page updates correctly.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -148,12 +148,12 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-48873",
-                            "title": "MRP enhancements - MRP Request and results page merge, Notifications and Results delete option",
+                            "key": "XT-55503",
+                            "title": "Additional document controls for customers on hold",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The following enhancements have been implemented:</p><ol><li>The user can now create an MRP calculation request directly from the MRP calculation page, and see the results from the same page. The MRP calculation request menu item has been removed and the MRP calculation result menu item has been renamed MRP calculation.\u00a0</li><li>The user will now be notified when the MRP calculation has completed. The user will be able to access the results from the notification.</li><li>The user now has the ability to delete calculations either individually or in bulk.</li></ol>",
+                                    "content": "<p>The\u00a0<b>Customer on-hold check</b>\u00a0option at company level is used when a customer is on hold to either block, issue a warning, or take no specific action during the processing of a sales document. When you integrate with Sage Intacct, this option synchronizes with Sage Intacct, otherwise you can manage this option directly.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -163,9 +163,25 @@
                                 ],
                                 "version": [
                                     "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48873",
+                            "title": "MRP calculation and results enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page is renamed <b>MRP calculation</b>.</li><li>From the new <b>MRP calculation</b> page, you can now run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification center</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can now delete one or multiple MRP calculation results sets.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "37.0.0"
                                 ]
                             }
                         }
@@ -300,6 +316,39 @@
                 },
                 {
                     "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57813",
+                            "title": "Stock valuation report displays the total stock value",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page now displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Bug Fixes",
                     "taxonomies": {
                         "_type": [
@@ -312,20 +361,17 @@
                     "content_parts": [
                         {
                             "key": "XT-58041",
-                            "title": "Resources : Error journal entry for non-default or detailed Posting Class",
+                            "title": "Time tracking posting error when a resource has a detailed Posting class",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Correction when resource has a detailed posting class.<br/>The Labor/Resource time postings will correctly generate journal entries if the end-user creates detailed posting classes for Resources and assigns the Posting Class to a Resource.",
+                                    "content": "Labor/Resource Time tracking postings correctly generate journal entries when a detailed Posting class is defined for the resource.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -366,9 +412,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -392,7 +435,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Bill of materials</b> page, you can now delete one or multiple bills of material from the main list.</p>",
+                                    "content": "<p>On the <b>Bill of materials</b> page, from the main list, you can now delete one or multiple bills of material.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -421,20 +464,17 @@
                     "content_parts": [
                         {
                             "key": "XT-57985",
-                            "title": "Unable to save changes in Production Tracking",
+                            "title": "Unable to save Production tracking changes",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The pre-selection of lines on production tracking has been removed so that stock detail for unselected lines are not mandatory and the save button is enabled correctly. ",
+                                    "content": "On the Production tracking page, preselected lines need stock details to be entered before the tracking can be saved.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -554,78 +594,12 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-57912",
-                            "title": "Applicative - Business Row Actions complement",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>'Post' business row action is available in the main list of S. Invoice</p><p>------------</p><p>List of P documents concerned by this improvement:</p><ul><li>P. Order</li><li>P. Requisition</li><li>P. Return</li></ul><p>\u00a0</p><p>Change the '<b>Close'</b>\u00a0action button at the bottom of the split-view et business row action in the main list to:</p><ul><li><b>Close order</b></li><li><b>Close requisition</b></li><li><b>Close return</b></li></ul><p>\u00a0</p><p>Dialog message must be uptated that way:\u00a0</p><ul><li>Title:\u00a0<b>Confirm status change</b></li><li>Message:\u00a0<b>You are about the change the status of this order to closed. You cannot undo this change.</b></li><li>CTAs:\u00a0<b>Cancel | Close order/</b>\u00a0<b>Close</b>\u00a0<b>requisition/</b>\u00a0<b>Close</b>\u00a0<b>return</b></li></ul><p><a href=\"https://jira.sage.com/secure/ViewProfile.jspa?name=daniel.fernandez%40sage.com\" class=\"external-link\" rel=\"nofollow\">Daniel Fernandez</a>\u00a0NOTE: If any line is allocated in the purchase return document, the message should be \"<b>You are about to change the status of this return to closed and reverse all stock allocations. You cannot undo this change.</b>\"</p><p>\u00a0</p><hr /><p>List of P documents concerned by this improvement:</p><ul><li>S. Order</li><li>S. Return Request</li></ul><p>\u00a0</p><p>Change the '<b>Close'</b>\u00a0action button at the bottom of the split-view et business row action in the main list to:</p><ul><li><b>Close order</b></li><li><b>Close request</b></li></ul><p>\u00a0</p><p>Change the '<b>Open'</b>\u00a0action button at the bottom of the split-view et business row action in the main list to:</p><ul><li><b>Open order</b></li><li><b>Open request</b></li></ul><p>\u00a0</p><p>Dialog message for the Close, where you can reopen a closed document:</p><ul><li>Title:\u00a0<b>Confirm status change</b></li><li>Message:\u00a0<b>You are about the change the status of this order to closed. You can reopen this order later.</b></li><li>CTAs:\u00a0<b>Cancel | Close order/</b>\u00a0<b>Close</b>\u00a0<b>request</b>.</li></ul><p>\u00a0</p><p>Dialog message when a user reopens a closed document.\u00a0</p><ul><li>Title:\u00a0<b>Confirm status change</b></li><li>Message:\u00a0<b>You are about to change the status of this order to open.</b></li><li>CTAs:\u00a0<b>Cancel | Open order/ Open request</b></li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54520",
-                            "title": "Applicative - Create document - Business Row Actions",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The create document action is available from the main list in S &amp; P documents.</p><ul><li>Create order in P. requisition</li><li>Create receipt in P. Order.</li><li>Create return in P. Receipt</li><li>Create credit memo in P. Invoice</li></ul><p>\u00a0</p><ul><li>Create shipment in S. Order.</li><li>Create invoice in S. Shipment</li><li>Create request return in S. Shipment</li><li>Create credit memo in S. Invoice</li><li>Create credit memo in S. Return request\u00a0</li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54516",
-                            "title": "Applicative - Accept all variances - Business Row Actions",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The '<b>Accept all variances'</b> business row action is implemented in the main list and the split view of the Purchase invoice.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-54507",
-                            "title": "Applicative - Revert - Business Row Actions",
+                            "title": "Main list row actions",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Revert - Business Row Actions in sales shipment.</p>",
+                                    "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Accept all variances</li></ul><p>Actions available depend on the document type and your user permissions.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -635,31 +609,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54456",
-                            "title": "Applicative - Open - Business Row Actions",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Open - Business Row Actions in the main list of:</p><ul><li>sales order</li><li>sales return request</li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -679,39 +628,33 @@
                     "content_parts": [
                         {
                             "key": "XT-58693",
-                            "title": "Suggestion list on supplier & customer to improve in S & P documents",
+                            "title": "Suggestion list on supplier and customer documents based on name or ID",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "the suggestion list is according to the name &amp; the ID of the supplier &amp; customer in the S &amp; P documents.<br/>",
+                                    "content": "Sales and Purchasing documents display a list of suggested customers/suppliers based on their name or ID.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-58055",
-                            "title": "P. Requisition - Page not refreshed after approve/reject the record",
+                            "title": "Purchase requisition page is not refreshed",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The P. Requisition page is refreshed after the &#39;Approve&#39; or &#39;Reject&#39; business action.",
+                                    "content": "The Purchase requisition page refreshes after approving or rejecting the request.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

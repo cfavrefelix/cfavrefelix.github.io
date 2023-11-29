@@ -25,11 +25,11 @@
                     "content_parts": [
                         {
                             "key": "XT-57513",
-                            "title": "Intacct Integration field mapping controls",
+                            "title": "Sage Intacct integration mapping field controls",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Previously, our practice involved resetting customer-side mappings when introducing mapping changes at each upgrade. This has raised concerns about potential loss of customer-made changes. In our commitment to a more user-friendly experience and a seamless upgrade process, we have developed a solution that preserves customer modifications while facilitating smooth upgrades. This involved updating the standard mapping, categorizing each field as either editable or non-editable.</p><p>Starting now, the mapping object grid has evolved:</p><ul><li>Removing the description, required, data type, and read-only fields on the Intacct side from the default display. Despite this change, these fields remain accessible through column settings.</li><li>Introducing the \"Editable\" column which indicates which fields have shifted from editable to non-editable.</li><li>Renaming the property option to default property, which displays the standard value if the field is updated by the customer</li></ul><p>It's important to note that with recent changes, the standard mapping has transitioned from allowing modification of any field to only permitting edits to fields identified as editable in this release.</p>",
+                                    "content": "<p>To preserve modifications and facilitate upgrades, the <b>Sage Intacct Mapping</b> page includes the following enhancements to the <b>Mapping</b> tab grids:</p><ul><li>The <b>Editable</b> column indicates which fields can be edited. Only fields with this column selected can be modified.</li><li>The <b>Description</b>, <b>Required</b>, <b>Data type</b>, and <b>Read-only</b> columns are hidden, but can be displayed using the <b>Column settings</b> panel.</li><li><b>Property option</b> was renamed <b>Default property</b> to display the standard value if the field was renamed.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -39,9 +39,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -66,11 +63,11 @@
                         },
                         {
                             "key": "XT-54695",
-                            "title": "Intacct Integration performance enhancement on transactions",
+                            "title": "Sage Intacct integration performance enhancement for finance",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Experience improved performance with our latest update, as the integration of finance document sent to Sage Intacct is now processed asynchronously.</p><p>To monitor the status of journal entry integration, simply navigate to the Integration page located under Administration &gt; Communication in the menu. This page now provides visibility into the finance documents currently undergoing integration processing and introduces the capability to perform bulk synchronization.</p><p>Enhancements extend to the top filter, allowing users to selectively filter either finance or reference data integration for a more streamlined experience.</p>",
+                                    "content": "<p><font color=\"#172b4d\">When you integrate finance documents, they are processed asynchronously to improve performance.</font></p><p><font color=\"#172b4d\">You can monitor journal entry integration status on the <b>Integration</b> page and sort by <b>Master data</b> or <b>Finance</b>.</font></p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -80,9 +77,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -187,28 +181,6 @@
                                     "37.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-43685",
-                            "title": "Landed cost on Purchase receipts ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<h2><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h2><p>The new landed cost functionality of SDMO enables you to accurately calculate and manage the total cost associated with acquiring inventory items or goods. It goes beyond the basic purchase cost of the items and includes additional costs that are incurred during the procurement and transportation process.</p><h3><a name=\"Landedcostserviceoption\"></a>Landed cost service option</h3><p>To leverage the Landed cost functionality of SDMO you must activate the Landed cost service option in Administration &gt; Application configuration &gt; Service option</p><h3><a name=\"Landedcostitems\"></a>Landed cost items</h3><p>In order to allocate landed costs to a purchase receipt, an essential prerequisite is to set up the landed cost applicable in your procurement process on the item page of SDMO. For items of type 'Landed cost' respective allocation rules, e.g. by quantity, by amount, by volume, or by weight, can be defined and an allocation unit can be associated.</p><h3><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h3><p>With the current release, SDMO supports the allocation of landed cost items to the corresponding purchase receipt and therefore allows you a better understanding of total purchased goods costs.</p><p>When you enter a purchase invoice for landed costs, e.g. an invoice for transportation from a carrier, on the purchase invoice page, you can allocate the landed cost item to one or several associated purchase receipts. SDMO will then create the respective landed cost accrual and purchase price variance journal entries.</p><h3><a name=\"Postingclass\"></a>Posting class</h3><p>New account types for landed cost accruals and landed cost expenses have been added to the detailed item posting class.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -300,6 +272,25 @@
                             "content_parts": [
                                 {
                                     "content": "<p>Entry of purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions, or GL accounts are missing, and if required dimensions are defined for a company or an account.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43685",
+                            "title": "Landed cost posting for purchase receipts ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate a landed cost item to one or more associated purchase receipts.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -649,6 +640,25 @@
                         "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-57992",
+                            "title": "Report designer improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create custom reports using a graphical interface where you can design the layout, select colors, and add your own text. You can display data in table or in blocks for a single record or a list of records.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-56495",
                             "title": "Notification indicator enhancement",

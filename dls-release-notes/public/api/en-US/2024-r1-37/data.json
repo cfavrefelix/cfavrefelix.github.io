@@ -290,7 +290,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate a landed cost item to one or more associated purchase receipts.\u00a0</p>",
+                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate landed costs to one or more associated purchase receipts.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -323,7 +323,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Labor and Resource Time tracking postings correctly generate journal entries when a detailed posting class is defined for the resource.",
+                                    "content": "Labor and resource time tracking postings correctly generate journal entries when a detailed posting class is defined for the resource.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -518,7 +518,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page is renamed <b>MRP calculation</b>.</li><li>From the new <b>MRP calculation</b> page, you can now run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification center</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can now delete one or multiple MRP calculation results sets.</li></ul>",
+                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page was renamed <b>MRP calculation</b>.</li><li>On the <b>MRP calculation</b> page, you can run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification center</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can delete one or multiple MRP calculation results sets.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -665,7 +665,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>A golden badge displays on the bell icon to alert users when a new notification is available.</p>",
+                                    "content": "<p>When a new notification is available, a golden badge displays on the bell icon.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -646,7 +646,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can create custom reports using a graphical interface where you can design the layout, select colors, and add your own text. You can display data in table or in blocks for a single record or a list of records.</p>",
+                                    "content": "<p>You can create custom reports using a graphical interface where you can design the layout, select colors, and add your own text. You can display data in a table or in blocks for a single record or a list of records.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

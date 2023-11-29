@@ -63,6 +63,28 @@
                                     "37.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-54695",
+                            "title": "Intacct Integration performance enhancement on transactions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Experience improved performance with our latest update, as the integration of finance document sent to Sage Intacct is now processed asynchronously.</p><p>To monitor the status of journal entry integration, simply navigate to the Integration page located under Administration &gt; Communication in the menu. This page now provides visibility into the finance documents currently undergoing integration processing and introduces the capability to perform bulk synchronization.</p><p>Enhancements extend to the top filter, allowing users to selectively filter either finance or reference data integration for a more streamlined experience.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -91,25 +113,6 @@
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-56484",
-                            "title": "Inconsistent error message  ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "When deleting any vendor records a user message is shown to the user that this is not allowed.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -186,12 +189,12 @@
                             }
                         },
                         {
-                            "key": "XT-48873",
-                            "title": "MRP calculation and results enhancements",
+                            "key": "XT-43685",
+                            "title": "Landed cost on Purchase receipts ",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page is renamed <b>MRP calculation</b>.</li><li>From the new <b>MRP calculation</b> page, you can now run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification center</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can now delete one or multiple MRP calculation results sets.</li></ul>",
+                                    "content": "<h2><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h2><p>The new landed cost functionality of SDMO enables you to accurately calculate and manage the total cost associated with acquiring inventory items or goods. It goes beyond the basic purchase cost of the items and includes additional costs that are incurred during the procurement and transportation process.</p><h3><a name=\"Landedcostserviceoption\"></a>Landed cost service option</h3><p>To leverage the Landed cost functionality of SDMO you must activate the Landed cost service option in Administration &gt; Application configuration &gt; Service option</p><h3><a name=\"Landedcostitems\"></a>Landed cost items</h3><p>In order to allocate landed costs to a purchase receipt, an essential prerequisite is to set up the landed cost applicable in your procurement process on the item page of SDMO. For items of type 'Landed cost' respective allocation rules, e.g. by quantity, by amount, by volume, or by weight, can be defined and an allocation unit can be associated.</p><h3><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h3><p>With the current release, SDMO supports the allocation of landed cost items to the corresponding purchase receipt and therefore allows you a better understanding of total purchased goods costs.</p><p>When you enter a purchase invoice for landed costs, e.g. an invoice for transportation from a carrier, on the purchase invoice page, you can allocate the landed cost item to one or several associated purchase receipts. SDMO will then create the respective landed cost accrual and purchase price variance journal entries.</p><h3><a name=\"Postingclass\"></a>Posting class</h3><p>New account types for landed cost accruals and landed cost expenses have been added to the detailed item posting class.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -201,6 +204,9 @@
                                 ],
                                 "version": [
                                     "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -288,89 +294,12 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-54695",
-                            "title": "Intacct Integration performance enhancement on transactions",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>Experience improved performance with our latest update, as the integration of finance document sent to Sage Intacct is now processed asynchronously.</p><p>To monitor the status of journal entry integration, simply navigate to the Integration page located under Administration &gt; Communication in the menu. This page now provides visibility into the finance documents currently undergoing integration processing and introduces the capability to perform bulk synchronization.</p><p>Enhancements extend to the top filter, allowing users to selectively filter either finance or reference data integration for a more streamlined experience.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-48952",
                             "title": "Dimension controls for purchase orders and purchase receipts",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "<p>Entry of purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions, or GL accounts are missing, and if required dimensions are defined for a company or an account.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-43685",
-                            "title": "Landed cost posting - Purchase receipts ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<h2><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h2><p>The new landed cost functionality of SDMO enables you to accurately calculate and manage the total cost associated with acquiring inventory items or goods. It goes beyond the basic purchase cost of the items and includes additional costs that are incurred during the procurement and transportation process.</p><h3><a name=\"Landedcostserviceoption\"></a>Landed cost service option</h3><p>To leverage the Landed cost functionality of SDMO you must activate the Landed cost service option in Administration &gt; Application configuration &gt; Service option</p><h3><a name=\"Landedcostitems\"></a>Landed cost items</h3><p>In order to allocate landed costs to a purchase receipt, an essential prerequisite is to set up the landed cost applicable in your procurement process on the item page of SDMO. For items of type 'Landed cost' respective allocation rules, e.g. by quantity, by amount, by volume, or by weight, can be defined and an allocation unit can be associated.</p><h3><a name=\"Associationoflandedcoststopurchasereceipts\"></a>Association of landed costs to purchase receipts</h3><p>With the current release, SDMO supports the allocation of landed cost items to the corresponding purchase receipt and therefore allows you a better understanding of total purchased goods costs.</p><p>When you enter a purchase invoice for landed costs, e.g. an invoice for transportation from a carrier, on the purchase invoice page, you can allocate the landed cost item to one or several associated purchase receipts. SDMO will then create the respective landed cost accrual and purchase price variance journal entries.</p><h3><a name=\"Postingclass\"></a>Posting class</h3><p>New account types for landed cost accruals and landed cost expenses have been added to the detailed item posting class.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
-                    "title": "Improvements",
-                    "taxonomies": {
-                        "_type": [
-                            "changes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-57813",
-                            "title": "Stock valuation report displays the total stock value",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page now displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -422,39 +351,6 @@
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-54259",
-                            "title": "Standard cost adjustments",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>When there is stock on hand, a change to the cost of an item-site record costed at standard cost generates a journal entry for the adjustment.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "group",
                     "title": "Improvements",
@@ -571,20 +467,17 @@
                         },
                         {
                             "key": "XT-56888",
-                            "title": "Default approvers in the Site are not being saved",
+                            "title": "Save default approvers in sites",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The user can successfully save a change to the default approvers in a Site record.",
+                                    "content": "You can save a change to the default approvers in a site record.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -610,6 +503,44 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-54259",
+                            "title": "Standard cost adjustments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When there is stock on hand, a change to the cost of an item-site record costed at standard cost generates a journal entry for the adjustment.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48873",
+                            "title": "MRP calculation and results enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page is renamed <b>MRP calculation</b>.</li><li>From the new <b>MRP calculation</b> page, you can now run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification center</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can now delete one or multiple MRP calculation results sets.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-42664",
                             "title": "Stock value changes",
                             "highlight": false,
@@ -628,6 +559,39 @@
                                 ],
                                 "statusNote": [
                                     "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57813",
+                            "title": "Stock valuation report displays the total stock value",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page now displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
                                 ]
                             }
                         }

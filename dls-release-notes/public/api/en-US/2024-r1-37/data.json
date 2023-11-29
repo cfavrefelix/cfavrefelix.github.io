@@ -266,6 +266,28 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-56691",
+                            "title": "Standard cost value change | Dimension controls + Notification history update",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When updating the cost details of a standard cost item, a check is applied whether all 'Required dimensions' defined at the Company level and/or Account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-48952",
                             "title": "Dimension controls for purchase orders and purchase receipts",
                             "highlight": false,
@@ -665,7 +687,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a new notification is available, a golden badge displays on the bell icon.</p>",
+                                    "content": "<p>When a new notification is available, a golden badge displays on the Bell icon.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

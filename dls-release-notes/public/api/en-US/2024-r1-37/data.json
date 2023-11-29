@@ -44,11 +44,11 @@
                         },
                         {
                             "key": "XT-57510",
-                            "title": "Notifications for bill of material exports, journal entry generation and MRP calculation requests",
+                            "title": "Notifications for bill of material exports, journal entry generation, and MRP calculation requests",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To let you know that a task is finished, a notification displays when a bill of material export is completed, a journal entry is generated and an MRP calculation request is completed.</p>",
+                                    "content": "<p>To let you know that a task is finished, a notification displays when a bill of material export is completed, a journal entry is generated, and an MRP calculation request is completed.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -198,11 +198,11 @@
                     "content_parts": [
                         {
                             "key": "XT-57994",
-                            "title": "Purchase invoice step-flow not updating to credit after creating and posting credit memo",
+                            "title": "Purchase invoice step flow not updating to credit after creating and posting credit memo",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "&nbsp;The purchase invoice stepflow updates correctly after creating and posting a credit memo.",
+                                    "content": "&nbsp;The purchase invoice step flow updates correctly after creating and posting a credit memo.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -214,11 +214,11 @@
                         },
                         {
                             "key": "XT-56968",
-                            "title": "Incorrect bill-to address on shipment header when picking a sales order",
+                            "title": "Incorrect bill-to address on shipment header when selecting a sales order",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When the adding the first sales order line in the shipment grid, the bill-to address on the shipment header displays the bill-to address from the sales order header.",
+                                    "content": "When adding the first sales order line in the shipment grid, the bill-to address on the shipment header displays the bill-to address from the sales order header.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -271,7 +271,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Entry of purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions, or GL accounts are missing, and if required dimensions are defined for a company or an account.</p>",
+                                    "content": "<p>Entering purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions, or GL accounts are missing, and if required dimensions defined for a company or an account are missing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -319,11 +319,11 @@
                     "content_parts": [
                         {
                             "key": "XT-58041",
-                            "title": "Time tracking posting error when a resource has a detailed Posting class",
+                            "title": "Time tracking posting error when a resource has a detailed posting class",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Labor/Resource Time tracking postings correctly generate journal entries when a detailed Posting class is defined for the resource.",
+                                    "content": "Labor and Resource Time tracking postings correctly generate journal entries when a detailed posting class is defined for the resource.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -360,7 +360,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Bill of materials</b> page, from the main list, you can now delete one or multiple bills of material.</p>",
+                                    "content": "<p>On the <b>Bill of materials</b> page, from the main list, you can delete one or multiple bills of material.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -389,11 +389,11 @@
                     "content_parts": [
                         {
                             "key": "XT-57985",
-                            "title": "Unable to save Production tracking changes",
+                            "title": "Unable to save production tracking changes",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Production tracking page, preselected lines need stock details to be entered before the tracking can be saved.",
+                                    "content": "On the Production tracking page, you need to enter stock details on preselected lines before tracking can be saved.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -537,7 +537,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To adjust the Average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a Stock value change a check is applied whether all 'Required dimensions' defined at the Company level and/or Account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
+                                    "content": "<p>To adjust the average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a stock value change a check is applied whether all required dimensions defined at the company level and/or account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -573,7 +573,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page now displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
+                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -698,7 +698,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Sales and Purchasing documents display a list of suggested customers/suppliers based on their name or ID.",
+                                    "content": "Sales and purchasing documents display a list of suggested customers or suppliers based on their name or ID.",
                                     "taxonomies": "all"
                                 }
                             ],

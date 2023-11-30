@@ -169,7 +169,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The\u00a0<b>Customer on-hold check</b>\u00a0option at company level is used when a customer is on hold to either block, issue a warning, or take no specific action during the processing of a sales document. When you integrate with Sage Intacct, this option synchronizes with Sage Intacct, otherwise you can manage this option directly.</p>",
+                                    "content": "<p>When you integrate with Sage Intacct, the <b>Customer on hold check</b> option at company level synchronizes with Sage Intacct. Otherwise you can manage this option directly. It is used when a customer is on hold to either block, issue a warning, or take no specific action during the processing of a sales document.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -196,22 +196,6 @@
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
-                        {
-                            "key": "XT-57994",
-                            "title": "Purchase invoice step flow not updating to credit after creating and posting credit memo",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "&nbsp;The purchase invoice step flow updates correctly after creating and posting a credit memo.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
-                        },
                         {
                             "key": "XT-56968",
                             "title": "Incorrect bill-to address on shipment header when selecting a sales order",
@@ -267,11 +251,11 @@
                     "content_parts": [
                         {
                             "key": "XT-56691",
-                            "title": "Standard cost value change | Dimension controls + Notification history update",
+                            "title": "Attribute and dimension controls on standard cost value changes",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When updating the cost details of a standard cost item, a check is applied whether all 'Required dimensions' defined at the Company level and/or Account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
+                                    "content": "<p>To avoid errors with Sage Intacct integration, you can define required attributes and dimensions for at the company and/or account level.</p><p>When you define required attributes and dimensions, you cannot enter a stock value change or update the cost details of a standard cost item if the required settings are missing or if a GL account is not set up for journal entries for sales return receipts.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -281,9 +265,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -521,7 +502,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When there is stock on hand, a change to the cost of an item-site record costed at standard cost generates a journal entry for the adjustment.</p>",
+                                    "content": "<p>If you change the cost of an item-site record that is costed at standard cost when there is stock on hand, a journal entry is generated for the adjustment.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -737,6 +718,22 @@
                             "content_parts": [
                                 {
                                     "content": "The Purchase requisition page refreshes after approving or rejecting the request.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57994",
+                            "title": "Purchase invoice step flow not updating to credit after creating and posting credit memo",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "&nbsp;The purchase invoice step flow updates correctly after creating and posting a credit memo.",
                                     "taxonomies": "all"
                                 }
                             ],

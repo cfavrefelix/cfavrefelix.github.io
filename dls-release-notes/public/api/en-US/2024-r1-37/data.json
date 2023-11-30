@@ -255,7 +255,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To avoid errors with Sage Intacct integration, you can define required attributes and dimensions for at the company and/or account level.</p><p>When you define required attributes and dimensions, you cannot enter a stock value change or update the cost details of a standard cost item if the required settings are missing or if a GL account is not set up for journal entries for sales return receipts.</p>",
+                                    "content": "<p>To avoid errors with Sage Intacct integration, you can define required attributes and dimensions at the company and/or account level.</p><p>When you define required attributes and dimensions, you cannot enter a stock value change or update the cost details of a standard cost item if the required settings are missing or if a GL account is not set up for journal entries.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

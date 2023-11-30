@@ -559,7 +559,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To adjust the average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a stock value change a check is applied whether all required dimensions defined at the company level and/or account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the G/L accounts required to generate the associated journal entries are available.</p>",
+                                    "content": "<p>To adjust the average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a stock value change a check is applied whether all required dimensions defined at the company level and/or account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the GL accounts required to generate the associated journal entries are available.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -635,7 +635,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Accept all variances</li></ul><p>Actions available depend on the document type and your user permissions.</p>",
+                                    "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Create document</li><li>Accept all variances</li></ul><p>Specific actions available depend on the document type and your user permissions.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -67,7 +67,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><font color=\"#172b4d\">When you integrate finance documents, they are processed asynchronously to improve performance.</font></p><p><font color=\"#172b4d\">You can monitor journal entry integration status on the <b>Integration</b> page and sort by <b>Master data</b> or <b>Finance</b>.</font></p>",
+                                    "content": "<p><font color=\"#172b4d\">When you integrate finance documents, they are processed asynchronously to improve performance.</font></p><p><font color=\"#172b4d\">You can monitor the journal entry integration status on the <b>Integration</b> page and sort by <b>Master data</b> or <b>Finance</b>.</font></p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -125,22 +125,6 @@
                                     "37.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-52763",
-                            "title": "Report layout: SARL prefix in footer address of all sales flow reports",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The SARL prefix in the footer address of all sales flow reports was removed.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -169,7 +153,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you integrate with Sage Intacct, the <b>Customer on hold check</b> option at company level synchronizes with Sage Intacct. Otherwise you can manage this option directly. It is used when a customer is on hold to either block, issue a warning, or take no specific action during the processing of a sales document.</p>",
+                                    "content": "<p>When you integrate with Sage Intacct, the <b>Customer on hold check</b> option on the <b>Company</b> page synchronizes with Sage Intacct. Otherwise, you can manage this option manually. You can put a customer on hold to block, issue a warning, or take no specific action during the processing of a sales document.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -617,6 +601,25 @@
                             "content_parts": [
                                 {
                                     "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Create document</li><li>Accept all variances</li></ul><p>Specific actions available depend on the document type and your user permissions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51407",
+                            "title": "Navigate to related functions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can navigate to related pages without losing your place and returning to the main menu.</p><p>Select the hyperlink to return to the previous page or pages by following the breadcrumbs.<br/>You can also right-click the hyperlink to open in a new browser tab.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -254,11 +254,11 @@
                         },
                         {
                             "key": "XT-43685",
-                            "title": "Landed cost posting for purchase receipts ",
+                            "title": "Landed costs",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate landed costs to one or more associated purchase receipts by activating the landed cost service option.</p><p>When you post the invoice, respective landed cost accrual and purchase price variance entries are generated. New account types for landed cost accruals and landed cost expenses were added to the detailed item posting class.</p>",
+                                    "content": "<p>With landed costs, you can accurately calculate and manage the total cost associated with acquiring inventory items or goods. This goes beyond the basic purchase cost of the items and includes additional costs that are incurred during the procurement and transportation process.</p><p><b>Activate the Service option</b></p><p>To leverage the landed cost functionality, you need to activate the <b>Landed cost</b> service option.</p><p><b>Posting class</b></p><p>Account types for landed cost accruals and landed cost expenses were added to the detailed item posting class.</p><p><b>Items</b></p><p>To allocate landed costs to a purchase receipt, you need to set up the applicable landed costs in your procurement process on the <b>Items</b> page. For <b>Landed cost</b> item types, you can define the respective allocation rules and associated allocation units. This can include by quantity, by amount, by volume, or by weight.</p><p><b>Purchase receipts</b>\u00a0</p><p>When you enter a purchase invoice for landed costs, such as an invoice for transportation from a carrier, on the purchase invoice, you can allocate the landed cost item to one or several associated purchase receipts. The respective landed cost accrual and purchase price variance journal entries are automatically generated.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -433,20 +433,17 @@
                     "content_parts": [
                         {
                             "key": "XT-59073",
-                            "title": "Explanation of Stock Journal Inquiry Variance",
+                            "title": "Stock journal inquiry variance",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The order cost is now calculated from the planned cost, instead of the actual cost",
+                                    "content": "On the Stock journal inquiry page, the Order cost field is calculated from the planned cost of the item.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -562,7 +559,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The new Standard cost calculation function calculates the costs for selected items and their sub-assemblies corresponding to the bill of material hierarchy and routings.</p><p>Subsequently, item-site costs can be created/updated with these calculated costs.</p>",
+                                    "content": "<p>To provide accurate rolled up costs, the <b>Standard cost calculation</b> page calculates the cost of finished items from their associated bill of material and routing. You can create and update item-site costs with the new calculated costs.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -572,9 +569,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },

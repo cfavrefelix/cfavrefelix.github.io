@@ -368,7 +368,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Bill of Materials</b> page, you can print several bill of materials at once using the bulk action on the main list.</p><p>When complete, you can access the PDF from a link in the Notification center.</p>",
+                                    "content": "<p>On the <b>Bill of Materials</b> page, you can print several bills of material at once using the bulk action on the main list.</p><p>When complete, you can access the PDF from a link in the Notification center.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

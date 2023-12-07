@@ -25,11 +25,11 @@
                     "content_parts": [
                         {
                             "key": "XT-57513",
-                            "title": "Sage Intacct integration mapping field controls",
+                            "title": "Sage Intacct integration enhancements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To preserve modifications and facilitate upgrades, the <b>Sage Intacct Mapping</b> page includes the following enhancements to the <b>Mapping</b> tab grids:</p><ul><li>The <b>Editable</b> column indicates which fields can be edited. Only fields with this column selected can be modified.</li><li>The <b>Description</b>, <b>Required</b>, <b>Data type</b>, and <b>Read-only</b> columns are hidden, but can be displayed using the <b>Column settings</b> panel.</li><li><b>Property option</b> was renamed <b>Default property</b> to display the standard value if the field was renamed.</li></ul>",
+                                    "content": "<p><b>Mapping field controls</b></p><p>To preserve modifications and facilitate upgrades, the <b>Sage Intacct Mapping</b> page includes the following enhancements to the <b>Mapping</b> tab grids:</p><ul><li>The <b>Editable</b> column indicates which fields can be edited. Only fields with this column selected can be modified.</li><li>The <b>Description</b>, <b>Required</b>, <b>Data type</b>, and <b>Read-only</b> columns are hidden, but can be displayed using the <b>Column settings</b> panel.</li><li><b>Property option</b> was renamed <b>Default property</b> to display the standard value if the field was renamed.</li></ul><p><b>Performance enhancement for finance</b></p><p>When you integrate finance documents, they are processed asynchronously to improve performance.</p><p>You can monitor the journal entry integration status on the\u00a0<b>Integration</b>\u00a0page and sort by\u00a0<b>Master data</b>\u00a0or\u00a0<b>Finance</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -49,25 +49,6 @@
                             "content_parts": [
                                 {
                                     "content": "<p>To let you know that a task is finished, a notification displays when a bill of material export is completed, a journal entry is generated, and an MRP calculation request is completed.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54695",
-                            "title": "Sage Intacct integration performance enhancement for finance",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p><font color=\"#172b4d\">When you integrate finance documents, they are processed asynchronously to improve performance.</font></p><p><font color=\"#172b4d\">You can monitor the journal entry integration status on the <b>Integration</b> page and sort by <b>Master data</b> or <b>Finance</b>.</font></p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -277,7 +258,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate landed costs to one or more associated purchase receipts.</p>",
+                                    "content": "<p>To get a more complete view of total costs for purchased goods when you enter a purchase invoice, you can allocate landed costs to one or more associated purchase receipts by activating the landed cost service option.</p><p>When you post the invoice, respective landed cost accrual and purchase price variance entries are generated. New account types for landed cost accruals and landed cost expenses were added to the detailed item posting class.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -325,10 +306,86 @@
             ]
         },
         {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57992",
+                            "title": "Report designer improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create custom forms and reports using a visual interface where you can design the layout, select colors, and add your own text. You can display data in a table or in blocks for a single record or a list of records. A preview window updates in real time. These forms can be used instead of the default forms delivered by Sage such as purchase orders, packing slips, and so on.</p><p>Switch to an advanced version to get direct access and control over GraphQL data queries, HTML code, and custom style sheets.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Manufacturing",
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56233",
+                            "title": "Multi-level BOM Export Notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In the BoM function, you can now print several bill of materials at once with the bulk action on the main list.</p><p>A notification provides the PDF result link in the notification center.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Improvements",
@@ -374,6 +431,25 @@
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-59073",
+                            "title": "Explanation of Stock Journal Inquiry Variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The order cost is now calculated from the planned cost, instead of the actual cost",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-57985",
                             "title": "Unable to save production tracking changes",
@@ -480,6 +556,28 @@
                         "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-55193",
+                            "title": "Standard cost roll up ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The new Standard cost calculation function calculates the costs for selected items and their sub-assemblies corresponding to the bill of material hierarchy and routings.</p><p>Subsequently, item-site costs can be created/updated with these calculated costs.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-54259",
                             "title": "Standard cost adjustments",
@@ -646,25 +744,6 @@
                         "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
                     ],
                     "content_parts": [
-                        {
-                            "key": "XT-57992",
-                            "title": "Report designer improvements",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can create custom reports using a graphical interface where you can design the layout, select colors, and add your own text. You can display data in a table or in blocks for a single record or a list of records.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "37.0.0"
-                                ]
-                            }
-                        },
                         {
                             "key": "XT-56495",
                             "title": "Notification indicator enhancement",

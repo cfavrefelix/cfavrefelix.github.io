@@ -328,7 +328,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can create custom forms and reports using a visual interface where you can design the layout, select colors, and add your own text. You can display data in a table or in blocks for a single record or a list of records. A preview window updates in real time. These forms can be used instead of the default forms delivered by Sage such as purchase orders, packing slips, and so on.</p><p>Switch to an advanced version to get direct access and control over GraphQL data queries, HTML code, and custom style sheets.</p>",
+                                    "content": "<p>On the <b>Report template</b> page, you can create custom forms and reports using a visual interface where you can design the layout, select colors, and add your own text. You can display data in a table or in blocks for a single record or a list of records. A preview window updates in real time. These forms can be used instead of the default forms delivered by Sage such as purchase orders, packing slips, and so on.</p><p>Switch to an advanced version to get direct access and control over GraphQL data queries, HTML code, and custom style sheets.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

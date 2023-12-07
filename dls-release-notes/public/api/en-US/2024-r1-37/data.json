@@ -364,11 +364,11 @@
                     "content_parts": [
                         {
                             "key": "XT-56233",
-                            "title": "Multi-level BOM Export Notification",
+                            "title": "Multi-level BOM print notification",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In the BoM function, you can now print several bill of materials at once with the bulk action on the main list.</p><p>A notification provides the PDF result link in the notification center.</p>",
+                                    "content": "<p>On the <b>Bill of Materials</b> page, you can print several bill of materials at once using the bulk action on the main list.</p><p>When complete, you can access the PDF from a link in the Notification center.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -378,9 +378,6 @@
                                 ],
                                 "version": [
                                     "37.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }

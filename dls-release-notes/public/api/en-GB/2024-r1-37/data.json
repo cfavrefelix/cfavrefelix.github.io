@@ -62,7 +62,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Objects following the inbound synchronisation method, such as department, payment term and so on, are synchroniaed and updated correctly.",
+                                    "content": "Objects following the inbound synchronisation method, such as department, payment term and so on, are synchronised and updated correctly.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -827,7 +827,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "&nbsp;The purchase invoice step flow updates correctly after creating and posting a credit note.",
+                                    "content": "The purchase invoice step flow updates correctly after creating and posting a credit note.",
                                     "taxonomies": "all"
                                 }
                             ],

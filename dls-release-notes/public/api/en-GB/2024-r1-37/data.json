@@ -1,0 +1,845 @@
+{
+    "id": "2024-r1-37",
+    "title": "2023 R12",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2024-r1-36",
+    "date": "December",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57510",
+                            "title": "Notifications for bill of material exports, journal entry generation and MRP calculation requests",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To let you know that a task is finished, a notification displays when a bill of material export is completed, a journal entry is generated and an MRP calculation request is completed.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-58272",
+                            "title": "Sage Intacct department changes not updated when synchronised",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Objects following the inbound synchronisation method, such as department, payment term and so on, are synchroniaed and updated correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54410",
+                            "title": "Batch task history: Progress bar",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The progress bar on the Batch task history page updates correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-55503",
+                            "title": "Additional document controls for customers on hold",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you integrate with Sage Intacct, the <b>Customer on hold check</b> option on the <b>Company</b> page synchronises with Sage Intacct. Otherwise, you can manage this option manually. You can put a customer on hold to block, issue a warning or take no specific action during the processing of a sales document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56968",
+                            "title": "Incorrect bill-to address on shipment header when selecting a sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When adding the first sales order line in the shipment grid, the bill-to address on the shipment header displays the bill-to address from the sales order header.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55163",
+                            "title": "Filter not working on supplier main list ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the main lists for customers and suppliers, you can filter by ID.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56691",
+                            "title": "Attribute and dimension controls on standard cost value changes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To avoid errors with Sage Intacct integration, you can define required attributes and dimensions at the company and/or account level.</p><p>When you define required attributes and dimensions, you cannot enter a stock value change or update the cost details of a standard cost item if the required settings are missing or if a GL account is not set up for journal entries.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48952",
+                            "title": "Dimension controls for purchase orders and purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Entering purchase orders and purchase receipts is blocked and a warning displays if attributes, dimensions or GL accounts are missing, and if required dimensions defined for a company or an account are missing.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43685",
+                            "title": "Landed costs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>With landed costs, you can accurately calculate and manage the total cost associated with acquiring inventory items or goods. This goes beyond the basic purchase cost of the items and includes additional costs that are incurred during the procurement and transportation process.</p><p><b>Activate the Service option</b></p><p>To leverage the landed cost functionality, you need to activate the <b>Landed cost</b> service option.</p><p><b>Posting class</b></p><p>Account types for landed cost accruals and landed cost expenses were added to the detailed item posting class.</p><p><b>Items</b></p><p>To allocate landed costs to a purchase receipt, you need to set up the applicable landed costs in your procurement process on the <b>Items</b> page. For <b>Landed cost</b> item types, you can define the respective allocation rules and associated allocation units. This can include by quantity, by amount, by volume or by weight.</p><p><b>Purchase receipts</b>\u00a0</p><p>When you enter a purchase invoice for landed costs, such as an invoice for transportation from a carrier, on the purchase invoice, you can allocate the landed cost item to one or several associated purchase receipts. The respective landed cost accrual and purchase price variance journal entries are automatically generated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-58041",
+                            "title": "Time tracking posting error when a resource has a detailed posting class",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Labour and resource time tracking postings correctly generate journal entries when a detailed posting class is defined for the resource.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57992",
+                            "title": "Report designer improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Report template</b> page, you can create custom forms and reports using a visual interface where you can design the layout, select colours and add your own text. You can display data in a table or in blocks for a single record or a list of records. A preview window updates in real time. These forms can be used instead of the default forms delivered by Sage such as purchase orders, packing slips and so on.</p><p>Switch to an advanced version to get direct access and control over GraphQL data queries, HTML code and custom style sheets.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Integration",
+            "id": "integration",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57513",
+                            "title": "Sage Intacct integration enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Mapping field controls</b></p><p>To preserve modifications and facilitate upgrades, the <b>Sage Intacct Mapping</b> page includes the following enhancements to the <b>Mapping</b> tab grids:</p><ul><li>The <b>Editable</b> column indicates which fields can be edited. Only fields with this column selected can be modified.</li><li>The <b>Description</b>, <b>Required</b>, <b>Data type</b> and <b>Read-only</b> columns are hidden, but can be displayed using the <b>Column settings</b> panel.</li><li><b>Property option</b> was renamed <b>Default property</b> to display the standard value if the field was renamed.</li></ul><p><b>Performance enhancement for finance</b></p><p>When you integrate finance documents, they are processed asynchronously to improve performance.</p><p>You can monitor the journal entry integration status on the\u00a0<b>Integration</b>\u00a0page and sort by\u00a0<b>Master data</b>\u00a0or\u00a0<b>Finance</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56233",
+                            "title": "Multi-level BOM print notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Bill of Materials</b> page, you can print several bills of material at once using the bulk action on the main list.</p><p>When complete, you can access the PDF from a link in the Notification centre.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59733",
+                            "title": "Bill of material bulk delete",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Bill of materials</b> page, from the main list, you can delete one or multiple bills of material.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59073",
+                            "title": "Stock journal inquiry variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Stock journal inquiry page, the Order cost field is calculated from the planned cost of the item.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57985",
+                            "title": "Unable to save production tracking changes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Production tracking page, you need to enter stock details on preselected lines before tracking can be saved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-58112",
+                            "title": "Administrator rights",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An administrator can give administrator rights to another user by mapping the persona&#39;s administrator rights to the connected user.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-56960",
+                            "title": "MRP options in administrator roles",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can select MRP synchronisation and calculation options for system administrator roles.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-56888",
+                            "title": "Save default approvers in sites",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can save a change to the default approvers in a site record.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-55193",
+                            "title": "Standard cost roll up ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To provide accurate rolled up costs, the <b>Standard cost calculation</b> page calculates the cost of finished items from their associated bill of material and routing. You can create and update item-site costs with the new calculated costs.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54259",
+                            "title": "Standard cost adjustments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>If you change the cost of an item-site record that is costed at standard cost when there is stock on hand, a journal entry is generated for the adjustment.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-48873",
+                            "title": "MRP calculation and results enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Stock reordering is improved to reduce the number of pages that need to be accessed to obtain results:</p><ul><li>The MRP calculation result page was renamed <b>MRP calculation</b>.</li><li>On the <b>MRP calculation</b> page, you can run an MRP calculation and view the results of the MRP calculation.</li><li>When an MRP calculation run is completed, a notification displays in the <b>Notification centre</b>. You can go straight to the results from the notification.</li><li>On the <b>MRP calculation</b> page, from the main list, you can delete one or multiple MRP calculation results sets.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-42664",
+                            "title": "Stock value changes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To adjust the average cost or FIFO value of stock on hand, use the <b>Stock value change</b> page to edit the cost per unit or the total value of the stock of a specific item at a specific site. To ensure accuracy between stock values and the financial system, a journal entry is created for the stock value changes.</p><p>When entering a stock value change a check is applied whether all required dimensions defined at the company level and/or account level (Sage Intacct integration only) have been entered for the given transaction. This also includes a check of whether all the GL accounts required to generate the associated journal entries are available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-57813",
+                            "title": "Stock valuation report displays the total stock value",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To enable easier reconciliation between stock and financial postings, the <b>Stock valuation</b> page displays the <b>Total stock value</b> of all lines in the grid when the lines have the same currency.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-54507",
+                            "title": "Main list row actions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Revert</li><li>Open</li><li>Create document</li><li>Accept all variances</li></ul><p>Specific actions available depend on the document type and your user permissions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51407",
+                            "title": "Navigate to related functions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can navigate to related pages without losing your place and returning to the main menu.</p><p>Select the hyperlink to return to the previous page or pages by following the breadcrumbs.<br/>You can also right-click the hyperlink to open in a new browser tab.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56495",
+                            "title": "Notification indicator enhancement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When a new notification is available, a golden badge displays on the Bell icon.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (37.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (37.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-58693",
+                            "title": "Suggestion list on supplier and customer documents based on name or ID",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sales and purchasing documents display a list of suggested customers or suppliers based on their name or ID.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-58055",
+                            "title": "Purchase requisition page is not refreshed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Purchase requisition page refreshes after approving or rejecting the request.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57994",
+                            "title": "Purchase invoice step flow not updating to credit after creating and posting credit note",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "&nbsp;The purchase invoice step flow updates correctly after creating and posting a credit note.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "37.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

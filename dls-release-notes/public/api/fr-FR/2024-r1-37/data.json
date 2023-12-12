@@ -25,7 +25,7 @@
                     "content_parts": [
                         {
                             "key": "XT-57510",
-                            "title": "Notifications d\u2019exports de nomenclature, de g\u00e9n\u00e9ration d'\u00e9critures et de demandes de calcul CBN",
+                            "title": "Notifications d\u2019export de nomenclature, de g\u00e9n\u00e9ration d'\u00e9critures et de demandes de calcul CBN",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -367,7 +367,7 @@
             ]
         },
         {
-            "title": "Production,",
+            "title": "Production",
             "id": "manufacturing",
             "type": "module",
             "content_parts": [

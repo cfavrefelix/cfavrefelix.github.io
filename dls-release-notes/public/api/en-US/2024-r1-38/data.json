@@ -113,41 +113,6 @@
                             }
                         },
                         {
-                            "key": "XT-61215",
-                            "title": "order of row action in sales order and set dimension in sales credit memo",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "In sales order,<br/>the &#39;set dimension is enable when draft",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "38.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-61112",
-                            "title": "Close order action when duplicating or editing a sales order",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The Close order action is no longer available when duplicating or editing a sales order.<br/>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "38.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-58946",
                             "title": "Production tracking error when tracking components automatically",
                             "highlight": false,
@@ -361,41 +326,6 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-61617",
-                            "title": "P. Invoice - Main list status not refreshed after accept variances",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "In Purchase, invoice, the single status is updated correctly in the main list after accepting variances.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "38.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-60721",
-                            "title": "Purchase receipt page is not refreshed after creating a return",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The Purchase receipt page is refreshed automatically after creating a purchase return.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "38.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-60118",
                             "title": "Error on action names on the main list of Sales order",
                             "highlight": false,
@@ -408,25 +338,6 @@
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-54186",
-                            "title": "Purchase credit memo posting with no lines",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "An error message displays when posting a purchase credit memo with no lines.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "38.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

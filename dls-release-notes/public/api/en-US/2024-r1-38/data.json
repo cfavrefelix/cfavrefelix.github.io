@@ -1,0 +1,438 @@
+{
+    "id": "2024-r1-38",
+    "title": "January 2024",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2024-r1-37",
+    "date": null,
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60755",
+                            "title": "Source document links on the Integrations page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The integration page has been enhanced to provide a more user-friendly experience. This improvement streamlines navigation by introducing key features:</p><ul><li>Clicking on the key link directs users to the associated record. Upon closing the record page, users are automatically redirected back to the integration page.</li><li>A secondary link is now available for the source document when associated with a finance line. This additional link offers convenient access to relevant details.</li></ul><p><b>Important Note:</b> The secondary link is applicable only to new finance documents. It is not retroactively provided for documents created before the implementation of this new feature.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51387",
+                            "title": "Pro forma invoice printing",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The proforma invoice feature is a now available.</p><p>This improvement is designed to streamline your invoicing process, offering an improved overall user experience.</p><ul><li>Prior to the shipment of goods and services, it offers a preview of expected billing.</li><li>Users can effortlessly generate proforma invoices directly from the sales orders.</li><li>The proforma report relies on the template designer tool, simplifying customization.</li><li>An extra tab containing relevant details of pro forma invoices has been incorporated into the sales order page</li></ul><p>Please be aware that the sending action for the proforma invoice remains outside the scope of this release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61292",
+                            "title": "Item-supplier ID is not displayed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Item-supplier ID displays on the Item page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61215",
+                            "title": "order of row action in sales order and set dimension in sales credit memo",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In sales order,<br/>the &#39;set dimension is enable when draft",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61112",
+                            "title": "Close order action when duplicating or editing a sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Close order action is no longer available when duplicating or editing a sales order.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-58946",
+                            "title": "Production tracking error when tracking components automatically",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Attributes and dimensions are correctly assigned and an error is no longer displayed if the Automatic material tracking checkbox is selected when updating work orders from a production tracking.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-58268",
+                            "title": "Sales order | If line table field only has non stock items then Close button is not visible ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In Salesd order, the Close / Open buttons are visible regardless if all the items in the table are non-stock, stock, or a mix of both.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-39938",
+                            "title": "Intacct integration - Entity level transactions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For users leveraging a Sage Intacct integration, we now provide the option to send the SDMO finance transactions as \"Top level\" or \"Entity level\" for AP Bill, AR Invoice or Journals in Sage Intacct. The new option of sending SDMO transactions at an 'Entity level' allows your business to maintain the multi-level entity structure already established in Sage Intacct.\u00a0</p><p>The transaction integration level is defined on the new tab 'Defaults' of the Sage Intacct configuration page. By default, it is set to 'Top level'.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59073",
+                            "title": "Stock journal inquiry variance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Stock journal inquiry page, the Order cost field is calculated from the planned cost of the item.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference Data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59762",
+                            "title": "Update prices in the customer price list at import",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The natural key added to the ItemCustomerPrice template allows you to update the corresponding price records at import.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59754",
+                            "title": "Include the FIFO valuation method in the Stock Valuation report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can run a <b>Stock valuation</b> report for item-site records with a FIFO (first in, first out) valuation method. The stock valuation run date is no longer displayed in the results grid by default.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61617",
+                            "title": "P. Invoice - Main list status not refreshed after accept variances",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In Purchase, invoice, the single status is updated correctly in the main list after accepting variances.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60721",
+                            "title": "Purchase receipt page is not refreshed after creating a return",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Purchase receipt page is refreshed automatically after creating a purchase return.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60118",
+                            "title": "Error on action names on the main list of Sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In Sales order, the names of the main list row actions are correct.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54186",
+                            "title": "Purchase credit memo posting with no lines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An error message displays when posting a purchase credit memo with no lines.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

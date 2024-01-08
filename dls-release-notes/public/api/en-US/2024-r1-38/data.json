@@ -7,83 +7,10 @@
     "date": null,
     "content_parts": [
         {
-            "title": "Common",
-            "id": "common",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-60755",
-                            "title": "Source document links on the Integrations page",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The integration page has been enhanced to provide a more user-friendly experience. This improvement streamlines navigation by introducing key features:</p><ul><li>Clicking on the key link directs users to the associated record. Upon closing the record page, users are automatically redirected back to the integration page.</li><li>A secondary link is now available for the source document when associated with a finance line. This additional link offers convenient access to relevant details.</li></ul><p><b>Important Note:</b> The secondary link is applicable only to new finance documents. It is not retroactively provided for documents created before the implementation of this new feature.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "38.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "title": "Distribution",
             "id": "distribution",
             "type": "module",
             "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-51387",
-                            "title": "Pro forma invoice printing",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The proforma invoice feature is a now available.</p><p>This improvement is designed to streamline your invoicing process, offering an improved overall user experience.</p><ul><li>Prior to the shipment of goods and services, it offers a preview of expected billing.</li><li>Users can effortlessly generate proforma invoices directly from the sales orders.</li><li>The proforma report relies on the template designer tool, simplifying customization.</li><li>An extra tab containing relevant details of pro forma invoices has been incorporated into the sales order page</li></ul><p>Please be aware that the sending action for the proforma invoice remains outside the scope of this release.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "38.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "group",
                     "title": "Bug Fixes",
@@ -98,11 +25,11 @@
                     "content_parts": [
                         {
                             "key": "XT-61292",
-                            "title": "Item-supplier ID is not displayed",
+                            "title": "Item-supplier ID field display error",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The Item-supplier ID displays on the Item page.",
+                                    "content": "The Item-supplier ID displays correctly on the Item page.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -130,7 +57,7 @@
                         },
                         {
                             "key": "XT-58268",
-                            "title": "Sales order | If line table field only has non stock items then Close button is not visible ",
+                            "title": "Close button display error on sales orders",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -152,8 +79,8 @@
             ]
         },
         {
-            "title": "Finance",
-            "id": "finance",
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
             "type": "module",
             "content_parts": [
                 {
@@ -165,16 +92,16 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-39938",
-                            "title": "Intacct integration - Entity level transactions",
+                            "key": "XT-48118",
+                            "title": "Group data in custom reports",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For users leveraging a Sage Intacct integration, we now provide the option to send the SDMO finance transactions as \"Top level\" or \"Entity level\" for AP Bill, AR Invoice or Journals in Sage Intacct. The new option of sending SDMO transactions at an 'Entity level' allows your business to maintain the multi-level entity structure already established in Sage Intacct.\u00a0</p><p>The transaction integration level is defined on the new tab 'Defaults' of the Sage Intacct configuration page. By default, it is set to 'Top level'.</p>",
+                                    "content": "<p>On the <b>Report template</b> page, you can create reports containing grouped table data that features key metrics like minimum, maximum, sum, average, and count.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -184,9 +111,79 @@
                                 ],
                                 "version": [
                                     "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Integration",
+            "id": "integration",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60755",
+                            "title": "Easy access to source documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Integration</b> page main list, you can access the associated record on a line by selecting the link in the <b>Key</b> column.</p><p>For new finance documents, you can also access the source document in your finance solution. You need to log in to your third-party solution to view documents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-39938",
+                            "title": "Entity level transactions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you integrate with Sage Intacct, you can send finance transactions to the top level or the entity level in Sage Intacct to support an existing multi-entity shared environment. Top level is the default option.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
                                 ]
                             }
                         }
@@ -199,6 +196,39 @@
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59329",
+                            "title": "Standard cost calculation for subassemblies",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To provide accurate rolled up costs, the <b>Standard cost calculation</b> page can calculate and display the cost of subassemblies when a finished item has a subassembly in its list of components.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Bug Fixes",
@@ -224,6 +254,46 @@
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60973",
+                            "title": "Stock Inquiry screen returns an error when a custom field is added to the Item Site record",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Custom fields supported.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         }

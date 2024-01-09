@@ -61,16 +61,13 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "In Salesd order, the Close / Open buttons are visible regardless if all the items in the table are non-stock, stock, or a mix of both.",
+                                    "content": "The close and open buttons display when you add any combination of non-stock or stock items to a sales order line.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -280,20 +277,17 @@
                     "content_parts": [
                         {
                             "key": "XT-60973",
-                            "title": "Stock Inquiry screen returns an error when a custom field is added to the Item Site record",
+                            "title": "Stock Inquiry screen returns an error when a custom field is added to the Item-site record",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Custom fields supported.",
+                                    "content": "You can add custom fields to item-site records.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -324,7 +318,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The natural key added to the ItemCustomerPrice template allows you to update the corresponding price records at import.",
+                                    "content": "The natural key was added to the ItemCustomerPrice template, so that you can update the corresponding price records at import.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -357,7 +351,7 @@
                     "content_parts": [
                         {
                             "key": "XT-59754",
-                            "title": "Include the FIFO valuation method in the Stock Valuation report",
+                            "title": "Include the FIFO valuation method in the stock valuation report",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -385,27 +379,30 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Bug Fixes",
+                    "title": "Features",
                     "taxonomies": {
                         "_type": [
-                            "bug-fixes"
+                            "news"
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\")"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-60118",
-                            "title": "Error on action names on the main list of Sales order",
+                            "key": "XT-53812",
+                            "title": "Sales and purchasing enhancements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "In Sales order, the names of the main list row actions are correct.",
+                                    "content": "<p><b>Line panel actions</b></p><p>You can delete a line directly from the line panel.</p><p><b>Main list row actions</b></p><p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Allocate</li><li>Deallocate</li></ul><p><b>Default dates for sales and purchasing</b></p><p>For sales order, Delivery date is the default date in the main list.</p><p>For purchase order, Earliest expected date is the default date in the main list.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "38.0.0"
                                 ]

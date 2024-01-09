@@ -277,7 +277,7 @@
                     "content_parts": [
                         {
                             "key": "XT-60973",
-                            "title": "Stock Inquiry screen returns an error when a custom field is added to the Item-site record",
+                            "title": "Stock Inquiry screen returns an error when a custom field is added to the item-site record",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -395,7 +395,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Line panel actions</b></p><p>You can delete a line directly from the line panel.</p><p><b>Main list row actions</b></p><p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Allocate</li><li>Deallocate</li></ul><p><b>Default dates for sales and purchasing</b></p><p>For sales order, Delivery date is the default date in the main list.</p><p>For purchase order, Earliest expected date is the default date in the main list.</p>",
+                                    "content": "<p><b>Line panel actions</b></p><p>You can delete a line directly from the line panel.</p><p><b>Main list row actions</b></p><p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Allocate</li><li>Deallocate</li></ul><p><b>Additional date columns for main list</b></p><p>For sales orders you can display <b>Delivery date</b> in the main list.</p><p>For purchase orders you can display <b>Earliest expected date</b> in the main list.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -207,11 +207,11 @@
                     "content_parts": [
                         {
                             "key": "XT-59329",
-                            "title": "Standard cost calculation for subassemblies",
+                            "title": "Subassemblies detail in Standard cost calculation ",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To provide accurate rolled up costs, the <b>Standard cost calculation</b> page can calculate and display the cost of subassemblies when a finished item has a subassembly in its list of components.</p><p>\u00a0</p>",
+                                    "content": "<p>To provide visibility of the rolled up costs for a finished item, the <b>Standard cost calculation</b> page can display a detailed cost breakdown for any subassemblies in the list of components.</p><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -318,7 +318,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The natural key was added to the ItemCustomerPrice template, so that you can update the corresponding price records at import.",
+                                    "content": "A natural key was added to the ItemCustomerPrice template so that you can update the corresponding price records at import.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -395,7 +395,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Line panel actions</b></p><p>You can delete a line directly from the line panel.</p><p><b>Main list row actions</b></p><p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Allocate</li><li>Deallocate</li></ul><p><b>Additional date columns for main list</b></p><p>For sales orders you can display <b>Delivery date</b> in the main list.</p><p>For purchase orders you can display <b>Earliest expected date</b> in the main list.</p>",
+                                    "content": "<p><b>Line panel actions</b></p><p>You can delete a line directly from the line panel.</p><p><b>Main list row actions</b></p><p>For sales and purchasing documents, you can perform several key actions from the main list to save time.</p><p>Additional actions include:</p><ul><li>Allocate</li><li>Deallocate</li></ul><p><b>Additional date columns for main list</b></p><p>For sales orders, you can display the <b>Delivery date</b> column in the main list.</p><p>For purchase orders, you can display the <b>Earliest expected date</b> column in the main list.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

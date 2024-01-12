@@ -24,6 +24,22 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-62085",
+                            "title": "With Authorization access control and security options enabled, not possible to generate journal entries",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Enable the Authorization access control to select the new permission to be able to generate journal entries. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-61292",
                             "title": "Item-supplier ID field display error",
                             "highlight": false,
@@ -36,6 +52,25 @@
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60920",
+                            "title": "The FIFO stack does not contain the required quantity.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A sales order is correctly created and the quantity displayed for an item-site when there is an item managed with FIFO valuation.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "38.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -68,6 +103,43 @@
                             "taxonomies": {
                                 "version": [
                                     "38.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R1 (38.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R1 (38.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61670",
+                            "title": "Labor tracking triggers a finance notification",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can track a resource that does not belong to a resource group. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
                                 ]
                             }
                         }

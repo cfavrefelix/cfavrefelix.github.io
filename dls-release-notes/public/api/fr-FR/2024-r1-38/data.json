@@ -45,7 +45,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Le code article-fournisseur s'affiche correctement dans la page Article.",
+                                    "content": "Le champ Code article-fournisseur s'affiche correctement dans la page Article.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -61,7 +61,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Une commande de vente est correctement cr\u00e9\u00e9e et la quantit\u00e9, correctement affich\u00e9e pour un article-site avec un article g\u00e9r\u00e9 selon la m\u00e9thode de valorisation FIFO.",
+                                    "content": "Une commande de vente est correctement cr\u00e9\u00e9e et la quantit\u00e9, correctement affich\u00e9e, pour un article-site avec un article g\u00e9r\u00e9 selon la m\u00e9thode de valorisation FIFO.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -467,7 +467,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Actions des volets des lignes</b></p><p>Vous pouvez supprimer une ligne directement \u00e0 partir du volet des lignes.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Pour les documents de vente et d'achat, vous pouvez effectuer plusieurs actions cl\u00e9 \u00e0 partir de la liste principale. Vous gagnez ainsi du temps.</p><p>Les actions suppl\u00e9mentaires sont les suivantes :</p><ul><li>Allouer</li><li>D\u00e9sallouer</li></ul><p><b>Ajouter des colonnes de dates pour la liste principale</b></p><p>Pour les commandes de vente, vous pouvez afficher la colonne <b>Date de livraison</b> dans la liste principale.</p><p>Pour les commandes d\u2019achat, vous pouvez afficher la colonne <b>Date minimum attendue</b> dans la liste principale.</p>",
+                                    "content": "<p><b>Actions des volets des lignes</b></p><p>Vous pouvez supprimer une ligne directement \u00e0 partir du volet des lignes.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Pour les documents de vente et d'achat, vous pouvez effectuer plusieurs actions cl\u00e9s \u00e0 partir de la liste principale. Vous gagnez ainsi du temps.</p><p>Les actions suppl\u00e9mentaires sont les suivantes :</p><ul><li>Allouer</li><li>D\u00e9sallouer</li></ul><p><b>Ajouter des colonnes de dates pour la liste principale</b></p><p>Pour les commandes de vente, vous pouvez afficher la colonne <b>Date de livraison</b> dans la liste principale.</p><p>Pour les commandes d\u2019achat, vous pouvez afficher la colonne <b>Date minimum attendue</b> dans la liste principale.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping that includes an expiration date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download the file and send it to your customer, so they have a preview of the expected billing.</p>",
+                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping. The proforma includes an expiration date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download the file and send it to your customer, so they have a preview of the expected billing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -90,20 +90,17 @@
                         },
                         {
                             "key": "XT-59934",
-                            "title": "BoM update import",
+                            "title": "Update option not available for bill of material import",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The bill of material import has been changed to allow the update of import fields.<br/><br/>Original solution details:<br/>We deliver the ability to use the BOM import template using the update flag (to do that, we introduce the isNaturalKey in the node)",
+                                    "content": "You can perfom an update using the bill of material import template.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

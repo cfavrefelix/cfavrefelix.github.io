@@ -130,7 +130,7 @@
                     "content_parts": [
                         {
                             "key": "XT-63052",
-                            "title": "Non-aborbed variance option for purchasing documents",
+                            "title": "Non-absorbed variance option for purchasing documents",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -182,11 +182,11 @@
                     "content_parts": [
                         {
                             "key": "XT-61689",
-                            "title": "Dimensions cannot be edited on failed journal entries originating from tracking",
+                            "title": "Dimensions cannot be edited when journal entries for tracking are not generated",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can edit dimensions on a work order for a tracking that failed to generate a journal entry due to missing or incorrect dimensions.",
+                                    "content": "You can edit dimensions on a work order for a tracking that did not generate a journal entry due to missing or incorrect dimensions.",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping. The proforma includes an expiration date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download the file and send it to your customer, so they have a preview of the expected billing.</p>",
+                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping. The proforma includes an expiration date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download and send the file to your customer, so they have a preview of the expected billing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -53,7 +53,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
                     ],
                     "content_parts": [
                         {
@@ -79,6 +79,22 @@
                             "content_parts": [
                                 {
                                     "content": "Enable the Authorization access control to select the new permission to be able to generate journal entries. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61257",
+                            "title": "Purchase requisition: Limited supplier records available for selection",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The supplier selection list on the line panel of a purchase requisition line displays more records in the lookup.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -150,7 +166,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can define a tax solution based on a selected country instead of a legislation. If your legislation is not delivered with the Sage DMO, you can set up a tax solution to determine and calculate taxes based on a selected country.</p>",
+                                    "content": "<p>You can define a tax solution based on a selected country instead of a legislation. If your legislation is not included, you can set up a tax solution to determine and calculate taxes based on a selected country.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -174,7 +190,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
                     ],
                     "content_parts": [
                         {
@@ -214,6 +230,43 @@
             ]
         },
         {
+            "title": "Gateway",
+            "id": "gateway",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug Fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Gateway' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61674",
+                            "title": "Error when editing an inventory item with bin tracking active in Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Sgae Intacct Mapping page, within the item object, the following properties are no longer associated with an Sage DMO property:<br/>- Cost Method<br/>- Lot Category Key<br/>- Enable Serial Number<br/>- Enable Lot Category<br/>- Enable Expiration<br/>- Enable Bins <br/><br/>This ensures that the item integration status no longer diplays an error and maintains the accuracy of the integration status.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Manufacturing",
             "id": "manufacturing",
             "type": "module",
@@ -227,12 +280,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-61696",
-                            "title": "Work in progress inquiry: links in the main list do not work",
+                            "title": "Work in progress inquiry: Links in the main list do not work",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -297,16 +350,16 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-62657",
-                            "title": " Unable to import item price using import template",
+                            "title": "Unable to import item prices using the import template",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can successfully import the item price using the import template.",
+                                    "content": "You can successfully import item prices using the import template.",
                                     "taxonomies": "all"
                                 }
                             ],

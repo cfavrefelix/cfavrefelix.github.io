@@ -1,0 +1,393 @@
+{
+    "id": "2024-r2-39",
+    "title": "February 2024",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2024-r1-38",
+    "date": null,
+    "content_parts": [
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-51387",
+                            "title": "Factures proforma",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsqu'une commande de vente est confirm\u00e9e, vous avez la possibilit\u00e9 de g\u00e9n\u00e9rer une facture proforma avant l'exp\u00e9dition. La facture proforma comprend une date d'expiration. Vous pouvez suivre les factures proforma dans un onglet qui s'affiche apr\u00e8s la g\u00e9n\u00e9ration d'au moins une facture proforma.</p><p>Apr\u00e8s avoir g\u00e9n\u00e9r\u00e9 la facture proforma au format PDF, vous pouvez t\u00e9l\u00e9charger le fichier et l'envoyer \u00e0 votre client, afin qu'il ait un aper\u00e7u de la facturation.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62379",
+                            "title": "Impossible de recomptabiliser un inventaire, une r\u00e9gularisation ou une sortie de stock apr\u00e8s avoir ajout\u00e9 des sections",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les documents relatifs aux inventaires, r\u00e9gularisations et sorties de stock peuvent \u00eatre recomptabilis\u00e9s apr\u00e8s ajout de sections dans la page Historique de notification lorsque ces documents ont le statut Non enregistr\u00e9(e). <br/><br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62085",
+                            "title": "Lorsque le contr\u00f4le d'autorisations et les options de s\u00e9curit\u00e9 sont activ\u00e9s, il est impossible de g\u00e9n\u00e9rer des \u00e9critures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Activez le contr\u00f4le d'autorisations pour s\u00e9lectionner les nouvelles autorisations et ainsi pouvoir g\u00e9n\u00e9rer des \u00e9critures. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61257",
+                            "title": "Demande d\u2019achat : Nombre limit\u00e9 d'enregistrements fournisseurs disponibles en s\u00e9lection",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La liste de s\u00e9lection fournisseurs dans le volet d'une ligne de demande d'achat affiche davantage d'enregistrements dans la recherche.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59934",
+                            "title": "Option de mise \u00e0 jour non disponible pour l'import de nomenclatures",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez effectuer une mise \u00e0 jour \u00e0 l'aide du mod\u00e8le d'import des nomenclatures.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63052",
+                            "title": "Option d'\u00e9cart non absorb\u00e9 pour les documents d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><font color=\"#172b4d\">Dans la page <b>Soci\u00e9t\u00e9</b>, vous pouvez sp\u00e9cifier si les lignes d'\u00e9critures sont g\u00e9n\u00e9r\u00e9es pour les montants non absorb\u00e9s lors de la comptabilisation d'une facture d'achat de frais d\u2019approche, d'une facture d'achat ordinaire ou d'un avoir d'achat.</font><font color=\"#172b4d\"> Lorsque cette option est activ\u00e9e, un journal de stock est g\u00e9n\u00e9r\u00e9 pour les montants qui ne peuvent pas \u00eatre absorb\u00e9s dans le co\u00fbt unitaire de l'article.</font></p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-53345",
+                            "title": "Solutions de taxes bas\u00e9es sur un pays et non sur une l\u00e9gislation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez d\u00e9finir une solution de taxe bas\u00e9e sur un pays donn\u00e9 et non sur une l\u00e9gislation. Si votre l\u00e9gislation n\u2019est pas incluse, vous pouvez configurer une solution de taxe pour d\u00e9terminer et calculer les taxes en fonction d\u2019un pays donn\u00e9.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61689",
+                            "title": "Les sections ne peuvent pas \u00eatre modifi\u00e9es lorsque les \u00e9critures de suivi ne sont pas g\u00e9n\u00e9r\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez modifier les sections d\u2019un ordre de fabrication pour un suivi n'ayant pas g\u00e9n\u00e9r\u00e9 d\u2019\u00e9criture en raison de sections manquantes ou incorrectes.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61670",
+                            "title": "Le suivi de main-d'\u0153uvre d\u00e9clenche une notification financi\u00e8re",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez suivre une ressource qui n'appartient \u00e0 aucun groupe de ressources. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Gateway",
+            "id": "gateway",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Gateway' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61674",
+                            "title": "Erreur lors de la modification d'un article d'inventaire avec la gestion des emplacements activ\u00e9e dans Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Dans la page Sage Intacct Mapping, objet article, les codes des propri\u00e9t\u00e9s suivantes ne sont plus associ\u00e9s \u00e0 une propri\u00e9t\u00e9 Sage DMO :<br/>- COST_METHOD<br/>- LOT_CATEGORYKEY<br/>- ENABLE_SERIALNO<br/>- ENABLE_LOT_CATEGORY<br/>- ENABLE_EXPIRATION<br/>- ENABLE_BINS <br/><br/>Ainsi, le statut d'int\u00e9gration de l'article n'affiche plus d\u2019erreur et reste exact.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61696",
+                            "title": "Consultation d'en-cours : les liens de la liste principale ne fonctionnent pas",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les liens vers les ordres de fabrication dans la liste principale fonctionnent correctement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59648",
+                            "title": "Outil d'export",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez exporter des donn\u00e9es dans un fichier CSV. Vous pouvez ensuite analyser les donn\u00e9es extraites \u00e0 l\u2019aide d\u2019outils tels qu\u2019Excel.<br/>Vous pouvez \u00e9galement cr\u00e9er des mod\u00e8les d'export que d'autres utilisateurs peuvent utiliser pour exporter leurs donn\u00e9es.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Correctifs",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R2 (39.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R2 (39.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-63915,XT-62658)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62657",
+                            "title": "Impossible d'importer des prix articles \u00e0 l'aide du mod\u00e8le d'import",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez importer des prix articles \u00e0 l'aide du mod\u00e8le d'import.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62545",
+                            "title": "Le traitement simultan\u00e9 de deux imports CSV s\u2019interrompt.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez importer plusieurs fichiers volumineux de fa\u00e7on simultan\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "39.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

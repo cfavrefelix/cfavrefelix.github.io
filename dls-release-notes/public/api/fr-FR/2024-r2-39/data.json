@@ -1,6 +1,6 @@
 {
     "id": "2024-r2-39",
-    "title": "February 2024",
+    "title": "F\u00e9vrier 2024",
     "language": "fr-FR",
     "__archive": "/dls-release-notes/api/fr-FR/archive.json",
     "previous": "2024-r1-38",
@@ -90,7 +90,7 @@
                         },
                         {
                             "key": "XT-61257",
-                            "title": "Demande d\u2019achat : Nombre limit\u00e9 d'enregistrements fournisseurs disponibles en s\u00e9lection",
+                            "title": "Demande d\u2019achat : nombre limit\u00e9 d'enregistrements fournisseurs disponibles en s\u00e9lection",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -371,7 +371,7 @@
                         },
                         {
                             "key": "XT-62545",
-                            "title": "Le traitement simultan\u00e9 de deux imports CSV s\u2019interrompt.",
+                            "title": "Le traitement simultan\u00e9 de deux imports CSV s\u2019interrompt",
                             "highlight": false,
                             "content_parts": [
                                 {

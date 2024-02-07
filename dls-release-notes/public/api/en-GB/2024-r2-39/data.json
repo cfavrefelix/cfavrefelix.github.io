@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping. The proforma includes an expiration date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download and send the file to your customer, so they have a preview of the expected billing.</p>",
+                                    "content": "<p>When a sales order is confirmed, you have the option to generate a proforma invoice before shipping. The proforma includes an expiry date. You can track proformas on a tab that displays after at least one is generated.</p><p>After generating the proforma PDF, you can download and send the file to your customer, so they have a preview of the expected billing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -58,11 +58,11 @@
                     "content_parts": [
                         {
                             "key": "XT-62379",
-                            "title": "Unable to repost a stock count, adjustment, or stock issue after adding dimensions",
+                            "title": "Unable to repost a stock count, adjustment or stock issue after adding dimensions",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Stock count, stock adjustment, and stock issue documents can be reposted after adding the dimensions on the Notification history page when the status of these documents is Not recorded. <br/><br/>",
+                                    "content": "Stock count, stock adjustment and stock issue documents can be reposted after adding the dimensions on the Notification history page when the status of these documents is Not recorded. <br/><br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -74,11 +74,11 @@
                         },
                         {
                             "key": "XT-62085",
-                            "title": "With Authorization access control and security options enabled, not possible to generate journal entries",
+                            "title": "With Authorisation access control and security options enabled, not possible to generate journal entries",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Enable the Authorization access control to select the new permission to be able to generate journal entries. ",
+                                    "content": "Enable the Authorisation access control to select the new permission to be able to generate journal entries. ",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -110,7 +110,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can perfom an update using the bill of material import template.",
+                                    "content": "You can perform an update using the bill of material import template.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -147,7 +147,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><font color=\"#172b4d\">On the <b>Company</b> page, you can determine whether journal entry lines are generated for non-absorbed amounts when posting a landed cost purchase invoice, a regular purchase invoice, or a purchase credit memo.</font><font color=\"#172b4d\"> When enabled, a stock journal is generated for the amounts that cannot be absorbed into the item's unit cost.</font></p>",
+                                    "content": "<p><font color=\"#172b4d\">On the <b>Company</b> page, you can determine whether journal entry lines are generated for non-absorbed amounts when posting a landed cost purchase invoice, a regular purchase invoice or a purchase credit note.</font><font color=\"#172b4d\"> When enabled, a stock journal is generated for the amounts that cannot be absorbed into the item's unit cost.</font></p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -211,7 +211,7 @@
                         },
                         {
                             "key": "XT-61670",
-                            "title": "Labor tracking triggers a finance notification",
+                            "title": "Labour tracking triggers a finance notification",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -252,7 +252,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Sgae Intacct Mapping page, within the item object, the following properties are no longer associated with an Sage DMO property:<br/>- Cost Method<br/>- Lot Category Key<br/>- Enable Serial Number<br/>- Enable Lot Category<br/>- Enable Expiration<br/>- Enable Bins <br/><br/>This ensures that the item integration status no longer diplays an error and maintains the accuracy of the integration status.",
+                                    "content": "On the Sage Intacct Mapping page, within the item object, the following properties are no longer associated with a Sage DMO property:<br/>- Cost Method<br/>- Lot Category Key<br/>- Enable Serial Number<br/>- Enable Lot Category<br/>- Enable Expiration<br/>- Enable Bins <br/><br/>This ensures that the item integration status no longer displays an error and maintains the accuracy of the integration status.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -326,7 +326,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can export data\u00a0into a CSV file. You can then analyze the extracted data with tools such as Excel.<br/>You can also create export templates that other users can use to export data.</p>",
+                                    "content": "<p>You can export data\u00a0into a CSV file. You can then analyse the extracted data with tools such as Excel.<br/>You can also create export templates that other users can use to export data.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

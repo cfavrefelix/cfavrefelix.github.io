@@ -351,74 +351,8 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-64302",
-                            "title": "Dimension management: Default dimensions from site to sales order",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can now assign dimensions and attributes as a default in the tab 'Financials' of the 'Site' page. The new company rule setup for dimensions (and attributes) on the 'Company' page defines which default dimensions (and attributes) are automatically inherited by\u00a0 sales order lines dimensions when you create a sales order for the given site.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "40.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-64300",
-                            "title": "Dimension management: Work order dimension inheritance",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>When a work order is created, the released item dimensions and attributes are now inherited by the operation resources and components assigned to this work order, if not provided by the user/API.</p><p>When a component or operation resource is added to an existing work order, unless provided by the user/API, it also inherits the released item dimensions and attributes.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "40.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-63861",
-                            "title": "Intacct integration - Default dimensions from site on purchase order / stock receipt / stock adjustment / stock issue",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can now assign dimensions and attributes as a default in the tab 'Financials' of the 'Site' page. The new company rule setup for dimensions (and attributes) on the 'Company' page defines, which default dimensions (and attributes) are automatically inherited by a purchase order, a stock receipt, a stock adjustment, and a stock issue.</p><p>When you import a stock receipt, the site default and the company rule setup are applied when the lines of your stock receipt CSV do not include any dimensions (and attributes).</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "40.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-63049",
-                            "title": "Intacct integration:Default dimensions",
+                            "title": "Intacct integration: Default dimensions",
                             "highlight": false,
                             "content_parts": [
                                 {

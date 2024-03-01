@@ -6,30 +6,36 @@
     "taxonomies": "/dls-release-notes/api/en-US/taxonomies.json",
     "alternative_langauges": [
         {
-          "title": "English - US",
-          "id": "en-US",
-          "url": "/dls-release-notes/api/en-US/archive.json"
+            "title": "English - US",
+            "id": "en-US",
+            "url": "/dls-release-notes/api/en-US/archive.json"
         },
         {
-          "title": "English - GB",
-          "id": "en-GB",
-          "url": "/dls-release-notes/api/en-GB/archive.json"
+            "title": "English - GB",
+            "id": "en-GB",
+            "url": "/dls-release-notes/api/en-GB/archive.json"
         },
         {
-          "title": "French - FR",
-          "id": "fr-FR",
-          "url": "/dls-release-notes/api/fr-FR/archive.json"
+            "title": "French - FR",
+            "id": "fr-FR",
+            "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
-          "title": "German - DE",
-          "id": "de-DE",
-          "url": "/dls-release-notes/api/de-DE/archive.json"
-        }        
+            "title": "German - DE",
+            "id": "de-DE",
+            "url": "/dls-release-notes/api/de-DE/archive.json"
+        }
     ],
     "releases": [
         {
+            "id": "2024-r3-40",
+            "title": "2024 R3 (March)",
+            "url": "/dls-release-notes/api/en-US/2024-r3-40/data.json",
+            "date": "March"
+        },
+        {
             "id": "2024-r2-39",
-            "title": "February 2024",
+            "title": "2024 R2 (February)",
             "url": "/dls-release-notes/api/en-US/2024-r2-39/data.json",
             "date": "February"
         },

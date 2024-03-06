@@ -78,7 +78,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "An item-site standard cost record can be deleted if the item-site cost has not been used for a transaction.",
+                                    "content": "You can delete an item-site standard cost record if the item-site cost has not been used for a transaction.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -94,7 +94,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The More options menu on lines for roles display the correct menu titles.<br/>",
+                                    "content": "The More options menu on lines for roles displays the correct menu titles.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -127,11 +127,11 @@
                     "content_parts": [
                         {
                             "key": "XT-62840",
-                            "title": "Authorization enhancements for purchasing",
+                            "title": "Authorization enhancements for purchasing and sales",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>User rights management is enhanced and simplified to improve accuracy and reduce implementation and maintenance time.</p><p>The purchase package's authorization process includes the following improvements:</p><ul><li>Reviewed permission texts to ensure a better understanding</li><li>Grouping of permissions for a simplified setup</li><li>Automatic reference lookup management</li><li>Standard roles update</li><li>Display only the menu items that correspond to the user's rights</li></ul>",
+                                    "content": "<p>User rights management is enhanced and simplified to improve accuracy and reduce implementation and maintenance time.</p><p>The purchasing and sales authorization processes include the following improvements:</p><ul><li>Reviewed permission texts to ensure a better understanding</li><li>Grouping of permissions for a simplified setup</li><li>Automatic reference lookup management</li><li>Standard roles update</li><li>Display only the menu items that correspond to the user's rights</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -330,7 +330,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "An error is no longer displayed on the Stock change page if an item has a numeric ID and is managed by lot.",
+                                    "content": "An error does not display on the Stock change page if an item has a numeric ID and is managed by lot.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -383,7 +383,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Site</b> page, you can assign default dimensions and attributes as needed for a site.</p><p>On the <b>Company</b> page, in the <b>Default dimension rules</b> grid, you can define the documents that inherit the settings for that site.</p><p>Documents include:</p><ul><li>Manufacturing direct</li><li>Sales direct</li><li>Stock direct</li><li>Purchasing direct</li></ul><p>If you modify the default dimensions on a source document, subsequent documents inherit those settings.</p>",
+                                    "content": "<p>On the <b>Site</b> page, you can assign default dimensions and attributes as needed for a site.</p><p>On the <b>Company</b> page, in the <b>Default dimension rules</b> grid, you can define the document and origin combinations that inherit the settings for that site.</p><p>Document and origin options include:</p><ul><li>Manufacturing direct</li><li>Sales direct</li><li>Stock direct</li><li>Purchasing direct</li></ul><p>When a direct document is created, the default dimensions are automatically assigned. You can modify on the individual document after it is created as needed.</p><p>If you modify the default dimensions on a source document, subsequent documents inherit those settings.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -469,7 +469,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can generate any report or form the template. You can generate from the full-page preview or generate without a preview. When complete, you can access the generated report from the <b>Notification</b> area.</p>",
+                                    "content": "<p>You can generate any form or report from the <b>Report template</b> page. You can generate from the full-page preview or generate without a preview. When complete, you can access the generated report from the <b>Notification</b> area.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

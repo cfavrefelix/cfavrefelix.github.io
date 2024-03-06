@@ -13,6 +13,39 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59216",
+                            "title": "Record history",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For individual records, such as purchase orders, items, and so on, you can view the record history from the <b>More actions</b> menu. The history includes who created the record and when and the last person to update the same record.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Bug fixes",
                     "taxonomies": {
                         "_type": [
@@ -24,12 +57,28 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-64922",
-                            "title": "Authorization: Supplier lookup data does not display",
+                            "key": "XT-65317",
+                            "title": "Purchase order report amounts are missing commas ",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The operational permissions for purchasing were enhanced so you can access the supplier list during supplier lookup.",
+                                    "content": "The amounts in the purchase order report use the correct number format and display commas as needed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61944",
+                            "title": "An item-site standard cost record cannot be deleted",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An item-site standard cost record can be deleted if the item-site cost has not been used for a transaction.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -94,25 +143,6 @@
                                     "40.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-60058",
-                            "title": "Item page improvements",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p><b>Main list row actions</b></p><p>For items, you can perform several key actions from the main list to save time, such as:</p><ul><li>Duplicate</li><li>Delete</li></ul><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as:</p><ul><li>Base price</li><li>Currency</li></ul><p><b>Additional tabs and reorganization</b></p><p>Tabs are reorganized to enable you to complete tasks efficiently.</p><p>A <b>Manufacturing</b> tab displays how an item is used within a bill of material.</p><p>On the <b>Allergen</b>\u00a0and <b>GHS Classification</b> tabs, you can select allergens and GHS classifications to add to an item.</p><p><b>Switch placement</b></p><p>The switches that control item management were added to the header so you can easily see which tabs are available depending on the management rules.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "40.0.0"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -129,21 +159,34 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-64872",
-                            "title": "Direct sales shipment creation error",
+                            "key": "XT-64922",
+                            "title": "Authorization: Supplier lookup data does not display",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When creating a direct shipment from the sales shipment menu option, the stock site selected in the header is retained and not replaced by the shipping site entered on the customer record.<br/><br/>Original solution details: The sales shipment stock site entered by the user is never overwritten if already populated.",
+                                    "content": "The operational permissions for purchasing were enhanced so you can access the supplier list during supplier lookup.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "40.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64872",
+                            "title": "Direct sales shipment creation error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a new shipment from the Sales shipment page, the stock site selected in the header is retained and not replaced by the shipping site entered on the customer record.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
                                 ]
                             }
                         },
@@ -203,7 +246,7 @@
                         },
                         {
                             "key": "XT-63677",
-                            "title": "Update option not available for Supplier prices import",
+                            "title": "Update option not available for supplier prices import",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -234,44 +277,12 @@
                             }
                         },
                         {
-                            "key": "XT-61944",
-                            "title": "An item-site standard cost record cannot be deleted",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "An item-site standard cost record can be deleted if the item-site cost has not been used for a transaction.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "40.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-61078",
                             "title": "Incorrect FIFO tier display",
                             "highlight": false,
                             "content_parts": [
                                 {
                                     "content": "The Stock issue page displays the correct tier costs for items with a FIFO cost valuation method.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "40.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-59934",
-                            "title": "Update option not available for bill of material import",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can update bills of material from the Import data page.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -320,6 +331,22 @@
                             "content_parts": [
                                 {
                                     "content": "An error is no longer displayed on the Stock change page if an item has a numeric ID and is managed by lot.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55214",
+                            "title": "Filters for supplier, bill-by supplier, and bill-by customer do not display matching results on multiple pages",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can now filter by supplier, bill-by supplier, and bill-by customer on the following pages:<br/><br/>-Purchase order, Purchase receipt, Purchase return, Purchase invoice, and Purchase credit memo<br/>-Accounts payable invoices and Accounts receivable invoices",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -442,7 +469,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can generate any report or form the template. You can generate from the full-page preview or generate without preview. When complete, you can access the generated report from the <b>Notification</b> area.</p>",
+                                    "content": "<p>You can generate any report or form the template. You can generate from the full-page preview or generate without a preview. When complete, you can access the generated report from the <b>Notification</b> area.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -545,6 +572,22 @@
                             }
                         },
                         {
+                            "key": "XT-59934",
+                            "title": "Update option not available for bill of material import",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update bills of material from the Import data page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-55219",
                             "title": "Text type components on work orders remain Pending",
                             "highlight": false,
@@ -632,7 +675,7 @@
                         },
                         {
                             "key": "XT-59362",
-                            "title": "Cannot select Posting class lines",
+                            "title": "Unable to select posting class lines",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -660,60 +703,23 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Improvements",
                     "taxonomies": {
                         "_type": [
-                            "bug-fixes"
+                            "changes"
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference Data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-42509",
-                            "title": "Stock management error when you create an item",
+                            "key": "XT-60058",
+                            "title": "Item page improvements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "If you select the Purchased or Manufactured checkboxes when you create a stock-managed item, you no longer receive an error.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "40.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "User Experience",
-            "id": "user-experience",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-59216",
-                            "title": "Record history",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>For individual records, such as purchase orders, items, and so on, you can view the record history from the <b>More actions</b> menu. The history includes who created the record and when and the last person to update the same record.</p>",
+                                    "content": "<p><b>Main list row actions</b></p><p>For items, you can perform several key actions from the main list to save time, such as:</p><ul><li>Duplicate</li><li>Delete</li></ul><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as:</p><ul><li>Base price</li><li>Currency</li></ul><p><b>Additional tabs and reorganization</b></p><p>Tabs are reorganized to enable you to complete tasks efficiently.</p><p>A <b>Manufacturing</b> tab displays how an item is used within a bill of material.</p><p>On the <b>Allergen</b>\u00a0and <b>GHS Classification</b> tabs, you can multi-select allergens and GHS classifications to add to an item.</p><p><b>Switch placement</b></p><p>The switches that control item management were added to the header so you can easily see which tabs are available depending on the management rules.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -737,16 +743,16 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-55214",
-                            "title": "Filters for supplier, bill-by supplier, and bill-by customer do not display matching results on multiple pages",
+                            "key": "XT-42509",
+                            "title": "Stock management error when you create an item",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can now filter by supplier, bill-by supplier, and bill-by customer on the following pages:<br/><br/>-Purchase order, Purchase receipt, Purchase return, Purchase invoice, and Purchase credit memo<br/>-Accounts payable invoices and Accounts receivable invoices",
+                                    "content": "If you select the Purchased or Manufactured checkboxes when you create a stock-managed item, you no longer receive an error.",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -380,7 +380,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Site</b> page, you can assign default dimensions and attributes as needed for a site.</p><p>On the <b>Company</b> page, in the <b>Default dimension rules</b> grid, you can define the document and origin combinations that inherit the settings for that site.</p><p>Document and origin options include:</p><ul><li>Manufacturing direct</li><li>Sales direct</li><li>Stock direct</li><li>Purchasing direct</li></ul><p>When a direct document is created, the default dimensions are automatically assigned. You can modify on the individual document after it is created as needed.</p><p>If you modify the default dimensions on a source document, subsequent documents inherit those settings.</p>",
+                                    "content": "<p>On the <b>Site</b> page, you can assign default dimensions and attributes as needed for a site.</p><p>On the <b>Company</b> page, in the <b>Default dimension rules</b> grid, you can define the document and origin combinations that inherit the settings for that site.</p><p>Document and origin options include:</p><ul><li>Manufacturing direct</li><li>Sales direct</li><li>Stock direct</li><li>Purchasing direct</li></ul><p>If you modify the default dimensions on a source document, subsequent documents inherit those settings.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -1,0 +1,735 @@
+{
+    "id": "2024-r3-40",
+    "title": "2024 R3",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2024-r2-39",
+    "date": "March",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59216",
+                            "title": "Record history",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For individual records, such as purchase orders, items and so on, you can view the record history from the <b>More actions</b> menu. The history includes who created the record and when, and the last person to update the same record.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61944",
+                            "title": "An item-site standard cost record cannot be deleted",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can delete an item-site standard cost record if the item-site cost has not been used for a transaction.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-56317",
+                            "title": "Authorisation: Role row action titles are incorrect",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The More options menu on lines for roles displays the correct menu titles.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62840",
+                            "title": "Authorisation enhancements for purchasing and sales",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>User rights management is enhanced and simplified to improve accuracy and reduce implementation and maintenance time.</p><p>The purchasing and sales authorisation processes include the following improvements:</p><ul><li>Reviewed permission texts to ensure a better understanding</li><li>Grouping of permissions for a simplified setup</li><li>Automatic reference lookup management</li><li>Standard roles update</li><li>Display only the menu items that correspond to the user's rights</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65317",
+                            "title": "Purchase order report amounts are missing commas ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The amounts in the purchase order report use the correct number format and display commas as needed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64922",
+                            "title": "Authorisation: Supplier lookup data does not display",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The operational permissions for purchasing were enhanced so you can access the supplier list during supplier lookup.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64872",
+                            "title": "Direct sales shipment creation error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a new shipment from the Sales shipment page, the stock site selected in the header is retained and not replaced by the shipping site entered on the customer record.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64869",
+                            "title": "Stock valuation report does not filter posting classes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Stock valuation page, the Posting class selection only displays detailed item posting classes.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63840",
+                            "title": "Unable to select a customer or supplier on price lists",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating supplier or customer price lists, the selected supplier or customer is retained after tabbing out of the field.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63677",
+                            "title": "Update option not available for supplier prices import",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update supplier prices from the Import data page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62762",
+                            "title": "Tax zone is unavailable on a new customer ship-to address",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a new customer address, the Tax zone field displays as soon as the Ship-to address is switched on.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61078",
+                            "title": "Incorrect FIFO tier display",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Stock issue page displays the correct tier costs for items with a FIFO cost valuation method.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59785",
+                            "title": "Stock value change blocking message prevents posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An error is no longer displayed when posting a stock value change.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57820",
+                            "title": "Purchase invoice and credit note: Quantity change clears price",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The item prices remain if you change the purchase order line quantity.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57305",
+                            "title": "Stock change transaction displays an error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An error does not display on the Stock change page if an item has a numeric ID and is managed by lot.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55214",
+                            "title": "Filters for supplier, bill-by supplier and bill-by customer do not display matching results on multiple pages",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can now filter by supplier, bill-by supplier and bill-by customer on the following pages:<br/><br/>-Purchase order, Purchase receipt, Purchase return, Purchase invoice and Purchase credit note<br/>-Accounts payable invoices and Accounts receivable invoices",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63049",
+                            "title": "Intacct integration: Default dimensions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Site</b> page, you can assign default dimensions and attributes as needed for a site.</p><p>On the <b>Company</b> page, in the <b>Default dimension rules</b> grid, you can define the document and origin combinations that inherit the settings for that site.</p><p>Document and origin options include:</p><ul><li>Manufacturing direct</li><li>Sales direct</li><li>Stock direct</li><li>Purchasing direct</li></ul><p>If you modify the default dimensions on a source document, subsequent documents inherit those settings.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63915",
+                            "title": "US sales tax invoice posting error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sales invoices using US tax post without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63871",
+                            "title": "Notification history: Supplier credit note reference cannot be updated",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The supplier credit note reference is now available on purchase credit notes from the Notification history page if a document has an error status.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-54982",
+                            "title": "Generate reports from the Report template page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can generate any form or report from the <b>Report template</b> page. You can generate from the full-page preview or generate without a preview. When complete, you can access the generated report from the <b>Notification</b> area.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54824",
+                            "title": "Custom fields available in dashboards and reports",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you create custom fields, you can include those fields in dashboard widgets and reports.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63349",
+                            "title": "Work order planned cost for average cost and FIFO cost components",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The planned material cost for a work order is calculated from the current cost of each individual component, as determined by the defined valuation method for the component. The individual component cost will therefore be the standard cost, the current average cost, or for a component valued at FIFO cost, the oldest available FIFO tier cost.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61228",
+                            "title": "Work in progress inquiry \"As of date\" filter is not applied",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Work in progress inquiry displays all work orders with an In progress or Completed status on the selected As of date.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60431",
+                            "title": "Material shortages are not displayed when using automatic allocation in production tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Automatic allocation from a Production tracking only allocates stock if there is enough stock available to consume the component quantities in full.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59934",
+                            "title": "Update option not available for bill of material import",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update bills of material from the Import data page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55219",
+                            "title": "Text type components on work orders remain Pending",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A text type component is set to Completed when added to a work order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62658",
+                            "title": "Custom list report preview is empty and does not generate a report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can preview and generate the custom list report.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59362",
+                            "title": "Unable to select posting class lines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Posting class lines are selectable.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference Data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42509",
+                            "title": "Stock management error when you create an item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "If you select the Purchased or Manufactured checkboxes when you create a stock-managed item, you no longer receive an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60058",
+                            "title": "Item page updates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Main list row actions</b></p><p>For items, you can perform several key actions from the main list to save time, such as:</p><ul><li>Duplicate</li><li>Delete</li></ul><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as:</p><ul><li>Base price</li><li>Currency</li></ul><p><b>Additional tabs and reorganisation</b></p><p>Tabs are reorganised to enable you to complete tasks efficiently.</p><p>A <b>Manufacturing</b> tab displays how an item is used within a bill of material.</p><p>On the <b>Allergen</b>\u00a0and <b>GHS Classification</b> tabs, you can multi-select allergens and GHS classifications to add to an item.</p><p><b>Switch placement</b></p><p>The switches that control item management were added to the header so you can easily see which tabs are available depending on the management rules.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

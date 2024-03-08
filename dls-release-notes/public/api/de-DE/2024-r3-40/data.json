@@ -1,0 +1,735 @@
+{
+    "id": "2024-r3-40",
+    "title": "2024 R3",
+    "language": "de-DE",
+    "__archive": "/dls-release-notes/api/de-DE/archive.json",
+    "previous": "2024-r2-39",
+    "date": "M\u00e4rz",
+    "content_parts": [
+        {
+            "title": "Allgemein",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59216",
+                            "title": "Datensatzverlauf",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>F\u00fcr einzelne Datens\u00e4tze, wie Bestellungen, Artikel usw., kann der Datensatzverlauf \u00fcber das Men\u00fc <b>Weitere Aktionen</b> angezeigt werden. Der Verlauf umfasst Informationen dar\u00fcber, wer den Datensatz erstellt hat und wann, sowie die Person, die den Datensatz zuletzt aktualisiert hat.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61944",
+                            "title": "Ein Standardkostendatensatz f\u00fcr einen Artikel-Standort kann nicht gel\u00f6scht werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Standardkostendatens\u00e4tze f\u00fcr einen Artikel-Standort k\u00f6nnen nun gel\u00f6scht werden, wenn die Artikel-Standort-Kosten noch nicht in einer Transaktion verwendet wurden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-56317",
+                            "title": "Autorisierung: Die Bezeichnungen der Zeilenaktionen f\u00fcr Rollen sind falsch",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Im Men\u00fc Weitere Optionen in Zeilen f\u00fcr Rollen werden die richtigen Men\u00fcbezeichnungen angezeigt.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62840",
+                            "title": "Erweiterungen der Autorisierung f\u00fcr Einkauf und Verkauf",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Die Verwaltung von Benutzerrechten wurde verbessert und vereinfacht, um die Genauigkeit zu verbessern und den Implementierungs- und Wartungsaufwand zu verk\u00fcrzen.</p><p>Die Autorisierungsprozesse f\u00fcr Einkauf und Verkauf umfassen die folgenden Verbesserungen:</p><ul><li>\u00dcberarbeitete Berechtigungstexte f\u00fcr ein besseres Verst\u00e4ndnis</li><li>Gruppierung von Berechtigungen f\u00fcr eine vereinfachte Einrichtung</li><li>Automatische Verwaltung der Referenzsuche</li><li>Aktualisierung der Standardrollen</li><li>Anzeige der Men\u00fcelemente, die den Berechtigungen des Benutzers entsprechen</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65317",
+                            "title": "In den Betr\u00e4gen der Bestellreports fehlen Kommas ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Betr\u00e4ge in Bestellreports verwenden das richtige Zahlenformat und werden nach Bedarf mit Kommas angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64922",
+                            "title": "Autorisierung: Lieferantensuchdaten werden nicht angezeigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Betriebsberechtigungen f\u00fcr den Einkauf wurden verbessert, sodass w\u00e4hrend der Lieferantensuche auf die Lieferantenliste zugegriffen werden kann.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64872",
+                            "title": "Fehler bei der Erstellung von Direktwarenausg\u00e4ngen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Erstellung eines neuen Warenausgangs auf der Seite Warenausgang wird der im Kopf ausgew\u00e4hlte Lagerstandort beibehalten und nicht durch den im Kundendatensatz angegebenen Versandstandort ersetzt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64869",
+                            "title": "Der Bestandsbewertungsreport filtert keine Buchungsklassen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Auf der Seite Bestandsbewertung zeigt die Auswahl Buchungsklasse nur detaillierte Buchungsklassen f\u00fcr Artikel an.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63840",
+                            "title": "In Preislisten kann kein Kunde oder Lieferant ausgew\u00e4hlt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Erstellung von Lieferanten- oder Kundenpreislisten wird der ausgew\u00e4hlte Lieferant oder Kunde beibehalten, nachdem das Feld mit der Tabulatortaste verlassen wurde.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63677",
+                            "title": "Die Aktualisierungsoption ist f\u00fcr den Import von Lieferantenpreisen nicht verf\u00fcgbar",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lieferantenpreise k\u00f6nnen auf der Seite Daten importieren aktualisiert werden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62762",
+                            "title": "Die Steuerzone ist f\u00fcr eine neue Lieferadresse des Kunden nicht verf\u00fcgbar",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Erstellung einer neuen Kundenadresse wird das Feld Steuerzone angezeigt, sobald die Lieferadresse aktiviert ist.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61078",
+                            "title": "Falsche Anzeige der FIFO-Ebene",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Auf der Seite Bestandsabgang werden die richtigen Ebenenkosten f\u00fcr Artikel mit einer FIFO-Kostenbewertungsmethode angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59785",
+                            "title": "Sperrmeldung f\u00fcr Bestandswert\u00e4nderung verhindert die Buchung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Beim Buchen einer Bestandswert\u00e4nderung wird kein Fehler mehr angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57820",
+                            "title": "Einkaufsrechnung und Gutschrift: Mengen\u00e4nderung l\u00f6scht den Preis",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Artikelpreise bleiben erhalten, wenn die Menge in der Bestellzeile ge\u00e4ndert wird.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-57305",
+                            "title": "Bei der Transaktion Lagerumbuchung wird ein Fehler angezeigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn ein Artikel \u00fcber eine numerische ID verf\u00fcgt und nach Charge verwaltet wird, wird auf der Seite Lagerumbuchung kein Fehler mehr angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55214",
+                            "title": "Filter f\u00fcr Lieferanten, Rechnungssteller und Rechnungsempf\u00e4nger zeigen keine \u00fcbereinstimmenden Ergebnisse auf mehreren Seiten an",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Auf den folgenden Seiten kann nun nach Lieferant, nach Rechnungssteller und nach Rechnungsempf\u00e4nger gefiltert werden:<br/><br/>- Bestellung, Wareneingang, Einkaufsretoure, Einkaufsrechnung und Einkaufsgutschrift<br/>- Eingangsrechnungen und Ausgangsrechnungen",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finanzen",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63049",
+                            "title": "Integration Intacct: Standardsektoren",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Auf der Seite <b>Standort</b> k\u00f6nnen Standardsektoren und Attribute nach Bedarf f\u00fcr einen Standort zugewiesen werden.</p><p>Auf der Seite <b>Unternehmen</b> k\u00f6nnen in der Tabelle <b>Standardsektorregeln</b> die Kombinationen aus Dokument und Ursprung definiert werden, die die Einstellungen f\u00fcr diesen Standort \u00fcbernehmen.</p><p>Zu den Optionen f\u00fcr Dokument und Ursprung geh\u00f6ren:</p><ul><li>Fertigung direkt</li><li>Verkauf direkt</li><li>Bestand direkt</li><li>Einkauf direkt</li></ul><p>Wenn die Standardsektoren eines Ursprungsdokuments ge\u00e4ndert werden, \u00fcbernehmen nachfolgende Dokumente diese Einstellungen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63915",
+                            "title": "Buchungsfehler f\u00fcr US-Umsatzsteuerrechnung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Verkaufsrechnungen mit US-Steuer buchen ohne Fehler.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63871",
+                            "title": "Benachrichtigungsverlauf: Referenz f\u00fcr Lieferantengutschrift kann nicht aktualisiert werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Referenz auf Lieferantengutschriften ist jetzt auf der Seite Benachrichtigungsverlauf in Einkaufsgutschriften verf\u00fcgbar, wenn ein Dokument einen Fehlerstatus aufweist.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Formulare & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-54982",
+                            "title": "Generierung von Reports auf der Seite Reportvorlage",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Auf der Seite <b>Reportvorlage</b> k\u00f6nnen beliebige Formulare oder Reports generiert werden. Die Generierung ist als ganzseitige Vorschau oder ohne Vorschau m\u00f6gliche. Nach Abschluss des Vorgangs ist der Zugriff auf den generierten Report \u00fcber den Benachrichtigungsbereich m\u00f6glich.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54824",
+                            "title": "Benutzerdefinierte Felder in Dashboards und Reports",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Bei der Erstellung von benutzerdefinierten Feldern k\u00f6nnen Sie diese Felder in Dashboard-Widgets und Reports einbezogen werden.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fertigung",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63349",
+                            "title": "Geplante Kosten des Fertigungsauftrags f\u00fcr Durchschnittskosten und FIFO-Kostenkomponenten",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Die geplanten Materialkosten f\u00fcr einen Fertigungsauftrag werden anhand der aktuellen Kosten jeder einzelnen Komponente berechnet, die durch die definierte Bewertungsmethode f\u00fcr die Komponente bestimmt werden. Die einzelnen Komponentenkosten sind daher die Standardkosten, die aktuellen Durchschnittskosten, oder f\u00fcr eine zu FIFO-Kosten bewertete Komponente die \u00e4ltesten verf\u00fcgbaren FIFO-Ebenenkosten.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61228",
+                            "title": "Der Filter f\u00fcr die Work-In-Progress-Abfrage \u201eAnfangsdatum\u201c wird nicht angewendet",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In der Abfrage \u201eWork-In-Progress\u201c werden alle Fertigungsauftr\u00e4ge mit dem Status \u201eIn Bearbeitung\u201c oder \u201eErledigt\u201c am ausgew\u00e4hlten Anfangsdatum angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60431",
+                            "title": "Materialengp\u00e4sse werden nicht angezeigt, wenn die automatische Reservierung in der Fertigungsr\u00fcckmeldung verwendet wird",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die automatische Reservierung aus einer Fertigungsr\u00fcckmeldung weist nur dann Bestand zu, wenn gen\u00fcgend Bestand vorhanden ist, um die Komponentenmengen vollst\u00e4ndig zu verbrauchen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59934",
+                            "title": "Die Aktualisierungsoption ist f\u00fcr den Import von St\u00fccklisten nicht verf\u00fcgbar",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "St\u00fccklisten k\u00f6nnen auf der Seite Daten importieren aktualisiert werden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55219",
+                            "title": "Textkomponenten in Fertigungsauftr\u00e4gen bleiben ausstehend",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Eine Textkomponente wird auf \u201eErledigt\u201c gesetzt, wenn sie zu einem Fertigungsauftrag hinzugef\u00fcgt wird.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plattform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62658",
+                            "title": "Die Vorschau f\u00fcr benutzerdefinierte Listenreports ist leer und generiert keinen Report",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Der benutzerdefinierte Listenreport kann in der Vorschau angezeigt und generiert werden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-59362",
+                            "title": "Buchungsklassenzeilen k\u00f6nnen nicht ausgew\u00e4hlt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Buchungsklassenzeilen k\u00f6nnen ausgew\u00e4hlt werden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Referenzdaten",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R3 (40.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-42509",
+                            "title": "Bestandsverwaltungsfehler bei der Erstellung eines Artikels",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Werden bei der Erstellung eines bestandsgef\u00fchrten Artikels die Kontrollk\u00e4stchen \u201eEingekauft\u201c oder \u201eGefertigt\u201c aktiviert, wird keine Fehlermeldung mehr angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Benutzerfreundlichkeit",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R3 (40.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60058",
+                            "title": "Aktualisierungen auf der Seite Artikel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Zeilenaktionen in der Hauptliste</b></p><p>Bei Artikeln k\u00f6nnen mehrere Schl\u00fcsselaktionen aus der Hauptliste ausgef\u00fchrt werden, um Zeit zu sparen, wie zum Beispiel:</p><ul><li>Duplizieren</li><li>L\u00f6schen</li></ul><p><b>Zus\u00e4tzliche Spalten f\u00fcr die Hauptliste</b></p><p>Sie k\u00f6nnen in der Hauptliste zus\u00e4tzliche Spalten anzeigen, wie zum Beispiel:</p><ul><li>Grundpreis</li><li>W\u00e4hrung</li></ul><p><b>Zus\u00e4tzliche Register und Reorganisation</b></p><p>Register wurden neu organisiert, damit Aufgaben effizient erledigt werden k\u00f6nnen.</p><p>Im Register <b>Fertigung</b> wird angezeigt, wie ein Artikel in einer St\u00fcckliste verwendet wird.</p><p>In den Registern <b>Allergen</b> und <b>GHS-Klassifizierung</b> k\u00f6nnen mehrere Allergene und GHS-Klassifizierungen ausgew\u00e4hlt werden, um diese zu einem Artikel hinzuzuf\u00fcgen.</p><p><b>Schalterplatzierung</b></p><p>Die Schalter zur Steuerung der Artikelverwaltung wurden zur Kopfzeile hinzugef\u00fcgt, um einfach sehen zu k\u00f6nnen, welche Register je nach Verwaltungsregeln verf\u00fcgbar sind.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "40.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

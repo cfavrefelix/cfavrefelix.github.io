@@ -28,8 +28,14 @@
     ],
     "releases": [
         {
+            "id": "2024-r3-40",
+            "title": "2024 R3 (M\u00e4rz)",
+            "url": "/dls-release-notes/api/de-DE/2024-r3-40/data.json",
+            "date": "M\u00e4rz"
+        },
+        {
             "id": "2024-r2-39",
-            "title": "Februar 2024",
+            "title": "2024 R2 (Februar)",
             "url": "/dls-release-notes/api/de-DE/2024-r2-39/data.json",
             "date": "Februar"
         },

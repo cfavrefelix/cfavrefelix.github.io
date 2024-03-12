@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour les enregistrements individuels, tels que les commandes d\u2019achat, les articles, etc., vous pouvez afficher l'historique des enregistrements \u00e0 partir du menu <b>Plus d'options</b>. L'historique mentionne le cr\u00e9ateur de l'enregistrement et la derni\u00e8re personne ayant mis \u00e0 jour cet enregistrement, ainsi que la date et l\u2019heure.</p>",
+                                    "content": "<p>Concernant les enregistrements individuels, tels que les commandes d\u2019achat, les articles, etc., vous pouvez afficher l'historique des enregistrements \u00e0 partir du menu <b>Plus d'options</b>. L'historique mentionne le cr\u00e9ateur de l'enregistrement et la derni\u00e8re personne ayant mis \u00e0 jour cet enregistrement, ainsi que la date et l\u2019heure.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -506,7 +506,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Le co\u00fbt mat\u00e9riel planifi\u00e9 pour un ordre de fabrication est calcul\u00e9 \u00e0 partir du co\u00fbt actuel de chaque composant individuel, ainsi que la m\u00e9thode de valorisation sp\u00e9cifi\u00e9e le stipule pour le composant. Le co\u00fbt du composant individuel sera donc le co\u00fbt standard, le co\u00fbt moyen actuel ou, pour un composant valoris\u00e9 au prix FIFO, le co\u00fbt de couche FIFO le plus ancien disponible.</p>",
+                                    "content": "<p>Le co\u00fbt mati\u00e8re planifi\u00e9 pour un ordre de fabrication est calcul\u00e9 \u00e0 partir du co\u00fbt actuel de chaque composant individuel, ainsi que la m\u00e9thode de valorisation sp\u00e9cifi\u00e9e le stipule pour le composant. Le co\u00fbt du composant individuel sera donc le co\u00fbt standard, le co\u00fbt moyen actuel ou, pour un composant valoris\u00e9 au prix FIFO, le co\u00fbt de couche FIFO le plus ancien disponible.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -583,7 +583,7 @@
                         },
                         {
                             "key": "XT-55219",
-                            "title": "Les composants de type texte concernant les ordres de fabrication restent En attente",
+                            "title": "Les composants de type texte dans les ordres de fabrication restent En attente",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -714,7 +714,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Actions sur lignes dans la liste principale</b></p><p>Pour les documents de vente et d'achat, vous pouvez effectuer plusieurs actions cl\u00e9s \u00e0 partir de la liste principale, ce qui vous permet de gagner du temps. Citons, par exemple :</p><ul><li>l\u2019action Dupliquer,</li><li>l\u2019action Supprimer.</li></ul><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple :</p><ul><li>Prix de base,</li><li>Devise.</li></ul><p><b>Onglets suppl\u00e9mentaires et r\u00e9organisation</b></p><p>Les onglets sont r\u00e9organis\u00e9s pour vous permettre d'effectuer des t\u00e2ches avec une efficacit\u00e9 accrue.</p><p>Un onglet <b>Production</b> montre comment un article est utilis\u00e9 dans une nomenclature.</p><p>Dans les onglets <b>Allerg\u00e8nes</b>et <b>Classification SGH</b> , vous pouvez s\u00e9lectionner plusieurs allerg\u00e8nes et classifications SGH pour les ajouter \u00e0 un article.</p><p><b>Positionnement des boutons</b></p><p>Les boutons qui contr\u00f4lent la gestion des articles ont \u00e9t\u00e9 ajout\u00e9s dans l'en-t\u00eate afin que vous puissiez facilement voir les onglets disponibles en fonction des r\u00e8gles de gestion.</p>",
+                                    "content": "<p><b>Actions sur lignes dans la liste principale</b></p><p>Pour les documents de vente et d'achat, vous pouvez effectuer plusieurs actions cl\u00e9s \u00e0 partir de la liste principale, ce qui vous permet de gagner du temps. Citons, par exemple :</p><ul><li>l\u2019action Dupliquer,</li><li>l\u2019action Supprimer.</li></ul><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple :</p><ul><li>Prix de base,</li><li>Devise.</li></ul><p><b>Onglets suppl\u00e9mentaires et r\u00e9organisation</b></p><p>Les onglets sont r\u00e9organis\u00e9s pour vous permettre d'effectuer des t\u00e2ches avec une efficacit\u00e9 accrue.</p><p>Un onglet <b>Production</b> montre comment un article est utilis\u00e9 dans une nomenclature.</p><p>Dans les onglets <b>Allerg\u00e8nes</b> et <b>Classification SGH</b>, vous pouvez s\u00e9lectionner plusieurs allerg\u00e8nes et classifications SGH pour les ajouter \u00e0 un article.</p><p><b>Positionnement des boutons</b></p><p>Les boutons qui contr\u00f4lent la gestion des articles ont \u00e9t\u00e9 ajout\u00e9s dans l'en-t\u00eate afin que vous puissiez facilement voir les onglets disponibles en fonction des r\u00e8gles de gestion.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

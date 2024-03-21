@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Save time with optimized duplication functionality. Enhancements include:</p><ul><li>Entering or updating required values for duplication is simpler</li><li>No limits on the number of lines that can be duplicated</li></ul>",
+                                    "content": "<p>Save time with optimized duplication functionality. Enhancements include:</p><ul><li>Entering or updating required values for duplication is simpler.</li><li>No limits on the number of lines you can duplicate.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -308,7 +308,7 @@
                         },
                         {
                             "key": "XT-50931",
-                            "title": "Purchase receipt lines with unsuccessful post to stock or tax calculation shoud not be available on purchase invoice",
+                            "title": "Purchase receipt lines with unsuccessful post to stock or tax calculation should not be available on purchase invoice",
                             "highlight": false,
                             "content_parts": [
                                 {

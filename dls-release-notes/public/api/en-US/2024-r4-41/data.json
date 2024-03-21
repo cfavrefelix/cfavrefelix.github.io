@@ -438,7 +438,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the <b>Report</b> page, you can create a list report using a wizard that guides you through process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Previewing your report</li></ul><p>\u00a0</p>",
+                                    "content": "<p>From the <b>Report</b> page, you can create a list report using a wizard that guides you through the process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Previewing your report</li></ul><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -471,7 +471,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The Report template designer just got easier to use and has new options:</p><ul><li>Define page margins and orientation.</li><li>Zoom in or out when working in the design area to get a better view of your layout.</li><li>View header and footer sections in the design area so you can easily add text and variables.</li><li>Insert an unbreakable container so that all content in that container displays on the same page.</li><li>Use the <b>Document properties</b> panel to add dynamic fields like page numbers, current date, who generated the report, and so on.</li></ul><p>The preview panel only displays the first few records. Select <b>Generate</b> to run the full report.</p>",
+                                    "content": "<p>The report template designer just got easier to use and has new options:</p><ul><li>Define page margins and orientation.</li><li>Zoom in or out when working in the design area to get a better view of your layout.</li><li>View header and footer sections in the design area so you can easily add text and variables.</li><li>Insert an unbreakable container so that all content in that container displays on the same page.</li><li>Use the <b>Document properties</b> panel to add dynamic fields like page numbers, current date, who generated the report, and so on.</li></ul><p>The preview panel only displays the first few records. Select <b>Generate</b> to run the full report.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -511,7 +511,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Work order inquiry</b></p><p>When you run a work order inquiry, the <b>Work in progress total</b> above the grid reflects the total amount for all returned results based on the <b>As of date</b>. If you filter results in the grid, this value is not affected.</p><p><b>Stock posting</b></p><p>For Average and FIFO costed released items, any variance calculated at work order close is recorded as <b>Work order actual cost adjustment</b> and <b>Work order negative actual cost adjustment</b> to the stock account.</p><p>You can search for these types on the <b>Work order in progress transaction inquiry</b> page.</p><p>Standard costed released items with any variance continue to be posted to the variance account as work in progress <b>Work order variance</b> and <b>Work order negative variance</b>.</p>",
+                                    "content": "<p><b>Work order inquiry</b></p><p>When you run a work order inquiry, the <b>Work in progress total</b> above the grid reflects the total amount for all returned results based on the <b>As of date</b>. If you filter results in the grid, this value is not affected.</p><p><b>Stock posting</b></p><p>For average and FIFO costed released items, any variance calculated at work order close is recorded as <b>Work order actual cost adjustment</b> and <b>Work order negative actual cost adjustment</b> to the stock account.</p><p>You can search for these types on the <b>Work order in progress transaction inquiry</b> page.</p><p>Standard costed released items with any variance continue to be posted to the variance account as work in progress <b>Work order variance</b> and <b>Work order negative variance</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -613,7 +613,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Date filters clear as exptected.",
+                                    "content": "Date filters clear as expected.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -682,7 +682,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Close</b> button is now <b>Close order</b> to improve clarity on the <b>Work order</b> page.\u00a0</p><p>Additionally, the <b>Post</b> button is now <b>Post stock</b> in situations where no financial records are updated. This affects pages related to purchasing, sales, and stock.</p>",
+                                    "content": "<p>The <b>Close</b> button was renamed <b>Close order</b> to improve clarity on the <b>Work order</b> page.\u00a0</p><p>Additionally, the <b>Post</b> button was renamed <b>Post stock</b> in situations where no financial records are updated. This affects pages related to purchasing, sales, and stock.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

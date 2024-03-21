@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Duplication functionality is improved to help you save time, enhancements include:</p><ul><li>A new dialog box to simplify entering or updating required values for duplication.</li><li>No limits on the number of lines that can be duplicated.</li></ul>",
+                                    "content": "<p>Save time with optimized duplication functionality. Enhancements include:</p><ul><li>Entering or updating required values for duplication is simpler</li><li>No limits on the number of lines that can be duplicated</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -95,7 +95,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can use the bulk delete option on Business entity, Customer, Supplier, and Routing pages.",
+                                    "content": "You can use the bulk delete option on the Business entity, Customer, Supplier, and Routing pages.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -164,7 +164,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve stock reordering, supply order planning is introduced. Use the Purchase order planning page to group purchase suggestions together to reduce the number of purchase orders to generate from MRP suggestions.</p>",
+                                    "content": "<p>To improve stock reordering, supply order planning is introduced. Use the <b>Purchase order planning</b> page to group purchase suggestions together to reduce the number of purchase orders to generate from MRP suggestions.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -213,7 +213,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The sales order status updates correctly when a sales order line or lines are deleted from the order after a shipment has been partially created.",
+                                    "content": "The sales order status updates correctly when a sales order line or lines are deleted from the order after a shipment was partially created.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -345,11 +345,11 @@
                     "content_parts": [
                         {
                             "key": "XT-65005",
-                            "title": "Default dimensions on Work order and Purchase order from Sales order",
+                            "title": "Default dimensions on work order and purchase order from sales orders",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Stored attributes and dimensions can now be inherited from the Sale order line to the Work order released item, components, and operation resources (make-to-order) respectively to the Purchase order line (buy-to-order). In addition, the dimension dialog box on the Work order released item now provides the option to update the dimensions and attributes of the associated Work order components and operation resources.</p>",
+                                    "content": "<p>For order-to-order processes, the work order released item, components, and operation resources inherit default dimensions from the sales order line. You can define specific rules for work orders created from a sales order.</p><p>On a work order released item, you can update the dimensions and attributes for the associated components and resources as needed.</p><p>For buy-to-order, the purchase order line inherits default dimensions from the sales order. You can define specific rules for purchase orders created from a sales order.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -359,41 +359,16 @@
                                 ],
                                 "version": [
                                     "41.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-59314",
-                            "title": "Intacct integration - Employee dimension integration (Default of dimension)",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can now designate dimensions and attributes as a default in the tab 'Financials' of the 'Customer' page and automatically assign them in sales documents (sales order and direct sales invoice lines).</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "41.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
                         {
                             "key": "XT-54719",
-                            "title": "Intacct integration - Employee dimension integration (Manual entry of dimension)",
+                            "title": "Employee as dimensions",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>It is now possible to activate the 'Employee' attribute type and subsequently assign an 'Employee' to an SDMO transaction in the manner of a dimension. If the Sage Intacct integration is enabled, a smart event in Sage Intacct ensures that each creation, update, and deletion of 'Employees' in Sage Intacct is reflected in SDMO.</p>",
+                                    "content": "<p>On the <b>Attribute type</b> page, you can activate the <b>Employee</b> attribute type to assign an employee to a transaction as a dimension manually, or as a default dimension for sales documents.</p><p>Default dimensions, including <b>Employee</b>, can be defined on the <b>Customer</b> page and you can define default dimension rules from the customer on sales documents.</p><p>If you integrate with Sage Intacct, a Smart Event synchronizes new, updated, or deleted employees.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -403,9 +378,109 @@
                                 ],
                                 "version": [
                                     "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Bug fixes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-66526",
+                            "title": "Missing tax solution ID on Sage Intacct integration causes error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "If there is no tax solution ID present when setting up Sage Intacct integration, an empty string is sent. This avoids an error in Sage DMO, and Sage Intacct controls if the tax solution ID is required or not.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-61421",
+                            "title": "List report wizard",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the <b>Report</b> page, you can create a list report using a wizard that guides you through process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Previewing your report</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59903",
+                            "title": "Report designer enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The Report template designer just got easier to use and has new options:</p><ul><li>Define page margins and orientation.</li><li>Zoom in or out when working in the design area to get a better view of your layout.</li><li>View header and footer sections in the design area so you can easily add text and variables.</li><li>Insert an unbreakable container so that all content in that container displays on the same page.</li><li>Use the <b>Document properties</b> panel to add dynamic fields like page numbers, current date, who generated the report, and so on.</li></ul><p>The preview panel only displays the first few records. Select <b>Generate</b> to run the full report.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
                                 ]
                             }
                         }
@@ -432,11 +507,11 @@
                     "content_parts": [
                         {
                             "key": "XT-65672",
-                            "title": "Work in Progress (WIP) balancing inquiry enhancements",
+                            "title": "Work in progress updates to inquiries and posting",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The \"Work in Progress (WIP)\" balance now displays for each work order and the \"Work in Progress\" total for the \"As of date\" now displays in the Work in progress inquiry. The total is not impacted if work orders are filtered in results grid.\u00a0</p><p>For Average and FIFO costed released items any variance calculated at work order close is recorded in work in progress with the new types \"Work order actual cost adjustment\" and \"Work order negative actual cost adjustment\".</p><p>This variance is, subsequently, posted to the stock account (finance).</p><p>Note: for Standard costed released items any variance continues to be posted to the variance account (finance) via WIP types \"Work order variance\" and \"Work order negative variance\".</p>",
+                                    "content": "<p><b>Work order inquiry</b></p><p>When you run a work order inquiry, the <b>Work in progress total</b> above the grid reflects the total amount for all returned results based on the <b>As of date</b>. If you filter results in the grid, this value is not affected.</p><p><b>Stock posting</b></p><p>For Average and FIFO costed released items, any variance calculated at work order close is recorded as <b>Work order actual cost adjustment</b> and <b>Work order negative actual cost adjustment</b> to the stock account.</p><p>You can search for these types on the <b>Work order in progress transaction inquiry</b> page.</p><p>Standard costed released items with any variance continue to be posted to the variance account as work in progress <b>Work order variance</b> and <b>Work order negative variance</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -446,9 +521,6 @@
                                 ],
                                 "version": [
                                     "41.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -504,7 +576,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The details grid and transaction graph in the MRP calculation justification results display according to the number of weeks included in the MRP calculation forecast.",
+                                    "content": "The Details grid and transaction graph in the MRP calculation justification results display according to the number of weeks included in the MRP calculation forecast.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -557,7 +629,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Dupliates of fields have been removed in the report writer.<br/>Duplicated fields were removed from the report template designer.",
+                                    "content": "Duplicated fields were removed from the report template designer.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -606,11 +678,11 @@
                     "content_parts": [
                         {
                             "key": "XT-66767",
-                            "title": "Button improvements",
+                            "title": "Actions renamed",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Close</b> button is now <b>Close order</b> to improve clarity on the Work order page,\u00a0</p><p>Additionally, the <b>Post</b> button is now <b>Post stock</b>\u00a0in situations where no financial records are updated. This affects pages related to <b>Purchasing</b>, <b>Sales</b> and <b>Stock</b>.</p>",
+                                    "content": "<p>The <b>Close</b> button is now <b>Close order</b> to improve clarity on the <b>Work order</b> page.\u00a0</p><p>Additionally, the <b>Post</b> button is now <b>Post stock</b> in situations where no financial records are updated. This affects pages related to purchasing, sales, and stock.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

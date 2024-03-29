@@ -79,7 +79,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"
@@ -89,6 +89,25 @@
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-67537",
+                            "title": "You cannot perform this operation \"SalesOrder.createSalesShipmentsFromOrders\" when converting a Sales Order to a Shipment for users not linked to an administrator role",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In the tenants where users are granted permission to convert a sales order into a shipment, they can now seamlessly execute this action.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-67105",
                             "title": "Bulk delete not available for Customer, Supplier, and Routing pages",
@@ -181,7 +200,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"
@@ -282,9 +301,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "south-africa-zaf"
-                                ],
                                 "version": [
                                     "41.0.0"
                                 ]
@@ -385,7 +401,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"
@@ -420,39 +436,6 @@
             "id": "forms-&-reports",
             "type": "module",
             "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-61421",
-                            "title": "List report wizard",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>From the <b>Report</b> page, you can create a list report using a wizard that guides you through the process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Previewing your report</li></ul><p>\u00a0</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "41.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "group",
                     "title": "Improvements",
@@ -528,7 +511,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"
@@ -597,7 +580,7 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"
@@ -699,7 +682,7 @@
                 },
                 {
                     "type": "group",
-                    "title": "Bug fixes",
+                    "title": "Other updates",
                     "taxonomies": {
                         "_type": [
                             "bug-fixes"

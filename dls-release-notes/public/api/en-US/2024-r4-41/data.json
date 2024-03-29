@@ -91,20 +91,17 @@
                     "content_parts": [
                         {
                             "key": "XT-67537",
-                            "title": "You cannot perform this operation \"SalesOrder.createSalesShipmentsFromOrders\" when converting a Sales Order to a Shipment for users not linked to an administrator role",
+                            "title": "Users cannot create a sales shipment from a sales order if not linked to an administrator role",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "In the tenants where users are granted permission to convert a sales order into a shipment, they can now seamlessly execute this action.",
+                                    "content": "Users can create a sales shipment from a sales order according to the permissions granted for this action.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "41.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },

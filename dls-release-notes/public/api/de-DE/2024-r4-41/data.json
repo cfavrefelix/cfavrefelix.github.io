@@ -662,7 +662,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Die Schaltfl\u00e4che <b>Abschlie\u00dfen</b> wurde in <b>Auftrag schlie\u00dfen</b> umbenannt, um die Klarheit auf der Seite <b>Fertigungsauftrag</b> zu verbessern.\u00a0</p><p>Au\u00dferdem wurde die Schaltfl\u00e4che <b>Posten</b> in <b>Bestand buchen</b> umbenannt, wenn keine Finanzdatens\u00e4tze aktualisiert werden. Dies betrifft Seiten, die sich auf Einkauf, Verkauf und Lagerbestand beziehen.</p>",
+                                    "content": "<p>Die Schaltfl\u00e4che <b>Abschlie\u00dfen</b> wurde in <b>Auftrag schlie\u00dfen</b> umbenannt, um die Aktionen auf der Seite <b>Fertigungsauftrag</b> deutlicher zu machen.\u00a0</p><p>Au\u00dferdem wurde die Schaltfl\u00e4che <b>Buchen</b> in <b>Bestand buchen</b> umbenannt, wenn keine Finanzdatens\u00e4tze aktualisiert werden. Dies betrifft die Seiten, die sich auf Einkauf, Verkauf und Lagerbestand beziehen.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

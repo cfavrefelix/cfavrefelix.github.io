@@ -1,0 +1,713 @@
+{
+    "id": "2024-r4-41",
+    "title": "2024 R4",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2024-r3-40",
+    "date": "Avril",
+    "content_parts": [
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62705",
+                            "title": "Am\u00e9liorations apport\u00e9es \u00e0 la duplication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Gagnez du temps gr\u00e2ce \u00e0 la fonctionnalit\u00e9 de duplication optimis\u00e9e. Les am\u00e9liorations incluent :</p><ul><li>la simplification de la saisie ou de la mise \u00e0 jour des valeurs n\u00e9cessaires \u00e0 la duplication,</li><li>l\u2019absence de limite au nombre de lignes que vous pouvez dupliquer.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-62932",
+                            "title": "Autorisations pour la production, le stock et la finance",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La gestion des droits d\u2019utilisateurs est am\u00e9lior\u00e9e et simplifi\u00e9e afin d'apporter davantage de pr\u00e9cision et de r\u00e9duire le temps de mise en \u0153uvre et de maintenance.</p><p>Les processus d'autorisation relatifs la production, au stock et \u00e0 la finance incluent les am\u00e9liorations suivantes :</p><ul><li>textes d'autorisation revus pour assurer une meilleure compr\u00e9hension,</li><li>regroupement des autorisations pour une configuration simplifi\u00e9e,</li><li>gestion automatique de la recherche de r\u00e9f\u00e9rences,</li><li>mise \u00e0 jour des r\u00f4les standard,</li><li>affichage des entr\u00e9es de menu correspondant uniquement aux droits de l'utilisateur.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-67537",
+                            "title": "Les utilisateurs ne peuvent pas cr\u00e9er d\u2019exp\u00e9dition de vente \u00e0 partir d'une commande de vente si elle n'est pas li\u00e9e \u00e0 un r\u00f4le d'administrateur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les utilisateurs peuvent cr\u00e9er une exp\u00e9dition de vente \u00e0 partir d'une commande de vente en fonction des autorisations accord\u00e9es pour cette action.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-67105",
+                            "title": "Suppression de masse non disponible dans les pages Client, Fournisseur et Gamme",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez utiliser l'option de suppression de masse dans les pages Entit\u00e9 commerciale, Client, Fournisseur et Gamme.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-65083",
+                            "title": "Les mises \u00e0 jour des contacts fournisseurs modifient de mani\u00e8re incorrecte la valeur Print as (Imprimer en tant que) dans Sage Intacct suite \u00e0 la synchronisation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les mises \u00e0 jour des contacts fournisseurs ne modifient pas le champ &quot;Print As&quot; (Imprimer en tant que) dans Sage Intacct suite \u00e0 la synchronisation.<br/>Vous pouvez modifier le champ &quot;Print As&quot; (Imprimer en tant que) dans le mapping d\u2019adresses des entit\u00e9s commerciales Sage Intacct.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64439",
+                            "title": "Historique de notification : le lien vers un document de r\u00e9gularisation de stock ne fonctionne pas",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sur la page Historique de notification, le lien permet d'acc\u00e9der correctement au document de r\u00e9gularisation de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-41599",
+                            "title": "Planification de commandes d'achat : regrouper les suggestions CBN pour cr\u00e9er des commandes d'achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour am\u00e9liorer le r\u00e9approvisionnement de stock, la planification des ordres d'approvisionnement a \u00e9t\u00e9 introduite. Utilisez la page <b>Planification de commandes d\u2019achat</b> pour regrouper les suggestions d'achat et ainsi r\u00e9duire le nombre de commandes d\u2019achat \u00e0 g\u00e9n\u00e9rer \u00e0 partir des suggestions CBN.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-66920",
+                            "title": "Le filtre du fournisseur facturant n'affiche pas les r\u00e9sultats correspondants",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez filtrer par fournisseur facturant dans la page Facture comptable client.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-66579",
+                            "title": "Commandes de vente : affichage d\u2019exp\u00e9dition partielle alors que l\u2019exp\u00e9dition a eu lieu enti\u00e8rement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le statut de la commande de vente est mis \u00e0 jour correctement lorsqu'une ou plusieurs lignes de commandes de vente sont supprim\u00e9es de la commande apr\u00e8s la cr\u00e9ation partielle d'une exp\u00e9dition.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-65317",
+                            "title": "Il manque des virgules dans les montants des \u00e9ditions de commandes d'achat ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les montants dans les \u00e9ditions de commandes d'achat utilisent le format num\u00e9rique correct et affichent des virgules le cas \u00e9ch\u00e9ant.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64670",
+                            "title": "Le lot expir\u00e9 ne peut pas \u00eatre sorti",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La restriction relative \u00e0 l'utilisation de stock p\u00e9rim\u00e9 a \u00e9t\u00e9 supprim\u00e9e et vous pouvez s\u00e9lectionner et sortir ce stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64432",
+                            "title": "Page article : l'unit\u00e9 de vente d\u00e9finie dans l'onglet Clients ne peut pas \u00eatre utilis\u00e9e dans une liste de prix",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L'unit\u00e9 de ventes d\u00e9finie pour un article dans l'onglet Clients est disponible \u00e0 partir de la liste des unit\u00e9s de l'onglet Prix de vente lors de l'ajout d'un nouveau prix de vente.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63181",
+                            "title": "Valorisation de stock : l'utilisateur du calcul ne s'affiche pas correctement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L'utilisateur du calcul sur la page Valorisations de stock est mis \u00e0 jour avec l'utilisateur courant.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62104",
+                            "title": "Allocation de stock : l'exp\u00e9dition ne lance pas correctement les allocations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Toutes les allocations d'exp\u00e9dition sont correctement transf\u00e9r\u00e9es.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-50931",
+                            "title": "Les lignes de r\u00e9ception d'achat associ\u00e9es \u00e0 une comptabilisation en stock ou \u00e0 un calcul des taxes ayant \u00e9chou\u00e9 ne doivent pas \u00eatre disponibles sur la facture d'achat.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsqu'une r\u00e9ception d'achat ayant \u00e9chou\u00e9 est factur\u00e9e, le statut ne passe pas \u00e0 factur\u00e9e tant que l'erreur n'est pas r\u00e9solue.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65005",
+                            "title": "Sections par d\u00e9faut sur l\u2019ordre de fabrication et la commande d'achat \u00e0 partir des commandes de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour les ordres \u00e0 la demande, l\u2019article lanc\u00e9, les composants et les ressources d\u2019op\u00e9ration de l\u2019ordre de fabrication h\u00e9ritent des sections par d\u00e9faut de la ligne de commande de vente. Vous pouvez d\u00e9finir des r\u00e8gles sp\u00e9cifiques pour les ordres de fabrication cr\u00e9\u00e9s \u00e0 partir d'une commande de vente.</p><p>Concernant un article lanc\u00e9 d'un ordre de fabrication, vous pouvez mettre \u00e0 jour les sections et les attributs des composants et ressources associ\u00e9s selon vos besoins.</p><p>Pour les achats \u00e0 la demande, la ligne de la commande d'achat h\u00e9rite des sections par d\u00e9faut de la commande de vente. Vous pouvez d\u00e9finir des r\u00e8gles sp\u00e9cifiques pour les commandes d\u2019achat cr\u00e9\u00e9es \u00e0 partir d'une commande de vente.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-54719",
+                            "title": "Section Collaborateur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la page <b>Type d'attribut</b>, vous pouvez activer le type d'attribut <b>Collaborateur</b> pour affecter un collaborateur \u00e0 une transaction en tant que section de fa\u00e7on manuelle ou par d\u00e9faut pour les documents de vente.</p><p>Les sections par d\u00e9faut, y compris le <b>Collaborateur</b>, peuvent \u00eatre d\u00e9finies dans la page <b>Client</b> et vous pouvez d\u00e9finir des r\u00e8gles de sections par d\u00e9faut \u00e0 partir du client sur les documents de vente.</p><p>En cas d\u2019int\u00e9gration avec Sage Intacct, un Smart Event synchronise les nouveaux collaborateurs et ceux ayant \u00e9t\u00e9 mis \u00e0 jour ou supprim\u00e9s.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-66526",
+                            "title": "Un code de solution de taxe manquant dans l'int\u00e9gration de Sage Intacct provoque une erreur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "En l\u2019absence de code de solution de taxe lors de la configuration de l'int\u00e9gration Sage Intacct, une cha\u00eene vide est envoy\u00e9e. Cela \u00e9vite de g\u00e9n\u00e9rer une erreur dans Sage DMO. Par ailleurs, Sage Intacct est en mesure de contr\u00f4ler si le code de solution de taxe est n\u00e9cessaire ou pas.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Formulaires et \u00e9ditions",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-59903",
+                            "title": "Am\u00e9liorations du concepteur d\u2019\u00e9ditions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>L\u2019utilisation du concepteur de mod\u00e8les d\u2019\u00e9ditions a \u00e9t\u00e9 simplifi\u00e9e et dispose de nouvelles options :</p><ul><li>d\u00e9finition des marges et de l'orientation de la page,</li><li>zoom avant ou arri\u00e8re lorsque vous travaillez dans la zone de conception pour mieux voir votre mise en page,</li><li>affichage des sections d'en-t\u00eate et de pied de page dans la zone de conception pour ajouter plus facilement du texte et des variables,</li><li>insertion d\u2019un conteneur sans rupture de sorte que tout le contenu de ce conteneur s'affiche sur la m\u00eame page.</li><li>Utilisez le volet <b>Propri\u00e9t\u00e9s du document</b> pour ajouter des champs dynamiques comme les num\u00e9ros de page, la date actuelle, l'auteur de l\u2019\u00e9dition, etc.</li></ul><p>Le volet d'aper\u00e7u affiche uniquement les premiers enregistrements. S\u00e9lectionnez <b>G\u00e9n\u00e9rer</b> pour cr\u00e9er l\u2019\u00e9dition compl\u00e8te.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65672",
+                            "title": "Mises \u00e0 jour des en-cours pour les consultations et la comptabilisation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Consultation d\u2019ordres de fabrication</b></p><p>Lorsque vous lancez une consultation d\u2019ordres de fabrication, le <b>Total d'en-cours</b> indiqu\u00e9 au-dessus du tableau refl\u00e8te le montant total pour tous les r\u00e9sultats renvoy\u00e9s en fonction de la saisie dans le champ <b>A la date de</b>. Si vous filtrez les r\u00e9sultats dans le tableau, cette valeur n'est pas impact\u00e9e.</p><p><b>Comptabilisation de stock</b></p><p>Pour les articles lanc\u00e9s valoris\u00e9s au prix moyen et au prix FIFO, tout \u00e9cart calcul\u00e9 au solde de l'ordre de fabrication est enregistr\u00e9 comme <b>R\u00e9gularisation de co\u00fbt r\u00e9el d'ordre de fabrication</b> et <b>R\u00e9gularisation de co\u00fbt r\u00e9el n\u00e9gatif d'ordre de fabrication</b> dans le compte de stock.</p><p>Vous pouvez rechercher ces types de mouvement dans la page <b>Consultation de transactions d'en-cours</b>.</p><p>Les articles lanc\u00e9s valoris\u00e9s au co\u00fbt standard et pr\u00e9sentant un \u00e9cart continuent d'\u00eatre comptabilis\u00e9s au compte d'\u00e9carts en tant qu\u2019<b>\u00c9cart OF</b> et <b>\u00c9cart OF n\u00e9gatif</b> d\u2019en-cours.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65013",
+                            "title": "L\u2019\u00e9dition de valorisation de stock n\u2019effectue pas le rapprochement pour les articles fabriqu\u00e9s au co\u00fbt standard",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "L\u2019\u00e9dition de valorisation de stock effectue le rapprochement avec les \u00e9critures financi\u00e8res pour les articles fabriqu\u00e9s au co\u00fbt standard.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64315",
+                            "title": "La duplication d'une nomenclature comportant plus de 10 lignes entra\u00eene la suppression de lignes de composants suppl\u00e9mentaires",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Une nomenclature comportant plus de 10 lignes peut \u00eatre dupliqu\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-60895",
+                            "title": "Les r\u00e9sultats de justification de calcul CBN sont limit\u00e9s \u00e0 5 semaines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le tableau D\u00e9tails et le graphique de transaction pour les r\u00e9sultats de justification de calcul CBN s'affichent en fonction du nombre de semaines inclus dans la pr\u00e9vision du calcul CBN.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-66496",
+                            "title": "Les champs de date ne s'effacent pas comme pr\u00e9vu",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les filtres de dates s'effacent comme pr\u00e9vu.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-66302",
+                            "title": "Champs dupliqu\u00e9s dans le concepteur d\u2019\u00e9ditions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les champs dupliqu\u00e9s ont \u00e9t\u00e9 supprim\u00e9s du concepteur de mod\u00e8les d\u2019\u00e9ditions.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64189",
+                            "title": "Mod\u00e8le d'\u00e9dition HTML : des caract\u00e8res al\u00e9atoires s'affichent dans le PDF",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les symboles s'affichent correctement et les caract\u00e8res al\u00e9atoires ne sont plus affich\u00e9s.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exp\u00e9rience Utilisateur",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-66767",
+                            "title": "Actions renomm\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le bouton <b>Solder </b> a \u00e9t\u00e9 renomm\u00e9 <b>Solder l\u2019ordre de fabrication</b> pour plus de clart\u00e9 dans la page <b>Ordre de fabrication</b>.\u00a0</p><p>En outre, le bouton <b>Comptabiliser</b> a \u00e9t\u00e9 renomm\u00e9 <b>Comptabiliser le stock</b> dans les situations o\u00f9 aucun document financier n'est mis \u00e0 jour. Ce changement concerne les pages li\u00e9es aux achats, aux ventes et au stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R4 (41.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R4 (41.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-65727",
+                            "title": "Recherche sur la description, le nom et le code d'un article indisponible pour les lignes de sortie de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez rechercher un article \u00e0 partir des champs Description, Nom et Code de l'article.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "41.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

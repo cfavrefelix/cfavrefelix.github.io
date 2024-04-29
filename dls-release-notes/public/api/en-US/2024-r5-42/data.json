@@ -51,7 +51,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Use the <b>Documents</b> tab on the <b>Item</b> page to add purchase documents to items.</p>",
+                                    "content": "<p>Use the <b>Documents</b> tab on the <b>Item</b> page to view purchase documents lines in progress for the item.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

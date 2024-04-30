@@ -51,7 +51,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Use the <b>Documents</b> tab on the <b>Item</b> page to view purchase documents lines in progress for the item.</p>",
+                                    "content": "<p>Use the <b>Documents</b> tab on the <b>Item</b> page to view purchase document lines in progress for the item.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -78,12 +78,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-67652",
-                            "title": "Custom fields on Sites page not saving",
+                            "title": "Custom fields on the Sites page not saving",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -124,7 +124,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To let you know that the task is finished, a notification displays in the <b>Notification center</b> when <b>Purchase order planning</b> has created the purchase orders. A notification also displays if data needed for a purchase order is missing.</p>",
+                                    "content": "<p>To let you know that the task is finished, a notification displays in the notification center when <b>Purchase order planning</b> has created the purchase orders. A notification also displays if data needed for a purchase order is missing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -148,7 +148,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -253,7 +253,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "A single purchase invoice can be created when there are multple receipt lines for a purchase order.",
+                                    "content": "You can create a single purchase invoice when there are multiple receipt lines for a purchase order.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -269,7 +269,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you duplicate a purchase order the Earliest expected date on the document matches the Expected receipt date on the lines.",
+                                    "content": "When you duplicate a purchase order, the earliest expected date on the document matches the expected receipt date on the lines.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -381,7 +381,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -427,7 +427,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the\u00a0<b>Report</b> page, you can create and edit a list report using a wizard that guides you through the process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Setting page orientation and margins</li><li>Previewing your report</li></ul><p>You can also view, access and edit all Report templates linked to your report directly from the <b>Report</b> page.</p>",
+                                    "content": "<p>From the\u00a0<b>Report</b> page, you can create and edit a list report using a wizard that guides you through the process, which includes:</p><ul><li>Selecting data and fields in a table</li><li>Defining filters and sorting</li><li>Grouping data and adding summary rows</li><li>Setting page orientation and margins</li><li>Previewing your report</li></ul><p>You can also view, access, and edit all report templates linked to your report directly from the <b>Report</b> page.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -449,7 +449,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Use the new purchase order form template to create and design a purchase order for printing.</p>",
+                                    "content": "<p>Use the purchase order form template to create and design a purchase order for printing.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -511,7 +511,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve management of work orders, you can reschedule a work order if you change the start date. The duration of a rescheduled work order is based on times for successive production operations and the shift patterns for individual operation resources.<br/>You need to add a <b>Time zone</b> to the production <b>Site</b> record before you can reschedule work orders.</p>",
+                                    "content": "<p>To improve management of work orders, you can reschedule a work order if you change the start date. The duration of a rescheduled work order is based on times for successive production operations and the shift patterns for individual operation resources.<br/>You need to add a time zone to the production <b>Site</b> record before you can reschedule work orders.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -538,7 +538,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -559,7 +559,7 @@
                         },
                         {
                             "key": "XT-68497",
-                            "title": "BOM component descriptions limited 80 characters ",
+                            "title": "BOM component descriptions limited to 80 characters ",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -579,7 +579,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Automatic allocation from a Production tracking processes previously allocated stock correctly.",
+                                    "content": "Automatic allocation from a production tracking processes previously allocated stock correctly.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -610,7 +610,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -634,7 +634,7 @@
                         },
                         {
                             "key": "XT-67402",
-                            "title": "List view widgets on dashboard not showing all records",
+                            "title": "List view widgets on the dashboard not showing all records",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -669,12 +669,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-67900",
-                            "title": "Duplication errors on certain pages",
+                            "title": "Duplication errors on some pages",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -706,7 +706,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69519,XT-69483,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {

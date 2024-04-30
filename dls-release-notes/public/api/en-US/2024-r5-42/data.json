@@ -78,7 +78,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -148,7 +148,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -381,7 +381,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -511,7 +511,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve management of work orders, you can reschedule a work order if you change the start date. The duration of a rescheduled work order is based on times for successive production operations and the shift patterns for individual operation resources.<br/>You need to add a time zone to the production <b>Site</b> record before you can reschedule work orders.</p>",
+                                    "content": "<p>To improve management of work orders, you can reschedule a work order if you change the requested start date. The duration of a rescheduled work order is based on times for successive production operations and the shift patterns for individual operation resources.<br/>You need to add a time zone to the production <b>Site</b> record before you can reschedule work orders.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -538,7 +538,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -610,7 +610,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -669,7 +669,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -706,7 +706,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {

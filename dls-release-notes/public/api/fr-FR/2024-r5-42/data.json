@@ -29,7 +29,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous pouvez joindre des fichiers \u00e0 des documents et \u00e0 certains enregistrements. Une fois que les fichiers ont \u00e9t\u00e9 analys\u00e9s pour \u00e9carter les virus potentiels et qu\u2019ils ont \u00e9t\u00e9 joints \u00e0 un enregistrements par un premier utilisateur, ils peuvent ensuite \u00eatre t\u00e9l\u00e9charg\u00e9s par un autre utilisateur.</p>",
+                                    "content": "<p>Vous pouvez joindre des fichiers \u00e0 des documents et \u00e0 certains enregistrements. Une fois que les fichiers ont \u00e9t\u00e9 analys\u00e9s pour \u00e9carter les virus potentiels et qu\u2019ils ont \u00e9t\u00e9 joints par un premier utilisateur, ils peuvent ensuite \u00eatre t\u00e9l\u00e9charg\u00e9s par un autre utilisateur.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -205,7 +205,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Vous pouvez cr\u00e9er des commandes d'achat qui incluent des lignes de stock partiellement r\u00e9ceptionn\u00e9.",
+                                    "content": "Vous pouvez cr\u00e9er des commandes d'achat qui incluent des lignes de stock partiellement r\u00e9ceptionn\u00e9es.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -233,7 +233,7 @@
                         },
                         {
                             "key": "XT-67711",
-                            "title": "La quantit\u00e9 attendue d\u2019articles-sites n'est pas mise \u00e0 jour lorsqu'une ligne de r\u00e9ception li\u00e9e \u00e0 une commande d'achat est supprim\u00e9e.",
+                            "title": "La quantit\u00e9 attendue d\u2019articles-sites n'est pas mise \u00e0 jour lorsqu'une ligne de r\u00e9ception li\u00e9e \u00e0 une commande d'achat est supprim\u00e9e",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -313,11 +313,11 @@
                         },
                         {
                             "key": "XT-36988",
-                            "title": "Les champs obligatoires ne sont pas correctement mis en surbrillance lors de la cr\u00e9ation de nouveaux enregistrements",
+                            "title": "Les champs obligatoires ne sont pas correctement signal\u00e9s lors de la cr\u00e9ation de nouveaux enregistrements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Lorsque vous cr\u00e9ez un site, une entit\u00e9 commerciale, un client ou un fournisseur :<br/>- le champ SIRET s'affiche lorsque vous s\u00e9lectionnez la France comme pays. Il est obligatoire si la soci\u00e9t\u00e9 est l'entit\u00e9 juridique ,<br/>- le champ N\u00b0 TVA s'affiche toujours, et il est obligatoire lorsque vous s\u00e9lectionnez un pays autre que les \u00c9tats-Unis.",
+                                    "content": "Lorsque vous cr\u00e9ez un site, une entit\u00e9 commerciale, un client ou un fournisseur :<br/>- le champ SIRET s'affiche lorsque vous s\u00e9lectionnez la France comme pays. Il est obligatoire si la soci\u00e9t\u00e9 est l'entit\u00e9 juridique,<br/>- le champ N\u00b0 TVA s'affiche toujours et il est obligatoire lorsque vous s\u00e9lectionnez un pays autre que les \u00c9tats-Unis.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -354,7 +354,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour les documents d'achat, vous pouvez attribuer des sections et des attributs par d\u00e9faut au site et au fournisseur. Les valeurs par d\u00e9faut pour le site peuvent s'appliquer aux r\u00e9ceptions d\u2019achat, factures d'achat, avoirs d'achat et factures de vente. Ces valeurs sont d\u00e9finies dans les pages <b>Site</b> et <b>Soci\u00e9t\u00e9</b>.</p><p>Les valeurs par d\u00e9faut pour le fournisseur peuvent s'appliquer aux commandes d\u2019achat, r\u00e9ceptions d'achat et factures d'achat directes. Ces valeurs sont d\u00e9finies dans la page <b>Fournisseur</b>.</p><p>Pour les documents de stock, vous pouvez attribuer des sections et des attributs par d\u00e9faut \u00e0 un site. Ces valeurs par d\u00e9faut peuvent s'appliquer aux pages des inventaires, des  changements de valeur de stock et aux changements de valeur de stock dans le volet <b>Co\u00fbts</b> de la page article-site.</p>",
+                                    "content": "<p>Pour les documents d'achat, vous pouvez attribuer des sections et des attributs par d\u00e9faut au site et au fournisseur. Les valeurs par d\u00e9faut pour le site peuvent s'appliquer aux r\u00e9ceptions d\u2019achat, factures d'achat, avoirs d'achat et factures de vente. Ces valeurs sont d\u00e9finies dans les pages <b>Site</b> et <b>Soci\u00e9t\u00e9</b>.</p><p>Les valeurs par d\u00e9faut pour le fournisseur peuvent s'appliquer aux commandes d\u2019achat, r\u00e9ceptions d'achat et factures d'achat directes. Ces valeurs sont d\u00e9finies dans la page <b>Fournisseur</b>.</p><p>Pour les documents de stock, vous pouvez attribuer des sections et des attributs par d\u00e9faut \u00e0 un site. Ces valeurs par d\u00e9faut peuvent s'appliquer aux pages des inventaires, des  changements de valeur de stock et aux changements de valeur de stock dans le volet <b>Co\u00fbts</b> de la page Article-site.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -470,7 +470,7 @@
             ]
         },
         {
-            "title": "Production,",
+            "title": "Production",
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
@@ -675,7 +675,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "La fonctionnalit\u00e9 de duplication a \u00e9t\u00e9 supprim\u00e9e pour les \u00e9l\u00e9ments suivants :<br/>- soci\u00e9t\u00e9 (Avalara),<br/>- taxe article (Avalara),<br/>- exon\u00e9ration entit\u00e9/usage (Avalara),<br/>- Historique de notification, <br/>- D\u00e9claration d'Echange de Biens, <br/>- nature de transaction, <br/>- proc\u00e9dure statistique, <br/>- Incoterms\u00ae",
+                                    "content": "La fonctionnalit\u00e9 de duplication a \u00e9t\u00e9 supprim\u00e9e pour les \u00e9l\u00e9ments suivants :<br/>- soci\u00e9t\u00e9 (Avalara),<br/>- taxe article (Avalara),<br/>- exon\u00e9ration entit\u00e9/usage (Avalara),<br/>- historique de notification, <br/>- D\u00e9claration d'Echange de Biens, <br/>- nature de transaction, <br/>- proc\u00e9dure statistique, <br/>- Incoterms\u00ae",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -708,7 +708,7 @@
                     "content_parts": [
                         {
                             "key": "XT-68576",
-                            "title": "Le bouton Solder l'ordre s\u2019affiche comme \u00e9tant Solder l'ordre de fabrication.",
+                            "title": "Le bouton Solder l'ordre s\u2019affiche avec le nom Solder l'ordre de fabrication",
                             "highlight": false,
                             "content_parts": [
                                 {

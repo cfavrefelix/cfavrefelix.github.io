@@ -398,7 +398,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you create a site, business entity, customer, or supplier:<br/>- The SIRET field displays when you select France as the country. It is required if Corporation is the legal entity.<br/>- The Tax ID field always displays, and it is required when you select any country other than the USA.",
+                                    "content": "When you create a site, business entity, customer or supplier:<br/>- The SIRET field displays when you select France as the country. It is required if Corporation is the legal entity.<br/>- The Tax ID field always displays, and it is required when you select any country other than the USA.",
                                     "taxonomies": "all"
                                 }
                             ],

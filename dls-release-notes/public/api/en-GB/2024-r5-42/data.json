@@ -39,9 +39,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -61,9 +58,58 @@
                                 ],
                                 "version": [
                                     "42.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63578",
+                            "title": "Business entity, Supplier, Customer and Site enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can easily view and manage contacts for an address on the Site, Customer, Supplier and Business entity pages.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "42.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62934",
+                            "title": "Authorisation enhancements: Shared data setup and Declarations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The shared data setup and declarations authorisation processes include the following improvements for accuracy and reduced time for implementation and maintenance:</p><ul><li>Updated permission text</li><li>Grouped permissions</li><li>Automatic reference lookup management</li><li>Standard roles updated</li><li>Menu item visibility corresponds to the user's rights</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "42.0.0"
                                 ]
                             }
                         }
@@ -78,9 +124,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-69355",
+                            "title": "Supplier and Customer activities consolidated with Business entity",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When assigning permissions on the Roles page, the Supplier and Customer activities are now included in Business entity permissions. When you grant permissions under Business entity, the same permissions apply to Supplier and Customer activities.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-67652",
                             "title": "Custom fields on the Sites page not saving",
@@ -148,9 +210,28 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-69967",
+                            "title": "Purchase Order Planning with Authorisation access control active",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Users with the requisite permissions can access Purchase order planning.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-69287",
                             "title": "The Stock inquiry page does not display the Item description field",
@@ -354,7 +435,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For purchasing documents, you can assign default dimensions and attributes for site and supplier. Site default values can apply to purchase receipts, purchase invoices, purchase credit notes and purchase invoices. These values are defined on the <b>Site</b> and <b>Company</b> pages.</p><p>Supplier default values can apply to purchase orders, purchase receipts and direct purchase invoices. These values are defined on the <b>Supplier</b> page.</p><p>For stock documents, you can assign default dimensions and attributes for a site. These default values can apply to stock counts, stock value changes and stock value changes in the item-site <b>Costs</b> panel.</p>",
+                                    "content": "<p>For purchasing documents, you can assign default dimensions and attributes for site and supplier. Site default values can apply to purchase receipts, purchase invoices, purchase credit notes and sales invoices. These values are defined on the <b>Site</b> and <b>Company</b> pages.</p><p>Supplier default values can apply to purchase orders, purchase receipts and direct purchase invoices. These values are defined on the <b>Supplier</b> page.</p><p>For stock documents, you can assign default dimensions and attributes for a site. These default values can apply to stock counts, stock value changes and stock value changes in the item-site <b>Costs</b> panel.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -364,9 +445,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -381,7 +459,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -437,9 +515,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -459,9 +534,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -521,9 +593,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -538,7 +607,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -607,25 +676,22 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-68420",
-                            "title": "Customer custom field causes report preview and generation to fail",
+                            "title": "Custom field prevents report preview and generation",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Custom field data are displayed in reports.",
+                                    "content": "Custom fields display in reports.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -635,16 +701,29 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Records are retrieved and displayed as the user scrolls.",
+                                    "content": "You can view all records when you scroll in a widget.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-66401",
+                            "title": "Line entry validation error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When entering a new line directly in a grid, you are able to tab through the fields, validate and add the line successfully.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "42.0.0"
                                 ]
                             }
                         }
@@ -666,7 +745,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -703,7 +782,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {

@@ -39,9 +39,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -61,9 +58,58 @@
                                 ],
                                 "version": [
                                     "42.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-63578",
+                            "title": "Am\u00e9liorations relatives \u00e0 l\u2019Entit\u00e9 commerciale, le Fournisseur, le Client et le Site",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez facilement afficher et g\u00e9rer les contacts d'une adresse dans les pages Site, Client, Fournisseur et Entit\u00e9 commerciale.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
                                 ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
+                                "version": [
+                                    "42.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-62934",
+                            "title": "Am\u00e9liorations des autorisations : param\u00e9trage des donn\u00e9es partag\u00e9es et d\u00e9clarations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les processus d'autorisation pour le param\u00e9trage des donn\u00e9es partag\u00e9es et les d\u00e9clarations regroupent des am\u00e9liorations visant \u00e0 apporter davantage de pr\u00e9cision et r\u00e9duire le temps de mise en \u0153uvre et de maintenance. Ces am\u00e9liorations sont les suivantes :</p><ul><li>r\u00e9vision des textes d'autorisation,</li><li>regroupement des autorisations,</li><li>gestion automatique de la recherche de r\u00e9f\u00e9rences,</li><li>mise \u00e0 jour des r\u00f4les standard,</li><li>affichage des entr\u00e9es de menu correspondant uniquement aux droits de l'utilisateur.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "42.0.0"
                                 ]
                             }
                         }
@@ -78,9 +124,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-69355",
+                            "title": "Activit\u00e9s Fournisseur et Client consolid\u00e9es avec l'Entit\u00e9 commerciale",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lors de l'attribution des autorisations dans la page R\u00f4les, les activit\u00e9s Fournisseur et Client sont d\u00e9sormais incluses dans les autorisations de l\u2019Entit\u00e9 commerciale. Lorsque vous accordez des autorisations au titre de l\u2019Entit\u00e9 commerciale, les m\u00eames autorisations s'appliquent aux activit\u00e9s Fournisseur et Client.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-67652",
                             "title": "Les champs personnalis\u00e9s ne s\u2019enregistrent pas dans la page Site",
@@ -148,9 +210,28 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-69967",
+                            "title": "Planification de commandes d'achat avec contr\u00f4le d'acc\u00e8s d'autorisation actif",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les utilisateurs disposant des autorisations n\u00e9cessaires peuvent acc\u00e9der \u00e0 la planification de commandes d'achat.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-69287",
                             "title": "La page de consultation de stock n'affiche pas le champ description de l'article",
@@ -364,9 +445,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -381,7 +459,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -437,9 +515,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         },
@@ -459,9 +534,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -521,9 +593,6 @@
                                 ],
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -538,7 +607,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -607,25 +676,22 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-68420",
-                            "title": "Un champ personnalis\u00e9 pour le client emp\u00eache l'aper\u00e7u et la g\u00e9n\u00e9ration de l\u2018\u00e9dition",
+                            "title": "Un champ personnalis\u00e9 bloque l'aper\u00e7u et la g\u00e9n\u00e9ration de l\u2018\u00e9dition",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les donn\u00e9es des champs personnalis\u00e9s sont affich\u00e9es dans les \u00e9ditions.",
+                                    "content": "Les champs personnalis\u00e9s sont affich\u00e9es dans les \u00e9ditions.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -635,16 +701,29 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les enregistrements sont r\u00e9cup\u00e9r\u00e9s et s\u2019affichent au fur et \u00e0 mesure que l'utilisateur fait d\u00e9filer le tableau de bord vers le bas.",
+                                    "content": "Vous pouvez afficher tous les enregistrements lorsque vous faites d\u00e9filer un widget.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "42.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-66401",
+                            "title": "Erreur de validation de saisie de ligne",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Lorsque vous saisissez une nouvelle ligne directement dans un tableau, vous pouvez naviguer d\u2019un champ \u00e0 un autre, valider et ajouter la ligne sans probl\u00e8me.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "42.0.0"
                                 ]
                             }
                         }
@@ -666,7 +745,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {
@@ -703,7 +782,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-69526,XT-69524,XT-69519,XT-69483,XT-68130,XT-68052)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R5 (42.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R5 (42.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-70566,XT-70017,XT-69721,XT-69526,XT-69524,XT-69522,XT-69519,XT-69483,XT-68130,XT-68052)"
                     ],
                     "content_parts": [
                         {

@@ -197,6 +197,28 @@
                                     "validated-by-po/pm"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-68771",
+                            "title": "Work order category default",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can indicate that a work order category ID is the default category to apply to new work orders. If selected, the default category is also applied to a work order created as a make-to-order (MTO) to meet a demand order such as a confirmed sales order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -430,7 +452,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Defaults</b> tab, these options simplify how you synchronize contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your SDMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. This prevents duplicates in contact lists when the primary address in SDMO is the same as the contact address in Sage Intacct.</p>",
+                                    "content": "<p>On the <b>Defaults</b> tab, these options simplify how you synchronize contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. This prevents duplicates in contact lists when the primary address in Sage DMO is the same as the contact address in Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -506,7 +528,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The MRP synchronization completes successfully without errors.<br/>BOMs delete automatically included if you select to Synchronize all records.",
+                                    "content": "The MRP synchronization completes successfully without errors.<br/>Deletion of BOMs is automatically included if you select to Synchronize all records.",
                                     "taxonomies": "all"
                                 }
                             ],

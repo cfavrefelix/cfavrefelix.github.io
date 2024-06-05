@@ -57,7 +57,7 @@
                     "content_parts": [
                         {
                             "key": "XT-63268",
-                            "title": "Other authorizations refactoring: package group",
+                            "title": "Other authorizations refactoring: Package group",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -356,7 +356,7 @@
                         },
                         {
                             "key": "XT-55670",
-                            "title": "Landed costs: purchase orders",
+                            "title": "Landed costs: Purchase orders",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -389,7 +389,7 @@
                     "content_parts": [
                         {
                             "key": "XT-51674",
-                            "title": "Calendar does not display correctly when creating purchase credit memo",
+                            "title": "Calendar does not display correctly when creating a purchase credit memo",
                             "highlight": false,
                             "content_parts": [
                                 {

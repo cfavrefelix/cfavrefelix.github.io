@@ -89,25 +89,6 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-69721",
-                            "title": " Address name allowed field length wrong error message",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Customer and Supplier address name character limit error is now correctly displayed as 80 characters.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "43.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-69526",
                             "title": "Address name field length limit",
                             "highlight": false,
@@ -125,7 +106,7 @@
                         },
                         {
                             "key": "XT-69524",
-                            "title": "Sage Intacct integration option: show display contact",
+                            "title": "Sage Intacct integration option: Show display contact",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -319,20 +300,17 @@
                         },
                         {
                             "key": "XT-68989",
-                            "title": "When creating a PO from MRP, it does not inherit the assigned supplier item price",
+                            "title": "When creating a purchase order from MRP, the assigned supplier item price is not inherited",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When creating a PO from an MRP calculation, the Supplier-item price is assigned.",
+                                    "content": "When creating a purchase order from an MRP calculation, the supplier item price is assigned.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -452,7 +430,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Defaults</b> tab, these options simplify how you synchronize contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. This prevents duplicates in contact lists when the primary address in Sage DMO is the same as the contact address in Sage Intacct.</p>",
+                                    "content": "<p>On the <b>Defaults</b> tab, these options simplify how you synchronize contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. It prevents a duplicate contact to display with the nested primary contact.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -543,7 +521,7 @@
                         },
                         {
                             "key": "XT-69483",
-                            "title": "Unable to change the work order start date if there is a text type component",
+                            "title": "Unable to change the work order start date if there is a text-type component",
                             "highlight": false,
                             "content_parts": [
                                 {

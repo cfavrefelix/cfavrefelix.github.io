@@ -28,6 +28,48 @@
     ],
     "releases": [
         {
+            "id": "2024-r6-43",
+            "title": "2024 R6 (June)",
+            "url": "/dls-release-notes/api/en-US/2024-r6-43/data.json",
+            "date": "June"
+        },
+        {
+            "id": "2024-r5-42",
+            "title": "2024 R5 (May)",
+            "url": "/dls-release-notes/api/en-US/2024-r5-42/data.json",
+            "date": "May"
+        },
+        {
+            "id": "2024-r4-41",
+            "title": "2024 R4 (April)",
+            "url": "/dls-release-notes/api/en-US/2024-r4-41/data.json",
+            "date": "April"
+        },
+        {
+            "id": "2024-r3-40",
+            "title": "2024 R3 (March)",
+            "url": "/dls-release-notes/api/en-US/2024-r3-40/data.json",
+            "date": "March"
+        },
+        {
+            "id": "2024-r2-39",
+            "title": "2024 R2 (February)",
+            "url": "/dls-release-notes/api/en-US/2024-r2-39/data.json",
+            "date": "February"
+        },
+        {
+            "id": "2024-r1-38",
+            "title": "January 2024",
+            "url": "/dls-release-notes/api/en-US/2024-r1-38/data.json",
+            "date": "January"
+        },
+        {
+            "id": "2024-r1-37",
+            "title": "2023 R12 (December)",
+            "url": "/dls-release-notes/api/en-US/2024-r1-37/data.json",
+            "date": "December"
+        },
+        {
             "id": "2024-r1-36",
             "title": "2023 R11 (November)",
             "url": "/dls-release-notes/api/en-US/2024-r1-36/data.json",

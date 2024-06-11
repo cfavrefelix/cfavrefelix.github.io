@@ -28,7 +28,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can select the user's billing role to facilitate the distinction between operational and business roles.</p><p>You can also\u00a0indicate if the user is external to the organization.</p><p>This update simplifies user access management by excluding external users, such as partner organization members, from the license billing process. This ensures precise user categorization and prevents unnecessary billing for external users, enhancing control over user access.</p>",
+                                    "content": "<p>You can select the user's billing role to facilitate the distinction between operational and business roles. Make sure you have the same number of operational and business users as in your contract.</p><p>You can also\u00a0indicate if the user is external to the organization. External users are mostly partner organization members. Partner users are excluded from the billing process.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -55,6 +55,25 @@
                         "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-68118",
+                            "title": "Create customers and suppliers from the Item page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve efficiency, you can add and edit supplier and customer information directly from the <b>Item</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-63268",
                             "title": "Other authorizations refactoring: Package group",
@@ -85,7 +104,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-70389)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
                     ],
                     "content_parts": [
                         {
@@ -95,22 +114,6 @@
                             "content_parts": [
                                 {
                                     "content": "You can enter an address name that contains up to 80 characters.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "43.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-69524",
-                            "title": "Sage Intacct integration option: Show display contact",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can update the Sage Intacct mapping showDisplayContact property.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -212,7 +215,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-70389)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
                     ],
                     "content_parts": [
                         {
@@ -242,9 +245,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "south-africa-zaf"
-                                ],
                                 "version": [
                                     "43.0.0"
                                 ]
@@ -313,6 +313,22 @@
                                     
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-51674",
+                            "title": "Calendar does not display correctly when creating a purchase credit memo",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The calendar displays correctly when you create a purchase credit memo from the purchase invoice page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -360,7 +376,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Landed costs functionality is available for purchase orders, so that costs can be processed before goods are received. The respective landed cost accrual and cost adjustment journal entries are automatically generated.</p>",
+                                    "content": "<p>Landed costs functionality is available for purchase orders so that costs can be processed before goods are received. The respective landed cost accrual and cost adjustment journal entries are automatically generated.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -368,36 +384,6 @@
                                 "software": [
                                     "multi-tenant"
                                 ],
-                                "version": [
-                                    "43.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
-                    "title": "Other updates",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-70389)"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-51674",
-                            "title": "Calendar does not display correctly when creating a purchase credit memo",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The calendar displays correctly when you create a purchase credit memo from the purchase invoice page.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
                                 "version": [
                                     "43.0.0"
                                 ]
@@ -466,11 +452,11 @@
                     "content_parts": [
                         {
                             "key": "XT-69786",
-                            "title": "Work orders: Mass print the job traveler and pick lists from the main list",
+                            "title": "Work orders: Mass print and close options from the main list",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>From the main list, you can select and print the job traveler and pick list for multiple work orders, and close work orders.<br/>To let you know that the print task is finished, a notification displays in the notification center. You can download the file from the notification.</p>",
+                                    "content": "<p>From the main list, you can select and print the job traveler and pick list for multiple work orders and close work orders.<br/>To let you know that the print task is finished, a notification displays in the notification center. You can download the file from the notification.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -497,7 +483,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-70389)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
                     ],
                     "content_parts": [
                         {
@@ -582,7 +568,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-70389)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
                     ],
                     "content_parts": [
                         {
@@ -628,46 +614,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "version": [
-                                    "43.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Reference Data",
-            "id": "reference-data",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Improvements",
-                    "taxonomies": {
-                        "_type": [
-                            "changes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Reference Data' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-68118",
-                            "title": "Create customers and suppliers from the Item page",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>To improve efficiency, you can add and edit supplier and customer information directly from the <b>Item</b> page.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
                                 "version": [
                                     "43.0.0"
                                 ]

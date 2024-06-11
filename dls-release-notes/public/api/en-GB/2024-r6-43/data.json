@@ -416,7 +416,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>Defaults</b> tab, these options simplify how you synchronise contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. It prevents a duplicate contact from displaying with the nested primary contact.\u00a0</p>",
+                                    "content": "<p>On the <b>Configuration</b> page, <b>Defaults</b> tab, these options simplify how you synchronise contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. It prevents a duplicate contact from displaying with the nested primary contact.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -1,0 +1,627 @@
+{
+    "id": "2024-r6-43",
+    "title": "2024 R6",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "date": "June",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-56356",
+                            "title": "User management for partners",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can select the user's billing role to facilitate the distinction between operational and business roles. Make sure you have the same number of operational and business users as in your contract.</p><p>You can also\u00a0indicate if the user is external to the organization. External users are mostly partner organization members. Partner users are excluded from the billing process.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68118",
+                            "title": "Create customers and suppliers from the Item page",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve efficiency, you can add and edit supplier and customer information directly from the <b>Item</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-63268",
+                            "title": "Other authorizations refactoring: Package group",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The authorizations for a group of packages include the following improvements for accuracy and reduced implementation and maintenance time:</p><ul><li>Updated permission text</li><li>Grouped permissions</li><li>Automatic reference lookup management</li><li>Standard roles updated</li><li>Menu item visibility corresponds to the user's rights</li></ul><p>The following packages are included:</p><ul><li>Scheduler</li><li>Dashboard</li><li>Import/Export</li><li>Synchronization</li><li>System</li><li>Communication</li><li>Customization</li><li>Reporting</li></ul><p>You can manage attachments from queries using the\u00a0<b>Attachment</b>\u00a0activity under the\u00a0<b>Upload</b>\u00a0package.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-69526",
+                            "title": "Address name field length limit",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can enter an address name that contains up to 80 characters.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69355",
+                            "title": "Supplier and Customer activities consolidated with Business entity",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When assigning permissions on the Roles page, the Supplier and Customer activities are now included in Business entity permissions. When you grant permissions under Business entity, the same permissions apply to Supplier and Customer activities.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-69534",
+                            "title": "Purchase order planning and Work order planning notifications",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To let you know that the task is finished, a notification displays in the notification center:</p><ul><li>When an MRP calculation request is completed, from the notification you can go to the <b>Purchase order planning</b> and <b>Work order planning</b> pages.<br/>The <b>Work order planning</b> page displays the work order category and type as optional, filterable columns on the main list.</li><li>When <b>Purchase order planning</b> or <b>Work order planning</b> has created the orders, from the notification you can go to a filtered list of the created orders in the main list on the <b>Purchase order</b> or <b>Work order</b> page.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-68771",
+                            "title": "Work order category default",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can indicate that a work order category ID is the default category to apply to new work orders. If selected, the default category is also applied to a work order created as a make-to-order (MTO) to meet a demand order such as a confirmed sales order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-70566",
+                            "title": "Purchase order and Work order planning: MRP recalculation fails to refresh correctly",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The refresh of the supply planning suggestions is based on the MRP calculation working data set, instead of its results.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-70017",
+                            "title": "Stock valuation remains in progress and prevents running the valuation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When the Authorization service option is active and you have item-site valuation permission, the status is no longer blocked at In progress and you can run the valuation.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69967",
+                            "title": "Purchase order planning with Authorization access control active",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Users with the requisite permissions can access Purchase order planning.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69519",
+                            "title": " MRP calculation fails",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An MRP calculation request that results in a large number of suggestions being created completes successfully without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69261",
+                            "title": "Stock receipt import template should not include stock transaction",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The current stock receipt import template, StockReceipt, was renamed to StockReceiptExport and set to export only.<br/>A new stock receipt import template, StockReceipt, was created without the stock transaction node.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-68989",
+                            "title": "When creating a purchase order from MRP, the assigned supplier item price is not inherited",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a purchase order from an MRP calculation, the supplier item price is assigned.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-51674",
+                            "title": "Calendar does not display correctly when creating a purchase credit memo",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The calendar displays correctly when you create a purchase credit memo from the purchase invoice page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60320",
+                            "title": "Task dimension management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The task dimension simplifies capturing task data for projects when you enter transactions. A task needs to be linked to a unique project, but a project can have multiple tasks.</p><p>If you integrate with Sage Intacct, you can create, update, and delete tasks when you synchronize.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-55670",
+                            "title": "Landed costs: Purchase orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Landed costs functionality is available for purchase orders so that costs can be processed before goods are received. The respective landed cost accrual and cost adjustment journal entries are automatically generated.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Integration",
+            "id": "integration",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-69527",
+                            "title": "Sage Intacct: Contact options",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the <b>Configuration</b> page, <b>Defaults</b> tab, these options simplify how you synchronize contacts:</p><p><b>Reset contact list</b>: You can overwrite customer and supplier records in Sage Intacct with your Sage DMO records.</p><p><b>Contact list category name</b>: You can apply predefined category names to the Sage Intacct customer and supplier contact lists.</p><p><b>Exclude display contact from the contact list</b>: This setting matches\u00a0the <b>Exclude from company contact list</b> checkbox in Sage Intacct. It prevents a duplicate contact from displaying with the nested primary contact.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-69786",
+                            "title": "Work orders: Mass print and close options from the main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>From the main list, you can select and print the job traveler and pick list for multiple work orders and close work orders.<br/>To let you know that the print task is finished, a notification displays in the notification center. You can download the file from the notification.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "43.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-69522",
+                            "title": "MRP synchronization does not complete",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The MRP synchronization completes successfully without errors.<br/>Deletion of BOMs is automatically included if you select to Synchronize all records.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69483",
+                            "title": "Unable to change the work order start date if there is a text-type component",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can change the work order start date when the list of components includes a text line.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69351",
+                            "title": "Cannot enter a previous date as the work order start date",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can set the work order start date to a date in the past.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-68130",
+                            "title": "Material tracking: Unable to filter by the released item",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can filter for work orders to track by released item.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R6 (43.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R6 (43.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-71660,XT-71461,XT-70389)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68052",
+                            "title": "Sage Intacct mapping: Field errors in VENDOR object",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can reset the fields in the VENDOR object in Sage Intacct mapping without receiving an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-65338",
+                            "title": "Date format behaves differently depending on the login",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The selected locale is used to correctly format dates on the main list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-61074",
+                            "title": "Unable to duplicate or modify an existing role ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can duplicate standard roles delivered with your product.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "43.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

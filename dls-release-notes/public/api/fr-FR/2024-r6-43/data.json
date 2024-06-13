@@ -80,7 +80,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Afin d\u2019offrir une plus grande pr\u00e9cision et de r\u00e9duire le temps de mise en \u0153uvre et de maintenance, les autorisations pour un groupe de packages incluent les am\u00e9liorations suivantes :</p><ul><li>r\u00e9vision des textes d'autorisation,</li><li>regroupement des autorisations,</li><li>gestion automatique de la recherche de r\u00e9f\u00e9rences,</li><li>mise \u00e0 jour des r\u00f4les standard,</li><li>affichage des entr\u00e9es de menu correspondant uniquement aux droits de l'utilisateur.</li></ul><p>Les packages suivants sont concern\u00e9s :</p><ul><li>Scheduler</li><li>Tableau de bord</li><li>Imports/Exports</li><li>Synchronisation</li><li>Syst\u00e8me</li><li>Communication</li><li>Personnalisation</li><li>Reporting</li></ul><p>Vous pouvez g\u00e9rer les pi\u00e8ces jointes \u00e0 partir de requ\u00eates \u00e0 l'aide de l'activit\u00e9 <b>Pi\u00e8ce jointe</b> dans le package <b>T\u00e9l\u00e9charger</b>.</p>",
+                                    "content": "<p>Afin d\u2019offrir une plus grande pr\u00e9cision et de r\u00e9duire le temps de mise en \u0153uvre et de maintenance, les autorisations pour un groupe de packages incluent les am\u00e9liorations suivantes :</p><ul><li>r\u00e9vision des textes d'autorisation,</li><li>regroupement des autorisations,</li><li>gestion automatique de la recherche de r\u00e9f\u00e9rences,</li><li>mise \u00e0 jour des r\u00f4les standard,</li><li>affichage des entr\u00e9es de menu correspondant uniquement aux droits de l'utilisateur.</li></ul><p>Les packages suivants sont concern\u00e9s :</p><ul><li>Scheduler,</li><li>Tableau de bord,</li><li>Imports/Exports,</li><li>Synchronisation,</li><li>Syst\u00e8me,</li><li>Communication,</li><li>Personnalisation,</li><li>Reporting.</li></ul><p>Vous pouvez g\u00e9rer les pi\u00e8ces jointes \u00e0 partir de requ\u00eates \u00e0 l'aide de l'activit\u00e9 <b>Pi\u00e8ce jointe</b> dans le package <b>T\u00e9l\u00e9charger</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -188,7 +188,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous pouvez indiquer qu'un code cat\u00e9gorie d'ordre de fabrication est la cat\u00e9gorie par d\u00e9faut qui s\u2019appliquera aux nouveaux ordres de fabrication. Si la cat\u00e9gorie par d\u00e9faut est s\u00e9lectionn\u00e9e, elle s\u2019applique \u00e9galement \u00e0 un ordre de fabrication cr\u00e9\u00e9 comme une fabrication \u00e0 la commande pour r\u00e9pondre \u00e0 une demande, telle qu'une commande de vente confirm\u00e9e.</p>",
+                                    "content": "<p>Vous pouvez pr\u00e9ciser qu'un code cat\u00e9gorie d'ordre de fabrication est la cat\u00e9gorie par d\u00e9faut qui s\u2019appliquera aux nouveaux ordres de fabrication. Si la cat\u00e9gorie par d\u00e9faut est s\u00e9lectionn\u00e9e, elle s\u2019applique \u00e9galement \u00e0 un ordre de fabrication cr\u00e9\u00e9 comme une fabrication \u00e0 la commande pour r\u00e9pondre \u00e0 une demande, telle qu'une commande de vente confirm\u00e9e.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -224,7 +224,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "L'actualisation des suggestions de planification d\u2019approvisionnements se base sur l'ensemble des donn\u00e9es de travail du calcul de CBN au lieu des r\u00e9sultats uniquement.",
+                                    "content": "L'actualisation des suggestions de planification d\u2019approvisionnements se base sur l'ensemble des donn\u00e9es de travail du calcul de CBN au lieu de se baser uniquement sur les r\u00e9sultats.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -284,11 +284,11 @@
                         },
                         {
                             "key": "XT-69261",
-                            "title": "Le mod\u00e8le d'importation des r\u00e9ceptions de stock ne doit pas inclure la transaction de stock",
+                            "title": "Le mod\u00e8le d'import des r\u00e9ceptions de stock ne doit pas inclure la transaction de stock",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Le mod\u00e8le d'import actuel des r\u00e9ceptions de stock, StockReceipt, a \u00e9t\u00e9 renomm\u00e9 StockReceiptExport. Il peut \u00eatre utilis\u00e9 uniquement pour exporter des donn\u00e9es.<br/>Un nouveau mod\u00e8le d'import de r\u00e9ceptions de stock, StockReceipt, a \u00e9t\u00e9 cr\u00e9\u00e9 sans le node de transaction de stock.",
+                                    "content": "Le mod\u00e8le d'import actuel des r\u00e9ceptions de stock, StockReceipt, a \u00e9t\u00e9 renomm\u00e9 StockReceiptExport. Il est utilis\u00e9 uniquement pour exporter des donn\u00e9es.<br/>Un nouveau mod\u00e8le d'import de r\u00e9ceptions de stock, StockReceipt, a \u00e9t\u00e9 cr\u00e9\u00e9 sans le node de transaction de stock.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -357,7 +357,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>La section de type t\u00e2che simplifie la capture des donn\u00e9es relatives aux t\u00e2ches d\u2019affaires lorsque vous renseignez des transactions. Une t\u00e2che doit \u00eatre li\u00e9e \u00e0 une affaire unique, mais une affaire peut comporter plusieurs t\u00e2ches.</p><p>Si vous int\u00e9grez Sage Intacct, vous pouvez cr\u00e9er, mettre \u00e0 jour et supprimer des t\u00e2ches lors de la synchronisation.</p>",
+                                    "content": "<p>La section de type t\u00e2che simplifie la capture des donn\u00e9es relatives aux t\u00e2ches d\u2019affaires lorsque vous renseignez des transactions. Une t\u00e2che doit \u00eatre li\u00e9e \u00e0 une affaire unique, mais une affaire peut comporter plusieurs t\u00e2ches.</p><p>Si vous int\u00e9grez Sage Intacct, vous pouvez cr\u00e9er des t\u00e2ches, les mettre \u00e0 jour et les supprimer lors de la synchronisation.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -524,7 +524,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Vous pouvez d\u00e9finir la date de d\u00e9but de l\u2019ordre de fabrication sur une date pass\u00e9e.",
+                                    "content": "Vous pouvez d\u00e9finir la date de d\u00e9but d\u2019un ordre de fabrication sur une date pass\u00e9e.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -573,7 +573,7 @@
                     "content_parts": [
                         {
                             "key": "XT-68052",
-                            "title": "Mapping Sage Intacct : erreurs de champ dans l'objet VENDOR (fournisseur)",
+                            "title": "Mapping Sage Intacct : erreurs de champs dans l'objet VENDOR (fournisseur)",
                             "highlight": false,
                             "content_parts": [
                                 {

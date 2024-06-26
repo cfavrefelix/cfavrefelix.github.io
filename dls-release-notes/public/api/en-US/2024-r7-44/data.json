@@ -263,7 +263,7 @@
                     "content_parts": [
                         {
                             "key": "XT-70247",
-                            "title": "Stock cost adjustment for a released item that is no longer in stock",
+                            "title": "Stock cost adjustment for a FIFO item that is no longer in stock",
                             "highlight": false,
                             "content_parts": [
                                 {

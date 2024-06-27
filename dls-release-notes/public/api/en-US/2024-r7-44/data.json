@@ -12,39 +12,6 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-70953",
-                            "title": "Sales shipment: Pick list and packing slip mass printing",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You can select and print multiple pick lists or packing slips from the <b>Sales shipment</b> main list. When complete, you can download them from the Notification center.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "44.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
                     "title": "Improvements",
                     "taxonomies": {
                         "_type": [
@@ -85,6 +52,39 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-70953",
+                            "title": "Sales shipment: Pick list and packing slip mass printing",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can select and print multiple pick lists or packing slips from the <b>Sales shipment</b> main list. When complete, you can download them from the Notification center.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "44.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Other updates",
                     "taxonomies": {
                         "_type": [
@@ -96,24 +96,8 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-71660",
-                            "title": "Purchase order line inquiry only returns up to 20 records and doesn't respect filters",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Selection criteria are correclty applied on the purchase order line inquiry. The result displays up to 500 lines.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "44.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-71651",
-                            "title": "Stock valuation stays In Progress after running",
+                            "title": "Stock valuation stays In progress after running",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -424,9 +408,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "united-states-usa"
-                                ],
                                 "version": [
                                     "44.0.0"
                                 ]

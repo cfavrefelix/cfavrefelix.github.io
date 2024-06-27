@@ -61,7 +61,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To maintain data integrity, you have the option to reset sequence numbers when you reset a tenant.</p>",
+                                    "content": "<p>To improve data management, you have the option to reset sequence numbers when you reset a tenant.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -234,7 +234,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When assigning default dimensions and attributes on the <b>Company</b> page, you can set default dimension rules based on the item.</p><p>Dimensions and attributes can default from the item for purchasing, sales, stock, and manufacturing documents on the line level for each item.</p><p>For an item, you can enter dimensions that default based on the rules you defined for the company.</p>",
+                                    "content": "<p>When assigning default dimensions and attributes on the <b>Company</b> page, you can set default dimension rules based on the item. On the <b>Item</b> page, you can enter dimensions that default based on the rules you defined for the company.</p><p>Dimensions and attributes can default from the item for purchasing, sales, stock, and manufacturing documents on the line level for each item.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -267,7 +267,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a work order is closed for an item with FIFO or average cost valuation, any difference from the planned cost is balanced with an actual cost adjustment to increase or decrease the unit cost of the produced stock. When the current stock on hand is less than the produced quantity or is no longer in stock, a unit cost adjustment amount is recorded as a not absorbed cost and posted as a production variance on a journal entry.</p>",
+                                    "content": "<p>When a work order is closed for an item with FIFO or average cost valuation, any difference from the planned cost is balanced with an actual cost adjustment to increase or decrease the unit cost of the produced stock.</p><p>When the current stock on hand is less than the produced quantity or is no longer in stock, a unit cost adjustment amount is recorded as a not absorbed cost and posted as a production variance on a journal entry.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -353,7 +353,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can import work order operations time trackings. The time tracking transaction generates automatically to update the work orders,</p>",
+                                    "content": "<p>You can import work order operations time trackings. The time tracking transaction generates automatically to update the work orders.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -382,7 +382,7 @@
                     "content_parts": [
                         {
                             "key": "XT-72340",
-                            "title": "BOM item reference available on the Item Manufacturing tab",
+                            "title": "BOM item reference available on the Item page",
                             "highlight": false,
                             "content_parts": [
                                 {

@@ -267,7 +267,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a work order is closed for an item with FIFO or average cost valuation, any difference from the planned cost is balanced with an actual cost adjustment to increase or decrease the unit cost of the produced stock.</p><p>When the current stock on hand is less than the produced quantity or is no longer in stock, a unit cost adjustment amount is recorded as a not absorbed cost and posted as a production variance on a journal entry.</p>",
+                                    "content": "<p>When a work order is closed for an item with FIFO or average cost valuation, any difference from the planned cost is balanced with an actual cost adjustment to increase or decrease the unit cost of the produced stock. When the current stock on hand is less than the produced quantity or is no longer in stock, a unit cost adjustment amount is recorded as a not absorbed cost and posted as a production variance on a journal entry.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

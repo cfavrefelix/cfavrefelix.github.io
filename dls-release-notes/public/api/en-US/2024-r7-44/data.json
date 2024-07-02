@@ -113,7 +113,7 @@
                         },
                         {
                             "key": "XT-71476",
-                            "title": "Cannot create zero price purchase receipt",
+                            "title": "Cannot create a zero price purchase receipt",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -280,20 +280,17 @@
                     "content_parts": [
                         {
                             "key": "XT-72620",
-                            "title": "Unbilled AP/AR Report errors",
+                            "title": "Unbilled accounts payable and receivable errors",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "For the calculation of unbilled amounts in Unbilled accounts payable resp. receivable queries the invoice date is now correctly taken into instead of the generation date of an invoice.",
+                                    "content": "When running the unbilled accounts payable or unbilled accounts receivable inquires, the invoice date is taken into consideration instead of the invoice generation date.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -469,9 +466,6 @@
                                 ],
                                 "version": [
                                     "44.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }

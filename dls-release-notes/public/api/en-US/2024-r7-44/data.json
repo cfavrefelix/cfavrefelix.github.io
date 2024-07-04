@@ -9,7 +9,7 @@
             "id": "intro",
             "type": "intro",
             "title": "Introduction",
-            "content": "<p>\n  <span class='image-wrap'>\n    <a rel='nofollow noopener' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20release%20June%20R6%20Final.mp4'>\n      <img style='border: 0px solid black' width='33' height='33' src='https://jira.sage.com/secure/attachment/1166330/intro.png' />\n    </a>\n    <yield> Check out what's new in the </yield>\n    <a rel='nofollow noopener' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20release%20June%20R6%20Final.mp4'>2024 R7</a>\n    <yield> release.</yield>\n  </span>\n</p>",
+            "content": "<p><span class='image-wrap'><img style='border: 0px solid black' width='33' height='33' src='https://jira.sage.com/secure/attachment/1166330/intro.png' /><yield> </yield><yield>Check out what's new in the </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20release%20June%20R6%20Final.mp4'>2024 R7</a><yield> release.</yield></span>\n</p>",
             "taxonomies": "all"
         },
         {

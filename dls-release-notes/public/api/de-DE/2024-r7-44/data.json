@@ -456,7 +456,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Wenn nur ein m\u00f6glicher Wert f\u00fcr ein Pflichtfeld vorhanden ist, wird dieser Wert automatisch ausgew\u00e4hlt. Dies kann das Ergebnis von Benutzerberechtigungen sein oder wenn nur ein aktiver Datensatz vorhanden ist, zum Beispiel nur ein Lieferant oder Standort. Beispiel: Wenn Benutzerberechtigungen den Zugriff auf einen einzelnen Standort bei der Erstellung neuer Dokumente einschr\u00e4nken, wird dieser Standort automatisch ausgew\u00e4hlt.</p>",
+                                    "content": "<p>Wenn nur ein m\u00f6glicher Wert f\u00fcr ein Pflichtfeld vorhanden ist, wird dieser Wert automatisch ausgew\u00e4hlt. Dies kann das Ergebnis von Benutzerberechtigungen sein, oder wenn nur ein aktiver Datensatz vorhanden ist, zum Beispiel nur ein Lieferant oder Standort. Beispiel: Wenn Benutzerberechtigungen den Zugriff auf einen einzelnen Standort bei der Erstellung neuer Dokumente einschr\u00e4nken, wird dieser Standort automatisch ausgew\u00e4hlt.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -485,11 +485,11 @@
                     "content_parts": [
                         {
                             "key": "XT-71730",
-                            "title": "GraphQL-Abfragen Filtern der Syntaxen f\u00fcr Datumsverwaltung und DateTime-Vergleich",
+                            "title": "GraphQL-Abfragen: Filtern der Syntaxen f\u00fcr Datumsverwaltung und DateTime-Vergleich",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sie k\u00f6nnen Eigenschaften vergleichen und Datumsoperatoren verwenden.</p><p>Weitere Informationen entnehmen Sie der Dokumentation \u00fcber <a href=\"https://developer.sage.com/sdmo/guides/graphql/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">APIs</a> (nur auf Englisch verf\u00fcgbar).</p>",
+                                    "content": "<p>Sie k\u00f6nnen Eigenschaften vergleichen und Datumsoperatoren verwenden.</p><p>Weitere Informationen entnehmen Sie der Dokumentation \u00fcber APIs (<a href=\"https://developer.sage.com/sdmo/guides/graphql/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">GraphQL</a>, nur auf Englisch verf\u00fcgbar).</p>",
                                     "taxonomies": "all"
                                 }
                             ],

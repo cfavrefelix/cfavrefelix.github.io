@@ -284,7 +284,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When running the unbilled accounts payable or unbilled accounts receivable inquires, the invoice date is taken into consideration instead of the invoice generation date.",
+                                    "content": "When running the unbilled accounts payable or unbilled accounts receivable inquiries, the invoice date is taken into consideration instead of the invoice generation date.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -386,7 +386,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To complete tasks efficiently, you can view how an item relates to a bill-of-material on the <b>Manufacturing</b> tab on the <b>Items</b> page.</p>",
+                                    "content": "<p>To complete tasks efficiently, you can view how an item relates to a bill of material on the <b>Manufacturing</b> tab on the <b>Item</b> page.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

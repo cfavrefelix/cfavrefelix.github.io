@@ -6,6 +6,13 @@
     "date": "Juillet",
     "content_parts": [
         {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p><span class='image-wrap'><yield>D\u00e9couvrez les nouveaut\u00e9s de la release 2024 R7 </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20release%20July%20R7%20final%201.mp4'></a><yield>.</yield></span>\n</p>",
+            "taxonomies": "all"
+        },
+        {
             "title": "Donn\u00e9es de base",
             "id": "common",
             "type": "module",
@@ -92,7 +99,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-69268)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-72620,XT-71706,XT-69268)"
                     ],
                     "content_parts": [
                         {
@@ -149,7 +156,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Vous pouvez approuver une commande d'achat dont la valeur est nulle.",
+                                    "content": "Vous pouvez approuver une commande d'achat avec un prix nul.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -275,25 +282,9 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-69268)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-72620,XT-71706,XT-69268)"
                     ],
                     "content_parts": [
-                        {
-                            "key": "XT-72620",
-                            "title": "Erreurs dans les factures non parvenues et les factures \u00e0 \u00e9mettre",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Lors de la consultation des factures non parvenues ou des factures \u00e0 \u00e9mettre, la date de facture est prise en compte au lieu de la date de g\u00e9n\u00e9ration de la facture.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    
-                                ]
-                            }
-                        },
                         {
                             "key": "XT-72285",
                             "title": "Achats et ventes\u00a0: le contr\u00f4le de d\u00e9termination des comptes reste actif lorsque la comptabilisation du stock est d\u00e9sactiv\u00e9e",
@@ -386,7 +377,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour effectuer des t\u00e2ches de fa\u00e7on efficace, vous pouvez voir comment un article est li\u00e9 \u00e0 une nomenclature dans l'onglet <b>Production</b> de la page <b>Article</b>.</p>",
+                                    "content": "<p>Pour effectuer des t\u00e2ches de fa\u00e7on efficace, vous pouvez voir le lien entre un article et une nomenclature dans l'onglet <b>Production</b> de la page <b>Article</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -410,7 +401,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-69268)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-72620,XT-71706,XT-69268)"
                     ],
                     "content_parts": [
                         {
@@ -513,7 +504,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-69268)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-72620,XT-71706,XT-69268)"
                     ],
                     "content_parts": [
                         {
@@ -548,6 +539,46 @@
                             "taxonomies": {
                                 "version": [
                                     "44.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de R\u00e9f\u00e9rence",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Autres mises \u00e0 jour",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R7 (44.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R7 (44.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-73305,XT-72892,XT-72620,XT-71706,XT-69268)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73313",
+                            "title": "Le nombre de caract\u00e8res des codes client et fournisseur d\u00e9passe la limite autoris\u00e9e dans Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les codes des entit\u00e9s commerciale, clients, fournisseurs et sites sont d\u00e9sormais limit\u00e9s \u00e0 20 caract\u00e8res.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         }

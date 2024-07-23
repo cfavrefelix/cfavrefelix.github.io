@@ -6,6 +6,13 @@
     "date": "August",
     "content_parts": [
         {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p>Check out what's new in the 2024 R8 release.</p>",
+            "taxonomies": "all"
+        },
+        {
             "title": "Common",
             "id": "common",
             "type": "module",
@@ -24,11 +31,11 @@
                     "content_parts": [
                         {
                             "key": "XT-43390",
-                            "title": "Expense/Revenue account determination by tax",
+                            "title": "Expense or revenue account determination by tax",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For French and German legislations, posting class definitions include the option for a second criterion so that you have an additional level of account determination on a posting class. Instead of a single, generic account linked to an item posting class for example, you can define on the second level of accounts only used in a sales or expense journal entry line according to the underlying tax type of the business transaction. </p>",
+                                    "content": "<p>For French and German legislations, posting class definitions include the option for a second criterion so that you have an additional level of account determination on a posting class. Instead of a single, generic account linked to an item posting class for example, you can define a second level of accounts that are only used in a sales or expense journal entry line according to the underlying tax type of the business transaction. </p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -52,7 +59,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -89,7 +96,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -250,7 +257,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In preparation for DATEV integration, the following options are ready for you to use:</p><p><b>Contra accounts</b><br/>When you create a journal entry type, you can define a contra account type and contra account amount type that automatically populate the contra account when a journal entry is generated. Contra account information is included in the results for journal entry inquiries.</p><p><b>Tax information</b><br/>When applicable, you can see tax details for journal entry lines.</p><p>These 2 new features only apply to new journal entries.</p>",
+                                    "content": "<p>In preparation for DATEV integration, the following options are ready for you to use:</p><p><b>Contra accounts</b><br/>When you create a journal entry type, you can define a contra account type and contra account amount type that automatically populate the contra account when a journal entry is generated. Contra account information is included in the results for journal entry inquiries.</p><p><b>Tax information</b><br/>When applicable, you can see tax details for journal entry lines.</p><p>These features only apply to new journal entries.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -277,7 +284,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -286,7 +293,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When creating a work order without dimension or attributes from a sales order, you can update the missing dimensions.",
+                                    "content": "When creating a work order without dimensions or attributes from a sales order, you can update the missing information.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -339,7 +346,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You have more options to create customized reports to get better insight on your data, such as:</p><ul><li>A conditional block, that only includes data when specific conditions are met</li><li>A watermark that displays when printing a report</li><li>A default header and footer for list reports</li><li>An option to transfer reports from on tenant to another tenant from the <b>Import and export</b> page</li></ul>",
+                                    "content": "<p>You have more options to create customized reports to get better insight on your data, such as:</p><ul><li>A conditional block, that only includes data when specific conditions are met</li><li>A watermark that displays when printing a report</li><li>A default header and footer for list reports</li><li>An option to transfer reports from one tenant to another tenant from the <b>Import and export</b> page</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -403,7 +410,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -443,7 +450,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -500,7 +507,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The date format on reports print according to the user&#39;s language settings.",
+                                    "content": "The date format on reports prints according to the user&#39;s language settings.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -528,7 +535,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-74212,XT-73515)"
                     ],
                     "content_parts": [
                         {
@@ -614,7 +621,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Improvements include:</p><ul><li><b>Stock receipt</b> and <b>Stock issue</b> available as reason code options</li><li>Activate or deactivate reason codes</li><li>Capture and create stock reasons directly on the <b>Stock receipt</b>\u00a0and\u00a0<b>Stock issue</b>\u00a0pages</li></ul>",
+                                    "content": "<p>Options include:</p><ul><li><b>Stock receipt</b> and <b>Stock issue</b> available as reason code options</li><li>Activate or deactivate reason codes</li><li>Capture and create stock reasons directly on the <b>Stock receipt</b>\u00a0and\u00a0<b>Stock issue</b>\u00a0pages</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

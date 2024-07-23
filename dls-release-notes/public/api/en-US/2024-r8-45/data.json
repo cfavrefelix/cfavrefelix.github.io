@@ -1,0 +1,654 @@
+{
+    "id": "2024-r8-45",
+    "title": "2024 R8",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "date": "August",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-43390",
+                            "title": "Expense/Revenue account determination by tax",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For French and German legislations, posting class definitions include the option for a second criterion so that you have an additional level of account determination on a posting class. Instead of a single, generic account linked to an item posting class for example, you can define on the second level of accounts only used in a sales or expense journal entry line according to the underlying tax type of the business transaction. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73027",
+                            "title": "Incorrect data is displayed on a supplier record",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Purchasing tab of a supplier record, the Item column was removed.<br/><br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73969",
+                            "title": "Error in Purchase and Work order planning ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "If you enter an incorrect planned order date, the error message is updated to help with date selection.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73545",
+                            "title": "Stock valuation report displays blank values",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The stock valuation report no longer displays blank values.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "south-africa-zaf"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72892",
+                            "title": "Stock receipt import error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Stock receipt records that incorrectly display an error status can be posted correctly. The Stock status displays as Completed and the Status displays as Closed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72577",
+                            "title": "Cannot create a partial invoice in the line panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a partial purchase invoice for a purchase receipt by changing the quantity in the line panel.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72255",
+                            "title": "Purchase order address display error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you replace an address on a purchase order, the list of available addresses displays correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-71982",
+                            "title": "When creating a purchase order, the Order date changes incorrectly",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you create a purchase order, the Order date displays the date when you created the purchase order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-71706",
+                            "title": "Purchase invoice status does not update",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When the status of a purchase invoice does not update, you can select the status label in the header to recalculate and update the status.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69268",
+                            "title": "It is possible to post a stock document that is posted",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "After you post a stock document, the Post stock action is no longer available.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71092",
+                            "title": "DATEV prerequisites",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>In preparation for DATEV integration, the following options are ready for you to use:</p><p><b>Contra accounts</b><br/>When you create a journal entry type, you can define a contra account type and contra account amount type that automatically populate the contra account when a journal entry is generated. Contra account information is included in the results for journal entry inquiries.</p><p><b>Tax information</b><br/>When applicable, you can see tax details for journal entry lines.</p><p>These 2 new features only apply to new journal entries.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "germany-ger"
+                                ],
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73305",
+                            "title": "Material tracking error in finance notification history: Default dimensions not loaded",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a work order without dimension or attributes from a sales order, you can update the missing dimensions.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72620",
+                            "title": "Unbilled accounts payable and receivable errors",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When running the unbilled accounts payable or unbilled accounts receivable inquiries, the invoice date is taken into consideration instead of the invoice generation date.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72185",
+                            "title": "Reporting enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You have more options to create customized reports to get better insight on your data, such as:</p><ul><li>A conditional block, that only includes data when specific conditions are met</li><li>A watermark that displays when printing a report</li><li>A default header and footer for list reports</li><li>An option to transfer reports from on tenant to another tenant from the <b>Import and export</b> page</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72646",
+                            "title": "Manufacturing and Sales enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Time tracking</b></p><p>For greater visibility, <b>Planned run time</b> and <b>Planned setup time</b> fields are available on the <b>Time tracking</b> page.</p><p><b>Sales invoice and Sales shipment</b></p><p>To improve efficiency, the <b>Customer order reference</b> field is available on the <b>Sales invoice</b> and <b>Sales shipment</b> pages.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74145",
+                            "title": "Work order tracking error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can receive fewer than or more than the planned production quantity. If tracking quantities are used in production automatically, quantities are consumed in proportion to the actual quantity of the released item being tracked.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "united-states-usa"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74433",
+                            "title": "The pagination on a table is not working ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the supplier item price list, you can view more than 10 records by using the pagination arrows on the bottom of the grid.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74006",
+                            "title": "Sales order: Cannot apply and add new line in panel",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can add another line in a sales order from the side panel when you select Apply and add new.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73392",
+                            "title": "Item: Manufacturing and Documents tabs don't scroll indefinitely",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can scroll through lines on these tabs as you would on other pages.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72497",
+                            "title": "Reports in English (United Kingdom) display incorrect date format",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The date format on reports print according to the user&#39;s language settings.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference Data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75207,XT-74665,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73313",
+                            "title": "Customer and Supplier ID character limit exceeds limit in Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Business entity, Customer, Supplier, and Site IDs are limited to 20 characters.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68769",
+                            "title": "Stock journal inquiry improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The stock journal inquiry just got easier to use and has new options<b>:</b></p><ul><li>No limits on the number of lines you can export. You can export all lines or a selection.</li><li>Additional columns are available to provide more valuable results.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68359",
+                            "title": "Reason code enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Improvements include:</p><ul><li><b>Stock receipt</b> and <b>Stock issue</b> available as reason code options</li><li>Activate or deactivate reason codes</li><li>Capture and create stock reasons directly on the <b>Stock receipt</b>\u00a0and\u00a0<b>Stock issue</b>\u00a0pages</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64225",
+                            "title": "Sequence number improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Customer and supplier sequence numbers</b></p><p>To improve data management, you can manage customers and suppliers with sequence numbers.</p><p><b>Update sequence numbers</b></p><p>To maintain data integrity, you can update sequence number values.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -184,11 +184,11 @@
                         },
                         {
                             "key": "XT-71982",
-                            "title": "When creating a purchase order, the Order date changes incorrectly",
+                            "title": "When creating a purchase order, the order date changes incorrectly",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you create a purchase order, the Order date displays the date when you created the purchase order.",
+                                    "content": "When you create a purchase order, the order date displays the date when you created the purchase order.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -386,7 +386,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Time tracking</b></p><p>For greater visibility, <b>Planned run time</b> and <b>Planned setup time</b> fields are available on the <b>Time tracking</b> page.</p><p><b>Sales invoice and Sales shipment</b></p><p>To improve efficiency, the <b>Customer order reference</b> field is available on the <b>Sales invoice</b> and <b>Sales shipment</b> pages.</p>",
+                                    "content": "<p><b>Time tracking</b></p><p>For time tracking, you can set up planned run and setup times.</p><p><b>Sales invoice and Sales shipment</b></p><p>You can add the <b>Customer order reference</b> on the <b>Sales invoice</b> and <b>Sales shipment</b> pages to easily link sales documents to the customer purchase order.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -540,7 +540,7 @@
                     "content_parts": [
                         {
                             "key": "XT-73313",
-                            "title": "Customer and Supplier ID character limit exceeds limit in Sage Intacct",
+                            "title": "Customer and Supplier ID character limit exceeds the limit in Sage Intacct",
                             "highlight": false,
                             "content_parts": [
                                 {

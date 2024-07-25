@@ -56,6 +56,39 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72648",
+                            "title": "Sales enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can add the <b>Customer order reference</b> on the <b>Sales invoice</b> and <b>Sales shipment</b> pages to easily link sales documents to the customer purchase order.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Other updates",
                     "taxonomies": {
                         "_type": [
@@ -365,11 +398,11 @@
                     "content_parts": [
                         {
                             "key": "XT-72646",
-                            "title": "Manufacturing and Sales enhancements",
+                            "title": "Time tracking improvement",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Time tracking</b></p><p>For time tracking, you can set up planned run and setup times.</p><p><b>Sales invoice and Sales shipment</b></p><p>You can add the <b>Customer order reference</b> on the <b>Sales invoice</b> and <b>Sales shipment</b> pages to easily link sales documents to the customer purchase order.</p>",
+                                    "content": "<p>For time tracking, you can set up planned run and setup times.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -19,39 +19,6 @@
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-43390",
-                            "title": "Expense or revenue account determination by tax",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>For French and German legislations, posting class definitions include the option for a second criterion so that you have an additional level of account determination on a posting class. Instead of a single, generic account linked to an item posting class for example, you can define a second level of accounts that are only used in a sales or expense journal entry line according to the underlying tax type of the business transaction. </p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
                     "title": "Other updates",
                     "taxonomies": {
                         "_type": [
@@ -64,7 +31,7 @@
                     "content_parts": [
                         {
                             "key": "XT-73027",
-                            "title": "Incorrect data is displayed on a supplier record",
+                            "title": "Supplier record displays supplementary data",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -126,9 +93,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "south-africa-zaf"
-                                ],
                                 "version": [
                                     "45.0.0"
                                 ]
@@ -265,6 +229,25 @@
                                 "legislation": [
                                     "germany-ger"
                                 ],
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43390",
+                            "title": "Expense or revenue account determination by tax",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For French and German legislations, posting class definitions include the option for a second criterion so that you have an additional level of account determination on a posting class. Instead of a single, generic account linked to an item posting class for example, you can define a second level of accounts that are only used in a sales or expense journal entry line according to the underlying tax type of the business transaction. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
                                 "software": [
                                     "multi-tenant"
                                 ],
@@ -424,9 +407,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "united-states-usa"
-                                ],
                                 "version": [
                                     "45.0.0"
                                 ]

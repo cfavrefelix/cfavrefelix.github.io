@@ -273,7 +273,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>In preparation for DATEV integration, the following options are ready for you to use:</p><p><b>Contra accounts</b><br/>When you create a journal entry type, you can define a contra account type and contra account amount type that automatically populate the contra account when a journal entry is generated. Contra account information is included in the results for journal entry inquiries.</p><p><b>Tax information</b><br/>When applicable, you can see tax details for journal entry lines.</p><p>These features only apply to new journal entries.</p>",
+                                    "content": "<p>In preparation for DATEV integration, the following options are ready for you to use:</p><p><b>Contra accounts</b><br/>When you create a journal entry type, you can define a contra account type and contra account amount type that automatically populate the contra account when a journal entry is generated. Contra account information is included in the results for journal entry inquiries.</p><p><b>Tax information</b><br/>When applicable, you can see tax details for journal entry lines for French and German legislations.</p><p>These features only apply to new journal entries.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

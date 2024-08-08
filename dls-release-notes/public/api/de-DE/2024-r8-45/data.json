@@ -1,0 +1,690 @@
+{
+    "id": "2024-r8-45",
+    "title": "2024 R8",
+    "language": "de-DE",
+    "__archive": "/dls-release-notes/api/de-DE/archive.json",
+    "date": "August",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Einf\u00fchrung",
+            "content": "<p>Neues in der Version 2024 R8.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Allgemein",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73027",
+                            "title": "Lieferantendatensatz zeigt zus\u00e4tzliche Daten an",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Im Register \u201aEinkauf\u2018 eines Lieferantendatensatzes wurde die Spalte \u201aArtikel\u2018 entfernt.<br/><br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72648",
+                            "title": "Verbesserungen Verkauf",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie k\u00f6nnen die <b>Kundenauftragsreferenz</b> auf den Seiten <b>Verkaufsrechnung</b> und <b>Warenausgang</b> hinzuf\u00fcgen, um Verkaufsdokumente einfach mit der Kundenbestellung zu verkn\u00fcpfen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73969",
+                            "title": "Fehler in der Einkaufs- und Fertigungsauftragsplanung ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie ein falsches geplantes Auftragsdatum eingeben, wird die Fehlermeldung aktualisiert, um die Datumsauswahl zu erleichtern.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73545",
+                            "title": "Bestandsbewertungsreport zeigt leere Werte an",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Der Bestandsbewertungsreport zeigt keine leeren Werte mehr an.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73441",
+                            "title": "Umbenennung der Schaltfl\u00e4che \u201aDrucken\u2018 in \u201aLieferschein drucken\u2018 in der Hauptliste der Warenausg\u00e4nge",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Der Text der Schaltfl\u00e4che \u201aDrucken\u2018 wurde aktualisiert.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72892",
+                            "title": "Fehler beim Import von Bestandseing\u00e4ngen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bestandseingangsdatens\u00e4tze, die f\u00e4lschlicherweise einen Fehlerstatus anzeigen, k\u00f6nnen korrekt gebucht werden. Der Bestandsstatus zeigt den Wert \u201aErledigt\u2018 und der Status den Wert \u201aAbgeschlossen\u2018 an.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72577",
+                            "title": "Im Zeilenbereich kann keine Teilrechnung erstellt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen eine Teilrechnung f\u00fcr einen Wareneingang erstellen, indem Sie die Menge im Zeilenbereich \u00e4ndern.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72255",
+                            "title": "Fehler bei der Anzeige der Bestelladresse",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie eine Adresse in einer Bestellung ersetzen, wird die Liste der verf\u00fcgbaren Adressen korrekt angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-71982",
+                            "title": "Bei der Erstellung einer Bestellung \u00e4ndert sich das Bestelldatum falsch",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie eine Bestellung erstellen, zeigt das Bestelldatum das Datum an, an dem Sie die Bestellung erstellt haben.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-71706",
+                            "title": "Einkaufsrechnungsstatus wird nicht aktualisiert",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn der Status einer Einkaufsrechnung nicht aktualisiert wird, k\u00f6nnen Sie das Statuslabel im Kopfbereich ausw\u00e4hlen, um den Status neu zu berechnen und zu aktualisieren.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-69268",
+                            "title": "Es ist m\u00f6glich, ein Bestandsdokument zu buchen, das bereits gebucht ist",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Nachdem Sie ein Bestandsdokument gebucht haben, ist die Aktion \u201aBestand buchen\u2018 nicht mehr verf\u00fcgbar.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finanzen",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71092",
+                            "title": "DATEV-Voraussetzungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Zur Vorbereitung auf die DATEV-Integration stehen Ihnen folgende Optionen zur Verf\u00fcgung:</p><p><b>Gegenkonten</b><br/>Wenn Sie einen Buchungstyp erstellen, k\u00f6nnen Sie einen Gegenkontotyp und einen Gegenkontobetragstyp definieren, die das Gegenkonto automatisch ausf\u00fcllen, wenn eine Buchung generiert wird. Die Informationen zum Gegenkonto werden in den Ergebnissen von Buchungsabfragen ber\u00fccksichtigt.</p><p><b>Steuerinformationen</b><br/>Gegebenenfalls k\u00f6nnen Sie Steuerdetails f\u00fcr Buchungszeilen f\u00fcr die Rechtsordnungen Deutschland und Frankreich anzeigen.</p><p>Diese Funktionen gelten nur f\u00fcr neue Buchungen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-43390",
+                            "title": "Ermittlung Aufwands- oder Ertragskonto nach Steuern",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>F\u00fcr die Rechtsordnungen Deutschland und Frankreich enthalten die Buchungsklassendefinitionen die Option f\u00fcr ein zweites Kriterium, damit Sie eine zus\u00e4tzliche Ebene der Kontoermittlung f\u00fcr eine Buchungsklasse haben. Anstelle eines einzelnen, generischen Kontos, das mit einer Artikelbuchungsklasse verkn\u00fcpft ist, k\u00f6nnen Sie beispielsweise eine zweite Ebene von Konten definieren, die nur in einer Buchungszeile f\u00fcr Umsatz- oder Aufwandsbuchungen verwendet werden, je nach der zugrunde liegenden Steuerart der Gesch\u00e4ftstransaktion. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73305",
+                            "title": "Fehler bei der Materialr\u00fcckmeldung im Finanzbenachrichtigungsverlauf: Standardsektoren nicht geladen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Erstellung eines Fertigungsauftrags ohne Sektoren oder Attribute aus einem Verkaufsauftrag k\u00f6nnen Sie die fehlenden Informationen aktualisieren.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72620",
+                            "title": "Fehler bei nicht fakturierten Verbindlichkeiten und Forderungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Ausf\u00fchrung der Abfragen f\u00fcr nicht fakturierte Verbindlichkeiten oder nicht fakturierte Forderungen wird das Rechnungsdatum anstelle des Generierungsdatums der Rechnung ber\u00fccksichtigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Formulare & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72185",
+                            "title": "Verbesserungen Reporting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben mehr Optionen f\u00fcr die Erstellung benutzerdefinierter Reports, um bessere Einblicke in Ihre Daten zu erhalten, zum Beispiel:</p><ul><li>Ein bedingter Block, der nur Daten enth\u00e4lt, wenn bestimmte Bedingungen erf\u00fcllt sind</li><li>Ein Wasserzeichen, das beim Drucken eines Reports angezeigt wird</li><li>Eine Standard-Kopf- und -Fu\u00dfzeile f\u00fcr Listenreports</li><li>Eine Option zur \u00dcbertragung von Reports von einem Tenant zu einem anderen Tenant auf der Seite <b>Import und Export</b></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fertigung",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72646",
+                            "title": "Verbesserungen Zeitr\u00fcckmeldung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>F\u00fcr die Zeitr\u00fcckmeldung k\u00f6nnen Sie geplante Bearbeitungs- und R\u00fcstzeiten einrichten.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74145",
+                            "title": "Fehler Fertigungsauftragsr\u00fcckmeldung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Es kann weniger oder mehr als die geplante Fertigungsmenge eingehen. Wenn die R\u00fcckmeldungsmengen automatisch in der Produktion verwendet werden, werden die Mengen proportional zur tats\u00e4chlichen Menge des freigegebenen Artikels verbraucht, der r\u00fcckgemeldet wird.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plattform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74433",
+                            "title": "Seitennummerierung in Tabellen nicht korrekt ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In der Lieferantenartikelpreisliste k\u00f6nnen Sie mehr als 10 Datens\u00e4tze anzeigen, indem Sie die Seitennummerierungspfeile am Tabellenende verwenden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74006",
+                            "title": "Verkaufsauftrag: Es kann keine neue Zeile im Bereich angewendet und hinzugef\u00fcgt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen mit der Aktion \u201aAnwenden und neu hinzuf\u00fcgen\u2018 im Seitenbereich eine Zeile zu einem Verkaufsauftrag hinzuf\u00fcgen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73392",
+                            "title": "Artikel: Die Register \u201aFertigung\u2018 und \u201aDokumente\u2018 k\u00f6nnen nicht unbegrenzt durchgebl\u00e4ttert werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen in diesen Registern wie auf anderen Seiten durch die Zeilen bl\u00e4ttern.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-72497",
+                            "title": "Reports in englischer Sprache (en-GB) zeigen ein falsches Datumsformat an",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Das Datumsformat auf Reports wird entsprechend den Spracheinstellungen des Benutzers angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Referenzdaten",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73533,XT-73515)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73313",
+                            "title": "Das Zeichenlimit f\u00fcr Kunden- und Lieferanten-ID \u00fcberschreitet das zul\u00e4ssige Limit in Sage Intacct",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Gesch\u00e4ftsentit\u00e4ts-, Kunden-, Lieferanten- und Standort-IDs sind auf 20 Zeichen beschr\u00e4nkt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bestand",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68769",
+                            "title": "Verbesserungen Abfrage Bestandsjournal",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Die Abfrage Bestandsjournal ist jetzt einfacher zu bedienen und bietet neue Optionen<b>:</b></p><ul><li>Unbegrenzte Anzahl der Zeilen, die exportiert werden k\u00f6nnen. Sie k\u00f6nnen alle Zeilen oder eine Auswahl exportieren.</li><li>Zus\u00e4tzliche Spalten sind verf\u00fcgbar, um wertvollere Ergebnisse zu liefern.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Benutzerfreundlichkeit",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68359",
+                            "title": "Verbesserungen Grundcode",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Zu den Optionen geh\u00f6ren:</p><ul><li><b>Bestandseingang</b> und <b>Bestandsabgang</b> als Grundcode-Optionen verf\u00fcgbar</li><li>Aktivierung oder Deaktivierung von Grundcodes</li><li>Erfassung und Erstellung von Bestandsgr\u00fcnden direkt auf den Seiten <b>Bestandseingang</b> und <b>Bestandsabgang</b></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64225",
+                            "title": "Verbesserungen Nummernkreis",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Kunden- und Lieferantennummernkreise</b></p><p>Zur Verbesserung der Datenverwaltung k\u00f6nnen Sie Kunden und Lieferanten mit Nummernkreisen verwalten.</p><p><b>Nummernkreise aktualisieren</b></p><p>Um die Datenintegrit\u00e4t aufrechtzuerhalten, k\u00f6nnen Sie die Nummernkreiswerte aktualisieren.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

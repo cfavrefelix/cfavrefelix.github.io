@@ -1,0 +1,608 @@
+{
+    "id": "2024-r9-46",
+    "title": "2024 R9",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "date": "September",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p>Check out what's new in the 2024 R9 release.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-68004",
+                            "title": "Stock Receipt Enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Stock receipt number</b></p><p>The stock receipt number generates automatically from the default sequence number associated with it.</p><p><b>Single status</b></p><p>Stock receipt single status includes the stock receipt status, stock detail status, and stock status.</p><p><b>Filtering</b></p><p>You can filter by status.</p><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as:</p><ul><li>Reason</li><li>Status</li></ul><p><b>Main list row actions</b></p><p>You can perform several key actions from the main list to save time, such as:</p><ul><li>Set dimensions</li><li>Delete</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-64055",
+                            "title": "Items sequence number",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve data management, you can manage items with sequence numbers.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75005",
+                            "title": "Unable to reset Sage Intacct customer ID",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can reset the Sage Intacct customer ID when the synchronization status is in error or not integrated. This includes resetting IDs that are too long.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74212",
+                            "title": "Total excluding tax is calculated incorrectly for partial purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you create multiple purchase receipts from a single purchase order, the Total amount excluding tax is calculated correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-76539",
+                            "title": "A quantity of zero on a shipment prevents deleting the line",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You cannot enter a quantity of zero in a sales shipment line.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-76012",
+                            "title": "Stock adjustment status does not update",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update a stock adjustment status that is posted and displays incorrectly as In progress.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75988",
+                            "title": "Unable to add new standard cost",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Rounding stock change values was improved so that you can add a new standard cost.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "united-states-usa"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75311",
+                            "title": "Sales shipment: Incorrect status blocks allocation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update the sales shipment status to Shipped without error. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75207",
+                            "title": "Sales Shipments lines with stock status in error \"Item: Record not found: {\"_id\":\"xxx\"}\"",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can post a sales shipment where serial numbers have been assigned to items without an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75006",
+                            "title": "Allocate stock display error for purchase returns",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Allocate stock action is available on a purchase return with more than 10 lines.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74724",
+                            "title": "Location mass creation error when the same storage zone is created for more than 1 site",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You cannot use the same ID for storage zones across sites.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73515",
+                            "title": "Purchase order: Cannot modify lines when the status is variance approved",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can modify the lines of a purchase invoice when the status is Variance approved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75989",
+                            "title": "Unbilled accounts inquiries",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Unbilled accounts receivable</b> and <b>payable</b> inquiries include additional details, such as the original document date, which corresponds to the shipping date or receipt date, respectively.</p><p>These inquiries run in the background so that you can continue working until the process is finished.\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75168",
+                            "title": "US legislation: Stock receipt journal entry type posts incorrectly",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "For US legislation, the stock receipt journal entry type posts correctly to the stock receipt account type.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "united-states-usa"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74665",
+                            "title": "Cannot modify Adjusted amount on a purchase invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update the Adjusted amount on a purchase invoice when the status is Variance approved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Integration",
+            "id": "integration",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-52129",
+                            "title": "Sage Intacct integration: France",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Integrating  with Sage Intacct streamlines operations for French companies by eliminating manual processes and data entry. This seamless integration minimizes disruptions and supports the automated transfer of AP/AR invoices, credit memos, general ledger transactions, and master data. </p><p>Additionally, you can integrate and sync dimensions, projects, and tasks for a comprehensive, multi-dimensional view within your financial management system.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75503",
+                            "title": "The Allocate stock action is disabled on WO component lines ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Allocate stock action on work order component lines is available.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75308",
+                            "title": "Time tracking: Cannot add a new operation to a work order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can add a new operation to a work order from the Time tracking page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73533",
+                            "title": "Unable to exclude text components from work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Text components can be excluded or deleted from work orders.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75691",
+                            "title": "Unable to attach files",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can attach files successfully.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75099",
+                            "title": "New sales order line validation error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a sales order, you can add lines in the grid without a validation error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74660",
+                            "title": "Unable to duplicate an item with customer links",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can successfully duplicate items even if a customer is linked to the item.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73414",
+                            "title": "Manufacturing inquiries enhancement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve data sorting and visibility of manufacturing processes, you can use the Tracking date in the Production tracking line, Material tracking line, and Time tracking line inquiries.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73232",
+                            "title": "Warning message for inactive items",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A warning message displays when you duplicate or change the status of a document that contains an inactive item.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

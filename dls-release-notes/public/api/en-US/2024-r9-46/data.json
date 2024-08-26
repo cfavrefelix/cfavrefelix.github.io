@@ -31,7 +31,7 @@
                     "content_parts": [
                         {
                             "key": "XT-68004",
-                            "title": "Stock Receipt Enhancements",
+                            "title": "Stock receipt",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -140,16 +140,13 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You cannot enter a quantity of zero in a sales shipment line.",
+                                    "content": "You cannot enter a quantity of zero on a sales shipment line.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "46.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -206,26 +203,23 @@
                         },
                         {
                             "key": "XT-75207",
-                            "title": "Sales Shipments lines with stock status in error \"Item: Record not found: {\"_id\":\"xxx\"}\"",
+                            "title": "Sales shipment line error blocks posting shipments",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can post a sales shipment where serial numbers have been assigned to items without an error.",
+                                    "content": "You can post a sales shipment where serial numbers were assigned to items without an error.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "46.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-75006",
-                            "title": "Allocate stock display error for purchase returns",
+                            "title": "Allocate stock displays error for purchase returns",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -241,7 +235,7 @@
                         },
                         {
                             "key": "XT-74724",
-                            "title": "Location mass creation error when the same storage zone is created for more than 1 site",
+                            "title": "Location mass creation error when the same storage zone is created for multiple sites",
                             "highlight": false,
                             "content_parts": [
                                 {

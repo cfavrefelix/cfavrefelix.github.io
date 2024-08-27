@@ -258,7 +258,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can modify the lines of a purchase invoice when the status is Variance approved.",
+                                    "content": "You can modify the lines of a purchase invoice when the status is variance approved.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -295,7 +295,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Unbilled accounts receivable</b> and <b>payable</b> inquiries include additional details, such as the original document date, which corresponds to the shipping date or receipt date, respectively.</p><p>These inquiries run in the background so that you can continue working until the process is finished.\u00a0</p>",
+                                    "content": "<p>The <b>Unbilled accounts receivable</b> and <b>payable</b> inquiries include additional details, such as the original document date, which corresponds to the shipping date or receipt date, respectively.</p><p>These inquiries run in the background so that you can continue working. A message displays when complete.\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -324,7 +324,7 @@
                     "content_parts": [
                         {
                             "key": "XT-75168",
-                            "title": "US legislation: Stock receipt journal entry type posts incorrectly",
+                            "title": "Stock receipt journal entry type posts incorrectly",
                             "highlight": false,
                             "content_parts": [
                                 {

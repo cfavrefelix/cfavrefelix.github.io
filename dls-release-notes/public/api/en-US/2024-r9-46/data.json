@@ -177,9 +177,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "united-states-usa"
-                                ],
                                 "version": [
                                     "46.0.0"
                                 ]
@@ -406,6 +403,39 @@
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-60094",
+                            "title": "Phantom BOM",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create a phantom item to manage a bill of material as a subset of components to be used in work orders.</p><p>The phantom item cannot be purchased or sold. It needs to be defined before the item-site creation.</p><p>Its bill of material is exploded and used in the work order or in the finished product where it is used.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Other updates",

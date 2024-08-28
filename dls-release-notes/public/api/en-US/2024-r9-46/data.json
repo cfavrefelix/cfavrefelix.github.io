@@ -392,6 +392,46 @@
             ]
         },
         {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72567",
+                            "title": "Form templates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>The following reports include form report templates. You can use these templates to generate any one of these forms or go to the <b>Report templates</b> page where you can make a copy and edit to meet your specific business needs.</p><ul><li>Purchase order report</li><li>Sales order quote</li><li>Sales order confirmation</li><li>Sales shipment packing slip</li><li>Sales invoice</li><li>Sales credit memo</li><li>Proforma invoice</li></ul><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Integration",
             "id": "integration",
             "type": "module",
@@ -408,6 +448,25 @@
                         "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Integration' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-77555",
+                            "title": "Enable Sage Intacct integration ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can activate your Sage Intacct integration on the <b>Option Management</b> page. You can no longer do this on the <b>Service options</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-52129",
                             "title": "Sage Intacct integration: France",

@@ -1040,25 +1040,6 @@
                                     "45.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-72961",
-                            "title": "Improve conditional blocks on reports",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The visibility of sections within reports can be controlled using the Empty and Not empty operators.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -1104,70 +1085,6 @@
                             "taxonomies": {
                                 "version": [
                                     "46.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-74433",
-                            "title": "The pagination on a table is not working ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "On the supplier item price list, you can view more than 10 records by using the pagination arrows on the bottom of the grid.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-74006",
-                            "title": "Sales order: Cannot apply and add new line in panel",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can add another line in a sales order from the side panel when you select Apply and add new.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-73392",
-                            "title": "Item: Manufacturing and Documents tabs don't scroll indefinitely",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can scroll through lines on these tabs as you would on other pages.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-72497",
-                            "title": "Reports in English (United Kingdom) display incorrect date format",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The date format on reports prints according to the user&#39;s language settings.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
                                 ]
                             }
                         },

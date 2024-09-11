@@ -9,7 +9,7 @@
             "id": "intro",
             "type": "intro",
             "title": "Introduction",
-            "content": "<p>Check out what's new in the 2024 R9 release.</p>",
+            "content": "<p><span class='image-wrap'><yield>Check out what's new in the </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20September%202024%20release%20ENGLISH.mp4'>2024 R9</a><yield> release.</yield></span>\n</p>",
             "taxonomies": "all"
         },
         {
@@ -98,7 +98,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [
@@ -255,26 +255,23 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-76784",
-                            "title": "Dimensions are not recorded for attributes Project, Employe and task in Stock receipts",
+                            "title": "Dimensions are not recorded for the Project, Employee, and Task attributes on stock receipts",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Dimensions are recorded for the Project, Employee, and Task attributes in stock receipts after being saved.",
+                                    "content": "Dimensions are recorded for the Project, Employee, and Task attributes on stock receipts.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "46.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -380,16 +377,13 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You cannot use the same ID for storage zones across sites.",
+                                    "content": "It is not possible to use the same ID for storage zones across multiple sites.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "46.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -579,6 +573,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-57466",
+                            "title": "Unbilled accounts payable inquiry enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Data extraction performance is enhanced for the <b>Unbilled accounts payable inquiry</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "46.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-71092",
                             "title": "DATEV prerequisites",
                             "highlight": false,
@@ -661,7 +674,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [
@@ -919,7 +932,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [
@@ -998,6 +1011,40 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\")",
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72961",
+                            "title": "Improve conditional blocks on reports",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The visibility of sections within reports can be controlled using the Empty and Not Empty operators.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "45.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Other updates",
                     "taxonomies": {
                         "_type": [
@@ -1005,7 +1052,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [
@@ -1104,70 +1151,6 @@
                                     "45.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-74433",
-                            "title": "The pagination on a table is not working ",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "On the supplier item price list, you can view more than 10 records by using the pagination arrows on the bottom of the grid.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-74006",
-                            "title": "Sales order: Cannot apply and add new line in panel",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can add another line in a sales order from the side panel when you select Apply and add new.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-73392",
-                            "title": "Item: Manufacturing and Documents tabs don't scroll indefinitely",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can scroll through lines on these tabs as you would on other pages.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-72497",
-                            "title": "Reports in English (United Kingdom) display incorrect date format",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "The date format on reports prints according to the user&#39;s language settings.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "45.0.0"
-                                ]
-                            }
                         }
                     ]
                 }
@@ -1187,7 +1170,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-76932,XT-75691,XT-73827)",
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R9 (46.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R9 (46.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-78016,XT-77838,XT-77093,XT-76932,XT-75691,XT-73827)",
                         "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R8 (45.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R8 (45.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-75691,XT-75308,XT-75207,XT-75006,XT-74665,XT-74212,XT-73827,XT-73533,XT-73515)"
                     ],
                     "content_parts": [

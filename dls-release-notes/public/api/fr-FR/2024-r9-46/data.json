@@ -36,7 +36,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour vous aider \u00e0 d\u00e9terminer comment vous allez g\u00e9rer les valeurs par d\u00e9faut affect\u00e9es aux mouvements de stock, vous pouvez s\u00e9lectionner des emplacements de stockage par d\u00e9faut et des statuts de contr\u00f4le qualit\u00e9 en lien avec les donn\u00e9es article-site dans l'onglet <b>R\u00e8gles stock</b>. Les valeurs par d\u00e9faut ne s\u2019appliquent pas encore aux transactions de stock.</p>",
+                                    "content": "<p>Pour vous aider \u00e0 d\u00e9terminer comment g\u00e9rer les valeurs par d\u00e9faut affect\u00e9es aux mouvements de stock, vous pouvez s\u00e9lectionner des emplacements de stockage par d\u00e9faut et des statuts de contr\u00f4le qualit\u00e9 en lien avec les donn\u00e9es article-site dans l'onglet <b>R\u00e8gles stock</b>. Les valeurs par d\u00e9faut ne s\u2019appliquent pas encore aux transactions de stock.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -55,7 +55,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une r\u00e9ception de stock inclut le statut de la r\u00e9ception de stock, le statut d\u00e9tail stock et le statut de stock.</p><p><b>Filtrer</b></p><p>Vous pouvez filtrer les donn\u00e9es par statut.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple :</p><ul><li>Motif,</li><li>Statut.</li></ul><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer plusieurs actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps. Par exemple\u00a0:</p><ul><li>d\u00e9finir des sections,</li><li>supprimer.</li></ul>",
+                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une entr\u00e9e de stock inclut le statut de l\u2019entr\u00e9e de stock, le statut d\u00e9tail stock et le statut de stock.</p><p><b>Filtrer</b></p><p>Vous pouvez filtrer les donn\u00e9es par statut.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple :</p><ul><li>Motif,</li><li>Statut.</li></ul><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer plusieurs actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps. Par exemple\u00a0:</p><ul><li>d\u00e9finir des sections,</li><li>supprimer.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -437,7 +437,7 @@
                         },
                         {
                             "key": "XT-73441",
-                            "title": "Renommer le bouton \u00ab\u00a0Imprimer\u00a0\u00bb en \u00ab\u00a0Imprimer le bon de livraison\u00a0\u00bb dans la liste principale de la page Exp\u00e9dition de vente.",
+                            "title": "Renommer le bouton \u00ab\u00a0Imprimer\u00a0\u00bb en \u00ab\u00a0Imprimer le bon de livraison\u00a0\u00bb dans la liste principale de la page Exp\u00e9dition de vente",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -684,7 +684,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Pour la l\u00e9gislation am\u00e9ricaine, le type d'\u00e9criture Entr\u00e9e de stock est correctement comptabilis\u00e9 dans le type de compte Entr\u00e9e de stock. Le compte &#39;Entr\u00e9e de stock&#39; doit \u00eatre d\u00e9fini dans toutes les classes de comptabilisation d'articles pertinentes.",
+                                    "content": "Pour la l\u00e9gislation am\u00e9ricaine, le type d'\u00e9criture Entr\u00e9e de stock est correctement comptabilis\u00e9 dans le type de compte Entr\u00e9e de stock. Le compte \u00ab\u00a0Entr\u00e9e de stock\u00a0\u00bb doit \u00eatre d\u00e9fini dans toutes les classes de comptabilisation d'articles pertinentes.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -750,7 +750,7 @@
             ]
         },
         {
-            "title": "Formulaires et \u00e9ditions",
+            "title": "\u00c9ditions",
             "id": "forms-&-reports",
             "type": "module",
             "content_parts": [
@@ -769,11 +769,11 @@
                     "content_parts": [
                         {
                             "key": "XT-72567",
-                            "title": "Mod\u00e8les de type fiche",
+                            "title": "Mod\u00e8les d\u2019\u00e9dition de type fiche",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Les \u00e9ditions suivantes incluent des mod\u00e8les d\u2019\u00e9dition de type fiche. Vous pouvez utiliser ces mod\u00e8les pour g\u00e9n\u00e9rer une fiche, ou acc\u00e9der \u00e0 la page <b>Mod\u00e8les d\u2019\u00e9dition</b>, cr\u00e9er une copie et effectuer des modifications pour r\u00e9pondre \u00e0 vos besoins sp\u00e9cifiques.</p><ul><li>\u00c9dition de commande d'achat</li><li>Devis de commande de vente</li><li>Confirmation de commande de vente</li><li>Bon de livraison d'exp\u00e9dition de vente</li><li>Facture de vente</li><li>Avoir de vente</li><li>Facture proforma</li></ul>",
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Les \u00e9ditions ci-dessous sont livr\u00e9es avec des mod\u00e8les d\u2019\u00e9dition de type fiche. Vous pouvez utiliser ces mod\u00e8les pour g\u00e9n\u00e9rer une \u00e9dition de type fiche, ou acc\u00e9der \u00e0 la page <b>Mod\u00e8les d\u2019\u00e9dition</b>, cr\u00e9er une copie et effectuer des modifications pour r\u00e9pondre \u00e0 vos besoins sp\u00e9cifiques.</p><ul><li>\u00c9dition de commande d'achat</li><li>Devis de commande de vente</li><li>Confirmation de commande de vente</li><li>Bon de livraison d'exp\u00e9dition de vente</li><li>Facture de vente</li><li>Avoir de vente</li><li>Facture proforma</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -1094,7 +1094,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Dans la liste de prix des articles fournisseur, vous pouvez afficher plus de 10 enregistrements en utilisant les fl\u00e8ches de pagination en bas du tableau.",
+                                    "content": "Dans la liste de prix des articles fournisseurs, vous pouvez afficher plus de 10 enregistrements en utilisant les fl\u00e8ches de pagination en bas du tableau.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -1293,11 +1293,11 @@
                         },
                         {
                             "key": "XT-68359",
-                            "title": "Am\u00e9lioration des codes motifs",
+                            "title": "Am\u00e9lioration des codes motif",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Les options comprennent\u00a0:</p><ul><li>les <b>Entr\u00e9es de stock</b> et les <b>Sorties de stock</b> disponibles sous forme de codes motifs,</li><li>l\u2019activation ou la d\u00e9sactivation des codes motifs,</li><li>la saisie et la cr\u00e9ation de motifs de stock directement dans les pages <b>Entr\u00e9e de stock</b> et <b>Sortie de stock</b>.</li></ul>",
+                                    "content": "<p>Les am\u00e9liorations comprennent\u00a0:</p><ul><li>les codes motif pour les <b>Entr\u00e9es de stock</b> et les <b>Sorties de stock</b>,</li><li>l\u2019activation ou la d\u00e9sactivation des codes motif,</li><li>la s\u00e9lection et la cr\u00e9ation de motifs de stock directement dans les pages <b>Entr\u00e9e de stock</b> et <b>Sortie de stock</b>.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -1316,7 +1316,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Compteurs client et fournisseur</b></p><p>Pour am\u00e9liorer la gestion des donn\u00e9es, vous pouvez g\u00e9rer les clients et les fournisseurs avec des compteurs.</p><p><b>Actualiser les compteurs</b></p><p>Pour pr\u00e9server l\u2019int\u00e9grit\u00e9 des donn\u00e9es, vous pouvez actualiser les valeurs des compteurs.</p>",
+                                    "content": "<p><b>Compteurs client et fournisseur</b></p><p>Pour am\u00e9liorer la gestion des donn\u00e9es, vous pouvez g\u00e9rer les clients et les fournisseurs avec des compteurs.</p><p><b>Actualiser les compteurs</b></p><p>Pour pr\u00e9server l\u2019int\u00e9grit\u00e9 des donn\u00e9es, vous pouvez actualiser la valeur des compteurs.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

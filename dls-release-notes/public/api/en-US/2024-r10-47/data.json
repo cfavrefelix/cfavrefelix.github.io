@@ -472,7 +472,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Single status</b></p><p>Stock issue single status includes the stock issue status and stock status.</p><p><b>Main list row actions</b></p><p>You can perform key actions from the main list to save time, such as <b>Delete.</b></p><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as <b>Reason</b> and <b>Status</b>.</p>",
+                                    "content": "<p><b>Single status</b></p><p>Stock issue single status includes the stock issue status and stock status.</p><p><b>Main list row actions</b></p><p>You can perform key actions from the main list to save time such as <b>Delete.</b></p><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as <b>Reason</b> and <b>Status</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

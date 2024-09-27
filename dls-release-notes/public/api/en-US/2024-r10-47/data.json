@@ -222,7 +222,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The Sage Intacct customer credit limits are correctly sychronized with SDMO so you can update customer records as needed.",
+                                    "content": "The Sage Intacct customer credit limits are correctly synchronized with SDMO so you can update customer records as needed.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -346,7 +346,7 @@
                     "content_parts": [
                         {
                             "key": "XT-77112",
-                            "title": "Item descriptions longer than 80 characters prevents creating new BOMs and WOs",
+                            "title": "Item descriptions longer than 80 characters prevent creating new BOMs and WOs",
                             "highlight": false,
                             "content_parts": [
                                 {

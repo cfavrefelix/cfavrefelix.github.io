@@ -467,6 +467,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-74947",
+                            "title": "Default values in stock detail",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To help you manage default assignment values for stock movements related to stock receipts, sales return receipts, purchase receipts, and production trackings, you can select default storage locations and quality control statuses in relation to item-site data on the<br/><b>Stock rules</b> tab.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "47.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-68114",
                             "title": "Stock issue",
                             "highlight": false,

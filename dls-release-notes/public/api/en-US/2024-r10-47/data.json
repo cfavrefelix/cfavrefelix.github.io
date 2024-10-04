@@ -31,11 +31,11 @@
                     "content_parts": [
                         {
                             "key": "XT-74647",
-                            "title": "Total stock column",
+                            "title": "Total stock column on Item Sites tab",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To improve visibility of the total stock for an item per site, the <b>Total stock</b> column is displayed in the <b>Item-sites</b> grid, on the <b>Sites</b> tab of the <b>Item</b> page.</p>",
+                                    "content": "<p>To improve visibility of the total stock for an item per site, the <b>Total stock</b> column displays in the <b>Item-sites</b> grid, on the <b>Sites</b> tab of the <b>Item</b> page.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -59,7 +59,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
@@ -80,11 +80,11 @@
                         },
                         {
                             "key": "XT-73292",
-                            "title": "Ability to repost a stock document after refreshing the page",
+                            "title": "Ability to repost a stock document in progress",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You cannot repost a stock document after refreshing the page.",
+                                    "content": "You cannot repost a stock document where posting is in progress after refreshing the page.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -136,11 +136,11 @@
                         },
                         {
                             "key": "XT-68808",
-                            "title": "Purchase order line Inquiry",
+                            "title": "Purchase order line inquiry",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>The <b>Purchase order line</b> inquiry features infinite scrolling, allowing for a smoother, continuous exploration of results. You can group results by criteria such as company, purchasing site, supplier, order date, and purchase order number. And you can select one or multiple lines to export or export the entire inquiry result as a CSV file.</p>",
+                                    "content": "<p>The <b>Purchase order line</b> inquiry features infinite scrolling, allowing for a smoother, continuous exploration of results. You can group results by criteria such as company, purchasing site, supplier, order date, and purchase order number. You can select one or multiple lines to export or export the entire inquiry result as a CSV file.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -197,9 +197,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-78016",
+                            "title": "Cannot delete an unposted purchase invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can delete purchase invoices that are not posted.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "47.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-77385",
                             "title": "Purchase credit memo link does not work",
@@ -227,9 +243,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "united-states-usa"
-                                ],
                                 "version": [
                                     "47.0.0"
                                 ]
@@ -237,7 +250,7 @@
                         },
                         {
                             "key": "XT-76932",
-                            "title": "Material cost and standard cost calculations do not work",
+                            "title": "Cost calculation uses incorrect required quantity",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -341,12 +354,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-77112",
-                            "title": "Item descriptions longer than 80 characters prevent creating new BOMs and WOs",
+                            "title": "Item description character limit prevents the creation of new BOMs and WOs",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -378,28 +391,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-78016",
-                            "title": "Cannot delete an unposted purchase invoice",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can delete purchase invoices that are not posted.<br/>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "47.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-77423",
-                            "title": "Unable to filter for a date range",
+                            "title": "Unable to manage a date range filter",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -415,7 +412,7 @@
                         },
                         {
                             "key": "XT-76752",
-                            "title": "Product API: sorting and pagination",
+                            "title": "Product API: Sorting and pagination",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -431,7 +428,7 @@
                         },
                         {
                             "key": "XT-75414",
-                            "title": "No report preview when creating a work order production report unless the \"order by\" line is removed from the HTML document",
+                            "title": "Report preview fails when creating a work order custom report ",
                             "highlight": false,
                             "content_parts": [
                                 {

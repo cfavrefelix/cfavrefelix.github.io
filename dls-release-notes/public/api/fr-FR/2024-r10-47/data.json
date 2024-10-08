@@ -488,7 +488,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une sortie de stock recouvre le statut de la sortie de stock et le statut du stock.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer des actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps, par exemple\u00a0<b>Supprimer</b>.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple\u00a0<p>Motif</p> et <b>Statut</b>.</p>",
+                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une sortie de stock recouvre le statut de la sortie de stock et le statut du stock.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer des actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps, par exemple\u00a0<b>Supprimer</b>.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple\u00a0<b>Motif</b> et <b>Statut</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

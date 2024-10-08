@@ -59,7 +59,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-80224,XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
@@ -121,7 +121,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Dans la liste principale de la <b>Consultation des journaux de stock</b>, vous pouvez ouvrir l'\u00e9criture associ\u00e9e \u00e0 partir de l'ic\u00f4ne de document en fin de la ligne.</p>",
+                                    "content": "<p>Dans la liste principale de la <b>Consultation des journaux de stock</b>, vous pouvez ouvrir l'\u00e9criture associ\u00e9e \u00e0 partir de l'ic\u00f4ne de document en fin de ligne.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -173,7 +173,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>La description de l'article s'affiche lorsque vous s\u00e9lectionnez un article en vue de l\u2019ajouter \u00e0 un document d'achat. Cela vous permet d'op\u00e9rer la distinction entre deux articles diff\u00e9rents mais qui partagent le m\u00eame nom.</p>",
+                                    "content": "<p>La description de l'article s'affiche lorsque vous s\u00e9lectionnez un article pour l\u2019ajouter \u00e0 un document d'achat. Cela vous permet d'op\u00e9rer la distinction entre deux articles diff\u00e9rents portant le m\u00eame nom.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -197,7 +197,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-80224,XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
@@ -238,7 +238,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les limites de cr\u00e9dit des client de Sage Intacct sont correctement synchronis\u00e9es avec SDMO afin que vous puissiez mettre \u00e0 jour les dossiers clients si le besoin se pr\u00e9sente.",
+                                    "content": "Les limites de cr\u00e9dit des client Sage Intacct sont correctement synchronis\u00e9es avec SDMO afin que vous puissiez mettre \u00e0 jour les dossiers clients si le besoin se pr\u00e9sente.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -282,7 +282,7 @@
                         },
                         {
                             "key": "XT-72299",
-                            "title": "Achats et ventes\u00a0: approbateur rempla\u00e7ant affich\u00e9 de mani\u00e8re incorrecte comme l\u2019approbateur par d\u00e9faut",
+                            "title": "Achats et ventes\u00a0: approbateur rempla\u00e7ant affich\u00e9 de mani\u00e8re incorrecte comme approbateur par d\u00e9faut",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -354,7 +354,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-80224,XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
@@ -391,7 +391,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-79978,XT-79510)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R10 (47.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R10 (47.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-80224,XT-79978,XT-79510)"
                     ],
                     "content_parts": [
                         {
@@ -469,7 +469,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour vous aider \u00e0 g\u00e9rer les valeurs par d\u00e9faut affect\u00e9es aux mouvements de stock li\u00e9s aux r\u00e9ceptions de stock, aux r\u00e9ceptions de retour de vente, aux r\u00e9ceptions d'achat et aux suivis de production, vous pouvez s\u00e9lectionner des emplacements de stockage et des statuts de contr\u00f4le qualit\u00e9 par d\u00e9faut en fonction des donn\u00e9es d'article-site dans<br/>l'onglet <b>R\u00e8gles de stock</b>.</p>",
+                                    "content": "<p>Pour vous aider \u00e0 g\u00e9rer les valeurs par d\u00e9faut affect\u00e9es aux mouvements de stock li\u00e9s aux r\u00e9ceptions de stock, aux r\u00e9ceptions de retour de vente, aux r\u00e9ceptions d'achat et aux suivis de production, vous pouvez s\u00e9lectionner des emplacements de stockage et des statuts de contr\u00f4le qualit\u00e9 par d\u00e9faut en fonction des donn\u00e9es d'article-site dans l'onglet <b>R\u00e8gles de stock</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -488,7 +488,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une sortie de stock recouvre le statut de la sortie de stock et le statut du stock.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer des actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps, par exemple\u00a0<b>Supprimer</b>.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple\u00a0<b>Motif</b> et <b>Statut</b>.</p>",
+                                    "content": "<p><b>Statut unique</b></p><p>Le statut unique d'une sortie de stock recouvre le statut de la sortie de stock et le statut du stock.</p><p><b>Actions sur lignes dans la liste principale</b></p><p>Vous pouvez effectuer des actions cl\u00e9s \u00e0 partir de la liste principale pour gagner du temps, par exemple\u00a0<b>Supprimer</b>.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Vous pouvez afficher des colonnes suppl\u00e9mentaires dans la liste principale, par exemple\u00a0<p>Motif</p> et <b>Statut</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

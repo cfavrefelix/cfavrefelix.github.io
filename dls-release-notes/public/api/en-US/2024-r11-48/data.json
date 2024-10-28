@@ -1,0 +1,769 @@
+{
+    "id": "2024-r11-48",
+    "title": "2024 R11",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2024-r10-47",
+    "date": "November",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p>Check out what's new in the 2024 R11 release.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-73210",
+                            "title": "Sequence number start value",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create a sequence number start value to maintain data integrity when you import data or migrate from another software provider.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-23760",
+                            "title": "Stock transfer prerequisites",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To help you consider how you will manage stock transfers between sites:</p><p><b>Sequence number assignments</b></p><p>You can assign sequence numbers to stock transfer order, stock transfer shipment, and stock transfer receipt documents to ensure that each document related to the stock transfer process is uniquely identified and traceable.</p><p><b>Dimension default rules at the company level</b></p><p>So that transactions can benefit from default dimension values for easier tracking and classification, you can select a new document type, the <b>Intersite Stock Transfer</b>.</p><p><b>Finance setup data</b></p><p>You can use journal entry types, posting classes, and posting class definitions specific to stock transfers.</p><p>These elements are specific to stock transfer transactions and do not yet affect any stock transactions.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-80343",
+                            "title": "Unable to submit a purchase requisition for approval",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A user who only has read and manage permissions for purchase requisitions can submit a purchase requisition for approval.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79419",
+                            "title": "Purchase invoice remains in progress",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The status update function for Purchase invoices was improved.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79414",
+                            "title": "Cannot add night shift under shift detail",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can change a night shift detail or create a new one without an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-78653",
+                            "title": "Cannot print sales invoice",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can print sales invoices and credit memos from the main list on the Sales order page without receiving an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-77011",
+                            "title": "Stock reordering process does not complete",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Stock reordering page performance was enhanced to prevent time-out errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79268",
+                            "title": "Discount payment terms",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can apply discounts and penalties on payment terms even if you don\u2019t integrate with Sage Intacct.</p><p>If you integrate with Sage Intacct, you cannot use payment terms with discounts and penalties for companies using VAT or GST.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-77923",
+                            "title": "New dashboard widgets",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>New widgets give you visibility on your Sage Intacct integration, finance transactions, and work-in-progress status of your operations. For example, you can see at-a-glance unposted or late transactions for a given period.</p><p>You can display widgets as a table or a card; you can filter the list of linked documents; and when needed, access the notification history and retry transactions if needed.</p><p>Ten additional widgets are available in 3 categories:</p><p><b>Sage Intacct integration</b> </p><ul><li>Customer integration status</li><li>Supplier integration status</li></ul><p><b>Finance transactions</b></p><ul><li>Finance transaction status, whether integrated with Sage Intacct or not</li></ul><p><b>Period close validations</b></p><ul><li>Purchase orders not received</li><li>Purchase receipts not invoiced</li><li>Unposted purchase receipts</li><li>Unposted sales credit notes</li><li>Unposted sales invoices</li><li>Unposted sales credit memos</li><li>Unposted sales invoices</li><li>Unposted sales shipments</li><li>Work orders in progress</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-67858",
+                            "title": "DATEV export for German companies",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>With this CSV file-based interface, you can transfer journal entries, customers, suppliers, and accounts to DATEV accounting.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "germany-ger"
+                                ],
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79703",
+                            "title": "Tax types",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For a given tax rate, you have the option to set the <b>Tax type</b> to sales and/or purchasing.<br/>If you integrate with Sage Intacct, this value defaults from Sage Intacct.</p><p>Controls on sales and purchasing invoices will be implemented in a future release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79510",
+                            "title": "Order-to-order: Dimensions do not default from sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When creating a worker order from a sales order, dimensions and attributes default correctly. The same is true when creating a purchase order from a sales order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-76453",
+                            "title": "Form templates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>The following reports include new form report templates. You can use these templates to generate any one of these forms or go to the <b>Report templates</b> page where you can make a copy and edit to meet your specific business needs.</p><ul><li>Purchase receipt form</li><li>Sales shipment pick list</li><li>Work order pick list</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-80526",
+                            "title": "Work order and sales order stock allocations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The available quantity for a detailed stock allocation is correctly updated when stock is allocated to and deallocated from a work order and sales order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79978",
+                            "title": "Change in search options for work orders ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The ID displays when you select a released item to create a work order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79468",
+                            "title": "The bill of material multilevel view does not display all component lines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Multilevel view tab displays all component lines for a bill of material.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-80917",
+                            "title": "Attachments deleted in error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Attachments are not automatically deleted after a set time limit.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80865",
+                            "title": "X3 connector: X3 endpoint missing on the parameter to populate",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Change title and add helper texts",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80592",
+                            "title": "Work in process inquiry export errors",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can export data successfully to an Excel or CSV file and the page is no longer blank.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80575",
+                            "title": "_sortValue should not be necessary in import file in creation mode",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The _sortValue field is not parsed when using an import template in create mode. It&#39;ll be ignored from the create payload as it is automatically handled by framework.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80352",
+                            "title": "Attachments on sales orders do not open",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Attachments on sales orders open.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80224",
+                            "title": "Cannot update item-site records using the import template",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When using the import template, you can successfully update item-site records.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-77776",
+                            "title": "Issue with updating item supplier prices in SDMO",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Item supplier prices can be imported without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74203",
+                            "title": "Custom fields: Unable to filter in main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can filter the main list using custom fields.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-71106",
+                            "title": "Customer main list: Only 20 results when sorting by ID",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you sort customers by ID, you can scroll to see all results.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71547",
+                            "title": "Stock detailed inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>The <b>Stock detailed inquiry</b> just got easier to use and has new options:</p><ul><li>No limits on the number of lines you can export. You can export all lines or a selection.</li></ul><ul><li>Additional columns are available to provide more valuable results.</li></ul><ul><li>Easily navigate to serial number and stock allocation details on the main list.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-75883",
+                            "title": "Stock: Posting tab",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>So that you can easily navigate to journal entries and monitor the posting status for the associated records, a <b>Posting</b> tab was added to the following pages:</p><ul><li><b>Stock receipt</b></li><li><b>Stock value change</b></li><li><b>Stock adjustment</b></li><li><b>Stock issue</b></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73187",
+                            "title": "Stock allocation improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To quickly and accurately find the stock you require, you can filter by location and quality control when you allocate stock on the following pages:</p><ul><li><b>Purchase return</b></li><li><b>Sales order</b></li><li><b>Sales shipment</b></li><li><b>Work order</b></li><li><b>Material tracking</b></li><li><b>Stock issue</b></li><li><b>Stock adjustment</b></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-68144",
+                            "title": "Stock adjustment",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Single status</b></p><p>Stock adjustment single status includes the stock status.</p><p><b>Main list row actions</b></p><p>You can perform key actions from the main list to save time such as <b>Set dimensions</b> and <b>Delete</b>.</p><p><b>Additional columns for main list</b></p><p>You can display additional columns in the main list such as <b>Status</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution = Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-78721",
+                            "title": "Item and customer usability improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p><b>Item category</b></p><p>To help you understand which supplier an item originates from, the category displays when you select an item on purchasing and sales pages.</p><p><b>Additional columns for customer main list</b></p><p>You can display additional columns in the main list such as <b>Postal code</b> and <b>City</b>.</p><p><b>Export item data</b></p><p>You can export data from the <b>Items</b> tab on the <b>Customer</b> page.</p><p><b>Sort customer data</b></p><p>You can sort data on the main list by <b>Name</b> and <b>ID</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "48.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

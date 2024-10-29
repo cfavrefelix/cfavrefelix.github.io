@@ -125,7 +125,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The status update function for Purchase invoices was improved.",
+                                    "content": "The status update functionality for purchase invoices was improved.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -670,7 +670,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>So that you can easily navigate to journal entries and monitor the posting status for the associated records, a <b>Posting</b> tab was added to the following pages:</p><ul><li><b>Stock receipt</b></li><li><b>Stock value change</b></li><li><b>Stock adjustment</b></li><li><b>Stock issue</b></li></ul>",
+                                    "content": "<p>You asked. We listened.</p><p>So that you can easily navigate to journal entries and monitor the posting status for the associated records, a <b>Posting</b> tab was added to the following pages:</p><ul><li><b>Stock receipt</b></li><li><b>Stock value change</b></li><li><b>Stock adjustment</b></li><li><b>Stock issue</b></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

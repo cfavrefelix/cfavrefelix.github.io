@@ -317,7 +317,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you create a worker order from a sales order, dimensions and attributes default correctly. The same is true when you create a purchase order from a sales order.",
+                                    "content": "When you create a work order from a sales order, dimensions and attributes default correctly. The same is true when you create a purchase order from a sales order.",
                                     "taxonomies": "all"
                                 }
                             ],

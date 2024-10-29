@@ -76,7 +76,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To help you consider how you will manage stock transfers between sites:</p><p><b>Sequence number assignments</b></p><p>You can assign sequence numbers to stock transfer order, stock transfer shipment, and stock transfer receipt documents to ensure that each document related to the stock transfer process is uniquely identified and traceable.</p><p><b>Dimension default rules at the company level</b></p><p>So that transactions can benefit from default dimension values for easier tracking and classification, you can select a new document type, the <b>Intersite Stock Transfer</b>.</p><p><b>Finance setup data</b></p><p>You can use journal entry types, posting classes, and posting class definitions specific to stock transfers.</p><p>These elements are specific to stock transfer transactions and do not yet affect any stock transactions.</p>",
+                                    "content": "<p>To help you consider how you will manage stock transfers between sites:</p><p><b>Sequence number assignments</b></p><p>You can assign sequence numbers to stock transfer order, stock transfer shipment, and stock transfer receipt documents to ensure that each document related to the stock transfer process is uniquely identified and traceable.</p><p><b>Dimension default rules at the company level</b></p><p>So that transactions can benefit from default dimension values for easier tracking and classification, you can select a new document type, the <b>Intersite stock transfer</b>.</p><p><b>Finance setup data</b></p><p>You can use journal entry types, posting classes, and posting class definitions specific to stock transfers.</p><p>These elements are specific to stock transfer transactions and do not yet affect any stock transactions.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -229,7 +229,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>New widgets give you visibility on your Sage Intacct integration, finance transactions, and work-in-progress status of your operations. For example, you can see at-a-glance unposted or late transactions for a given period.</p><p>You can display widgets as a table or a card; you can filter the list of linked documents; and when needed, access the notification history and retry transactions if needed.</p><p>Ten additional widgets are available in 3 categories:</p><p><b>Sage Intacct integration</b> </p><ul><li>Customer integration status</li><li>Supplier integration status</li></ul><p><b>Finance transactions</b></p><ul><li>Finance transaction status, whether integrated with Sage Intacct or not</li></ul><p><b>Period close validations</b></p><ul><li>Purchase orders not received</li><li>Purchase receipts not invoiced</li><li>Unposted purchase receipts</li><li>Unposted sales credit notes</li><li>Unposted sales invoices</li><li>Unposted sales credit memos</li><li>Unposted sales invoices</li><li>Unposted sales shipments</li><li>Work orders in progress</li></ul>",
+                                    "content": "<p>New widgets give you visibility on your Sage Intacct integration, finance transactions, and work-in-progress status of your operations. For example, you can see at-a-glance unposted or late transactions for a given period.</p><p>You can display widgets as a table or a card; you can filter the list of linked documents; and when needed, access the notification history and retry transactions.</p><p>Ten additional widgets are available in 3 categories:</p><p><b>Sage Intacct integration</b></p><ul><li>Customer integration status</li><li>Supplier integration status</li></ul><p><b>Finance transactions</b></p><ul><li>Finance transaction status, whether integrated with Sage Intacct or not</li></ul><p><b>Period close validations</b></p><ul><li>Purchase orders not received</li><li>Purchase receipts not invoiced</li><li>Unposted purchase receipts</li><li>Unposted sales credit memos</li><li>Unposted sales invoices</li><li>Unposted sales shipments</li><li>Work orders in progress</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -317,7 +317,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When creating a worker order from a sales order, dimensions and attributes default correctly. The same is true when creating a purchase order from a sales order.",
+                                    "content": "When you create a worker order from a sales order, dimensions and attributes default correctly. The same is true when you create a purchase order from a sales order.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -561,20 +561,17 @@
                         },
                         {
                             "key": "XT-77776",
-                            "title": "Issue with updating item supplier prices in SDMO",
+                            "title": "Issue with updating item-supplier prices in SDMO",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Item supplier prices can be imported without errors.",
+                                    "content": "Item-supplier prices can be imported without errors.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "48.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },

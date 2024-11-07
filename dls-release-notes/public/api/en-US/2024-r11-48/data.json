@@ -76,7 +76,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To help you consider how you will manage stock transfers between sites:</p><p><b>Sequence number assignments</b></p><p>You can assign sequence numbers to stock transfer order, stock transfer shipment, and stock transfer receipt documents to ensure that each document related to the stock transfer process is uniquely identified and traceable.</p><p><b>Dimension default rules at the company level</b></p><p>So that transactions can benefit from default dimension values for easier tracking and classification, you can select a new document type, the <b>Intersite stock transfer</b>.</p><p><b>Finance setup data</b></p><p>You can use journal entry types, posting classes, and posting class definitions specific to stock transfers.</p><p>These elements are specific to stock transfer transactions and do not yet affect any stock transactions.</p>",
+                                    "content": "<p>To help you consider how you will manage stock transfers between sites:</p><p><b>Sequence number assignments</b></p><p>You can assign sequence numbers to stock transfer order, stock transfer shipment, and stock transfer receipt documents to ensure that each document related to the stock transfer process is uniquely identified and traceable.</p><p><b>Dimension default rules at the company level</b></p><p>So that transactions can benefit from default dimension values for easier tracking and classification, you can select a new document type, the <b>Intersite stock transfer</b>.</p><p><b>Finance setup data</b></p><p>You can use journal entry types, posting classes, and posting class definitions specific to stock transfers.</p><p>These elements are specific to stock transfer transactions and do not yet affect any transactions.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -100,7 +100,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-81988,XT-81495,XT-79265,XT-79193)"
                     ],
                     "content_parts": [
                         {
@@ -308,7 +308,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-81988,XT-81495,XT-79265,XT-79193)"
                     ],
                     "content_parts": [
                         {
@@ -385,7 +385,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-81988,XT-81495,XT-79265,XT-79193)"
                     ],
                     "content_parts": [
                         {
@@ -454,7 +454,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R11 (48.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R11 (48.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-81988,XT-81495,XT-79265,XT-79193)"
                     ],
                     "content_parts": [
                         {
@@ -470,25 +470,6 @@
                             "taxonomies": {
                                 "version": [
                                     "48.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-80865",
-                            "title": "X3 connector: X3 endpoint missing on the parameter to populate",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Change title and add helper texts",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "48.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -510,20 +491,17 @@
                         },
                         {
                             "key": "XT-80575",
-                            "title": "_sortValue should not be necessary in import file in creation mode",
+                            "title": "The _sortValue field should not be needed when creating a template",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The _sortValue field is not parsed when using an import template in create mode. It&#39;ll be ignored from the create payload as it is automatically handled by framework.",
+                                    "content": "When creating an import template, the _sortValue field is no longer required. ",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "48.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -561,7 +539,7 @@
                         },
                         {
                             "key": "XT-77776",
-                            "title": "Issue with updating item-supplier prices in SDMO",
+                            "title": "Issue with updating item-supplier prices",
                             "highlight": false,
                             "content_parts": [
                                 {

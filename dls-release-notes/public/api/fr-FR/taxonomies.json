@@ -7,6 +7,11 @@
             "pills": true,
             "options": [
                 {
+                    "id": "australia-aus",
+                    "title": "Australie (AUS)",
+                    "color": "rgba(0,0,0,.3)"
+                },
+                {
                     "id": "france-fra",
                     "title": "France (FRA)",
                     "color": "rgba(0,0,0,.3)"

@@ -229,7 +229,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>De nouveaux widgets vous donnent de la visibilit\u00e9 sur votre int\u00e9gration avec Sage Intacct, vos transactions financi\u00e8res et le statut d\u2019en-cours de vos op\u00e9rations. Par exemple, vous pouvez voir en un coup d'\u0153il les transactions non comptabilis\u00e9es ou en retard pour une p\u00e9riode donn\u00e9e.</p><p>Vous pouvez afficher les widgets sous forme de tableau ou de fiche, filtrer la liste des documents li\u00e9s et, si besoin, acc\u00e9der \u00e0 l'historique des notifications et relancer les transactions.</p><p>Dix widgets suppl\u00e9mentaires sont disponibles dans 3 cat\u00e9gories :</p><p><b>Int\u00e9gration Sage Intacct,</b></p><ul><li>Statut d'int\u00e9gration client</li><li>Statut d'int\u00e9gration fournisseur</li></ul><p><b>Transactions financi\u00e8res</b></p><ul><li>Statut de transaction financi\u00e8re, qu'elle soit int\u00e9gr\u00e9e \u00e0 Sage Intacct ou non</li></ul><p><b>Validations de cl\u00f4ture de p\u00e9riode</b></p><ul><li>Commandes d'achat non r\u00e9ceptionn\u00e9es</li><li>R\u00e9ceptions d'achat non factur\u00e9es</li><li>R\u00e9ceptions d'achat non comptabilis\u00e9es</li><li>Avoirs de vente non comptabilis\u00e9s</li><li>Factures de vente non comptabilis\u00e9es</li><li>Exp\u00e9ditions de vente non comptabilis\u00e9es</li><li>Ordres de fabrication en cours</li></ul>",
+                                    "content": "<p>De nouveaux widgets vous donnent de la visibilit\u00e9 sur votre int\u00e9gration avec Sage Intacct, vos transactions financi\u00e8res et le statut d\u2019en-cours de vos op\u00e9rations. Par exemple, vous pouvez voir en un coup d'\u0153il les transactions non comptabilis\u00e9es ou en retard pour une p\u00e9riode donn\u00e9e.</p><p>Vous pouvez afficher les widgets sous forme de tableau ou de fiche, filtrer la liste des documents li\u00e9s et, si besoin, acc\u00e9der \u00e0 l'historique des notifications et relancer les transactions.</p><p>Dix widgets suppl\u00e9mentaires sont disponibles dans 3 cat\u00e9gories :</p><p><b>Int\u00e9gration Sage Intacct</b></p><ul><li>Statut d'int\u00e9gration client</li><li>Statut d'int\u00e9gration fournisseur</li></ul><p><b>Transactions financi\u00e8res</b></p><ul><li>Statut de transaction financi\u00e8re, qu'elle soit int\u00e9gr\u00e9e \u00e0 Sage Intacct ou non</li></ul><p><b>Validations de cl\u00f4ture de p\u00e9riode</b></p><ul><li>Commandes d'achat non r\u00e9ceptionn\u00e9es</li><li>R\u00e9ceptions d'achat non factur\u00e9es</li><li>R\u00e9ceptions d'achat non comptabilis\u00e9es</li><li>Avoirs de vente non comptabilis\u00e9s</li><li>Factures de vente non comptabilis\u00e9es</li><li>Exp\u00e9ditions de vente non comptabilis\u00e9es</li><li>Ordres de fabrication en cours</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -426,7 +426,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "L'onglet vue multi-niveaux affiche toutes les lignes de composants d'une nomenclature.<br/>",
+                                    "content": "L'onglet Vue multi-niveaux affiche toutes les lignes de composants d'une nomenclature.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -463,7 +463,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les pi\u00e8ces jointes ne sont pas automatiquement supprim\u00e9es apr\u00e8s un d\u00e9lai d\u00e9fini.",
+                                    "content": "Les pi\u00e8ces jointes ne sont pas automatiquement supprim\u00e9es apr\u00e8s un d\u00e9lai d\u00e9termin\u00e9.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -543,7 +543,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les prix article-fournisseur peuvent \u00eatre import\u00e9s sans erreurs.",
+                                    "content": "Les prix article-fournisseur peuvent \u00eatre import\u00e9s sans erreur.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -612,7 +612,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>La <b>Consultation d\u00e9taill\u00e9e de stock</b> a \u00e9t\u00e9 simplifi\u00e9e et dispose de nouvelles options\u00a0:</p><ul><li>le nombre de lignes que vous pouvez exporter n\u2019est plus limit\u00e9. Vous pouvez exporter toutes les lignes ou uniquement une s\u00e9lection\u00a0;</li></ul><ul><li>des colonnes suppl\u00e9mentaires sont disponibles afin d\u2019afficher des r\u00e9sultats encore plus utiles ;</li></ul><ul><li>vous pouvez facilement consulter les d\u00e9tails de num\u00e9ros de s\u00e9rie et d'allocation de stock dans la liste principale.</li></ul>",
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>La <b>Consultation d\u00e9taill\u00e9e de stock</b> a \u00e9t\u00e9 simplifi\u00e9e et dispose de nouvelles options\u00a0:</p><ul><li>le nombre de lignes que vous pouvez exporter n\u2019est plus limit\u00e9. Vous pouvez exporter toutes les lignes ou uniquement une s\u00e9lection\u00a0;</li></ul><ul><li>des colonnes suppl\u00e9mentaires sont disponibles afin d\u2019afficher des r\u00e9sultats encore plus pertinents ;</li></ul><ul><li>vous pouvez facilement consulter les d\u00e9tails de num\u00e9ros de s\u00e9rie et d'allocation de stock dans la liste principale.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

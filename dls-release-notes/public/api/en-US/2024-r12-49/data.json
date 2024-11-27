@@ -382,7 +382,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The work order completed quantity and progress percentage are updated correctly from a Production tracking.",
+                                    "content": "The work order completed quantity and progress percentage are updated correctly from production tracking.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -572,7 +572,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You asked. We Listened.</p><p>The <b>Stock count</b> and <b>Stock count creation</b> pages were enhanced to be quicker easier to use:</p><p><b>Stock count creation</b></p><ul><li>Filter items by category.</li><li>Use the <b>In stock only</b> switch to choose whether to include out of stock items in your stock count.</li></ul><p><b>Stock count</b></p><ul><li>Scroll document lines indefinitely to explore results without interruption.</li><li>Validate all zero quantities at once using the <b>Confirm zero quantities</b> bulk action.</li><li>Delete a line that was added after the stock count started.</li><li>Create a simple stock count report.</li><li>Enter a new lot when you add a new line.</li><li>Navigate to journal entries and monitor the posting status for the associated records on the <b>Posting</b> tab.</li></ul>",
+                                    "content": "<p>You asked. We Listened.</p><p>The <b>Stock count</b> and <b>Stock count creation</b> pages were enhanced to be quicker and easier to use:</p><p><b>Stock count creation</b></p><ul><li>Filter items by category.</li><li>Use the <b>In stock only</b> switch to choose whether to include out of stock items in your stock count.</li></ul><p><b>Stock count</b></p><ul><li>Scroll document lines indefinitely to explore results without interruption.</li><li>Validate all zero quantities at once using the <b>Confirm zero quantities</b> bulk action.</li><li>Delete a line that was added after the stock count started.</li><li>Create a simple stock count report.</li><li>Enter a new lot when you add a new line.</li><li>Navigate to journal entries and monitor the posting status for the associated records on the <b>Posting</b> tab.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -251,11 +251,11 @@
                     "content_parts": [
                         {
                             "key": "XT-79514",
-                            "title": "Payment tracking",
+                            "title": "Open item tracking",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Payment tracking improves supplier and customer account management by providing visibility on outstanding payables and receivables.</p><p>On the <b>Accounts payable open item</b> and <b>Account receivable open item</b> pages, you can view and sort a list of open items with details such as supplier or customer name, due date, amounts, currency, and a link to the original document. You can also export results to an Excel or CSV file.</p><p>These pages are only available if you do not integrate with Sage Intacct.</p>",
+                                    "content": "<p>Open item tracking improves supplier and customer account management by providing visibility on outstanding payables and receivables.</p><p>On the <b>Accounts payable open item</b> and <b>Account receivable open item</b> pages, you can view and sort a list of open items with details such as supplier or customer name, due date, amounts, currency, and a link to the original document. You can also export results to an Excel or CSV file.</p><p>These pages are only available if you do not integrate with Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

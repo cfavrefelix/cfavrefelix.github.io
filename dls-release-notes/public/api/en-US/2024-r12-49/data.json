@@ -27,7 +27,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
                     ],
                     "content_parts": [
                         {
@@ -145,7 +145,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
                     ],
                     "content_parts": [
                         {
@@ -213,6 +213,22 @@
                             }
                         },
                         {
+                            "key": "XT-81114",
+                            "title": "Sales order loading issue",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can navigate a large sales order without any performance issues.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-79354",
                             "title": "Unable to save a purchase receipt",
                             "highlight": false,
@@ -255,7 +271,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Open item tracking improves supplier and customer account management by providing visibility on outstanding payables and receivables.</p><p>On the <b>Accounts payable open item</b> and <b>Account receivable open item</b> pages, you can view and sort a list of open items with details such as supplier or customer name, due date, amounts, currency, and a link to the original document. You can also export results to an Excel or CSV file.</p><p>These pages are only available if you do not integrate with Sage Intacct.</p>",
+                                    "content": "<p>Open item tracking improves supplier and customer account management by providing visibility on outstanding payables and receivables.</p><p>On the <b>Accounts payable open item</b> and <b>Accounts receivable open item</b> pages, you can view and sort a list of open items with details such as supplier or customer name, due date, amounts, currency, and a link to the original document. You can also export results to an Excel or CSV file.</p><p>These pages are only available if you do not integrate with Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -307,7 +323,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To remove manual processing, when you create an exchange rate for two currencies, the inverse rate is automatically created.</p>",
+                                    "content": "<p>To ensure accuracy, when you create an exchange rate for a currency, the inverse record with the same rate and date is created.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -357,7 +373,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
                     ],
                     "content_parts": [
                         {
@@ -383,22 +399,6 @@
                             "content_parts": [
                                 {
                                     "content": "The work order completed quantity and progress percentage are updated correctly from production tracking.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "49.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-81114",
-                            "title": "Sales order loading issue",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can navigate a large sales order without any performance issues.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -458,7 +458,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
                     ],
                     "content_parts": [
                         {
@@ -612,7 +612,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you upload an image, it is automatically resized to improve performance without losing image quality. Records like items, customers, BOMs, and so on, that include images display easily. You can include high resolution images up to 100 MB.</p>",
+                                    "content": "<p>When you upload an image, it is automatically resized to improve performance without losing image quality. This includes records like items, customers, BOMs, and so on, that include images.</p><p>If you want to store high-res images, you can upload images as attachments that can be up to 100 MB.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

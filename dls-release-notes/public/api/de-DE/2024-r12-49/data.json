@@ -1,0 +1,633 @@
+{
+    "id": "2024-r12-49",
+    "title": "2024 R12",
+    "language": "de-DE",
+    "__archive": "/dls-release-notes/api/de-DE/archive.json",
+    "previous": "2024-r11-48",
+    "date": "Dezember",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Einf\u00fchrung",
+            "content": "<p>Neues in der Version 2024 R12.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Allgemein",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82224",
+                            "title": "Finanzdaten f\u00fcr Artikel sind leer, wenn die Benutzerrolle Zugriff auf Artikel und St\u00fccklisten hat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Ein Benutzer mit Berechtigung zur Verwaltung von Artikeln kann die Finanzdaten im Register \u201eFinanzen\u201c f\u00fcr einen Artikel anzeigen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82189",
+                            "title": "Nicht-Administratoren k\u00f6nnen keine Verkaufsrechnungen drucken",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Benutzer mit den entsprechenden Berechtigungen k\u00f6nnen Verkaufsrechnungen drucken.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81988",
+                            "title": "Beim Erstellen oder Bearbeiten einer Lieferantenadresse wird ein Fehler angezeigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bei der Erstellung und Bearbeitung einer Lieferantenadresse wird kein Fehler mehr angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81553",
+                            "title": "Bei der Standardkostenberechnung werden die Arbeitszeitkosten f\u00fcr Arbeitspl\u00e4ne nicht ber\u00fccksichtigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Arbeitszeitkosten f\u00fcr Arbeitspl\u00e4ne werden in die Standardkostenberechnungen f\u00fcr einen Artikel-Standort einbezogen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-80332",
+                            "title": "Kundenverbesserungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie k\u00f6nnen Ihre Kundenhauptliste mithilfe von zwei zus\u00e4tzlichen Statuswerten sortieren: <b>Gesperrt</b> und <b>Aktiv</b>.</p><p>Au\u00dferdem k\u00f6nnen Sie die Spalte <b>Kreditlimit</b> einblenden, um die Betr\u00e4ge f\u00fcr die jeweiligen Kunden anzuzeigen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-81990",
+                            "title": "Doppelte Bestellungen werden erstellt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Um doppelte Bestellungen zu vermeiden, k\u00f6nnen Sie f\u00fcr eine neue Bestellung die Aktion \u201eSpeichern\u201c nur einmal ausw\u00e4hlen. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81893",
+                            "title": "Der Artikelpreis \u00e4ndert sich auf einer Einkaufsrechnung, wenn die Menge ge\u00e4ndert wird",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie eine Einkaufsrechnung aus einem Wareneingang erstellen und die Menge in der Rechnungszeile aktualisieren, wird der Preis nicht mehr neu berechnet.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81866",
+                            "title": "Lieferantencharge kann nicht ge\u00e4ndert werden, wenn mehrere Stapel f\u00fcr eine Bestellung eingegangen sind",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen mehrere Lieferantenchargennummern f\u00fcr eine Wareneingangszeile hinzuf\u00fcgen. Aktivieren Sie das Kontrollk\u00e4stchen \u201eNeue Charge\u201c f\u00fcr jede neue Charge.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81495",
+                            "title": "Einkaufsrechnung kann nicht gespeichert werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie eine Einkaufsrechnung erstellen, k\u00f6nnen nur aktive Lagerstandorte ausgew\u00e4hlt werden, um die Einkaufsrechnung speichern zu k\u00f6nnen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-81114",
+                            "title": "Problem beim Laden von Verkaufsauftr\u00e4gen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen nun in gro\u00dfen Verkaufsauftr\u00e4gen ohne Leistungsprobleme navigieren.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79354",
+                            "title": "Wareneingang kann nicht gespeichert werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen einen Wareneingang speichern, der aus einer Bestellung erstellt wurde, oder wenn Sie einen Wareneingang manuell erstellen und Zeilen aus einer Bestellung hinzuf\u00fcgen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finanzen",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79514",
+                            "title": "Nachverfolgung offene Posten",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Die Verfolgung offener Posten verbessert die Verwaltung von Lieferanten- und Kundenkonten, indem sie Transparenz \u00fcber ausstehende Forderungen und Verbindlichkeiten schafft.</p><p>Auf den Seiten <b>Offener Posten Verbindlichkeiten</b> und <b>Offener Posten Forderungen</b> k\u00f6nnen Sie eine Liste offener Posten mit Details wie Lieferanten- oder Kundenname, F\u00e4lligkeitsdatum, Betr\u00e4ge, W\u00e4hrung sowie einen Link zum Ursprungsdokument anzeigen und sortieren. Sie k\u00f6nnen die Ergebnisse auch in eine Excel- oder CSV-Datei exportieren.</p><p>Diese Seiten sind nur verf\u00fcgbar, wenn Ihr System nicht in Sage Intacct integriert ist.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-81800",
+                            "title": "Steuerdetailtyp und Pr\u00fcfungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Wenn Sie als Steuertyp Einkauf oder Verkauf angeben, werden wichtige Gesch\u00e4ftstransaktionen gepr\u00fcft, um die Auswahl des falschen Steuertyps zu vermeiden. Dazu geh\u00f6ren Bestellungen und Verkaufsauftr\u00e4ge, Wareneing\u00e4nge, Rechnungen und Memos.</p><p>Wenn Ihr System in Sage Intacct integriert ist, m\u00fcssen Sie die Steuerdetails erneut synchronisieren, um von dieser neuen Funktionalit\u00e4t profitieren zu k\u00f6nnen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-76415",
+                            "title": "Umkehrwechselkurse",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Um Genauigkeit zu gew\u00e4hrleisten, wird beim Erstellen eines Wechselkurses f\u00fcr eine W\u00e4hrung der Umkehrdatensatz mit demselben Kurs und Datum erstellt.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-73985",
+                            "title": "Rollen und Autorisierung f\u00fcr Finanzen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Optimieren Sie Workflows mit gezielten Rollen f\u00fcr Finanzen. Dazu geh\u00f6ren Controlling, Kreditorenbuchhaltung und Debitorenbuchhaltung sowie Finanzmanager.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fertigung",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83335",
+                            "title": "Bei der Generierung von Buchungen wird ein Fehler f\u00fcr die R\u00fcckmeldung von Fertigungsauftr\u00e4gen angezeigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen Buchungen f\u00fcr Work-In-Progress-Transaktionen ohne Fehler generieren.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82209",
+                            "title": "Die erledigte Menge des Fertigungsauftrags und der Fortschrittsbalken zeigen Null an",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die erledigte Menge des Fertigungsauftrags und der Fortschritt in Prozent werden korrekt aus der Fertigungsr\u00fcckmeldung aktualisiert.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79265",
+                            "title": "Fertigungsauftr\u00e4ge werden mit 0% Materialr\u00fcckmeldung angezeigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn die Aktualisierung eines Fertigungsauftrags \u00fcber eine Materialr\u00fcckmeldung unterbrochen wird, k\u00f6nnen Sie das Feld \u201eStatus\u201c des Fertigungsauftrags ausw\u00e4hlen, um den Status des Fertigungsauftrags zu aktualisieren.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79193",
+                            "title": "Doppelte Material- und Zeitr\u00fcckmeldungen werden generiert",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Um doppelte R\u00fcckmeldungen aus der Fertigungsr\u00fcckmeldung zu vermeiden, k\u00f6nnen Sie die Aktion \u201eGenerieren\u201c nur einmal ausw\u00e4hlen. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plattform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2024 R12 (49.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-84181)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83273",
+                            "title": "Anh\u00e4nge fehlen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Nach dem Hochladen von Dokumenten fehlen keine Anh\u00e4nge mehr.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82721",
+                            "title": "Support-Zugriff mit Verbindungssprache Franz\u00f6sisch nicht m\u00f6glich",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen nun eine Support-Zugriffssitzung f\u00fcr einen beliebigen Zeitraum in jeder Verbindungssprache gew\u00e4hren.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75378",
+                            "title": "Duplizierung von Reportvorlagen: \u00dcbersetzungen werden nicht dupliziert",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Duplikate von Reportvorlagen umfassen nun auch die \u00dcbersetzungen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "49.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bestand",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71500",
+                            "title": "Bestandstransfer",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Verwenden Sie die Seiten <b>Auftrag Bestandstransfer</b>, <b>Versand Bestandstransfer</b> und <b>Eingang Bestandstransfer</b>, um Bestandstransfers zwischen Standorten zu optimieren, die denselben Buchhaltungsstandort innerhalb eines Unternehmens teilen.</p><p>Verwalten Sie den gesamten Transferprozess effizient, von der Erstellung von Transferauftr\u00e4gen bis hin zum Versand und Eingang. Gleichzeitig verbessern Sie die R\u00fcckverfolgbarkeit und gew\u00e4hrleisten die Einhaltung der finanziellen Anforderungen durch genaue Aktualisierungen von Bestandsjournalen und Finanzbuchungen in jedem Schritt. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79135",
+                            "title": "Inventur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Die Seiten <b>Inventur</b> und <b>Erstellung Inventur</b> wurden verbessert und sind nun schneller und benutzerfreundlicher:</p><p><b>Erstellung Inventur</b></p><ul><li>Filtern Sie Artikel nach Kategorie.</li><li>Legen Sie \u00fcber den Schalter <b>Nur in Bestand</b> fest, ob nicht vorr\u00e4tige Bestandsartikel in Ihre Inventur aufgenommen werden sollen.</li></ul><p><b>Inventur</b></p><ul><li>Bl\u00e4ttern Sie unbegrenzt durch die Dokumentzeilen, um die Ergebnisse ohne Unterbrechung anzusehen.</li><li>Validieren Sie alle Nullmengen gleichzeitig mithilfe der Aktion <b>Nullmengen best\u00e4tigen</b>.</li><li>L\u00f6schen Sie eine Zeile, die nach dem Start der Inventur hinzugef\u00fcgt wurde.</li><li>Erstellen Sie einen einfachen Inventurbericht.</li><li>Erfassen Sie eine neue Charge, wenn Sie eine neue Zeile hinzuf\u00fcgen.</li><li>Navigieren Sie im Register <b>Buchung</b> zu den Buchungen und \u00fcberpr\u00fcfen Sie den Buchungsstatus f\u00fcr die zugeh\u00f6rigen Datens\u00e4tze.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Benutzerfreundlichkeit",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2024 R12 (49.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79098",
+                            "title": "Bildverwaltung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Wenn Sie ein Bild hochladen, wird die Gr\u00f6\u00dfe automatisch angepasst, um die Leistung zu verbessern, ohne die Bildqualit\u00e4t zu beeintr\u00e4chtigen. Dazu geh\u00f6ren Datens\u00e4tze wie Artikel, Kunden, St\u00fccklisten usw., die Bilder enthalten.</p><p>Wenn Sie hochaufl\u00f6sende Bilder speichern m\u00f6chten, k\u00f6nnen Sie Bilder als Anh\u00e4nge mit einer Gr\u00f6\u00dfe von bis zu 100 MB hochladen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "49.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

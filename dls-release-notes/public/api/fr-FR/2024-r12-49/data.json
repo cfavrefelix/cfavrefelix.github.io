@@ -32,7 +32,7 @@
                     "content_parts": [
                         {
                             "key": "XT-82224",
-                            "title": "Les donn\u00e9es financi\u00e8res des articles sont vides lorsque le r\u00f4le utilisateur accorde l\u2019acc\u00e8s aux articles et aux nomenclatures",
+                            "title": "Les donn\u00e9es financi\u00e8res des articles sont vides lorsque le r\u00f4le utilisateur autorise l\u2019acc\u00e8s aux articles et aux nomenclatures",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -150,11 +150,11 @@
                     "content_parts": [
                         {
                             "key": "XT-81990",
-                            "title": "Des commandes d'achat sont cr\u00e9\u00e9es en double.",
+                            "title": "Des commandes d'achat sont cr\u00e9\u00e9es en double",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Pour \u00e9viter les commandes d\u2019achat en double, vous pouvez uniquement s\u00e9lectionner Enregistrer une seule fois pour une nouvelle commande d'achat. ",
+                                    "content": "Pour \u00e9viter les commandes d\u2019achat en double, vous pouvez s\u00e9lectionner Enregistrer uniquement une seule fois dans le cas d\u2019une nouvelle commande d'achat. ",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -182,7 +182,7 @@
                         },
                         {
                             "key": "XT-81866",
-                            "title": "Impossible de modifier le lot fournisseur si plusieurs batches ont \u00e9t\u00e9 re\u00e7us pour une commande d'achat",
+                            "title": "Impossible de modifier le lot fournisseur si plusieurs batches ont \u00e9t\u00e9 r\u00e9ceptionn\u00e9s pour une commande d'achat",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -218,7 +218,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Vous pouvez consulter une commande de vente volumineuse sans aucun probl\u00e8me de performance.",
+                                    "content": "Vous pouvez consulter une commande de vente volumineuse sans aucun probl\u00e8me de performances.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -323,7 +323,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour garantir l'exactitude, lorsque vous cr\u00e9ez un cours de change pour une devise, l'enregistrement inverse avec le m\u00eame cours et la m\u00eame date est cr\u00e9\u00e9.</p>",
+                                    "content": "<p>Dans un but d\u2019exactitude, lorsque vous cr\u00e9ez un cours de change pour une devise, l'enregistrement inverse avec le m\u00eame cours et la m\u00eame date est cr\u00e9\u00e9.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -410,7 +410,7 @@
                         },
                         {
                             "key": "XT-79265",
-                            "title": "Les ordres de fabrication affichent un avancement de suivi mati\u00e8re \u00e0 0%.",
+                            "title": "Les ordres de fabrication affichent un avancement de suivi mati\u00e8re \u00e0 0%",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -572,7 +572,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Les pages <b>Inventaire</b> et <b>Cr\u00e9ation d'inventaire</b> ont \u00e9t\u00e9 am\u00e9lior\u00e9es pour \u00eatre plus rapides et plus faciles \u00e0 utiliser.</p><p><b>Cr\u00e9ation d'inventaire</b></p><ul><li>Filtrez les articles par cat\u00e9gorie.</li><li>Utilisez le bouton <b>En stock uniquement</b> pour choisir d'inclure ou non les articles en rupture de stock dans votre inventaire.</li></ul><p><b>Inventaire</b></p><ul><li>Faites d\u00e9filer les lignes de documents sans aucune interruption pour exploiter l\u2019ensemble des r\u00e9sultats.</li><li>Validez toutes les quantit\u00e9s \u00e9gales \u00e0 z\u00e9ro en une seule fois \u00e0 l'aide de l'action <b>Confirmer quantit\u00e9s nulles</b>.</li><li>Supprimez une ligne ajout\u00e9e apr\u00e8s le d\u00e9but de l'inventaire.</li><li>Cr\u00e9ez une \u00e9dition d'inventaire simple.</li><li>Renseignez un nouveau lot lorsque vous ajoutez une nouvelle ligne.</li><li>Acc\u00e9dez aux \u00e9critures et contr\u00f4lez le statut de comptabilisation des enregistrements associ\u00e9s dans l'onglet <b>Comptabilisation</b>.</li></ul>",
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Les pages <b>Inventaire</b> et <b>Cr\u00e9ation d'inventaire</b> ont \u00e9t\u00e9 am\u00e9lior\u00e9es pour \u00eatre plus rapides et plus faciles \u00e0 utiliser.</p><p><b>Cr\u00e9ation d'inventaire</b></p><ul><li>Filtrez les articles par cat\u00e9gorie.</li><li>Utilisez le bouton <b>En stock uniquement</b> pour choisir d'inclure ou d\u2019exclure les articles en rupture de stock dans votre inventaire.</li></ul><p><b>Inventaire</b></p><ul><li>Faites d\u00e9filer les lignes de documents sans aucune interruption pour exploiter l\u2019ensemble des r\u00e9sultats.</li><li>Validez toutes les quantit\u00e9s \u00e9gales \u00e0 z\u00e9ro en une seule fois \u00e0 l'aide de l'action <b>Confirmer quantit\u00e9s nulles</b>.</li><li>Supprimez une ligne ajout\u00e9e apr\u00e8s le d\u00e9but de l'inventaire.</li><li>Cr\u00e9ez une \u00e9dition d'inventaire simple.</li><li>Renseignez un nouveau lot lorsque vous ajoutez une nouvelle ligne.</li><li>Acc\u00e9dez aux \u00e9critures et contr\u00f4lez le statut de comptabilisation des enregistrements associ\u00e9s dans l'onglet <b>Comptabilisation</b>.</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],

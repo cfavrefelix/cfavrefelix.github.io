@@ -36,7 +36,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you try to post a stock adjustment what exceeds stock on hand, the line stays in draft so that you can update the quantity and retry the action.",
+                                    "content": "When you try to post a stock adjustment that exceeds stock on hand, the line stays in draft so that you can update the quantity and retry the action.",
                                     "taxonomies": "all"
                                 }
                             ],

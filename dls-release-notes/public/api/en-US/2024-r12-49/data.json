@@ -32,20 +32,17 @@
                     "content_parts": [
                         {
                             "key": "XT-84079",
-                            "title": "Stock Change Posting Error : \"The sum of the line quantities (206) exceeds the available quantity (20) on the stock record.\u201d",
+                            "title": "Stock change when the quantity exceeds stock on hand",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When you receive a posting error on a stock change, this error is updated after the adjustment has been updated and a successful posting has been submitted.",
+                                    "content": "When you try to post a stock adjustment what exceeds stock on hand, the line stays in draft so that you can update the quantity and retry the action.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },

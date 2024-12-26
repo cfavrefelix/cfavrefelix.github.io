@@ -1,0 +1,394 @@
+{
+    "id": "2025-r1-50",
+    "title": "2025 R1",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2024-r12-49",
+    "date": "January",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p>Check out what's new in the 2025 R1 release.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84079",
+                            "title": "Stock change when the quantity exceeds stock on hand",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When you try to post a stock adjustment that exceeds stock on hand, the line stays in draft so that you can update the quantity and retry the action.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84417",
+                            "title": "Cannot create purchase invoice for certain sites",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase invoice without an error for all company sites.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84247",
+                            "title": "Stock adjustment stuck at posting in progress",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update a stock adjustment line if the adjustment was not posted.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84181",
+                            "title": "An address cannot be modified or added to a site",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can add and edit an address for a site without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-83194",
+                            "title": "Adding multiple lines to a landed cost invoice causes an error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can add multiple lines to a landed cost invoice using the direct entry gird without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79808",
+                            "title": "Easy access to view finance notifications",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you need to repost a purchasing and sales invoice, the <b>Retry</b> icon on the <b>Posting</b> tab opens the <b>Notification history</b> page. Depending on the cause, you can fix errors, such as missing dimensions, and resend or retry as needed.</p><p>User permissions to access the <b>Notification history</b> page required.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84987",
+                            "title": "Material tracking: Select all component lines",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>If you reserve component stock and allocate it to work orders in advance of production, you can now select all component lines to issue the components at once.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82764",
+                            "title": "Work in progress transaction inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the new <b>Work in progress inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings. You can filter by tracking type and work order range, so you can organize and group the inquiry to match your viewing preferences.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82037",
+                            "title": "Work order component available stock quantities",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>So that you can easily see available and allocated component stock quantities, a <b>Stock</b> tab was added to the <b>Edit work order component</b> panel.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83848",
+                            "title": "Cannot invoice purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase invoice from a purchase receipt without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-85759",
+                            "title": "Unable to create customer with unique email domain",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can use custom email addresses like @xplore.solutions.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85748",
+                            "title": "Cannot replace the ship-to address on a sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can change the ship-to address on a sales order by selecting Replace. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72096",
+                            "title": "Streamlining stock transfers and authorizations",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Authorization</b><br/>Only authorized users can perform stock transfers or related actions.</p><p><b>Additional controls</b><br/>You can create sales and purchasing documents using customers or suppliers linked to the same company as the purchasing or sales site.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

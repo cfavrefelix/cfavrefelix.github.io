@@ -142,6 +142,45 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86005",
+                            "title": "E-invoicing for Germany - Inbound flow",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sage is making German e-invoicing compliance simple and easy!</p><p>Your product is now enabled with AI-powered document extraction that allows you to receive and process Xrechnung and Zugferd e-invoices fast and efficiently. Document extraction helps you be compliant while eliminating the hassle of manual, error-prone invoice entry!  </p><p>This powerful new capability is included in your existing Sage subscription! </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "germany-ger"
+                                ],
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Improvements",
                     "taxonomies": {
                         "_type": [
@@ -341,6 +380,46 @@
                                 }
                             ],
                             "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Purchasing",
+            "id": "purchasing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Purchasing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82697",
+                            "title": "AP Automation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can now upload a purchase invoice in PDF format or sync emails to a sent to the Sage AI service. For each method, the Sage AI service scans the data so you can avoid manual data entry.</p><p>You have the ability to review and update data as needed to ensure accuracy. Finally, a purchase invoice or credit memo is generated, so that you can add item lines.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "50.0.0"
                                 ]

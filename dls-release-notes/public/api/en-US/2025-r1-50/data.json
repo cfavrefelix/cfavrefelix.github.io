@@ -20,6 +20,58 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84538",
+                            "title": "Attachment management",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>You can access and manage attachments from the Attachments tab, which also displays the number of attachments. You can see the full list of attachments and related details. A preview panel opens when you select an image or text file. <br/>Select the upload icon to add attachments.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74580",
+                            "title": "Unlimited main list data export",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When you export content in the main list for a page, the process works in the background so you can continue working while data is being exported. In addition, there is no limit to the number of lines you can export so you can export all lines to a single CSV or Excel file.</p><p>When complete, the document is available from the <b>Notification center</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Other updates",
                     "taxonomies": {
                         "_type": [
@@ -116,6 +168,22 @@
                             }
                         },
                         {
+                            "key": "XT-83848",
+                            "title": "Cannot invoice purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase invoice from a purchase receipt without errors.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-83194",
                             "title": "Adding multiple lines to a landed cost invoice causes an error",
                             "highlight": false,
@@ -154,11 +222,11 @@
                     "content_parts": [
                         {
                             "key": "XT-86005",
-                            "title": "E-invoicing for Germany - Inbound flow",
+                            "title": "E-invoicing for Germany",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sage is making German e-invoicing compliance simple and easy!</p><p>Your product is now enabled with AI-powered document extraction that allows you to receive and process Xrechnung and Zugferd e-invoices fast and efficiently. Document extraction helps you be compliant while eliminating the hassle of manual, error-prone invoice entry!  </p><p>This powerful new capability is included in your existing Sage subscription! </p>",
+                                    "content": "<p>Sage is making German e-invoicing compliance simple and easy.</p><p>Your product is now enabled with AI-powered document extraction so you can receive and process <em>Xrechnung</em> and <em>Zugferd</em> e-invoices fast and efficiently. From the <b>Uploaded purchasing document</b> page, you can add documents that are then scanned for invoice data so you stay compliant while eliminating the hassle of manual, time-consuming invoice entry.</p><p>This powerful new capability is included in your existing Sage subscription.</p><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -171,9 +239,6 @@
                                 ],
                                 "version": [
                                     "50.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po/pm"
                                 ]
                             }
                         }
@@ -197,7 +262,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you need to repost a purchasing and sales invoice, the <b>Retry</b> icon on the <b>Posting</b> tab opens the <b>Notification history</b> page. Depending on the cause, you can fix errors, such as missing dimensions, and resend or retry as needed.</p><p>User permissions to access the <b>Notification history</b> page required.</p>",
+                                    "content": "<p>When you need to repost a purchasing invoice or credit memo or a sales invoice, the <b>Retry</b> icon on the <b>Posting</b> tab opens the <b>Notification history</b> page. Depending on the cause, you can fix errors, such as missing dimensions, and resend or retry as needed.</p><p>User permissions to access the <b>Notification history</b> page required.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -232,31 +297,12 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-84987",
-                            "title": "Material tracking: Select all component lines",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You asked. We listened.</p><p>If you reserve component stock and allocate it to work orders in advance of production, you can now select all component lines to issue the components at once.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "50.0.0"
-                                ]
-                            }
-                        },
-                        {
                             "key": "XT-82764",
                             "title": "Work in progress transaction inquiry",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the new <b>Work in progress inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings. You can filter by tracking type and work order range, so you can organize and group the inquiry to match your viewing preferences.</p>",
+                                    "content": "<p>On the new <b>Work in progress transaction inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings. You can filter by tracking type and work order range, so you can organize and group the inquiry to match your viewing preferences.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -284,12 +330,12 @@
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-82037",
-                            "title": "Work order component available stock quantities",
+                            "key": "XT-84987",
+                            "title": "Material tracking: Select all component lines",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You asked. We listened.</p><p>So that you can easily see available and allocated component stock quantities, a <b>Stock</b> tab was added to the <b>Edit work order component</b> panel.</p>",
+                                    "content": "<p>You asked. We listened.</p><p>If you reserve component stock and allocate it to work orders in advance of production, you can now select all component lines to issue the components at once.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -301,32 +347,21 @@
                                     "50.0.0"
                                 ]
                             }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
-                    "title": "Other updates",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
-                    ],
-                    "content_parts": [
+                        },
                         {
-                            "key": "XT-83848",
-                            "title": "Cannot invoice purchase receipts",
+                            "key": "XT-82037",
+                            "title": "Work order component stock quantities and closed date",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can create a purchase invoice from a purchase receipt without errors.",
+                                    "content": "<p>You asked. We listened.</p><p>So that you can easily see component stock quantities, additional columns are available to display in the <b>Components</b> grid and a <b>Stock</b> tab was added to the <b>Edit work order component</b> panel.</p><p>Closed work orders display the closed date.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "50.0.0"
                                 ]
@@ -412,7 +447,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can now upload a purchase invoice in PDF format or sync emails to a sent to the Sage AI service. For each method, the Sage AI service scans the data so you can avoid manual data entry.</p><p>You have the ability to review and update data as needed to ensure accuracy. Finally, a purchase invoice or credit memo is generated, so that you can add item lines.</p>",
+                                    "content": "<p>You can now upload a purchase invoice in PDF format or sync emails sent to the Sage AI service. For each method, the Sage AI service scans the data so you can avoid manual data entry.</p><p>You have the ability to review and update data as needed to ensure accuracy. Finally, a purchase invoice or credit memo is generated, so that you can add item lines.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

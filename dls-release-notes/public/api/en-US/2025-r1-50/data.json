@@ -198,6 +198,25 @@
                                     "50.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-66802",
+                            "title": "When receiving a purchase order for the same item/lot on 2 different lines, the system returns the second line as an error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase receipt with the same item and lot number on separate lines.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -280,29 +299,29 @@
             ]
         },
         {
-            "title": "Manufacturing",
-            "id": "manufacturing",
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
             "type": "module",
             "content_parts": [
                 {
                     "type": "group",
-                    "title": "Features",
+                    "title": "Improvements",
                     "taxonomies": {
                         "_type": [
-                            "news"
+                            "changes"
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
                     ],
                     "content_parts": [
                         {
-                            "key": "XT-82764",
-                            "title": "Work in progress transaction inquiry",
+                            "key": "XT-83115",
+                            "title": "Email template",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the new <b>Work in progress transaction inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings. You can filter by tracking type and work order range, so you can organize and group the inquiry to match your viewing preferences.</p>",
+                                    "content": "<p>When designing an email template from a report, you can send a test email to any email address of your choice. If parameters are used, you need to enter them in JSON format. This parameter structure is now pre-populated, so you can directly enter the parameter values in the JSON structure.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -316,7 +335,14 @@
                             }
                         }
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
                 {
                     "type": "group",
                     "title": "Improvements",
@@ -336,6 +362,25 @@
                             "content_parts": [
                                 {
                                     "content": "<p>You asked. We listened.</p><p>If you reserve component stock and allocate it to work orders in advance of production, you can now select all component lines to issue the components at once.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82764",
+                            "title": "Work in progress transaction inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>On the new <b>Work in progress transaction inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings on a main list that scrolls continuously. You can organize and group the inquiry to match your viewing preferences, and group columns to view subtotals.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -376,6 +421,39 @@
             "id": "platform",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71810",
+                            "title": "Send emails from your company\u2019s domain",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can define an email domain, such as your company\u2019s domain, when an email is sent from the product. Recipients like business partners can clearly identify you as the sender and this helps to avoid your emails being discarded due to spam filters.</p><p>When a tenant is created, the default email domain is that of the administrative user, such as user@my.comany.com. The mail sending system sends the email from an address of that domain and the replay email is noreply@my.company.com.</p><p>To enable this, you need to configure the email domain by returning the credentials allowing SDMO to send emails on behalf of your domain.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Other updates",
@@ -447,7 +525,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can now upload a purchase invoice in PDF format or sync emails sent to the Sage AI service. For each method, the Sage AI service scans the data so you can avoid manual data entry.</p><p>You have the ability to review and update data as needed to ensure accuracy. Finally, a purchase invoice or credit memo is generated, so that you can add item lines.</p>",
+                                    "content": "<p>Reduce manual data entry by using an AI-powered assistant for accounts payable. Use Sage\u2019s AI capabilities to automate manual data entry, cutting accounts payable processing time in half.</p><p>On the <b>Uploaded purchase invoices</b> page, you can upload or retrieve documents from a dedicated email address to the Sage AI service. The emailed documents are automatically scanned and ready for your review when you retrieve them. After you review and confirm data, you can create a purchasing invoice or credit memo, so you can easily complete related accounts payable tasks.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -457,6 +535,46 @@
                                 ],
                                 "version": [
                                     "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Reference Data",
+            "id": "reference-data",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Other updates",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-85738",
+                            "title": "Sales invoices with posting error: [{\"type\":3,\"message\":{}}]",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sales invoices can be posted successfully.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         }

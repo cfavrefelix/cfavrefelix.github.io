@@ -55,7 +55,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you export content in the main list for a page, the process works in the background so you can continue working while data is being exported. In addition, there is no limit to the number of lines you can export so you can export all lines to a single CSV or Excel file.</p><p>When complete, the document is available from the <b>Notification center</b>.</p>",
+                                    "content": "<p>When you export content in the main list for a page, the process works in the background so you can continue working while data is being exported. In addition, there is no limit to the number of lines you can export so you can export all lines to a single CSV or Excel file.</p><p>When complete, the document is available from the <b>Notification centre</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -281,7 +281,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When you need to repost a purchasing invoice or credit memo or a sales invoice, the <b>Retry</b> icon on the <b>Posting</b> tab opens the <b>Notification history</b> page. Depending on the cause, you can fix errors, such as missing dimensions, and resend or retry as needed.</p><p>User permissions to access the <b>Notification history</b> page required.</p>",
+                                    "content": "<p>When you need to repost a purchasing invoice or credit note or a sales invoice, the <b>Retry</b> icon on the <b>Posting</b> tab opens the <b>Notification history</b> page. Depending on the cause, you can fix errors, such as missing dimensions, and resend or retry as needed.</p><p>User permissions to access the <b>Notification history</b> page required.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -380,7 +380,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the new <b>Work in progress transaction inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings on a main list that scrolls continuously. You can organize and group the inquiry to match your viewing preferences, and group columns to view subtotals.</p>",
+                                    "content": "<p>On the new <b>Work in progress transaction inquiry</b> page, you can view work orders and released items, as well as view costs from completed trackings on a main list that scrolls continuously. You can organise and group the inquiry to match your viewing preferences, and group columns to view subtotals.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -525,7 +525,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Reduce manual data entry by using an AI-powered assistant for accounts payable. Use Sage\u2019s AI capabilities to automate manual data entry, cutting accounts payable processing time in half.</p><p>On the <b>Uploaded purchase invoices</b> page, you can upload or retrieve documents from a dedicated email address to the Sage AI service. The emailed documents are automatically scanned and ready for your review when you retrieve them. After you review and confirm data, you can create a purchasing invoice or credit memo, so you can easily complete related accounts payable tasks.</p>",
+                                    "content": "<p>Reduce manual data entry by using an AI-powered assistant for accounts payable. Use Sage\u2019s AI capabilities to automate manual data entry, cutting accounts payable processing time in half.</p><p>On the <b>Uploaded purchase invoices</b> page, you can upload or retrieve documents from a dedicated email address to the Sage AI service. The emailed documents are automatically scanned and ready for your review when you retrieve them. After you review and confirm data, you can create a purchasing invoice or credit note, so you can easily complete related accounts payable tasks.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -561,11 +561,11 @@
                     "content_parts": [
                         {
                             "key": "XT-72096",
-                            "title": "Streamlining stock transfers and authorizations",
+                            "title": "Streamlining stock transfers and authorisations",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Authorization</b><br/>Only authorized users can perform stock transfers or related actions.</p><p><b>Additional controls</b><br/>You can create sales and purchasing documents using customers or suppliers linked to the same company as the purchasing or sales site.</p>",
+                                    "content": "<p><b>Authorisation</b><br/>Only authorised users can perform stock transfers or related actions.</p><p><b>Additional controls</b><br/>You can create sales and purchasing documents using customers or suppliers linked to the same company as the purchasing or sales site.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

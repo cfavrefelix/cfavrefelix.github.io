@@ -36,7 +36,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You asked. We listened.</p><p>You can access and manage attachments from the Attachments tab, which also displays the number of attachments. You can see the full list of attachments and related details. A preview panel opens when you select an image or text file. <br/>Select the upload icon to add attachments.</p>",
+                                    "content": "<p>You asked. We listened.</p><p>You can access and manage attachments from the <b>Attachments</b> tab, which also displays the number of attachments. You can see the full list of attachments and related details. A preview panel opens when you select an image or text file. <br/>Select the upload icon to add attachments.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -45,7 +45,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         },
@@ -64,7 +64,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         }
@@ -330,7 +330,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         }
@@ -448,7 +448,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         }
@@ -478,7 +478,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         },
@@ -494,7 +494,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "50.0.0"
+                                    
                                 ]
                             }
                         }
@@ -535,46 +535,6 @@
                                 ],
                                 "version": [
                                     "50.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Reference Data",
-            "id": "reference-data",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Other updates",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-85738",
-                            "title": "Sales invoices with posting error: [{\"type\":3,\"message\":{}}]",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "Sales invoices can be posted successfully.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "50.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

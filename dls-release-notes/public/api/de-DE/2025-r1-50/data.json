@@ -1,0 +1,586 @@
+{
+    "id": "2025-r1-50",
+    "title": "2025 R1",
+    "language": "de-DE",
+    "__archive": "/dls-release-notes/api/de-DE/archive.json",
+    "previous": "2024-r12-49",
+    "date": "Januar",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Einf\u00fchrung",
+            "content": "<p>Neues in der Version 2025 R1.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Allgemein",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84538",
+                            "title": "Anlagenverwaltung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Sie k\u00f6nnen \u00fcber das Register <b>Anlagen</b> auf Anh\u00e4nge zugreifen und diese verwalten, wobei auch die Anzahl der Anh\u00e4nge angezeigt wird. Sie k\u00f6nnen die vollst\u00e4ndige Liste der Anlagen und zugeh\u00f6rigen Details anzeigen. Ein Vorschaufenster wird ge\u00f6ffnet, wenn Sie eine Bild- oder Textdatei ausw\u00e4hlen. <br/>W\u00e4hlen Sie das Symbol zum Hochladen, um Anh\u00e4nge hinzuzuf\u00fcgen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-74580",
+                            "title": "Unbegrenzter Export von Hauptlistendaten",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Wenn Sie Inhalte in der Hauptliste f\u00fcr eine Seite exportieren, wird der Prozess im Hintergrund ausgef\u00fchrt, sodass Sie w\u00e4hrend des Datenexports weiterarbeiten k\u00f6nnen. Au\u00dferdem gibt es keine Begrenzung f\u00fcr die Anzahl der zu exportierenden Zeilen, sodass Sie alle Zeilen in eine einzelne CSV- oder Excel-Datei exportieren k\u00f6nnen.</p><p>Nach der Durchf\u00fchrung ist das Dokument im <b>Benachrichtigungs-Center</b> verf\u00fcgbar.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84079",
+                            "title": "Bestands\u00e4nderung, wenn die Menge den vorr\u00e4tigen Bestand \u00fcbersteigt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie versuchen, eine Bestandskorrektur zu buchen, die den vorr\u00e4tigen Bestand \u00fcbersteigt, bleibt die Zeile im Entwurf, sodass Sie die Menge aktualisieren und den Vorgang wiederholen k\u00f6nnen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84417",
+                            "title": "Einkaufsrechnung f\u00fcr bestimmte Standorte kann nicht erstellt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen eine Einkaufsrechnung fehlerfrei f\u00fcr alle Unternehmensstandorte erstellen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84247",
+                            "title": "Bestandskorrektur h\u00e4ngt bei Buchung in Bearbeitung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen eine Bestandskorrekturzeile aktualisieren, wenn die Korrektur nicht gebucht wurde.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84181",
+                            "title": "Eine Adresse kann nicht ge\u00e4ndert oder zu einem Standort hinzugef\u00fcgt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen eine Adresse f\u00fcr einen Standort ohne Fehler hinzuf\u00fcgen und bearbeiten.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-83848",
+                            "title": "Wareneing\u00e4nge k\u00f6nnen nicht fakturiert werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen eine Einkaufsrechnung aus einem Wareneingang ohne Fehler erstellen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-83194",
+                            "title": "Das Hinzuf\u00fcgen mehrerer Zeilen zu einer Einstandskostenrechnung f\u00fchrt zu einem Fehler",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen einer Einstandskostenrechnung mehrere Zeilen ohne Fehler hinzuf\u00fcgen, indem Sie die Tabelle f\u00fcr die Direkterfassung verwenden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-66802",
+                            "title": "Wenn eine Bestellung f\u00fcr denselben Artikel/dieselbe Charge in zwei verschiedenen Zeilen eingeht, gibt das System die zweite Zeile als Fehler zur\u00fcck",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen einen Wareneingang mit derselben Artikel- und Chargennummer in separaten Zeilen erstellen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "50.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finanzen",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86005",
+                            "title": "E-Rechnung f\u00fcr Deutschland",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sage macht die Einhaltung der deutschen E-Rechnung-Vorschriften ganz einfach.</p><p>In Ihrem Produkt ist jetzt die KI-basierte Dokumentenextraktion aktiviert, sodass Sie Rechnungen im Format <em>XRechnung</em> und <em>ZUGFeRD</em> schnell und effizient empfangen und verarbeiten k\u00f6nnen. Auf der Seite <b>Hochgeladene Einkaufsdokumente</b> k\u00f6nnen Sie Dokumente hinzuf\u00fcgen, die dann nach Rechnungsdaten gescannt werden, damit Sie die Vorschriften einhalten, w\u00e4hrend gleichzeitig die manuelle, zeitaufw\u00e4ndige Rechnungseingabe \u00fcberfl\u00fcssig wird.</p><p>Diese leistungsstarke neue Funktionalit\u00e4t ist in Ihrem bestehenden Sage-Abonnement enthalten.</p><p>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "germany-ger"
+                                ],
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79808",
+                            "title": "Einfacher Zugriff zur Anzeige von Finanzbenachrichtigungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Wenn Sie eine Einkaufsrechnung, Gutschrift oder Verkaufsrechnung erneut buchen m\u00fcssen, wird die Seite <b>Benachrichtigungsverlauf</b> \u00fcber das Symbol <b>Erneut versuchen</b> im Register <b>Buchung</b> ge\u00f6ffnet. Je nach Ursache k\u00f6nnen Sie Fehler wie fehlende Sektoren beheben und bei Bedarf erneut senden oder versuchen.</p><p>Benutzerberechtigungen f\u00fcr den Zugriff auf die Seite <b>Benachrichtigungsverlauf</b> sind erforderlich.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Formulare & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83115",
+                            "title": "E-Mail-Vorlage",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Wenn Sie eine E-Mail-Vorlage aus einem Report entwerfen, k\u00f6nnen Sie eine Test-E-Mail an eine beliebige E-Mail-Adresse senden. Wenn Parameter verwendet werden, m\u00fcssen Sie diese im JSON-Format eingeben. Diese Parameterstruktur ist jetzt vorausgef\u00fcllt, sodass Sie die Parameterwerte direkt in die JSON-Struktur eingeben k\u00f6nnen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Fertigung",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84987",
+                            "title": "Materialr\u00fcckmeldung: Alle Komponentenzeilen ausw\u00e4hlen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Wenn Sie Komponentenbestand reservieren und vor der Produktion Fertigungsauftr\u00e4gen zuteilen, k\u00f6nnen Sie jetzt alle Komponentenzeilen ausw\u00e4hlen, um die Komponenten auf einmal zu entnehmen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82764",
+                            "title": "Abfrage Work-In-Progress-Transaktion",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Auf der neuen Seite <b>Abfrage Work-In-Progress-Transaktion</b> k\u00f6nnen Sie Fertigungsauftr\u00e4ge und freigegebene Artikel sowie Kosten aus abgeschlossenen R\u00fcckmeldungen in einer Hauptliste anzeigen, die kontinuierlich durchl\u00e4uft. Sie k\u00f6nnen die Abfrage so organisieren und gruppieren, dass sie Ihren Anzeigeeinstellungen entspricht, und Spalten gruppieren, um Zwischensummen anzuzeigen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-82037",
+                            "title": "Bestandsmengen und Abschlussdatum der Fertigungsauftragskomponenten",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Damit Sie die Komponentenbestandsmengen leicht anzeigen k\u00f6nnen, stehen zus\u00e4tzliche Spalten zur Anzeige in der Tabelle <b>Komponenten</b> zur Verf\u00fcgung, und ein Register <b>Bestand</b> wurde dem Bereich <b>FA-Komponente bearbeiten</b> hinzugef\u00fcgt.</p><p>Abgeschlossene Fertigungsauftr\u00e4ge zeigen das Abschlussdatum an.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plattform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-71810",
+                            "title": "E-Mails von der Dom\u00e4ne Ihres Unternehmens senden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sie k\u00f6nnen eine E-Mail-Dom\u00e4ne definieren, zum Beispiel die Dom\u00e4ne Ihres Unternehmens, wenn eine E-Mail vom Produkt gesendet wird. Empf\u00e4nger wie Gesch\u00e4ftspartner k\u00f6nnen Sie eindeutig als Absender identifizieren. Dies verhindert, dass Ihre E-Mails aufgrund von Spam-Filtern verworfen werden.</p><p>Wenn ein Tenant erstellt wird, ist die Standard-E-Mail-Dom\u00e4ne die des administrativen Benutzers, zum Beispiel user@my.company.com. Das E-Mail-sendende System sendet die E-Mail von einer Adresse dieser Dom\u00e4ne und die Antwort-E-Mail-Adresse lautet noreply@my.company.com.</p><p>Um dies zu aktivieren, m\u00fcssen Sie die E-Mail-Dom\u00e4ne konfigurieren, indem Sie die Anmeldeinformationen zur\u00fcckgeben, mit denen SDMO E-Mails im Namen Ihrer Dom\u00e4ne senden kann.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Sonstige Aktualisierungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-85759",
+                            "title": "Kunde mit eindeutiger E-Mail-Dom\u00e4ne kann nicht erstellt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen benutzerdefinierte E-Mail-Adressen wie @xplore.solutions verwenden.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85748",
+                            "title": "Die Lieferadresse in einem Verkaufsauftrag kann nicht ersetzt werden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Sie k\u00f6nnen die Lieferadresse in einem Verkaufsauftrag \u00e4ndern, indem Sie die Aktion \u201eErsetzen\u201c w\u00e4hlen. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Einkauf",
+            "id": "purchasing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Funktionalit\u00e4ten",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Purchasing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82697",
+                            "title": "AP Automation - Eingangsrechnungsautomatisierung",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Reduzieren Sie die manuelle Dateneingabe durch den Einsatz eines KI-gest\u00fctzten Assistenten f\u00fcr Eingangsrechnungen. Nutzen Sie die KI-Funktionalit\u00e4ten von Sage, um die manuelle Dateneingabe zu automatisieren und so die Verarbeitungszeit f\u00fcr Eingangsrechnungen um die H\u00e4lfte zu reduzieren.</p><p>Auf der Seite <b>Hochgeladene Einkaufsrechnungen</b> k\u00f6nnen Sie Dokumente von einer dedizierten E-Mail-Adresse an den Sage AI-Service hochladen oder abrufen. Die per E-Mail versandten Dokumente werden automatisch gescannt und k\u00f6nnen beim Abrufen \u00fcberpr\u00fcft werden. Nachdem Sie die Daten gepr\u00fcft und best\u00e4tigt haben, k\u00f6nnen Sie eine Einkaufsrechnung oder Gutschrift erstellen, um damit verbundene Kreditorenaufgaben problemlos abzuschlie\u00dfen.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Bestand",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Verbesserungen",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-72096",
+                            "title": "Optimierung von Bestandstransfers und Berechtigungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Autorisierung</b><br/>Nur autorisierte Benutzer k\u00f6nnen Bestandstransfers oder zugeh\u00f6rige Aktionen ausf\u00fchren.</p><p><b>Zus\u00e4tzliche Kontrollen</b><br/>Sie k\u00f6nnen Verkaufs- und Einkaufsdokumente mit Kunden oder Lieferanten erstellen, die mit demselben Unternehmen wie der Einkaufs- oder Verkaufsstandort verkn\u00fcpft sind.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "50.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

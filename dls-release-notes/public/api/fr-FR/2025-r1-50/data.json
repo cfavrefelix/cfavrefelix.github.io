@@ -245,7 +245,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sage simplifie et facilite la conformit\u00e9 de la facturation \u00e9lectronique pour l\u2019Allemagne.</p><p>Votre produit utilise d\u00e9sormais l\u2019IA pour l'extraction de documents. Vous pouvez ainsi recevoir et traiter les factures \u00e9lectroniques <em>XRechnung</em> et <em>ZUGFeRD </em> de fa\u00e7on rapide et efficace. Dans la page <b>Documents d'achat t\u00e9l\u00e9charg\u00e9s</b>, vous pouvez ajouter des documents dont les donn\u00e9es de facturation sont scann\u00e9es. Vous \u00eates ainsi conforme tout en \u00e9vitant de perdre du temps sur la saisie manuelle de ces donn\u00e9es.</p><p>Cette nouvelle fonctionnalit\u00e9 puissante fait partie dans votre abonnement Sage existant.</p><p>\u00a0</p>",
+                                    "content": "<p>Sage simplifie et facilite la conformit\u00e9 de la facturation \u00e9lectronique pour l\u2019Allemagne.</p><p>Votre produit utilise d\u00e9sormais l\u2019IA pour l'extraction de documents. Vous pouvez ainsi recevoir et traiter les factures \u00e9lectroniques <em>XRechnung</em> et <em>ZUGFeRD </em> de fa\u00e7on rapide et efficace. Dans la page <b>Documents d'achat t\u00e9l\u00e9charg\u00e9s</b>, vous pouvez ajouter des documents dont les donn\u00e9es de facturation sont scann\u00e9es. Vous \u00eates ainsi conforme tout en \u00e9vitant de perdre du temps sur la saisie manuelle de ces donn\u00e9es.</p><p>Cette nouvelle fonctionnalit\u00e9 puissante fait partie de votre abonnement Sage existant.</p><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -357,7 +357,7 @@
                     "content_parts": [
                         {
                             "key": "XT-84987",
-                            "title": "Suivi mati\u00e8re : S\u00e9lectionner toutes les lignes de composants",
+                            "title": "Suivi mati\u00e8re : s\u00e9lectionner toutes les lignes de composants",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -399,7 +399,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Pour que vous puissiez facilement voir les quantit\u00e9s de stock de composants, des colonnes suppl\u00e9mentaires ont \u00e9t\u00e9 ajout\u00e9es dans le tableau <b>Composants</b> et un onglet <b>Stock</b> a \u00e9t\u00e9 ajout\u00e9 dans le volet <b>Modifier composant d'OF</b>.</p><p>Les ordres de fabrication sold\u00e9s affichent la date de solde.</p>",
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Pour que vous puissiez facilement afficher les quantit\u00e9s de stock de composants, des colonnes suppl\u00e9mentaires ont \u00e9t\u00e9 ajout\u00e9es dans le tableau <b>Composants</b> et un onglet <b>Stock</b> a \u00e9t\u00e9 ajout\u00e9 dans le volet <b>Modifier composant d'OF</b>.</p><p>Les ordres de fabrication sold\u00e9s affichent la date de solde.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -565,7 +565,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Autorisation</b><br/>Seuls les utilisateurs autoris\u00e9s peuvent effectuer des transferts de stock ou des actions associ\u00e9es.</p><p><b>Contr\u00f4les suppl\u00e9mentaires</b><br/>Vous pouvez cr\u00e9er des documents de vente et d'achat en utilisant des clients ou des fournisseurs li\u00e9s \u00e0 la m\u00eame soci\u00e9t\u00e9 que le site d'achat ou de vente.</p>",
+                                    "content": "<p><b>Autorisations</b><br/>Seuls les utilisateurs autoris\u00e9s peuvent effectuer des transferts de stock ou des actions associ\u00e9es.</p><p><b>Contr\u00f4les suppl\u00e9mentaires</b><br/>Vous pouvez cr\u00e9er des documents de vente et d'achat en utilisant des clients ou des fournisseurs li\u00e9s \u00e0 la m\u00eame soci\u00e9t\u00e9 que le site d'achat ou de vente.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

@@ -79,7 +79,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-85738)"
                     ],
                     "content_parts": [
                         {
@@ -116,7 +116,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-85738)"
                     ],
                     "content_parts": [
                         {
@@ -189,7 +189,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can add multiple lines to a landed cost invoice using the direct entry gird without errors.",
+                                    "content": "You can add multiple lines to a landed cost invoice using the direct entry grid without errors.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -245,7 +245,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sage is making German e-invoicing compliance simple and easy.</p><p>Your product is now enabled with AI-powered document extraction so you can receive and process <em>Xrechnung</em> and <em>Zugferd</em> e-invoices fast and efficiently. From the <b>Uploaded purchasing document</b> page, you can add documents that are then scanned for invoice data so you stay compliant while eliminating the hassle of manual, time-consuming invoice entry.</p><p>This powerful new capability is included in your existing Sage subscription.</p><p>\u00a0</p>",
+                                    "content": "<p>Sage is making German e-invoicing compliance simple and easy.</p><p>Your product is now enabled with AI-powered document extraction so you can receive and process <em>XRechnung</em> and <em>ZUGFeRD</em> e-invoices fast and efficiently. From the <b>Uploaded purchasing document</b> page, you can add documents that are then scanned for invoice data so you stay compliant while eliminating the hassle of manual, time-consuming invoice entry.</p><p>This powerful new capability is included in your existing Sage subscription.</p><p>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -463,7 +463,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-85738)"
                     ],
                     "content_parts": [
                         {
@@ -525,7 +525,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Reduce manual data entry by using an AI-powered assistant for accounts payable. Use Sage\u2019s AI capabilities to automate manual data entry, cutting accounts payable processing time in half.</p><p>On the <b>Uploaded purchase invoices</b> page, you can upload or retrieve documents from a dedicated email address to the Sage AI service. The emailed documents are automatically scanned and ready for your review when you retrieve them. After you review and confirm data, you can create a purchasing invoice or credit memo, so you can easily complete related accounts payable tasks.</p>",
+                                    "content": "<p>Reduce manual data entry by using an AI-powered assistant for accounts payable. Use Sage\u2019s AI capabilities to automate manual data entry, cutting accounts payable processing time in half.</p><p>On the <b>Uploaded purchasing documents</b> page, you can upload or retrieve documents from a dedicated email address to the Sage AI service. The emailed documents are automatically scanned and ready for your review when you retrieve them. After you review and confirm data, you can create a purchasing invoice or credit memo, so you can easily complete related accounts payable tasks.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -565,7 +565,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Authorization</b><br/>Only authorized users can perform stock transfers or related actions.</p><p><b>Additional controls</b><br/>You can create sales and purchasing documents using customers or suppliers linked to the same company as the purchasing or sales site.</p>",
+                                    "content": "<p><b>Authorization</b><br/>Only authorized users can perform stock transfers or related actions.</p><p><b>Additional controls</b><br/>You cannot create sales and purchasing documents using customers or suppliers linked to the same company as the purchasing or sales site.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

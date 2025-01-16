@@ -10,7 +10,7 @@
             "id": "intro",
             "type": "intro",
             "title": "Introduction",
-            "content": "<p>D\u00e9couvrez les nouveaut\u00e9s de la release 2025 R1.</p>",
+            "content": "<p><span class='image-wrap'><yield>D\u00e9couvrez les nouveaut\u00e9s de la release </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%20January%20release%202025%20-%20Final.mp4'>2025 R1</a><yield>.</yield></span>\n</p>",
             "taxonomies": "all"
         },
         {
@@ -79,7 +79,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT2025R1(50.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
                         {
@@ -116,7 +116,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT2025R1(50.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
                         {
@@ -463,7 +463,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R1 (50.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R1 (50.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT2025R1(50.0.0)\\\")\", \"is hotfix of\"))"
                     ],
                     "content_parts": [
                         {

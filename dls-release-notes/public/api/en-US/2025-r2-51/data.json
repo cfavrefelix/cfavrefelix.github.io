@@ -69,7 +69,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The MRP calculation justification page was removed. You can access MRP justifications on the MRP Calculation page. In addtion, the First suggestion date column was added to the MRP Calculation page.",
+                                    "content": "The MRP calculation justification page was removed. You can access MRP justifications on the MRP Calculation page. In addtion, the First suggestion date column was added to MRP calculation results.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -106,7 +106,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Allocation status</b></p><p>To easily identify documents that require stock allocation, the <b>Allocation status</b> was added as a column to the main list for <b>Sales order</b>, <b>Sales shipment</b> and <b>Work order</b> pages. It was also added to the <b>Information</b> tab on the <b>Sales shipment</b> page.</p><p><b>Purchase order</b></p><p>To improve the visibility of received quantities to help buyers make quicker and smarter decisions, 3 columns were added to the <b>Lines</b> grid:</p><ul><li><b>Remaining quantity to receive</b></li><li><b>Quantity received</b></li><li><b>Quantity received in progress</b></li></ul>",
+                                    "content": "<p><b>Allocation status</b></p><p>To easily identify documents that require stock allocation, the <b>Allocation status</b> was added as a column to the main list for <b>Sales order</b>, <b>Sales shipment</b>, and <b>Work order</b> pages. It was also added to the <b>Information</b> tab on the <b>Sales shipment</b> page.</p><p><b>Purchase order</b></p><p>To improve the visibility of received quantities to help buyers make quicker and smarter decisions, 3 columns were added to the <b>Lines</b> grid:</p><ul><li><b>Remaining quantity to receive</b></li><li><b>Quantity received</b></li><li><b>Quantity received in progress</b></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -290,11 +290,11 @@
                     "content_parts": [
                         {
                             "key": "XT-84205",
-                            "title": "Journal posting improvements",
+                            "title": "Journal posting",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Retry failed posting</b></p><p>When posting is unsuccessful, you can use the <b>Retry</b> icon on the <b>Posting</b> tab to access the <b>Notification history</b> page. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase receipts; stock adjustments, receipts, value changes, counts, and stock issue; and sales credit memos.</p><p><b>View journal post status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for sales shipments and work orders.<br/>\u00a0</p>",
+                                    "content": "<p><b>Retry failed posting</b></p><p>When posting is unsuccessful, you can use the <b>Retry</b> icon on the <b>Posting</b> tab to access the <b>Notification history</b> page. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase receipts; stock adjustments, receipts, value changes, counts, and stock issue; and sales credit memos.</p><p><b>View status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for sales shipments and work orders.<br/>\u00a0</p>",
                                     "taxonomies": "all"
                                 }
                             ],

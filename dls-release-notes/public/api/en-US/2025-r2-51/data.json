@@ -48,6 +48,28 @@
                                     "51.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-85773",
+                            "title": "Custom views for main lists",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For main lists and inquiry pages, save time by creating and saving custom views. After customizing your list, give your view a unique name and save it so you can recall it at any time. You can create as many views as needed.</p><p>You also have the option to modify an existing view or create a new view based on an existing view.</p><p>You can save standard filtering and sorting options such as</p><ul><li>Hiding or displaying columns</li><li>Changing the order of columns</li><li>Applying a filter to one or several columns</li><li>Sorting and grouping lines</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -118,25 +140,6 @@
                                     "51.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-83968",
-                            "title": "AP Automation: Streamlined workflows",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>After uploaded documents are scanned by Sage\u2019s AI-powered assistant and ready to be reviewed, you can select and confirm multiple documents simultaneously, streamlining your workflow. You can no longer edit fields populated from an uploaded purchasing document for purchase invoices and credit memos to ensure consistency. </p><p>In addition, create and update information displays on the main list and the single document page for easier tracking.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "51.0.0"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -186,7 +189,7 @@
                         },
                         {
                             "key": "XT-86719",
-                            "title": "Reports: Incorrect currency in templates",
+                            "title": "Forms & Reports: Incorrect currency in templates",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -386,6 +389,46 @@
             ]
         },
         {
+            "title": "Purchasing",
+            "id": "purchasing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Purchasing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83968",
+                            "title": "AP Automation: Streamlined workflows",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>After uploaded documents are scanned by Sage\u2019s AI-powered assistant and ready to be reviewed, you can select and confirm multiple documents simultaneously, streamlining your workflow. You can no longer edit fields populated from an uploaded purchasing document for purchase invoices and credit memos to ensure consistency. </p><p>In addition, create and update information displays on the main list and the single document page for easier tracking.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Reference Data",
             "id": "reference-data",
             "type": "module",
@@ -474,11 +517,11 @@
                     "content_parts": [
                         {
                             "key": "XT-84172",
-                            "title": "Stock transfer reports and inquiry",
+                            "title": "Stock transfer forms and inquiry",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Reports</b></p><p>You can create 2 reports for stock transfer shipments:</p><ul><li>Pick lists to improve efficiency and ensure accuracy when picking items during the shipment preparation process</li><li>Packing slips to provide a clear view of the items included in the shipment</li></ul><p><b>Inquiries</b></p><p>You can use the <b>Stock in transit inquiry</b> page to generate a report for a specific date, enabling accurate reconciliation of the GL account associated with in-transit stock transfer records.</p>",
+                                    "content": "<p><b>Forms</b></p><p>You can create 2 forms for stock transfer shipments:</p><ul><li>Pick lists to improve efficiency and ensure accuracy when picking items during the shipment preparation process</li><li>Packing slips to provide a clear view of the items included in the shipment</li></ul><p><b>Inquiries</b></p><p>You can use the <b>Stock in transit inquiry</b> page to generate a report for a specific date, enabling accurate reconciliation of the GL account associated with in-transit stock transfer records.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

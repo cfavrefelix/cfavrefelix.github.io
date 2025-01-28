@@ -315,6 +315,49 @@
             ]
         },
         {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86192",
+                            "title": "Format report template HTML",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The HTML generated when converting a form report template to an advanced (HTML) version is formatted so that you can easily read it.</p><p>You can format the HTML code for any advanced report by selecting <b>Format</b> when working with an advanced report template.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Manufacturing",
             "id": "manufacturing",
             "type": "module",

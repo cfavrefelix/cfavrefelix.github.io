@@ -55,7 +55,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>For main lists and inquiry pages, save time by creating and saving custom views. After customizing your list, give your view a unique name and save it so you can recall it at any time. You can create as many views as needed.</p><p>You also have the option to modify an existing view or create a new view based on an existing view.</p><p>You can save standard filtering and sorting options such as</p><ul><li>Hiding or displaying columns</li><li>Changing the order of columns</li><li>Applying a filter to one or several columns</li><li>Sorting and grouping lines</li></ul>",
+                                    "content": "<p>For main lists and inquiry pages, save time by creating and saving custom views. After customizing your list, give your view a unique name and save it so you can recall it at any time. You can create as many views as needed.</p><p>You also have the option to modify an existing view or create a new view based on an existing view.</p><p>You can save standard display options to:</p><ul><li>Pin, hide, or display columns</li><li>Change the order of columns</li><li>Apply a filter to one or several columns</li><li>Sort and group lines</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -82,7 +82,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
                     ],
                     "content_parts": [
                         {
@@ -91,7 +91,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The MRP calculation justification page was removed. You can access MRP justifications on the MRP Calculation page. In addtion, the First suggestion date column was added to MRP calculation results.",
+                                    "content": "The MRP calculation justification page was removed. You can access MRP justifications on the MRP Calculation page. In addition, the First suggestion date column was added to MRP calculation results.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -124,11 +124,11 @@
                     "content_parts": [
                         {
                             "key": "XT-85578",
-                            "title": "Sales, purchasing, and manufacturing improvements",
+                            "title": "Purchasing improvements",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Allocation status</b></p><p>To easily identify documents that require stock allocation, the <b>Allocation status</b> was added as a column to the main list for <b>Sales order</b>, <b>Sales shipment</b>, and <b>Work order</b> pages. It was also added to the <b>Information</b> tab on the <b>Sales shipment</b> page.</p><p><b>Purchase order</b></p><p>To improve the visibility of received quantities to help buyers make quicker and smarter decisions, 3 columns were added to the <b>Lines</b> grid:</p><ul><li><b>Remaining quantity to receive</b></li><li><b>Quantity received</b></li><li><b>Quantity received in progress</b></li></ul>",
+                                    "content": "<p>To improve the visibility of received quantities to help buyers make quicker and smarter decisions, 3 columns were added to the <b>Lines</b> grid:</p><ul><li><b>Remaining quantity to receive</b></li><li><b>Quantity received</b></li><li><b>Quantity received in progress</b></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -152,7 +152,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
                     ],
                     "content_parts": [
                         {
@@ -198,9 +198,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "france-fra"
-                                ],
                                 "version": [
                                     "51.0.0"
                                 ]
@@ -245,6 +242,22 @@
                             "content_parts": [
                                 {
                                     "content": "You can print a sales order that is shipped.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85738",
+                            "title": "Unable to post sales invoices with an error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can post sales invoices with an error status.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -364,6 +377,39 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82196",
+                            "title": "Work in progress inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Work in progress inquiry</b> runs asynchronously, notifying you when the run is complete. The results display in a list that scrolls continuously. You can organize the inquiry to match your viewing preferences.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Resolved issues",
                     "taxonomies": {
                         "_type": [
@@ -371,7 +417,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
                     ],
                     "content_parts": [
                         {
@@ -408,7 +454,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
                     ],
                     "content_parts": [
                         {
@@ -472,80 +518,10 @@
             ]
         },
         {
-            "title": "Reference Data",
-            "id": "reference-data",
-            "type": "module",
-            "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Resolved issues",
-                    "taxonomies": {
-                        "_type": [
-                            "bug-fixes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Reference Data' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\"))"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-85738",
-                            "title": "Unable to post sales invoices with an error",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "You can post sales invoices with an error status.",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "version": [
-                                    "51.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
             "title": "Stock",
             "id": "stock",
             "type": "module",
             "content_parts": [
-                {
-                    "type": "group",
-                    "title": "Features",
-                    "taxonomies": {
-                        "_type": [
-                            "news"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-82196",
-                            "title": "Work in progress inquiry",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>The <b>Work in progress inquiry</b> runs asynchronously, notifying you when the run is complete. The results display in a list that scrolls continuously. You can organize the inquiry to match your viewing preferences.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "51.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
                 {
                     "type": "group",
                     "title": "Improvements",
@@ -564,7 +540,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Forms</b></p><p>You can create 2 forms for stock transfer shipments:</p><ul><li>Pick lists to improve efficiency and ensure accuracy when picking items during the shipment preparation process</li><li>Packing slips to provide a clear view of the items included in the shipment</li></ul><p><b>Inquiries</b></p><p>You can use the <b>Stock in transit inquiry</b> page to generate a report for a specific date, enabling accurate reconciliation of the GL account associated with in-transit stock transfer records.</p>",
+                                    "content": "<p><b>Forms</b></p><p>You can create 2 forms for stock transfer shipments:</p><ul><li>Pick lists to improve efficiency and ensure accuracy when picking items during the shipment preparation process.</li><li>Packing slips to provide a clear view of the items included in the shipment.</li></ul><p><b>Inquiries</b></p><p>You can use the <b>Stock in transit inquiry</b> page to generate a report for a specific date, enabling accurate reconciliation of the GL account associated with in-transit stock transfer records.</p><p>The inquiry only includes records created after this release. Transactions before this release are not included in the results.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

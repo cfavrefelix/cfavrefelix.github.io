@@ -28,6 +28,12 @@
     ],
     "releases": [
         {
+            "id": "2025-r2-51",
+            "title": "2025 R2 (February)",
+            "url": "/dls-release-notes/api/en-GB/2025-r2-51/data.json",
+            "date": "February"
+        },
+        {
             "id": "2025-r1-50",
             "title": "2025 R1 (January)",
             "url": "/dls-release-notes/api/en-GB/2025-r1-50/data.json",

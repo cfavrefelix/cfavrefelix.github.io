@@ -25,10 +25,10 @@ jobs:
       run:
         working-directory: ./dls-release-notes
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
         
       - run: yarn install --frozen-lockfile
       - run: yarn build
@@ -45,7 +45,7 @@ jobs:
       # ./build/dls-release-notes
       
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dls-release-notes/build
       
@@ -59,4 +59,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4

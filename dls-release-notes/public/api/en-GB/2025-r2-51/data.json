@@ -1,0 +1,561 @@
+{
+    "id": "2025-r2-51",
+    "title": "2025 R2",
+    "language": "en-GB",
+    "__archive": "/dls-release-notes/api/en-GB/archive.json",
+    "previous": "2025-r1-50",
+    "date": "February",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p>Check out what's new in the 2025 R2 release.</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87692",
+                            "title": "Bill of material and work order component default sequence numbers",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>Bills of material provide the default value of <b>10</b> as the start number for sorting an ascending sequence of components. The default for each subsequent component is in increments of 10 so that you can insert components and instructions into the sequence if necessary.<br/>When you add components after creating a work order, the same default sequence applies. Subsequent component numbers increase by 10 automatically.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85773",
+                            "title": "Custom views for main lists",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>For main lists and inquiry pages, save time by creating and saving custom views. After customising your list, give your view a unique name and save it so you can recall it at any time. You can create as many views as needed.</p><p>You also have the option to modify an existing view or create a new view based on an existing view.</p><p>You can save standard display options to:</p><ul><li>Pin, hide or display columns</li><li>Change the order of columns</li><li>Apply a filter to one or several columns</li><li>Sort and group lines</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83122",
+                            "title": "MRP calculation justification page errors",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The MRP calculation justification page was removed. You can access MRP justifications on the MRP calculation page. In addition, the First suggestion date column was added to MRP calculation results.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-85578",
+                            "title": "Purchasing improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve the visibility of received quantities to help buyers make quicker and smarter decisions, 3 columns were added to the <b>Lines</b> grid:</p><ul><li><b>Remaining quantity to receive</b></li><li><b>Quantity received</b></li><li><b>Quantity received in progress</b></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87120",
+                            "title": "Material tracking remains in progress",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can only close a work order after all stock trackings are completed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86720",
+                            "title": "Stock count error message when posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "To prevent an error from displaying, you can only select the Post stock action once.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86719",
+                            "title": "Forms & Reports: Incorrect currency in templates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "In sales orders, invoices and credit note reports, the document currency symbol is displayed for amounts and prices.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86339",
+                            "title": "Cannot change dates on a confirmed purchase order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can edit the dates on a purchase order that is confirmed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86231",
+                            "title": "Unable to add a line to a confirmed purchase order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A new line can be added to a confirmed purchase order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86159",
+                            "title": "You cannot print a shipped sales order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can print a sales order that is shipped.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85738",
+                            "title": "Unable to post sales invoices with an error",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can post sales invoices with an error status.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75106",
+                            "title": "Quantity mismatch on purchase orders and purchase receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Quantity in purchase unit on the purchase order Progress tab matches the Quantity in purchase unit on the purchase receipt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84205",
+                            "title": "Journal posting",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Retry failed posting</b></p><p>When posting is unsuccessful, you can use the <b>Retry</b> icon on the <b>Posting</b> tab to access the <b>Notification history</b> page. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase receipts; stock adjustments, receipts, value changes, counts, and stock issues; and sales credit notes.</p><p><b>View status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for sales shipments and work orders.<br/>\u00a0</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Forms & Reports",
+            "id": "forms-&-reports",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Forms & Reports' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86192",
+                            "title": "Format report template HTML",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The HTML generated when converting a form report template to an advanced (HTML) version is formatted so that you can easily read it.</p><p>You can format the HTML code for any advanced report by selecting <b>Format</b> when working with an advanced report template.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82196",
+                            "title": "Work in progress inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>The <b>Work in progress inquiry</b> runs asynchronously, notifying you when the run is complete. The results display in a list that scrolls continuously. You can organise the inquiry to match your viewing preferences.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86842",
+                            "title": "Cannot edit the quantity when tracking to the BOM",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can edit the quantity of the item received from production when creating tracking documents on the Bill of material page.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R2 (51.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-87706)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87830",
+                            "title": "Cannot upload attachments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can upload attachments without receiving an error.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Purchasing",
+            "id": "purchasing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Purchasing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-83968",
+                            "title": "AP Automation: Streamlined workflows",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>After uploaded documents are scanned by Sage\u2019s AI-powered assistant and ready to be reviewed, you can select and confirm multiple documents simultaneously, streamlining your workflow. You can no longer edit fields populated from an uploaded purchasing document for purchase invoices and credit notes to ensure consistency. </p><p>In addition, create and update information displays on the main list and the single document page for easier tracking.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R2 (51.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-84172",
+                            "title": "Stock transfer forms and inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Forms</b></p><p>You can create 2 forms for stock transfer shipments:</p><ul><li>Pick lists to improve efficiency and ensure accuracy when picking items during the shipment preparation process.</li><li>Packing slips to provide a clear view of the items included in the shipment.</li></ul><p><b>Inquiries</b></p><p>You can use the <b>Stock in transit inquiry</b> page to generate a report for a specific date, enabling accurate reconciliation of the GL account associated with in-transit stock transfer records.</p><p>The inquiry only includes records created after this release. Transactions before this release are not included in the results.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "51.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

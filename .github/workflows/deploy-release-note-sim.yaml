@@ -1,4 +1,4 @@
-name: Deploy SIM release-note
+name: Deploy SDMO release-note
 on:
   push:
     branches:

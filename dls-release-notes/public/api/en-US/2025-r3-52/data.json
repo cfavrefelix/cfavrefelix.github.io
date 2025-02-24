@@ -1,0 +1,633 @@
+{
+    "id": "2025-r3-52",
+    "title": "2025 R3",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "previous": "2025-r2-51",
+    "date": "March",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82820",
+                            "title": "Email domain sender reply-to address",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A <b>Reply to</b> tab was added to the <b>Email domain sender</b> page. For a nominated package, you can add a reply-to email address for each type of sales and purchasing document issued from a specific company and site.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87192",
+                            "title": "Check component stock for a BOM",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>So that you can check component stock availability quickly and easily, on the <b>Bill of material</b> page, a <b>Check stock</b> action was added to the <b>More actions</b> icon. The image of the BOM displays on an <b>Information</b> tab.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88600",
+                            "title": "Job schedule for MRP synchronization",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "On the Job schedule page, you can schedule when MRP synchronizes with your bill of material records without having to specify the data type to synchronize.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88311",
+                            "title": "Creating routings with the authorization service option enabled",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An authorized user can create routings without needing to be an admin user.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-89052",
+                            "title": "Sales invoice and sales credit memo Payments tab",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>A <b>Payments</b> tab was added to the <b>Sales invoice</b> and <b>Sales credit memo</b> pages, and the <b>Payment term</b> and <b>Due date</b> fields were moved from the Information tab to the new tab. A link to the <b>Accounts receivable open item</b> page is available on the tab for customers that are not linked with Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88118",
+                            "title": "Purchase receipt line inquiry",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>Efficiently track and manage receipt information in one place with the <b>Purchase receipt line</b> inquiry.</p><p>The inquiry is available:</p><ul><li>From the <b>Purchasing</b> &gt; <b>Purchasing inquiries</b> menu</li><li>From the <b>Purchase order line</b> inquiry page, which enables access to receipt lines related to a specific purchase order line.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-87231",
+                            "title": "Inbound e-invoicing for Germany ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can set up your Customer ID with Sage AI and the automated email address you can share with suppliers for a tenant and for a company on the <b>AP Automation configuration</b> page.<br/>The Sage AI service provides access to technical records for troubleshooting and synchronizes document deletion from your solution and the service.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-89395",
+                            "title": "Stock transfer enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Authorization</b><br/>Only authorized users can view the <b>Stock in transit inquiry</b> page.</p><p><b>Serial numbers</b><br/>For consistency and traceability, stock transfer receipts inherit serial numbers from stock transfer shipments.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80047",
+                            "title": "Delivery mode improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p><b>Main list row actions</b></p><p>To save time, from the main list, you can perform key actions such as <b>Duplicate</b> and <b>Delete</b>.</p><p><b>Main list additional columns</b></p><p>In the main list, you can display additional columns such as <b>ID</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-77015",
+                            "title": "Creating a purchase receipt after changing the receiving site or supplier address",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can create a purchase receipt and add lines from a purchase order after the receiving site or supplier address is modified.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74535",
+                            "title": "Accounts receivable payment tracking ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Accounts receivable payment tracking improves visibility of outstanding receivables, enhances transparency, and simplifies accounts receivable management. You can record payments on sales invoices, offset payments against credit memos, and automatically mark invoices and credit memos as paid or partially paid. If you use Sage Intacct, this functionality is not available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87206",
+                            "title": "AP and AR unbilled inquiries display amounts in company currency",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To ease period-end reconciliation, after you launch the <b>Unbilled accounts payable</b> and <b>Unbilled accounts receivable</b> pages, amounts display in the company currency.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86589",
+                            "title": "Resend finance notifications ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Retry failed posting</b></p><p>When posting is unsuccessful, you can use the\u00a0<b>Retry</b>\u00a0icon on the\u00a0<b>Posting</b>\u00a0tab to access the\u00a0<b>Notification history</b>\u00a0page. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase returns and sales return receipts, accounts payable and accounts receivable invoices, stock transfer receipts and shipments, and work in progress postings.</p><p><b>View status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for purchase returns and sales return receipts.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88390",
+                            "title": "Unbilled accounts receivable includes shipments that are not confirmed",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Unbilled accounts receivable only includes shipments at Shipped status.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87706",
+                            "title": "Sales shipment stuck at Posting in progress status",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can update the sales shipment status for transactions that are partially posted to stock, without error. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-87394",
+                            "title": "Work orders with zero WIP cost",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Journal entries are not created if the work in progress cost is zero.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87460",
+                            "title": "Tenant type labels",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To avoid confusion between the names and different types of tenants, when setting up a project the top bar displays the name of the tenant and the tenant type. The tenant type is supported with a color indicator. A green square indicates a production tenant. A blue square represents a demo tenant.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86519",
+                            "title": "Responsive dashboards",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To enhance your user experience and give a better insight of your activities, dashboards were made responsive. Depending on the size of your screen, dashboards widgets rearrange automatically. You can add widgets to columns to customize your personal display.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88817",
+                            "title": "Setting up email sender from SDMO",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The sysApiKey value was updated on the cluster and the containers were restarted.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88718",
+                            "title": "Inconsistency in authorization options",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The isActive switch is turned on when a metadata entry is in the code base but the isActive switch is off in the database.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88215",
+                            "title": "Export data from a main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A user that is not an admin user can export data from a main list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86701",
+                            "title": "Alignment of numeric fields when editing a report template",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Numeric fields are aligned with text fields when editing a report template.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85902",
+                            "title": "Long text does not display in the available space",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "An ellipsis displays when text is too long to display in full.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84312",
+                            "title": "Timeouts occur while using the product",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Safeguards were added to prevent unexpected timeouts.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

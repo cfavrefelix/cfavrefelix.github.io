@@ -46,39 +46,6 @@
                 },
                 {
                     "type": "group",
-                    "title": "Improvements",
-                    "taxonomies": {
-                        "_type": [
-                            "changes"
-                        ]
-                    },
-                    "_jql": [
-                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
-                    ],
-                    "content_parts": [
-                        {
-                            "key": "XT-87192",
-                            "title": "Check component stock for a BOM",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>You asked. We listened.</p><p>So that you can check component stock availability quickly and easily, on the <b>Bill of material</b> page, a <b>Check stock</b> action was added to the <b>More actions</b> icon. The image of the BOM displays on an <b>Information</b> tab.</p>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "52.0.0"
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "type": "group",
                     "title": "Resolved issues",
                     "taxonomies": {
                         "_type": [
@@ -95,7 +62,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "On the Job schedule page, you can schedule when MRP synchronizes with your bill of material records without having to specify the data type to synchronize.",
+                                    "content": "On the Job schedule page, you can schedule when MRP synchronizes with your bill of material records without specifying the data type to synchronize.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -238,7 +205,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You asked. We listened.</p><p><b>Main list row actions</b></p><p>To save time, from the main list, you can perform key actions such as <b>Duplicate</b> and <b>Delete</b>.</p><p><b>Main list additional columns</b></p><p>In the main list, you can display additional columns such as <b>ID</b>.</p>",
+                                    "content": "<p>You asked. We listened.</p><p><b>Main list row actions</b></p><p>To save time, you can perform key actions such as <b>Duplicate</b> and <b>Delete</b> from the main list.</p><p><b>Main list additional columns</b></p><p>In the main list, you can display additional columns such as <b>ID</b>.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -271,7 +238,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can create a purchase receipt and add lines from a purchase order after the receiving site or supplier address is modified.",
+                                    "content": "You can create a purchase receipt and add lines from a purchase order after modifying the receiving site or supplier address.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -360,7 +327,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Retry failed posting</b></p><p>When posting is unsuccessful, you can use the\u00a0<b>Retry</b>\u00a0icon on the\u00a0<b>Posting</b>\u00a0tab to access the\u00a0<b>Notification history</b>\u00a0page. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase returns and sales return receipts, accounts payable and accounts receivable invoices, stock transfer receipts and shipments, and work in progress postings.</p><p><b>View status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for purchase returns and sales return receipts.</p>",
+                                    "content": "<p><b>Retry failed posting</b></p><p>You can use the\u00a0<b>Retry</b>\u00a0icon on the\u00a0<b>Posting</b>\u00a0tab to access the\u00a0<b>Notification history</b>\u00a0page when posting is unsuccessful. From there, you can resolve errors, such as missing dimensions, and easily resend or retry the posting as needed.</p><p>This enhancement applies to posting transactions for purchase returns and sales return receipts, accounts payable and accounts receivable invoices, stock transfer receipts and shipments, and work in progress postings.</p><p><b>View status</b></p><p>To see the journal posting status, the <b>Posting</b> tab was added to completed documents for purchase returns and sales return receipts.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -412,6 +379,39 @@
             "id": "manufacturing",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87192",
+                            "title": "Check component stock for a BOM",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You asked. We listened.</p><p>So that you can check component stock availability quickly and easily, a <b>Check stock</b> action was added to the <b>More actions</b> icon on the <b>Bill of material</b> page. To provide more space to display the list of components, the image of the BOM displays on an <b>Information</b> tab.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Resolved issues",
@@ -483,7 +483,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To avoid confusion between the names and different types of tenants, when setting up a project the top bar displays the name of the tenant and the tenant type. The tenant type is supported with a color indicator. A green square indicates a production tenant. A blue square represents a demo tenant.</p>",
+                                    "content": "<p>To avoid confusion between the names and different types of tenants, when setting up a project, the top bar displays the name of the tenant and the tenant type. The tenant type is supported with a color indicator. A green square indicates a production tenant. A blue square represents a demo tenant.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -551,7 +551,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The isActive switch is turned on when a metadata entry is in the code base but the isActive switch is off in the database.",
+                                    "content": "The isActive switch is turned on when a metadata entry is in the code base but is off in the database.",
                                     "taxonomies": "all"
                                 }
                             ],

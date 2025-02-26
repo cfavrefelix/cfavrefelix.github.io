@@ -115,7 +115,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>A <b>Payments</b> tab was added to the <b>Sales invoice</b> and <b>Sales credit memo</b> pages, and the <b>Payment term</b> and <b>Due date</b> fields were moved from the Information tab to the new tab. A link to the <b>Accounts receivable open item</b> page is available on the tab for customers that are not linked with Sage Intacct.</p>",
+                                    "content": "<p>A <b>Payments</b> tab was added to the <b>Sales invoice</b> and <b>Sales credit memo</b> pages, and the <b>Payment term</b> and <b>Due date</b> fields were moved from the Information tab to the new tab. A link to the <b>Accounts receivable open item</b> page is available on the tab if you do not use Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -153,7 +153,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You can set up your Customer ID with Sage AI and the automated email address you can share with suppliers for a tenant and for a company on the <b>AP Automation configuration</b> page.<br/>The Sage AI service provides access to technical records for troubleshooting and synchronizes document deletion from your solution and the service.</p>",
+                                    "content": "<p>On the <b>AP Automation configuration</b> page, you can set up your Customer ID with Sage AI and the <b>Incoming accounts payable email address</b> you can share with suppliers for a tenant and a company.<br/>From the <b>Uploaded purchasing documents</b> page, you can select the <b>Technical information</b> action to display technical records for troubleshooting. You can also delete uploaded documents, which are deleted from your solution and from the Sage AI service.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -186,7 +186,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Authorization</b><br/>Only authorized users can view the <b>Stock in transit inquiry</b> page.</p><p><b>Serial numbers</b><br/>For consistency and traceability, stock transfer receipts inherit serial numbers from stock transfer shipments.</p>",
+                                    "content": "<p><b>Authorization</b><br/>Only authorized users can view the <b>Stock in transit inquiry</b> page.</p><p><b>Serial numbers</b><br/>For consistency and traceability, when you enter stock details on stock transfer receipts you can select serial numbers from corresponding stock transfer shipments.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -397,7 +397,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>You asked. We listened.</p><p>So that you can check component stock availability quickly and easily, a <b>Check stock</b> action was added to the <b>More actions</b> icon on the <b>Bill of material</b> page. To provide more space to display the list of components, the image of the BOM displays on an <b>Information</b> tab.</p>",
+                                    "content": "<p>You asked. We listened.</p><p>So that you can check component stock availability quickly and easily, a <b>Check stock</b> action was added to the <b>More actions</b> icon on the <b>Bill of material</b> page. The image of the BOM was moved to an <b>Information</b> tab, so that more of the components display on the Components tab.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

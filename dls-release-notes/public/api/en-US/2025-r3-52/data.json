@@ -53,7 +53,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
                     ],
                     "content_parts": [
                         {
@@ -153,7 +153,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>On the <b>AP Automation configuration</b> page, you can set up your Customer ID with Sage AI and the <b>Incoming accounts payable email address</b> you can share with suppliers for a tenant and a company.<br/>From the <b>Uploaded purchasing documents</b> page, you can select the <b>Technical information</b> action to display technical records for troubleshooting. You can also delete uploaded documents, which are deleted from your solution and from the Sage AI service.</p>",
+                                    "content": "<p>On the <b>AP Automation configuration</b> page, you can set up your Customer ID with Sage AI and the <b>Incoming accounts payable email address</b> you can share with suppliers for a tenant and a company.<br/>From the <b>Uploaded purchasing documents</b> page, you can select the <b>Technical information</b> action to display technical records for troubleshooting. You can also delete uploaded documents, which delete from your solution and from the Sage AI service.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -229,7 +229,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
                     ],
                     "content_parts": [
                         {
@@ -351,7 +351,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
                     ],
                     "content_parts": [
                         {
@@ -421,7 +421,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
                     ],
                     "content_parts": [
                         {
@@ -483,7 +483,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To avoid confusion between the names and different types of tenants, when setting up a project, the top bar displays the name of the tenant and the tenant type. The tenant type is supported with a color indicator. A green square indicates a production tenant. A blue square represents a demo tenant.</p>",
+                                    "content": "<p>For a better user experience, the tenant selector in the top bar displays the names and types of the available tenants.</p><p>The following colored labels identify the tenant type:</p><ul><li>A green <b>Production</b> label</li><li>A blue <b>Demo</b> label</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -502,7 +502,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To enhance your user experience and give a better insight of your activities, dashboards were made responsive. Depending on the size of your screen, dashboards widgets rearrange automatically. You can add widgets to columns to customize your personal display.</p>",
+                                    "content": "<p>Dashboards are responsive to enhance your user experience and give you better insight into your activities. Depending on the size of your screen, dashboard widgets rearrange automatically. You can add widgets to columns to customize your display.<br/>The number of columns varies from 2 (for screens under 700 pixels) to 12 (for screens over 1,920 pixels).<br/>The intermediate sizes are 4, 6, and 10 columns.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -526,7 +526,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-88212)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
                     ],
                     "content_parts": [
                         {

@@ -193,7 +193,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p><b>Authorisation</b><br/>Only authorized users can view the <b>Stock in transit inquiry</b> page.</p><p><b>Serial numbers</b><br/>For consistency and traceability, when you enter stock details on stock transfer receipts, you can select serial numbers from corresponding stock transfer shipments.</p>",
+                                    "content": "<p><b>Authorisation</b><br/>Only authorised users can view the <b>Stock in transit inquiry</b> page.</p><p><b>Serial numbers</b><br/>For consistency and traceability, when you enter stock details on stock transfer receipts, you can select serial numbers from corresponding stock transfer shipments.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

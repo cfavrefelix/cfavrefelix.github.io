@@ -24,9 +24,62 @@
             "title": "German - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
+        },
+        {
+            "title": "Spanish - ES",
+            "id": "es-ES",
+            "url": "/dls-release-notes/api/es-ES/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2025-r3-52",
+            "title": "2025 R3 (March)",
+            "url": "/dls-release-notes/api/en-US/2025-r3-52/data.json",
+            "date": "March"
+        },
+        {
+            "id": "2025-r2-51",
+            "title": "2025 R2 (February)",
+            "url": "/dls-release-notes/api/en-US/2025-r2-51/data.json",
+            "date": "February"
+        },
+        {
+            "id": "2025-r1-50",
+            "title": "2025 R1 (January)",
+            "url": "/dls-release-notes/api/en-US/2025-r1-50/data.json",
+            "date": "January"
+        },
+        {
+            "id": "2024-r12-49",
+            "title": "2024 R12 (December)",
+            "url": "/dls-release-notes/api/en-US/2024-r12-49/data.json",
+            "date": "December"
+        },
+        {
+            "id": "2024-r11-48",
+            "title": "2024 R11 (November)",
+            "url": "/dls-release-notes/api/en-US/2024-r11-48/data.json",
+            "date": "November"
+        },
+        {
+            "id": "2024-r10-47",
+            "title": "2024 R10 (October)",
+            "url": "/dls-release-notes/api/en-US/2024-r10-47/data.json",
+            "date": "October"
+        },
+        {
+            "id": "2024-r9-46",
+            "title": "2024 R9 (September)",
+            "url": "/dls-release-notes/api/en-US/2024-r9-46/data.json",
+            "date": "September"
+        },
+        {
+            "id": "2024-r7-44",
+            "title": "2024 R7 (July)",
+            "url": "/dls-release-notes/api/en-US/2024-r7-44/data.json",
+            "date": "July"
+        },
         {
             "id": "2024-r6-43",
             "title": "2024 R6 (June)",

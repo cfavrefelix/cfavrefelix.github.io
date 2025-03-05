@@ -1,0 +1,640 @@
+{
+    "id": "2025-r3-52",
+    "title": "2025 R3",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2025-r2-51",
+    "date": "Mars",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p><span class='image-wrap'><yield>D\u00e9couvrez les nouveaut\u00e9s de la release </yield><a rel='nofollow noopener external' Target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s%20new%202025%20release%20March%20-%20Final.mp4'>2025 R3</a><yield>.</yield></span>\n</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-82820",
+                            "title": "Adresse de r\u00e9ponse de l'\u00e9metteur de domaine de messagerie",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Un onglet <b>R\u00e9pondre</b> a \u00e9t\u00e9 ajout\u00e9 \u00e0 la page <b>\u00c9metteur de domaine de messagerie</b>. Pour un package nomm\u00e9, vous pouvez ajouter une adresse e-mail de r\u00e9ponse pour chaque type de document de vente et d'achat \u00e9mis par une soci\u00e9t\u00e9 et un site sp\u00e9cifiques.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88600",
+                            "title": "Planification des t\u00e2ches pour la synchronisation CBN",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Dans la page Planification des t\u00e2ches, vous pouvez planifier la synchronisation du CBN avec vos enregistrements de nomenclatures sans pr\u00e9ciser le type de donn\u00e9es \u00e0 synchroniser.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88311",
+                            "title": "Cr\u00e9ation de gammes avec l'option de service d'autorisation activ\u00e9e",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Un utilisateur autoris\u00e9 peut cr\u00e9er des gammes sans avoir besoin d'\u00eatre un administrateur.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-89052",
+                            "title": "Onglet R\u00e8glements de la facture de vente et de l\u2019avoir de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Un onglet <b>R\u00e8glements</b> a \u00e9t\u00e9 ajout\u00e9 aux pages <b>Facture de vente</b> et <b>Avoir de vente</b>. De plus, les champs <b>Condition de paiement</b> et <b>Date d'\u00e9ch\u00e9ance</b> ont \u00e9t\u00e9 d\u00e9plac\u00e9s de l'onglet Informations vers ce nouvel onglet. Un lien vers la page <b>\u00c9ch\u00e9ance client</b> est disponible dans l'onglet si vous n'utilisez pas Sage Intacct.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88118",
+                            "title": "Consultation de ligne de r\u00e9ception d\u2019achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Suivez et g\u00e9rez efficacement les informations de r\u00e9ception en un seul endroit avec la consultation <b>Ligne de r\u00e9ception d'achat</b>.</p><p>La consultation est disponible \u00e0 partir :</p><ul><li>du menu <b>Achats</b> &gt; <b>Consultations d\u2019achat</b>,</li><li>de la page de consultation <b>Ligne de commande d'achat</b>, qui permet d'acc\u00e9der aux lignes de r\u00e9ception associ\u00e9es \u00e0 une ligne de commande d'achat sp\u00e9cifique.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-87231",
+                            "title": "Facturation \u00e9lectronique en entr\u00e9e pour l'Allemagne ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Sur la page <b>Configuration AP Automation</b>, vous pouvez configurer votre code client avec Sage AI ainsi que l'<b>Adresse e-mail factures comptables fournisseurs en entr\u00e9e</b> que vous pouvez partager avec les fournisseurs pour un niveau de configuration tenant et soci\u00e9t\u00e9.<br/>Sur la page <b>Documents d'achat t\u00e9l\u00e9charg\u00e9s</b>, vous pouvez s\u00e9lectionner l'action <b>Informations techniques</b> pour afficher les enregistrements techniques \u00e0 des fins de d\u00e9pannage, si besoin. Vous pouvez \u00e9galement supprimer des documents t\u00e9l\u00e9charg\u00e9s, ce qui les supprime de votre solution et du service Sage AI.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-89395",
+                            "title": "Am\u00e9liorations du transfert de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>Autorisations</b><br/>Seuls les utilisateurs autoris\u00e9s peuvent afficher la page <b>Consultation de stock en transit</b>.</p><p><b>Num\u00e9ros de s\u00e9rie</b><br/>Pour des raisons de coh\u00e9rence et de tra\u00e7abilit\u00e9, vous pouvez s\u00e9lectionner des num\u00e9ros de s\u00e9rie \u00e0 partir d\u2019exp\u00e9ditions de transfert de stock correspondantes lorsque vous renseignez des d\u00e9tails de stock sur des r\u00e9ceptions de transfert de stock.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80047",
+                            "title": "Am\u00e9liorations des modes de livraison",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p><b>Actions sur les lignes dans la liste principale</b></p><p>Pour gagner du temps, vous pouvez effectuer des actions cl\u00e9s telles que <b>Dupliquer</b> et <b>Supprimer</b> \u00e0 partir de la liste principale.</p><p><b>Colonnes suppl\u00e9mentaires dans la liste principale</b></p><p>Dans la liste principale, vous pouvez afficher des colonnes suppl\u00e9mentaires telles que <b>Code</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-77015",
+                            "title": "Cr\u00e9ation d'une r\u00e9ception d'achat apr\u00e8s modification du site de r\u00e9ception ou de l'adresse du fournisseur",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez cr\u00e9er une r\u00e9ception d'achat et ajouter des lignes \u00e0 partir d'une commande d'achat apr\u00e8s avoir modifi\u00e9 le site de r\u00e9ception ou l\u2019adresse du fournisseur.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74535",
+                            "title": "Suivi des r\u00e8glements clients ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le suivi des r\u00e8glements clients am\u00e9liore la visibilit\u00e9 des r\u00e8glements en attente, apporte de la transparence et simplifie la gestion des r\u00e8glements clients. Vous pouvez enregistrer des r\u00e8glements relatifs \u00e0 des factures de vente, compenser des r\u00e8glements par rapport \u00e0 des avoirs et marquer automatiquement des factures et des avoirs comme r\u00e9gl\u00e9s ou partiellement r\u00e9gl\u00e9s. Si vous utilisez Sage Intacct, cette fonctionnalit\u00e9 n'est pas disponible.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87206",
+                            "title": "Les consultations des factures non parvenues et des factures \u00e0 \u00e9mettre affichent des montants dans la devise de soci\u00e9t\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour faciliter le rapprochement de fin de p\u00e9riode, les montants s'affichent dans la devise de la soci\u00e9t\u00e9 dans les pages <b>Factures non parvenues</b> et <b>Factures \u00e0 \u00e9mettre</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86589",
+                            "title": "Renvoyer les notifications finance ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p><b>L\u2019option R\u00e9essayer entra\u00eene l'\u00e9chec de la comptabilisation</b></p><p>Vous pouvez utiliser l'ic\u00f4ne <b>R\u00e9essayer</b> dans l'onglet <b>Comptabilisation</b> pour acc\u00e9der \u00e0 la page <b>Historique de notification</b> lorsque la comptabilisation a \u00e9chou\u00e9. \u00c0 partir de cette page, vous pouvez r\u00e9soudre les erreurs, telles que les sections manquantes, et facilement relancer les op\u00e9rations de comptabilisation, si besoin.</p><p>Cette am\u00e9lioration s'applique aux transactions de comptabilisation pour les retours d'achat et les r\u00e9ceptions de retour de vente, les factures comptables fournisseurs et clients, les r\u00e9ceptions et les exp\u00e9ditions de transfert de stock ainsi qu\u2019aux comptabilisations d\u2019en-cours.</p><p><b>Afficher le statut</b></p><p>Pour afficher le statut de comptabilisation des \u00e9critures, l'onglet <b>Comptabilisation</b> a \u00e9t\u00e9 ajout\u00e9 aux documents finalis\u00e9s pour les retours d\u2019achat et les r\u00e9ceptions de retour de vente.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88390",
+                            "title": "Les factures \u00e0 \u00e9mettre contiennent des exp\u00e9ditions qui ne sont pas confirm\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les factures \u00e0 \u00e9mettre contiennent uniquement des exp\u00e9ditions dont le statut est Exp\u00e9di\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87192",
+                            "title": "V\u00e9rification du stock de composants pour une nomenclature",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Afin que vous puissiez v\u00e9rifier rapidement et facilement la disponibilit\u00e9 du stock de composants, une action <b>V\u00e9rifier stock</b> a \u00e9t\u00e9 ajout\u00e9e au niveau de l'ic\u00f4ne <b>Plus d'options</b> de la page <b>Nomenclature</b>. L'image de la nomenclature a \u00e9t\u00e9 d\u00e9plac\u00e9e dans l\u2019onglet <b>Informations</b> afin que l'onglet Composants puisse afficher plus de donn\u00e9es.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87706",
+                            "title": "Exp\u00e9dition de vente bloqu\u00e9e sur le statut Comptabilisation en cours",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez mettre \u00e0 jour le statut de l'exp\u00e9dition de vente pour les transactions partiellement comptabilis\u00e9es en stock sans g\u00e9n\u00e9rer d\u2019erreur. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-87394",
+                            "title": "Ordres de fabrication avec des co\u00fbts d\u2019en-cours nuls",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les \u00e9critures ne sont pas cr\u00e9\u00e9es si le co\u00fbt de l\u2019en-cours est nul.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Platform' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-87460",
+                            "title": "Intitul\u00e9s des types de tenant",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour une exp\u00e9rience utilisateur optimis\u00e9e, le s\u00e9lecteur de tenants dans la barre sup\u00e9rieure affiche les noms et les types de tenants disponibles.</p><p>Des intitul\u00e9s de couleur identifient le type de tenant :</p><ul><li>un intitul\u00e9 vert pour le tenant <b>Production</b>,</li><li>un intitul\u00e9 bleu pour le tenant <b>D\u00e9mo</b>.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86519",
+                            "title": "Tableaux de bord adaptatifs",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les tableaux de bord s\u2019adaptent pour optimiser votre exp\u00e9rience utilisateur et am\u00e9liorer la ma\u00eetrise de vos activit\u00e9s. Selon la taille de votre \u00e9cran, les widgets des tableaux de bord se r\u00e9organisent de fa\u00e7on automatique. Vous pouvez ajouter des widgets \u00e0 vos colonnes pour personnaliser votre affichage.<br/>Le nombre de colonnes varie de 2 (pour les \u00e9crans de moins de 700 pixels) \u00e0 12 (pour les \u00e9crans de plus de 1\u00a0920 pixels).<br/>Les tailles interm\u00e9diaires sont de 4, 6 et 10 colonnes.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R3 (52.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R3 (52.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-89843,XT-89728,XT-89384,XT-88212)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-88817",
+                            "title": "Configuration de l'exp\u00e9diteur d'e-mails \u00e0 partir de SDMO",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La valeur sysApiKey a \u00e9t\u00e9 mise \u00e0 jour sur le cluster et les containers ont \u00e9t\u00e9 red\u00e9marr\u00e9s.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88718",
+                            "title": "Incoh\u00e9rence dans les options d'autorisation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les activit\u00e9s fournisseurs et clients sont d\u00e9sormais actives et pr\u00e9sentes dans les activit\u00e9s disponibles lors de la d\u00e9finition d'un r\u00f4le utilisateur.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-88215",
+                            "title": "Export de donn\u00e9es \u00e0 partir d\u2019une liste principale",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Un utilisateur qui n'est pas un administrateur peut exporter des donn\u00e9es \u00e0 partir d'une liste principale.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-86701",
+                            "title": "Alignement des champs num\u00e9riques lors de la modification d'un mod\u00e8le d\u2019\u00e9dition",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les champs num\u00e9riques sont align\u00e9s sur les champs de textes lors de la modification d'un mod\u00e8le d\u2019\u00e9dition.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-85902",
+                            "title": "Un texte long ne s'affiche pas dans l'espace disponible",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Des points de suspension s'affichent lorsque le texte est trop long pour \u00eatre affich\u00e9 dans son int\u00e9gralit\u00e9.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-84312",
+                            "title": "Des d\u00e9lais d'expiration ont lieu lors de l'utilisation du produit",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Des mesures de protection ont \u00e9t\u00e9 mises en place pour \u00e9viter les d\u00e9lais d'expiration impr\u00e9vus.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "52.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -24,9 +24,20 @@
             "title": "Deutsch - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
+        },
+        {
+            "title": "Spanisch - ES",
+            "id": "es-ES",
+            "url": "/dls-release-notes/api/es-ES/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2025-r3-52",
+            "title": "2025 R3 (M\u00e4rz)",
+            "url": "/dls-release-notes/api/de-DE/2025-r3-52/data.json",
+            "date": "M\u00e4rz"
+        },
         {
             "id": "2025-r2-51",
             "title": "2025 R2 (Februar)",

@@ -234,6 +234,46 @@
             ]
         },
         {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-80729",
+                            "title": "Accounts payable payment tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Accounts payable payment tracking improves visibility of outstanding liabilities, enhances transparency, and simplifies accounts payables management. You can record payments on purchase invoices, offset payments against credit memos, and automatically mark invoices and credit memos as paid or partially paid. If you use Sage Intacct, this functionality is not available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Manufacturing",
             "id": "manufacturing",
             "type": "module",

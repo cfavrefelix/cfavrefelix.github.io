@@ -65,11 +65,11 @@
                     "content_parts": [
                         {
                             "key": "XT-90081",
-                            "title": "Cannot save the stock details for a Stock transfer receipt",
+                            "title": "Cannot save the stock details for a stock transfer receipt",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can save a Stock transfer receipt when the available stock level reduces to zero.",
+                                    "content": "You can save a stock transfer receipt when the available stock level reduces to zero.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -154,7 +154,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>A Payments tab was added to the Purchase invoice and Purchase credit memo pages, and the Payment term and Due date fields were moved from the Information tab to the new tab. A link to the Accounts payable open item page is available on the tab if you do not use Sage Intacct.</p>",
+                                    "content": "<p>A <b>Payments</b> tab was added to the <b>Purchase invoice</b> and <b>Purchase credit memo</b> pages, and the <b>Payment term</b> and <b>Due date</b> fields were moved from the Information tab to the new tab. A link to the <b>Accounts payable open item</b> page is available on the tab if you do not use Sage Intacct.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -199,7 +199,7 @@
                         },
                         {
                             "key": "XT-90141",
-                            "title": "Work order and Production tracking are stuck at In progress status",
+                            "title": "Work order and production tracking are stuck at In progress status",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -219,7 +219,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "You can delete a line on a purchase invoice or the purchase invoice if the status is Draft.",
+                                    "content": "You can delete a line on a purchase invoice or delete the purchase invoice if the status is Draft.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -257,6 +257,39 @@
                             "content_parts": [
                                 {
                                     "content": "<p>Accounts payable payment tracking improves visibility of outstanding liabilities, enhances transparency, and simplifies accounts payables management. You can record payments on purchase invoices, offset payments against credit memos, and automatically mark invoices and credit memos as paid or partially paid. If you use Sage Intacct, this functionality is not available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-79817",
+                            "title": "Update payment terms and supplier invoice dates on failed posting transactions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can use the <b>Edit dimension</b> action on the <b>Notification history</b> page to edit payment terms when posting is unsuccessful. From there, you can resend or retry the posting as needed.<br/>This enhancement applies to posting transactions for purchase and sales invoices and credit memos.<br/>For purchase invoices and purchase credit memos, when posting is unsuccessful you can also update the supplier invoice date.<br/>Be aware that the invoice and credit memo due date can change if you change the payment terms or an invoice date.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -329,7 +362,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To enhance access to critical manufacturing data and improve decision-making, columns were added to the <b>Manufacturing inquiries</b> Production receipt, Material issue, Time tracking inquiry:</p><ul><li><b>Work order name</b></li><li><b>Item name</b></li><li><b>Item ID</b></li></ul><p>A <b>Resource type</b> column was added to the <b>Time tracking line inquiry</b> for greater data clarity and efficiency.</p>",
+                                    "content": "<p>To enhance access to critical manufacturing data and improve decision-making, columns were added to the <b>Production receipt</b>, <b>Material issue</b>, and <b>Time tracking inquiry</b> pages:</p><ul><li><b>Work order name</b></li><li><b>Item name</b></li><li><b>Item ID</b></li></ul><p>A <b>Resource type</b> column was added to the <b>Time tracking line inquiry</b> for greater data clarity and efficiency.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -501,6 +534,46 @@
                                 }
                             ],
                             "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-91311",
+                            "title": "Stock management enhancements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Filters were added to the <b>Conversion</b> grid on the <b>Unit of measure</b> page.</p><p>To highlight which lines need further action related to stock postings, a <b>Latest notifications</b> checkbox was added to the <b>Stock</b> tab on the <b>Notification history</b> page.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
                                 "version": [
                                     "53.0.0"
                                 ]

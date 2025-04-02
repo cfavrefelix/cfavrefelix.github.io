@@ -24,14 +24,15 @@
             "title": "Allemand - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
-        },
-        {
-            "title": "Espagnol - ES",
-            "id": "es-ES",
-            "url": "/dls-release-notes/api/es-ES/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2025-r4-53",
+            "title": "2025 R4 (avril)",
+            "url": "/dls-release-notes/api/fr-FR/2025-r4-53/data.json",
+            "date": "Avril"
+        },
         {
             "id": "2025-r3-52",
             "title": "2025 R3 (mars)",

@@ -198,6 +198,25 @@
                             }
                         },
                         {
+                            "key": "XT-91344",
+                            "title": "Quantity on hand does not equal sum of movements ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The current quantity on hand now correctly reflects the sum of movements for items that previously had stock detail issues.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-90141",
                             "title": "Work order and production tracking are stuck at In progress status",
                             "highlight": false,
@@ -441,7 +460,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    "53.0.0"
+                                    
                                 ]
                             }
                         }
@@ -487,7 +506,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "53.0.0"
+                                    
                                 ]
                             }
                         },
@@ -503,7 +522,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "53.0.0"
+                                    
                                 ]
                             }
                         },
@@ -519,7 +538,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "53.0.0"
+                                    
                                 ]
                             }
                         },
@@ -535,7 +554,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    "53.0.0"
+                                    
                                 ]
                             }
                         }

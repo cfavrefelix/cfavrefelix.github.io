@@ -31,6 +31,28 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-92558",
+                            "title": "Performance improvements",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Data transformation handling across applications was optimized to enhance performance when creating, updating, and managing transactions.</p><p>Unnecessary queries were eliminated and scalability improved to enhance the performance of purchase receipts and purchase returns.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-90946",
                             "title": "Email domain sender email addresses",
                             "highlight": false,
@@ -60,7 +82,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -97,7 +119,7 @@
                         },
                         {
                             "key": "XT-89378",
-                            "title": "Stock journal enquiry export does not include the Document column",
+                            "title": "Stock journal inquiry export does not include the Document column",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -124,6 +146,25 @@
                             "taxonomies": {
                                 "version": [
                                     "53.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-75051",
+                            "title": "Stock Detail Enquiry not finding items in stock receipts",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "With the new (mainlist based) stock detailed inquiry filtering for items, sites etc. is working correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -178,9 +219,28 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-91996",
+                            "title": "Sales order deletion: warning message not displayed when trying to delete SO that has a proforma invoice created ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "When a sales order has a proforma invoice linked a warning message is displayed when you attempt to delete the sales order from the main list and from the sales order header. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-91356",
                             "title": "Stock transfer receipt date and the journal entry date are different",
@@ -210,9 +270,6 @@
                             "taxonomies": {
                                 "version": [
                                     "53.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -405,7 +462,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -475,7 +532,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {

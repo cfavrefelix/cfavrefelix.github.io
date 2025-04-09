@@ -31,6 +31,28 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-92558",
+                            "title": "Leistungsverbesserungen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Die Handhabung der Daten-Transformation \u00fcber Anwendungen hinweg wurde optimiert, um die Leistung beim Erstellen, Aktualisieren und Verwalten von Transaktionen zu verbessern.</p><p>Unn\u00f6tige Abfragen wurden beseitigt und die Skalierbarkeit verbessert, um die Leistung von Wareneing\u00e4ngen und Einkaufsretouren zu verbessern.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-90946",
                             "title": "E-Mail-Adressen Absender E-Mail-Domain",
                             "highlight": false,
@@ -60,7 +82,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -126,6 +148,22 @@
                                     "53.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-75051",
+                            "title": "In der \u201aBestandsabfrage detailliert\u2018 werden keine Artikel in Bestandseing\u00e4ngen gefunden",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die Filter in der \u201aBestandsabfrage detailliert\u2018 wurden aktualisiert, sodass Sie nach Artikeln und Standorten filtern k\u00f6nnen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -178,9 +216,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-91996",
+                            "title": "Beim L\u00f6schen von Verkaufsauftr\u00e4gen wird keine Warnmeldung angezeigt, wenn eine Proforma-Rechnung verkn\u00fcpft ist",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Ein Verkaufsauftrag mit einer verkn\u00fcpften Proforma-Rechnung zeigt eine Warnmeldung an, wenn Sie versuchen, den Verkaufsauftrag aus der Hauptliste und aus dem Verkaufsauftragskopf zu l\u00f6schen. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-91356",
                             "title": "Bestandstransfereingangsdatum und Buchungsdatum stimmen nicht \u00fcberein",
@@ -188,6 +242,22 @@
                             "content_parts": [
                                 {
                                     "content": "Um Abweichungen zwischen einer Bestandsbewertung und dem Hauptbuch zu vermeiden, wurde das Bestandsjournaldatum, das dem Bestandstransfereingangsdatum entspricht, mit dem Buchungsdatum abgestimmt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-91344",
+                            "title": "Die vorr\u00e4tige Menge entspricht nicht der Summe der Bewegungen ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Die aktuelle vorr\u00e4tige Menge spiegelt nun korrekt die Summe der Bewegungen f\u00fcr Artikel wider, bei denen es zuvor Probleme mit den Bestandsdetails gab.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -386,7 +456,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -456,7 +526,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {

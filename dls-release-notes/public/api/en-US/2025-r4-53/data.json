@@ -151,20 +151,17 @@
                         },
                         {
                             "key": "XT-75051",
-                            "title": "Stock Detail Enquiry not finding items in stock receipts",
+                            "title": "Stock detailed inquiry not finding items in stock receipts",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "With the new (mainlist based) stock detailed inquiry filtering for items, sites etc. is working correctly.",
+                                    "content": "The filters in the Stock detailed inquiry were updated so that you can filter for items and sites.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "53.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -224,20 +221,17 @@
                     "content_parts": [
                         {
                             "key": "XT-91996",
-                            "title": "Sales order deletion: warning message not displayed when trying to delete SO that has a proforma invoice created ",
+                            "title": "Sales order deletion warning message not displayed when a proforma invoice is linked",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "When a sales order has a proforma invoice linked a warning message is displayed when you attempt to delete the sales order from the main list and from the sales order header. ",
+                                    "content": "A sales order with a linked proforma invoice displays a warning message if you try to delete the sales order from the main list and from the sales order header. ",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "53.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -517,7 +511,7 @@
                                     "multi-tenant"
                                 ],
                                 "version": [
-                                    
+                                    "53.0.0"
                                 ]
                             }
                         }
@@ -563,7 +557,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    
+                                    "53.0.0"
                                 ]
                             }
                         },
@@ -579,7 +573,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    
+                                    "53.0.0"
                                 ]
                             }
                         },
@@ -595,7 +589,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    
+                                    "53.0.0"
                                 ]
                             }
                         },
@@ -611,7 +605,7 @@
                             ],
                             "taxonomies": {
                                 "version": [
-                                    
+                                    "53.0.0"
                                 ]
                             }
                         }

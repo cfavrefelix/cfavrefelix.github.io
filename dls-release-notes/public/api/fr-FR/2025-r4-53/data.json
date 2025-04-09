@@ -31,6 +31,28 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-92558",
+                            "title": "Am\u00e9lioration des performances",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La gestion de la transformation de donn\u00e9es a \u00e9t\u00e9 optimis\u00e9e pour toutes les applications afin d\u2019am\u00e9liorer les performances de cr\u00e9ation, de mise \u00e0 jour et de gestion des transactions.</p><p>Les requ\u00eates inutiles ont \u00e9t\u00e9 supprim\u00e9es et l'\u00e9volutivit\u00e9 am\u00e9lior\u00e9e pour optimiser les performances des r\u00e9ceptions et retours d'achat.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "53.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po/pm"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-90946",
                             "title": "Adresses e-mail de l'\u00e9metteur de domaine d\u2019e-mails",
                             "highlight": false,
@@ -60,7 +82,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -126,6 +148,22 @@
                                     "53.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-75051",
+                            "title": "La consultation d\u00e9taill\u00e9e de stock ne r\u00e9cup\u00e8re pas d'articles dans les r\u00e9ceptions de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les filtres de la consultation d\u00e9taill\u00e9e de stock ont \u00e9t\u00e9 mis \u00e0 jour afin que vous puissiez filtrer les articles et les sites.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
                         }
                     ]
                 }
@@ -178,9 +216,25 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-91996",
+                            "title": "Le message d'avertissement de suppression de commande de vente ne s'affiche pas lorsqu'une facture proforma est li\u00e9e",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Une commande de vente avec une facture proforma li\u00e9e affiche un message d'avertissement si vous essayez de supprimer la commande de vente de la liste principale et de l'en-t\u00eate de la commande de vente. ",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-91356",
                             "title": "La date de r\u00e9ception du transfert de stock et la date d'\u00e9criture sont diff\u00e9rentes",
@@ -188,6 +242,22 @@
                             "content_parts": [
                                 {
                                     "content": "Pour \u00e9viter des diff\u00e9rences entre une valorisation de stock et le grand-livre, la date du journal de stock, qui correspond \u00e0 la date effective de r\u00e9ception du transfert de stock, a \u00e9t\u00e9 align\u00e9e sur la date de comptabilisation.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "53.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-91344",
+                            "title": "La quantit\u00e9 physique n'est pas \u00e9gale \u00e0 la somme des mouvements ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La quantit\u00e9 physique actuelle refl\u00e8te d\u00e9sormais correctement la somme des mouvements pour les articles qui pr\u00e9sentaient auparavant des probl\u00e8mes de d\u00e9tails de stock.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -285,7 +355,7 @@
                     "content_parts": [
                         {
                             "key": "XT-79817",
-                            "title": "Mettre \u00e0 jour les conditions de paiement et les dates de factures fournisseurs pour des transactions de comptabilisation ayant \u00e9chou\u00e9",
+                            "title": "Mise \u00e0 jour des conditions de paiement et des dates de factures fournisseurs pour des transactions de comptabilisation ayant \u00e9chou\u00e9",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -362,7 +432,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Pour am\u00e9liorer l'acc\u00e8s aux donn\u00e9es de fabrication essentielles et am\u00e9liorer la prise de d\u00e9cision, des colonnes ont \u00e9t\u00e9 ajout\u00e9es aux pages <b>R\u00e9ception de production</b>, <b>Sortie mati\u00e8re</b> et <b>Consultation de suivi des temps</b>\u00a0:</p><ul><li><b>Nom d'ordre de fabrication</b></li><li><b>Nom d'article</b></li><li><b>Code article</b></li></ul><p>Une colonne <b>Type ressource</b> a \u00e9t\u00e9 ajout\u00e9e \u00e0 la <b>Consultation de ligne de suivi des temps</b> pour apporter une plus grande clart\u00e9 des donn\u00e9es et am\u00e9liorer l\u2019efficacit\u00e9.</p>",
+                                    "content": "<p>Pour am\u00e9liorer l'acc\u00e8s aux donn\u00e9es de fabrication essentielles et am\u00e9liorer la prise de d\u00e9cision, des colonnes ont \u00e9t\u00e9 ajout\u00e9es aux pages <b>R\u00e9ception de production</b>, <b>Sortie mati\u00e8re</b> et <b>Consultation de suivi des temps</b>\u00a0:</p><ul><li><b>Nom d'ordre de fabrication</b></li><li><b>Nom d\u2019article</b></li><li><b>Code d\u2019article</b></li></ul><p>Une colonne <b>Type ressource</b> a \u00e9t\u00e9 ajout\u00e9e \u00e0 la <b>Consultation de ligne de suivi des temps</b> pour apporter une plus grande clart\u00e9 des donn\u00e9es et am\u00e9liorer l\u2019efficacit\u00e9.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -386,7 +456,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -456,7 +526,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R4 (53.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R4 (53.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-92340)"
                     ],
                     "content_parts": [
                         {
@@ -529,7 +599,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Les \u00e9ditions affichent le texte dans la couleur attribu\u00e9e.",
+                                    "content": "Les \u00e9ditions affichent le texte dans la couleur choisie.",
                                     "taxonomies": "all"
                                 }
                             ],

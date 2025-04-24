@@ -65,20 +65,17 @@
                     "content_parts": [
                         {
                             "key": "XT-91354",
-                            "title": "Error message when connecting in CI",
+                            "title": "Error displays when connecting",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The dashboard widget &#39;Orders to deliver&#39; is displayed properly",
+                                    "content": "The Orders to deliver dashboard widget displays without error.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "54.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -228,7 +225,7 @@
                     "content_parts": [
                         {
                             "key": "XT-93440",
-                            "title": "Stock count won't save due to error: \"could not determine data type of parameter $7\"",
+                            "title": "Stock count will not save",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -239,28 +236,22 @@
                             "taxonomies": {
                                 "version": [
                                     "54.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-90804",
-                            "title": "Posted stock receipts have an editable date field in the stock details pop up window",
+                            "title": "Posted stock receipts stock details",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The editable date field has been removed from the stock detail popups.",
+                                    "content": "The editable date field was removed from the Stock receipt detail window.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }

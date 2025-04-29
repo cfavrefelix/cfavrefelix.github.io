@@ -1,0 +1,380 @@
+{
+    "id": "2025-r5-54",
+    "title": "2025 R5",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "previous": "2025-r4-53",
+    "date": "Mai",
+    "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Introduction",
+            "content": "<p><span class='image-wrap'><yield>D\u00e9couvrez les nouveaut\u00e9s de la release </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s_new_MayRelease2025_Final.mp4'>2025 R5</a><yield>.</yield></span>\n</p>",
+            "taxonomies": "all"
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-92410",
+                            "title": "Am\u00e9lioration de la liste principale Article-site",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Dans la liste principale de la page Article-site, vous pouvez afficher des colonnes suppl\u00e9mentaires telles que <b>Cat\u00e9gorie article</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R5 (54.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-91354",
+                            "title": "Affichage d\u2019erreur lors de la connexion",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le widget des Commandes \u00e0 livrer sur le tableau de bord s'affiche sans erreur.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-91255",
+                            "title": "Vue client 360",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La <b>vue client 360</b> fournit un aper\u00e7u exhaustif de vos clients en un coup d'\u0153il, afin que vous puissiez les g\u00e9rer efficacement.</p><p>Vous pouvez personnaliser vos propres vues 360 personnalis\u00e9es pour qu\u2019elles s'int\u00e8grent \u00e0 votre flux de travail. \u00c0 partir de cette vue centralis\u00e9e, vous pouvez\u00a0:</p><ul><li>Acc\u00e9der instantan\u00e9ment aux informations et contacts essentiels des clients.</li><li>Afficher les KPIs pour obtenir des informations plus d\u00e9taill\u00e9es et prendre des d\u00e9cisions plus astucieuses.</li><li>Mettre en \u00e9vidence les commandes de vente en cours pour agir rapidement.</li><li>Cr\u00e9er des commandes de vente et effectuer des actions cl\u00e9s \u00e0 partir d'une page unique.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-90493",
+                            "title": "Consultation de ligne de facture d\u2019achat",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous nous l\u2019avez demand\u00e9. Nous vous avons \u00e9cout\u00e9.</p><p>Suivez et g\u00e9rez efficacement les informations de facture et d\u2019avoir au m\u00eame endroit avec la consultation de <b>ligne de facture d'achat</b>.</p><p>La consultation est disponible \u00e0 partir :</p><ul><li>Du menu <b>Achats</b> &gt; <b>Consultations d\u2019achat</b>.</li><li>De la page de consultation de <b>ligne de commande d'achat</b> et de la page de consultation de <b>ligne de r\u00e9ception d'achat</b>, qui permettent d'acc\u00e9der aux lignes de facture ou d\u2019avoir associ\u00e9es \u00e0 une ligne de commande ou r\u00e9ception d'achat sp\u00e9cifiques.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-80716",
+                            "title": "Am\u00e9liorations apport\u00e9es aux clients ",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez bloquer un client et le d\u00e9bloquer \u00e0 l'aide des actions\u00a0<b>Bloquer</b>\u00a0et\u00a0<b>D\u00e9bloquer</b> via l'enregistrement client.</p><p>Vous pouvez ajouter une image \u00e0 un contact client.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-79189",
+                            "title": "Consultation des num\u00e9ros de s\u00e9rie en stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Utilisez la <b>Consultation des num\u00e9ros de s\u00e9rie en stock</b> pour afficher les articles avec des num\u00e9ros de s\u00e9rie attribu\u00e9s qui sont actuellement en stock ou allou\u00e9s. Un lien est fourni avec les num\u00e9ros de s\u00e9rie allou\u00e9s pour afficher les d\u00e9tails de l'allocation.<br/>Vous devez activer l'option de service <b>serialNumberOption</b> pour utiliser la <b>Consultation des num\u00e9ros de s\u00e9rie en stock</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-92443",
+                            "title": "Commande d\u2019achat : Stock projet\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez afficher les niveaux de stock des articles g\u00e9r\u00e9s en stock sur une ligne de commande d'achat sous forme graphique.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R5 (54.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-93440",
+                            "title": "L\u2019inventaire ne s\u2019enregistre pas",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez cr\u00e9er un inventaire sans erreur et ajouter une nouvelle ligne \u00e0 un inventaire existant.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-90804",
+                            "title": "D\u00e9tails de stock des r\u00e9ceptions de stock comptabilis\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le champ de date modifiable a \u00e9t\u00e9 supprim\u00e9 de la fen\u00eatre D\u00e9tail d'entr\u00e9e de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R5 (54.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-92340",
+                            "title": "Les factures de vente comptabilis\u00e9es n'affichent pas de facture fournisseur ni d\u2019\u00e9criture.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez int\u00e9grer une facture de vente \u00e0 Sage Intacct si la facture a des valeurs nulles. Les factures fournisseurs et les \u00e9critures seront g\u00e9n\u00e9r\u00e9es en cons\u00e9quence.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-86488",
+                            "title": "Am\u00e9liorations des ordres de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Faites d\u00e9filer la liste des composants en continu dans l'onglet <b>Composants</b> pour consulter les r\u00e9sultats sans interruption. Le planning des op\u00e9rations s'affiche dans un onglet <b>Op\u00e9rations</b>.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exp\u00e9rience Utilisateur",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R5 (54.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-89056",
+                            "title": "Coh\u00e9rence des r\u00e9f\u00e9rences",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>La coh\u00e9rence de l'ordre d'affichage des r\u00e9f\u00e9rences article, client et fournisseur a \u00e9t\u00e9 am\u00e9lior\u00e9e.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "54.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

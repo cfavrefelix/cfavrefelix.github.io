@@ -106,7 +106,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Die <b>360\u00b0-Ansicht</b> f\u00fcr Kunden bietet einen umfassenden \u00dcberblick \u00fcber Ihre Kunden auf einen Blick, so dass Sie diese effektiv und effizient verwalten k\u00f6nnen.</p><p>Sie k\u00f6nnen Ihre eigenen personalisierten 360\u00b0-Ansichten anpassen, um Ihren Arbeitsabl\u00e4ufen gerecht zu werden. Von dieser zentralen Ansicht aus k\u00f6nnen Sie:</p><ul><li>Direkt auf wichtige Kundendaten und Kontakte zugreifen.</li><li>KPIs anzeigen, um tiefere Einblicke zu gewinnen und intelligentere Entscheidungen zu treffen.</li><li>Laufende Verkaufsauftr\u00e4ge hervorheben, um schnell handeln zu k\u00f6nnen.</li><li>Verkaufsauftr\u00e4ge erstellen und wichtige Aktionen von einer einzigen Seite aus durchf\u00fchren.</li></ul>",
+                                    "content": "<p>Die <b>360\u00b0-Ansicht</b> f\u00fcr Kunden bietet einen umfassenden \u00dcberblick \u00fcber Ihre Kunden auf einen Blick, so dass Sie diese effektiv und effizient verwalten k\u00f6nnen.</p><p>Sie k\u00f6nnen Ihre eigenen personalisierten 360\u00b0-Ansichten anpassen, um Ihren Arbeitsabl\u00e4ufen gerecht zu werden. Von dieser zentralen Ansicht aus k\u00f6nnen Sie:</p><ul><li>Direkt auf wichtige Kundendaten und Kontakte zugreifen</li><li>KPIs anzeigen, um tiefere Einblicke zu gewinnen und intelligentere Entscheidungen zu treffen</li><li>Laufende Verkaufsauftr\u00e4ge hervorheben, um schnell handeln zu k\u00f6nnen</li><li>Verkaufsauftr\u00e4ge erstellen und wichtige Aktionen von einer einzigen Seite aus durchf\u00fchren</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -125,7 +125,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Mit der Abfrage <b>Einkaufsrechnungszeile</b> k\u00f6nnen Sie Rechnungs- und Gutschriftdaten effizient an einem Ort verfolgen und verwalten.</p><p>Die Abfrage ist verf\u00fcgbar:</p><ul><li>\u00dcber das Men\u00fc <b>Einkauf</b> &gt; <b>Abfragen Einkauf</b></li><li>\u00dcber die Abfrageseiten <b>Bestellzeile</b> und <b>Wareneingangszeile</b>, auf denen Sie Zugriff auf Rechnungs- und Gutschriftzeilen erhalten, die mit einer bestimmten Bestellzeile oder Wareneingangszeile verkn\u00fcpft sind.</li></ul>",
+                                    "content": "<p>Sie haben gefragt. Wir haben zugeh\u00f6rt.</p><p>Mit der Abfrage <b>Einkaufsrechnungszeile</b> k\u00f6nnen Sie Rechnungs- und Gutschriftdaten effizient an einem Ort verfolgen und verwalten.</p><p>Die Abfrage ist verf\u00fcgbar:</p><ul><li>\u00dcber das Men\u00fc <b>Einkauf</b> &gt; <b>Abfragen Einkauf</b></li><li>\u00dcber die Abfrageseiten <b>Bestellzeile</b> und <b>Wareneingangszeile</b>, auf denen Sie Zugriff auf Rechnungs- und Gutschriftzeilen erhalten, die mit einer bestimmten Bestellzeile oder Wareneingangszeile verkn\u00fcpft sind</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -278,7 +278,7 @@
                     "content_parts": [
                         {
                             "key": "XT-92340",
-                            "title": "Gebuchte Verkaufsrechnungen zeigen keine Ausgangsrechnung oder Buchung.",
+                            "title": "Gebuchte Verkaufsrechnungen zeigen keine Ausgangsrechnung oder Buchung",
                             "highlight": false,
                             "content_parts": [
                                 {

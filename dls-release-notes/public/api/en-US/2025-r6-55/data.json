@@ -1,0 +1,628 @@
+{
+    "id": "2025-r6-55",
+    "title": "2025 R6",
+    "language": "en-US",
+    "__archive": "/dls-release-notes/api/en-US/archive.json",
+    "date": "June",
+    "content_parts": [
+        {
+            "title": "Common",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-76133",
+                            "title": "Default values for stock allocation and stock issues",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To help you allocate and issue stock more efficiently, you can filter by default storage locations where they exist in relation to item-site or site data on the following pages:</p><ul><li>Stock issue</li><li>Stock adjustment</li><li>Stock transfer order</li><li>Stock transfer shipment</li><li>Sales order</li><li>Sales shipment</li><li>Purchase return</li><li>Material issue</li><li>Work order</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94685",
+                            "title": "Unable to submit approval request for stock transfer order",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "A user with the correct rights can submit an approval request for a stock transfer order.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94343",
+                            "title": "Stock transfer receipt: Unable to edit transfer receipt date",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can now edit the receipt date on stock transfer receipts for items managed with stock rules at the receiving site.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94152",
+                            "title": "Sales shipment: \"Post stock\" enabled after adding or modifying tracking number",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The Post stock button remains unavailable on the Sales shipment page after posting the shipment.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93218",
+                            "title": "Purchase receipt line status is incorrect",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The line status on a purchase receipt updates correctly when the line is partially returned and invoiced.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "legislation": [
+                                    "united-states-usa"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93150",
+                            "title": "Cannot post sales return receipt when sales credit is already posted",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You cannot create a credit memo from a sales return request if the associated sales return receipt is not closed.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93127",
+                            "title": "Unable to bulk delete suppliers and customers from the main list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can delete suppliers and customers in bulk from the main list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92137",
+                            "title": "Unable to update date fields",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can edit the date when you create or duplicate a purchase order or purchase requisition.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-90804",
+                            "title": "Posted stock receipts stock details",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The editable date field was removed from the Stock receipt detail window.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-90314",
+                            "title": "AP and AR payment tracking: Discounts and penalties",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Payment tracking is improved to better support the Accounts Receivable/Payables process and improve clarity and accuracy for payment reconciliation. The enhancement enables more accurate and flexible handling of payments received or made with discount deductions for early payment, penalty additions for late payment, and other manual adjustments.</p><p>When you print a sales invoice, the applicable discount and penalty details are displayed, making it easier to understand payment terms.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-93789",
+                            "title": "Work order variance journals populate with released item dimensions",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>When a work order is completed, all work order variance journals correctly populate with the dimensions of the released item on each line. For users integrated with <b>Sage Intacct</b>, this ensures accurate dimensional tracking and reporting in <b>Inventory control</b>.</p><p>This applies to the following movement types:</p><ul><li>Work order variance</li><li>Work order negative variance</li><li>Work order actual cost adjustment (Non-absorbed)</li><li>Work order negative actual cost adjustment</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92207",
+                            "title": "AP and AR payment tracking",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can create receipts and payments from the <b>Sales invoice</b> and <b>Purchase invoice</b> pages and their respective <b>Main lists</b>. Payment details display in each <b>Main list</b>, improving visibility and streamlining workflows. If you use Sage Intacct, this functionality is not available.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Manufacturing",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94624",
+                            "title": "Work orders",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>You can view the stock levels of stock managed items on a work order component line in a graphical format.</p><p>Scroll the list of components continuously on the <b>Operations</b> tab to explore results without interruption. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Platform",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Resolved issues",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\"))"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94637",
+                            "title": "Side panel on Sales, Purchasing and Stock Transfer documents won't open a second time",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The side panel opens and closes as expected.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94612",
+                            "title": "Cannot edit or exclude work order components due to error: \"e.forEach is not a function\"",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can successfully edit work order components and purchase order lines.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93849",
+                            "title": "Cannot print a sales credit memo even with full authorization",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can print sales credit memos when you have the needed authorization.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93318",
+                            "title": "Sync error when custom field is a dropdown list",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "You can edit the technical name of a custom field when it is a dropdown list.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93132",
+                            "title": "Filter for custom fields not available sometimes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Custom fields filter is available.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93001",
+                            "title": "Shop Floor Control work order display date incorrect",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The correct date is displayed when filtering work orders by date.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92990",
+                            "title": "Stock count import data message unclear",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The error message displays more detailed information to identify the affected line.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92659",
+                            "title": "Site names with an \u201c&\u201d do not display correctly",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The site group list displays all sites linked to the financial site.<br/>A site name containing the &quot;&amp;&quot; special character is display correctly.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92551",
+                            "title": "Focus moves to phantom row",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Fields remain focused while entering data.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92053",
+                            "title": "Outdated export templates",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "The tool, labor, machine, and group resource export templates were updated.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-91418",
+                            "title": "Safari browser: Some texts have \"font-weight\" element and don't look good.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Bold text is clearer and sharper in Safari.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74931",
+                            "title": "Quick entry and line panel for stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Improvements for stock documents including, receipts, issues, and adjustments.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b>\u00a0on your MS computer or\u00a0<b>command + Enter</b>\u00a0on a Mac.</p><p>In the\u00a0<b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "User Experience",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-92006",
+                            "title": "Using tables just got easier",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Tables across the application were updated to make editing data seamless and to improve the display of large datasets.</p><p><b>Instant grid updates</b><br/>Grids update immediately when you add or remove rows without reloading.</p><p><b>Improved tab layout on smaller screens</b><br/>On pages with a header and tabbed content, tabs that contain tables with infinite scroll or nested grids maintain a minimum height of 480px. When there isn\u2019t enough space, a scrollbar displays within the tab, so you can access all your content and still collapse the header for more room.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

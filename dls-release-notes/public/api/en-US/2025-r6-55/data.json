@@ -375,6 +375,25 @@
                     ],
                     "content_parts": [
                         {
+                            "key": "XT-95743",
+                            "title": "Scheduled job to delete old MRP calculation results",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To automatically remove outdated Material Requirement Planning (MRP) data, a new scheduled job is delivered as part of the setup and starts automatically once a week.</p><p>You can modify the job schedule parameters to change the thresholds for minimum age and number of calculation results to keep. If no parameter values are given, which is the default, the scheduled job deletes MRP calculation results older than 14 days while keeping the 30 most recent results.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
                             "key": "XT-94624",
                             "title": "Work orders",
                             "highlight": false,

@@ -28,7 +28,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To help you allocate and issue stock more efficiently, you can filter by default storage locations where they exist in relation to item-site or site data on the following pages:</p><ul><li>Stock issue</li><li>Stock adjustment</li><li>Stock transfer order</li><li>Stock transfer shipment</li><li>Sales order</li><li>Sales shipment</li><li>Purchase return</li><li>Material issue</li><li>Work order</li></ul>",
+                                    "content": "<p>To help you allocate and issue stock more efficiently, you can filter by default storage locations, when they exist, in relation to item-site or site data on the following pages:</p><ul><li>Stock issue</li><li>Stock adjustment</li><li>Stock transfer order</li><li>Stock transfer shipment</li><li>Sales order</li><li>Sales shipment</li><li>Purchase return</li><li>Material issue</li><li>Work order</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -50,6 +50,39 @@
             "id": "distribution",
             "type": "module",
             "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-95318",
+                            "title": "Improved document selection",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>There is enhanced efficiency and usability when you select <b>Add lines from</b> on:</p><ul><li>Purchase receipts</li><li>Sales return requests</li><li>Sales return receipts</li><li>Sales shipments</li></ul><p>You can add items from source documents instantly.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
                 {
                     "type": "group",
                     "title": "Resolved issues",
@@ -567,7 +600,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Improvements for stock documents including, receipts, issues, and adjustments.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b>\u00a0on your MS computer or\u00a0<b>command + Enter</b>\u00a0on a Mac.</p><p>In the\u00a0<b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p>",
+                                    "content": "<p>Improvements for stock documents include receipts, issues, and adjustments.</p><p>With quick entry functionality, you can add lines directly in the grid and add to the document by selecting <b>Ctrl + Enter</b>\u00a0on your MS computer or\u00a0<b>command + Enter</b>\u00a0on a Mac.</p><p>In the\u00a0<b>Line panel</b>, you can add multiple lines and scroll through all lines in the document.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -607,7 +640,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Tables across the application were updated to make editing data seamless and to improve the display of large datasets.</p><p><b>Instant grid updates</b><br/>Grids update immediately when you add or remove rows without reloading.</p><p><b>Improved tab layout on smaller screens</b><br/>On pages with a header and tabbed content, tabs that contain tables with infinite scroll or nested grids maintain a minimum height of 480px. When there isn\u2019t enough space, a scrollbar displays within the tab, so you can access all your content and still collapse the header for more room.</p>",
+                                    "content": "<p>Tables across the application were updated to make editing data seamless and to improve the display of large datasets.</p><p><b>Instant grid updates</b><br/>Grids update immediately when you add or remove rows without reloading.</p><p><b>Infinite scrolling for nested grids</b><br/>The first level of nested grids supports infinite scrolling, allowing data to load seamlessly while you scroll.</p><p><b>Improved tab layout on smaller screens</b><br/>On pages with a header and tabbed content, tabs that contain tables with infinite scroll or nested grids maintain a minimum height of 480px. When there isn\u2019t enough space, a scrollbar displays within the tab, so you can access all your content and still collapse the header for more room.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

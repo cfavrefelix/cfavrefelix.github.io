@@ -80,6 +80,44 @@
                                     "55.0.0"
                                 ]
                             }
+                        },
+                        {
+                            "key": "XT-94949",
+                            "title": "Base document refactoring: Purchase receipt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve stability, performance, and scalability, node structures are refactored. For purchasing, purchase receipts move to the inbound flow, and the <b>receiptDate</b> is replaced by the <b>date</b> property. Details are available in the API reference and changelog:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-78376",
+                            "title": "Base document line and base document refactoring for sales",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To improve stability, performance, and scalability, node structures are refactored. Sales shipments move to the base document, and the <b>shipmentDate</b> is replaced by the <b>date</b> property. Details are available in the API reference and changelog:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
                         }
                     ]
                 },
@@ -154,9 +192,6 @@
                                 }
                             ],
                             "taxonomies": {
-                                "legislation": [
-                                    "united-states-usa"
-                                ],
                                 "version": [
                                     "55.0.0"
                                 ]
@@ -253,7 +288,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Payment tracking is improved to better support the Accounts Receivable/Payables process and improve clarity and accuracy for payment reconciliation. The enhancement enables more accurate and flexible handling of payments received or made with discount deductions for early payment, penalty additions for late payment, and other manual adjustments.</p><p>When you print a sales invoice, the applicable discount and penalty details are displayed, making it easier to understand payment terms.</p>",
+                                    "content": "<p>Payment tracking provides enhanced support to the accounts payable and accounts receivable process with improved clarity and accuracy for payment reconciliation. The enhancement enables more accurate and flexible handling of payments received or made with discount deductions for early payment, penalty additions for late payment, and other manual adjustments.</p><p>When you print a sales invoice, the applicable discount and penalty details are displayed, making it easier to understand payment terms.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

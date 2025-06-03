@@ -6,6 +6,46 @@
     "date": "June",
     "content_parts": [
         {
+            "title": "APIs",
+            "id": "apis",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Improvements",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'APIs' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94949",
+                            "title": "Data structure refactoring: Purchase receipts and sales shipments",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>To enhance stability, performance, and scalability, node structures are refactored across both purchasing and sales processes.</p><ul><li>Purchasing: Purchase receipts move to the inbound flow.</li><li>Sales: Sales shipments are part of the base document structure.</li></ul><p>In both cases, <b>date</b> replaces the <b>receiptDate</b> and <b>shipmentDate</b> properties.<br/>For more details, refer to the updated documentation:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "title": "Common",
             "id": "common",
             "type": "module",
@@ -28,7 +68,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To help you allocate and issue stock more efficiently, you can filter by default storage locations, when they exist, in relation to item-site or site data on the following pages:</p><ul><li>Stock issue</li><li>Stock adjustment</li><li>Stock transfer order</li><li>Stock transfer shipment</li><li>Sales order</li><li>Sales shipment</li><li>Purchase return</li><li>Material issue</li><li>Work order</li></ul>",
+                                    "content": "<p>To help you allocate and issue stock more efficiently, you can filter by default storage locations, when they exist, in relation to item-site or site data on the following pages:</p><ul><li>Stock issue</li><li>Stock adjustment</li><li>Stock transfer order</li><li>Stock transfer shipment</li><li>Sales order</li><li>Sales shipment</li><li>Purchase return</li><li>Material tracking</li><li>Work order</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -80,44 +120,6 @@
                                     "55.0.0"
                                 ]
                             }
-                        },
-                        {
-                            "key": "XT-94949",
-                            "title": "Base document refactoring: Purchase receipt",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>To improve stability, performance, and scalability, node structures are refactored. For purchasing, purchase receipts move to the inbound flow, and the <b>receiptDate</b> is replaced by the <b>date</b> property. Details are available in the API reference and changelog:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "55.0.0"
-                                ]
-                            }
-                        },
-                        {
-                            "key": "XT-78376",
-                            "title": "Base document line and base document refactoring for sales",
-                            "highlight": false,
-                            "content_parts": [
-                                {
-                                    "content": "<p>To improve stability, performance, and scalability, node structures are refactored. Sales shipments move to the base document, and the <b>shipmentDate</b> is replaced by the <b>date</b> property. Details are available in the API reference and changelog:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
-                                    "taxonomies": "all"
-                                }
-                            ],
-                            "taxonomies": {
-                                "software": [
-                                    "multi-tenant"
-                                ],
-                                "version": [
-                                    "55.0.0"
-                                ]
-                            }
                         }
                     ]
                 },
@@ -130,7 +132,7 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
                     ],
                     "content_parts": [
                         {
@@ -288,7 +290,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Payment tracking provides enhanced support to the accounts payable and accounts receivable process with improved clarity and accuracy for payment reconciliation. The enhancement enables more accurate and flexible handling of payments received or made with discount deductions for early payment, penalty additions for late payment, and other manual adjustments.</p><p>When you print a sales invoice, the applicable discount and penalty details are displayed, making it easier to understand payment terms.</p>",
+                                    "content": "<p>Payment tracking provides enhanced support to the accounts payable and accounts receivable process with improved clarity and accuracy for payment reconciliation. The enhancement enables more accurate and flexible handling of payments received or made with discount deductions for early payment, penalty additions for late payment, and other manual adjustments.</p><p>When you print a sales invoice, the applicable discount and penalty details are displayed, making it easier to understand payment terms.</p><p>If you use Sage Intacct, this funtionality is not available.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -321,7 +323,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>When a work order is completed, all work order variance journals correctly populate with the dimensions of the released item on each line. For users integrated with <b>Sage Intacct</b>, this ensures accurate dimensional tracking and reporting in <b>Inventory control</b>.</p><p>This applies to the following movement types:</p><ul><li>Work order variance</li><li>Work order negative variance</li><li>Work order actual cost adjustment (Non-absorbed)</li><li>Work order negative actual cost adjustment</li></ul>",
+                                    "content": "<p>When a work order is completed, all work order variance journals correctly populate with the dimensions of the released item on each line. For users integrated with Sage Intacct <b>Inventory Control</b>, this ensures accurate dimensional tracking and reporting.</p><p>This applies to the following movement types:</p><ul><li>Work order variance</li><li>Work order negative variance</li><li>Work order actual cost adjustment (Non-absorbed)</li><li>Work order negative actual cost adjustment</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -430,12 +432,12 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\"))"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
                     ],
                     "content_parts": [
                         {
                             "key": "XT-94637",
-                            "title": "Side panel on Sales, Purchasing and Stock Transfer documents won't open a second time",
+                            "title": "Side panel on sales, purchasing, and stock transfer documents do not reopen",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -446,15 +448,12 @@
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
                         {
                             "key": "XT-94612",
-                            "title": "Cannot edit or exclude work order components due to error: \"e.forEach is not a function\"",
+                            "title": "Cannot edit or exclude work order components",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -465,9 +464,6 @@
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -505,7 +501,7 @@
                         },
                         {
                             "key": "XT-93132",
-                            "title": "Filter for custom fields not available sometimes",
+                            "title": "Filter for custom fields not always available",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -516,9 +512,6 @@
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -535,9 +528,6 @@
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -563,7 +553,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "The site group list displays all sites linked to the financial site.<br/>A site name containing the &quot;&amp;&quot; special character is display correctly.",
+                                    "content": "The site group list displays all sites linked to the financial site.<br/>A site name containing the &quot;&amp;&quot; special character displays correctly.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -575,20 +565,17 @@
                         },
                         {
                             "key": "XT-92551",
-                            "title": "Focus moves to phantom row",
+                            "title": "Focus moves to another grid row while entering data",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Fields remain focused while entering data.",
+                                    "content": "Focus remains on the fields your working on while entering data in a grid.",
                                     "taxonomies": "all"
                                 }
                             ],
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         },
@@ -610,7 +597,7 @@
                         },
                         {
                             "key": "XT-91418",
-                            "title": "Safari browser: Some texts have \"font-weight\" element and don't look good.",
+                            "title": "Safari browser: Some text elements do not display well",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -621,9 +608,6 @@
                             "taxonomies": {
                                 "version": [
                                     "55.0.0"
-                                ],
-                                "statusNote": [
-                                    "validated-by-po"
                                 ]
                             }
                         }
@@ -694,7 +678,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Tables across the application were updated to make editing data seamless and to improve the display of large datasets.</p><p><b>Instant grid updates</b><br/>Grids update immediately when you add or remove rows without reloading.</p><p><b>Infinite scrolling for nested grids</b><br/>The first level of nested grids supports infinite scrolling, allowing data to load seamlessly while you scroll.</p><p><b>Improved tab layout on smaller screens</b><br/>On pages with a header and tabbed content, tabs that contain tables with infinite scroll or nested grids maintain a minimum height of 480px. When there isn\u2019t enough space, a scrollbar displays within the tab, so you can access all your content and still collapse the header for more room.</p>",
+                                    "content": "<p>Tables across the application were updated to make editing data seamless and to improve the display of large datasets.</p><p><b>Instant grid updates</b><br/>Grids update immediately when you add or remove rows without reloading.</p><p><b>Infinite scrolling for nested grids</b><br/>The first level of nested grids supports infinite scrolling, allowing data to load seamlessly while you scroll.</p><p><b>Improved tab layout on smaller screens</b><br/>On pages with a header and tabbed content, tabs that contain tables with infinite scroll or nested grids maintain a minimum height of 480 px. When there isn\u2019t enough space, a scrollbar displays within the tab, so you can access all your content and still collapse the header for more room.</p>",
                                     "taxonomies": "all"
                                 }
                             ],

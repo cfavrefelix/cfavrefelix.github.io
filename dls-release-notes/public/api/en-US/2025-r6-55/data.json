@@ -52,6 +52,39 @@
             "content_parts": [
                 {
                     "type": "group",
+                    "title": "Features",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-93576",
+                            "title": "Workflow automation",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>With workflow automation, you can set one or multiple steps in action on an event that triggers the process. This can include automatically creating or modifying records.</p><p>If you have multiple tenants, you can share workflows across tenants by creating an import/export template based on the <b>Workflow</b> node.</p><p>You can automate generic actions on any record, such as</p><ul><li>Running a report</li><li>Transferring attachments from one record to another</li><li>Attaching an existing report to a record</li><li>Sending an email with attachments</li><li>Notifying a customer</li><li>Updating a record, including custom fields</li></ul><p>You can automate a process specific to the type of record, which simplifies setting up workflow. For now, the following actions apply to sales orders:</p><ul><li>Confirm order, allocate stock, and create shipment</li><li>Confirm shipment, post to stock, and create invoice</li></ul><p>New processes will be added with each release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
                     "title": "Improvements",
                     "taxonomies": {
                         "_type": [
@@ -437,7 +470,7 @@
                     "content_parts": [
                         {
                             "key": "XT-94637",
-                            "title": "Side panel on sales, purchasing, and stock transfer documents do not reopen",
+                            "title": "Side panel does not reopen on sales, purchasing, and stock transfer documents",
                             "highlight": false,
                             "content_parts": [
                                 {

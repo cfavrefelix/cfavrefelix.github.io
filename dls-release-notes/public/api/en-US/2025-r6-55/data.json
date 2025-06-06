@@ -28,7 +28,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>To enhance stability, performance, and scalability, node structures are refactored across both purchasing and sales processes.</p><ul><li>Purchasing: Purchase receipts move to the inbound flow.</li><li>Sales: Sales shipments are part of the base document structure.</li></ul><p>In both cases, <b>date</b> replaces the <b>receiptDate</b> and <b>shipmentDate</b> properties.<br/>For more details, refer to the updated documentation:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "content": "<p>To enhance stability, performance, and scalability, node structures are refactored across both purchasing and sales processes.</p><ul><li>Purchasing: Purchase receipts move to the inbound flow.</li><li>Sales: Sales shipments are part of the base document structure.</li></ul><p>In both cases, <b>date</b> replaces the <b>receiptDate</b> and <b>shipmentDate</b> properties.<br/>For more details, refer to the updated documentation:</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/SDMO-build-54.0.44-55.0.36/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -602,7 +602,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Focus remains on the fields your working on while entering data in a grid.",
+                                    "content": "Focus remains on the fields you&#39;re working on while entering data in a grid.",
                                     "taxonomies": "all"
                                 }
                             ],

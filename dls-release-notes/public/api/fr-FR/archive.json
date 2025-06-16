@@ -21,12 +21,18 @@
             "url": "/dls-release-notes/api/fr-FR/archive.json"
         },
         {
-            "title": "Allemand - DE",
+            "title": "Allemand\u00a0 - DE",
             "id": "de-DE",
             "url": "/dls-release-notes/api/de-DE/archive.json"
         }
     ],
     "releases": [
+        {
+            "id": "2025-r6-55",
+            "title": "2025 R6 (juin)",
+            "url": "/dls-release-notes/api/fr-FR/2025-r6-55/data.json",
+            "date": "Juin"
+        },
         {
             "id": "2025-r5-54",
             "title": "2025 R5 (mai)",

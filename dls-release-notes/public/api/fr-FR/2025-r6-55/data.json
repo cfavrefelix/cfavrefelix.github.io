@@ -1,0 +1,732 @@
+{
+    "id": "2025-r6-55",
+    "title": "2025 R6",
+    "language": "fr-FR",
+    "__archive": "/dls-release-notes/api/fr-FR/archive.json",
+    "date": "Juin",
+    "content_parts": [
+        {
+            "title": "API",
+            "id": "apis",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'APIs' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94949",
+                            "title": "Refactoring de la structure de donn\u00e9es\u00a0: r\u00e9ceptions d'achat et exp\u00e9ditions de vente",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour am\u00e9liorer la stabilit\u00e9, les performances et l'\u00e9volutivit\u00e9, les structures de nodes sont refactoris\u00e9es pour les processus d'achat et de vente.</p><ul><li>Achats : les r\u00e9ceptions d'achat sont d\u00e9plac\u00e9es vers le niveau des flux d\u2019entr\u00e9e des documents de base.</li><li>Ventes : les exp\u00e9ditions de vente s\u2019int\u00e8grent dans la structure de documents de base.</li></ul><p>Dans les deux cas, <b>date</b> remplace les propri\u00e9t\u00e9s <b>receiptDate</b> (date de r\u00e9ception) et <b>shipmentDate</b> (date d\u2019exp\u00e9dition).<br/>Pour plus d'informations, consultez les documentations suivantes\u00a0mises \u00e0 jour (uniquement disponibles en anglais) :</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/SDMO-build-54.0.44-55.0.36/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Donn\u00e9es de base",
+            "id": "common",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-93576",
+                            "title": "Automatisation des flux de travail",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Avec l'automatisation des flux de travail, vous pouvez d\u00e9finir une ou plusieurs \u00e9tapes pour un \u00e9v\u00e9nement d\u00e9clencheur d\u2019un processus. Sont incluses \u00e0 la fois la cr\u00e9ation et la modification automatique d'enregistrements.</p><p>Si vous avez plusieurs tenants, vous pouvez partager les flux de travail entre tenants en cr\u00e9ant un mod\u00e8le d'import/export bas\u00e9 sur le node <b>Workflow</b>.</p><p>Vous pouvez automatiser des actions g\u00e9n\u00e9riques sur n'importe quel enregistrement, par exemple :</p><ul><li>l'ex\u00e9cution d\u2019une \u00e9dition,</li><li>le transfert de pi\u00e8ces jointes d'un enregistrement \u00e0 un autre,</li><li>l\u2019ajout d\u2019une \u00e9dition existante \u00e0 un enregistrement,</li><li>l\u2019envoi d'un e-mail avec pi\u00e8ces jointes,</li><li>la notification d'un client,</li><li>la mise \u00e0 jour d'un enregistrement, y compris les champs personnalis\u00e9s.</li></ul><p>Vous pouvez automatiser un processus sp\u00e9cifique \u00e0 un type d'enregistrement, ce qui simplifie la configuration du flux de travail. Pour l'instant, les actions suivantes s'appliquent aux commandes de vente :</p><ul><li>confirmation de commande, allocation de stock et cr\u00e9ation d\u2019exp\u00e9dition,</li><li>confirmation d\u2019exp\u00e9dition, comptabilisation en stock et cr\u00e9ation de facture.</li></ul><p>De nouveaux processus seront ajout\u00e9s \u00e0 chaque release.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Common' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Common' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-76133",
+                            "title": "Valeurs par d\u00e9faut pour l'allocation de stock et les sorties de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour vous aider \u00e0 allouer et \u00e0 sortir du stock plus efficacement, vous pouvez filtrer par d\u00e9faut les emplacements de stockage, lorsqu'ils existent, en fonction des donn\u00e9es article-site ou site sur les pages suivantes\u00a0:</p><ul><li>Sortie de stock</li><li>R\u00e9gularisation de stock</li><li>Ordre de transfert de stock</li><li>Exp\u00e9dition de transfert de stock</li><li>Commande de vente</li><li>Exp\u00e9dition de vente</li><li>Retour d\u2019achat</li><li>Suivi mati\u00e8re</li><li>Ordre de fabrication</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "distribution",
+            "id": "distribution",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Distribution' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-95318",
+                            "title": "Am\u00e9lioration de la s\u00e9lection de documents",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>L'efficacit\u00e9 et l\u2019ergonomie ont \u00e9t\u00e9 am\u00e9lior\u00e9es lorsque vous s\u00e9lectionnez <b>Ajouter lignes depuis</b> sur\u00a0les documents suivants :</p><ul><li>R\u00e9ceptions d'achat</li><li>Demandes de retours de vente</li><li>R\u00e9ceptions de retours de vente</li><li>Exp\u00e9ditions de vente</li></ul><p>Vous pouvez ajouter des articles depuis des documents source instantan\u00e9ment.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94685",
+                            "title": "Impossible de soumettre une demande d'approbation pour un ordre de transfert de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Un utilisateur disposant de droits appropri\u00e9s peut soumettre une demande d\u2019approbations pour un ordre de transfert de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94343",
+                            "title": "R\u00e9ception de transfert de stock : impossible de modifier la date de r\u00e9ception du transfert",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez d\u00e9sormais modifier la date de r\u00e9ception des r\u00e9ceptions de transfert de stock pour les articles g\u00e9r\u00e9s avec des r\u00e8gles de stock sur le site de r\u00e9ception.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94152",
+                            "title": "Exp\u00e9dition de vente : \u00ab\u00a0Comptabiliser le stock\u00a0\u00bb activ\u00e9 apr\u00e8s l'ajout ou la modification du num\u00e9ro de suivi",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le bouton Comptabiliser le stock reste d\u00e9sactiv\u00e9 sur la page Exp\u00e9ditions de vente apr\u00e8s comptabilisation de l'exp\u00e9dition.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93218",
+                            "title": "Le statut de la ligne de r\u00e9ception d'achat est incorrect",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le statut de la ligne sur une r\u00e9ception d'achat est correctement mis \u00e0 jour lorsque la ligne est partiellement retourn\u00e9e et factur\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93150",
+                            "title": "Impossible de comptabiliser une r\u00e9ception de retour de vente lorsque l\u2019avoir de vente est d\u00e9j\u00e0 comptabilis\u00e9",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous ne pouvez pas cr\u00e9er un avoir \u00e0 partir d'une demande de retour de vente si la r\u00e9ception de retour de vente associ\u00e9e n'est pas sold\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93127",
+                            "title": "Impossible de supprimer des fournisseurs et des clients en masse \u00e0 partir de la liste principale.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez supprimer des fournisseurs et des clients en masse \u00e0 partir de la liste principale.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92137",
+                            "title": "Impossible de mettre \u00e0 jour les champs de date",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez modifier la date lorsque vous cr\u00e9ez ou dupliquez une commande d'achat ou une demande d'achat.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-90804",
+                            "title": "D\u00e9tails de stock des r\u00e9ceptions de stock comptabilis\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le champ de date modifiable a \u00e9t\u00e9 supprim\u00e9 de la fen\u00eatre D\u00e9tail d'entr\u00e9e de stock.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Finance",
+            "id": "finance",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Fonctionnalit\u00e9s",
+                    "taxonomies": {
+                        "_type": [
+                            "news"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = New AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-90314",
+                            "title": "Suivi des r\u00e8glements fournisseurs et clients : remises et p\u00e9nalit\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Le suivi des r\u00e8glements am\u00e9liore le processus de r\u00e8glements fournisseurs et clients en apportant davantage de clart\u00e9 et de pr\u00e9cision dans le rapprochement des r\u00e8glements. Cette am\u00e9lioration permet un traitement pr\u00e9cis et adapt\u00e9 des r\u00e8glements re\u00e7us ou effectu\u00e9s, avec d\u00e9ductions d\u2019escomptes en cas de r\u00e8glements anticip\u00e9s, ajout de p\u00e9nalit\u00e9s en cas de retards de r\u00e8glement et autres adaptations manuelles.</p><p>Lorsque vous imprimez une facture de vente, les d\u00e9tails d\u2019escomptes et de p\u00e9nalit\u00e9s applicables s'affichent. La compr\u00e9hension des conditions de r\u00e8glement en est facilit\u00e9e.</p><p>Si vous utilisez Sage Intacct, cette fonctionnalit\u00e9 n'est pas disponible.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Finance' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Finance' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-93789",
+                            "title": "Les \u00e9critures d\u2019\u00e9cart des ordres de fabrication sont aliment\u00e9es avec les sections des articles lanc\u00e9s",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Lorsqu'un ordre de fabrication est r\u00e9alis\u00e9, toutes les \u00e9critures d\u2019\u00e9cart de l\u2019ordre de fabrication sont correctement aliment\u00e9es avec les sections des articles lanc\u00e9s. Pour les utilisateurs int\u00e9gr\u00e9s au <b>Contr\u00f4le d\u2019inventaire</b> de Sage Intacct, le suivi et le reporting de sections s\u2019en trouve am\u00e9lior\u00e9.</p><p>Cette am\u00e9lioration s'applique aux types de mouvements suivants :</p><ul><li>\u00e9cart d\u2019ordre de fabrication,</li><li>\u00e9cart d\u2019ordre de fabrication n\u00e9gatif,</li><li>r\u00e9gularisation de co\u00fbt r\u00e9el d'ordre de fabrication (non absorb\u00e9),</li><li>r\u00e9gularisation de co\u00fbt r\u00e9el n\u00e9gatif d'ordre de fabrication.</li></ul>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92207",
+                            "title": "Suivi des r\u00e8glements fournisseurs et clients",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez cr\u00e9er des r\u00e9ceptions et des r\u00e8glements \u00e0 partir des pages <b>Facture de vente</b> et <b>Facture d'achat</b> et de leurs <b>Listes principales</b> respectives. Les d\u00e9tails de r\u00e8glement s'affichent dans chaque <b>Liste principale</b>, ce qui am\u00e9liore la visibilit\u00e9 et rationalise les flux de travail. Si vous utilisez Sage Intacct, cette fonctionnalit\u00e9 n'est pas disponible.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Production",
+            "id": "manufacturing",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Manufacturing' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-95743",
+                            "title": "T\u00e2che planifi\u00e9e pour supprimer les anciens r\u00e9sultats de calcul CBN",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Pour supprimer automatiquement les donn\u00e9es de CBN obsol\u00e8tes, une nouvelle t\u00e2che planifi\u00e9e est livr\u00e9e comme partie int\u00e9grante de la configuration et et lanc\u00e9e automatiquement une fois par semaine.</p><p>Vous pouvez modifier les param\u00e8tres de cette t\u00e2che planifi\u00e9e, par exemple en ce qui concerne les seuils de dates minimum et le nombre de r\u00e9sultats de calcul \u00e0 conserver. Si aucune valeur n'est fournie pour les param\u00e8tres, ce qui est la configuration par d\u00e9faut, la t\u00e2che planifi\u00e9e supprime les r\u00e9sultats de CBN datant de plus de 14 jours tout en conservant les 30 r\u00e9sultats les plus r\u00e9cents.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94624",
+                            "title": "Ordres de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Vous pouvez afficher sous forme graphique les niveaux de stock des articles g\u00e9r\u00e9s en stock pour une ligne de composant d'ordre de fabrication.</p><p>Faites d\u00e9filer la liste des composants dans l'onglet <b>Op\u00e9rations</b> pour consulter les r\u00e9sultats en continu. </p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Plateforme",
+            "id": "platform",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "R\u00e9solution de probl\u00e8mes",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-94637",
+                            "title": "Le volet lat\u00e9ral ne se rouvre pas sur les documents de vente, d'achat et de transfert de stock",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le volet lat\u00e9ral s'ouvre et se ferme comme pr\u00e9vu.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94612",
+                            "title": "Impossible de modifier ou d'exclure les composants d\u2019ordres de fabrication",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez modifier les composants d'ordres de fabrication et les lignes de commandes d'achat.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93849",
+                            "title": "Impossible d'imprimer un avoir de vente m\u00eame avec une autorisation compl\u00e8te",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez imprimer des avoirs de vente lorsque vous disposez de l'autorisation n\u00e9cessaire.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93318",
+                            "title": "Erreur de synchronisation lorsque le champ personnalis\u00e9 est une liste d\u00e9roulante",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Vous pouvez modifier le nom technique d'un champ personnalis\u00e9 lorsqu'il s'agit d'une liste d\u00e9roulante.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93132",
+                            "title": "Le filtre des champs personnalis\u00e9s n'est pas toujours disponible",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le filtre des champs personnalis\u00e9s est disponible.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-93001",
+                            "title": "Date d'affichage des ordres de fabrication incorrect dans Shop Floor Control",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La date correcte est affich\u00e9e lors du filtrage des ordres de fabrication par date.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92990",
+                            "title": "Manque de pr\u00e9cision du message relatif aux donn\u00e9es d'import d\u2019inventaire",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le message d'erreur affiche des informations plus d\u00e9taill\u00e9es pour identifier la ligne concern\u00e9e.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92659",
+                            "title": "Les noms de site contenant un \u201c&\u201d ne s\u2019affichent pas correctement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "La liste des groupes de sites affiche tous les sites li\u00e9s au site financier.<br/>Un nom de site contenant le caract\u00e8re sp\u00e9cial &quot;&amp;&quot; s'affiche correctement.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92551",
+                            "title": "Le focus se d\u00e9place sur une autre ligne de tableau lors de la saisie de donn\u00e9es",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le focus reste sur les champs sur lesquels vous intervenez pendant la saisie de donn\u00e9es dans un tableau.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-92053",
+                            "title": "Mod\u00e8les d'export obsol\u00e8tes",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Les mod\u00e8les d'export des groupes de ressources, outils, main d'\u0153uvre et machine ont \u00e9t\u00e9 mis \u00e0 jour.<br/>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-91418",
+                            "title": "Navigateur Safari\u00a0: certains \u00e9l\u00e9ments de texte ne s'affichent pas correctement",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Le texte en gras est plus clair et plus net dans Safari.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Stock",
+            "id": "stock",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'Stock' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-74931",
+                            "title": "Entr\u00e9e rapide et volet de ligne pour les stocks",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les am\u00e9liorations apport\u00e9es aux documents de stock concernent les r\u00e9ceptions, les sorties et les r\u00e9gularisations.</p><p>Gr\u00e2ce \u00e0 la fonctionnalit\u00e9 de saisie rapide, vous pouvez ajouter des lignes directement dans le tableau et les ajouter au document en appuyant sur <b>Ctrl + Entr\u00e9e</b> sur Windows ou <b>Commande + Entr\u00e9e</b> sur Mac.</p><p>Dans le <b>Volet des lignes</b>, vous pouvez ajouter plusieurs lignes et faire d\u00e9filer toutes les lignes du document.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Exp\u00e9rience Utilisateur",
+            "id": "user-experience",
+            "type": "module",
+            "content_parts": [
+                {
+                    "type": "group",
+                    "title": "Am\u00e9liorations",
+                    "taxonomies": {
+                        "_type": [
+                            "changes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND ((issuetype in (Epic, Story) AND 'X3 Release Note Status' in ('Communicated, Validated by PO/PM','Review Done') AND 'X3 Release Note Grouping' = 'User Experience' AND (statusCategory in (Done) OR status = 'Release Candidate') AND (resolution is EMPTY OR resolution in (Delivered, Done)) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Epic Type' not in (Internal, Research) AND 'X3 Epic Type' = Improvement) OR (issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'User Experience' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND 'X3 Behaviour Change' = Yes)) AND fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\")"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-92006",
+                            "title": "Facilit\u00e9 d'utilisation des tableaux accrue",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "<p>Les tableaux de l'application ont \u00e9t\u00e9 mis \u00e0 jour pour fluidifier la gestion des donn\u00e9es et pour am\u00e9liorer l'affichage de grands volumes de donn\u00e9es.</p><p><b>Mises \u00e0 jour instantan\u00e9es des tableaux</b><br/>Les tableaux sont mis \u00e0 jour imm\u00e9diatement lorsque vous ajoutez ou que vous supprimez des lignes sans les recharger.</p><p><b>D\u00e9filement infini pour les tableaux imbriqu\u00e9s</b><br/>Le premier niveau des tableaux imbriqu\u00e9s prend en charge le d\u00e9filement infini. Ceci permet aux donn\u00e9es de se charger en continu pendant que vous faites d\u00e9filer les tableaux.</p><p><b>Am\u00e9lioration de la disposition des onglets sur les \u00e9crans de petite taille</b><br/>Sur les pages constitu\u00e9es d\u2019un en-t\u00eate et de contenu r\u00e9parti dans diff\u00e9rents onglets, les onglets contenant des tableaux avec d\u00e9filement infini ou des tableaux imbriqu\u00e9s conservent une hauteur minimum de 480 px. Lorsqu\u2019il n\u2019y a pas assez d\u2019espace, une barre de d\u00e9filement s\u2019affiche dans l\u2019onglet. Vous pouvez ainsi acc\u00e9der \u00e0 tout votre contenu tout en r\u00e9duisant l\u2019en-t\u00eate pour lib\u00e9rer plus d\u2019espace.</p>",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "software": [
+                                    "multi-tenant"
+                                ],
+                                "version": [
+                                    "55.0.0"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

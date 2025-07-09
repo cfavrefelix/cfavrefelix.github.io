@@ -177,7 +177,7 @@
                     "content_parts": [
                         {
                             "key": "XT-97079",
-                            "title": "20/06 - Purchase Orders previously Closed reopens when a Purchase Invoice is created for item(s) on the PO",
+                            "title": "Purchase orders previously closed reopens when a purchase invoice is created for items on the PO",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -489,7 +489,7 @@
                     "content_parts": [
                         {
                             "key": "XT-97556",
-                            "title": "Work Order category field value is not defaulted",
+                            "title": "Work order category field value is not defaulted",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -508,7 +508,7 @@
                         },
                         {
                             "key": "XT-94602",
-                            "title": "12/05 - WO Custom Fields entered on the New Work Order panel do not pass to the Work Order page",
+                            "title": "Work order custom fields entered on the New work order panel do not pass to the Work order page",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -548,11 +548,11 @@
                     "content_parts": [
                         {
                             "key": "XT-95575",
-                            "title": "SDMO - Dashboard accessibility issue if \"authorizationServiceOption\" is ON",
+                            "title": "Dashboard accessibility issue if \"authorizationServiceOption\" is ON",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "In case a user has no rigths while displaying a widget in a dashboard, there will be no error raised and the data is not displayed.",
+                                    "content": "If a user does not have rights while displaying a widget in a dashboard, no error is raised and data is not displayed.",
                                     "taxonomies": "all"
                                 }
                             ],

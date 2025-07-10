@@ -3,8 +3,15 @@
     "title": "2025 R6",
     "language": "de-DE",
     "__archive": "/dls-release-notes/api/de-DE/archive.json",
-    "date": "Juni",
+    "date": "Juli",
     "content_parts": [
+        {
+            "id": "intro",
+            "type": "intro",
+            "title": "Einf\u00fchrung",
+            "content": "<p><span class='image-wrap'><yield>Neues in der Version </yield><a rel='nofollow noopener external' target='_blank' class='external-link' href='https://sageu.s3.eu-west-1.amazonaws.com/Sage_Global/Sage_X3/SDMO%20New%20Feature/What%27s_new_JulyRelease2025_Final.mp4'>2025 R6</a><yield>.</yield></span>\n</p>",
+            "taxonomies": "all"
+        },
         {
             "title": "APIs",
             "id": "apis",
@@ -24,11 +31,11 @@
                     "content_parts": [
                         {
                             "key": "XT-94949",
-                            "title": "Refactoring der Datenstruktur: Wareneing\u00e4nge und Warenausg\u00e4nge ",
+                            "title": "Refactoring der Datenstruktur: Wareneing\u00e4nge und Warenausg\u00e4nge",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Um die Stabilit\u00e4t, Leistung und Skalierbarkeit zu verbessern, werden die Node-Strukturen in den Einkaufs- und Verkaufsprozessen \u00fcberarbeitet.</p><ul><li>Einkauf: Wareneingangsdokumente werden von den Basis-Inbound statt Basis-Distribution Dokumenten abgeleitet.</li><li>Verkauf: Warenausg\u00e4nge sind Teil der Basisdokumentstruktur.</li></ul><p>In beiden F\u00e4llen, ersetzt <b>date</b> die <b>receiptDate</b> und <b>shipmentDate</b> Eigenschaften.<br/>Weitere Informationen entnehmen Sie den folgenden aktualisierten Dokumentationen (nur auf Deutsch verf\u00fcgbar):</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/SDMO-build-54.0.44-55.0.36/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
+                                    "content": "<p>Um die Stabilit\u00e4t, Leistung und Skalierbarkeit zu verbessern, werden die Node-Strukturen in den Einkaufs- und Verkaufsprozessen \u00fcberarbeitet.</p><ul><li>Einkauf: Wareneing\u00e4nge werden von den Basis-Inbound- statt Basis-Distribution-Dokumenten abgeleitet.</li><li>Verkauf: Warenausg\u00e4nge sind Teil der Basisdokumentstruktur.</li></ul><p>In beiden F\u00e4llen, ersetzt <b>date</b> die Eigenschaften <b>receiptDate</b> und <b>shipmentDate</b>.<br/>Weitere Informationen entnehmen Sie den folgenden aktualisierten Dokumentationen (nur auf Englisch verf\u00fcgbar):</p><ul><li><a href=\"https://developer.sage.com/sdmo/reference/xtremPurchasing/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Purchasing API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/reference/xtremSales\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Sales API reference</a></li><li><a href=\"https://developer.sage.com/sdmo/changelog/SDMO-build-54.0.44-55.0.36/\" class=\"external-link\" target=\"_blank\" rel=\"nofollow noopener\">Changelog</a></li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -68,7 +75,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Mit der Workflow-Automatisierung k\u00f6nnen Sie einen oder mehrere Aktionen definieren, die ausgef\u00fchrt werden, sobald ein Ereignis den Prozess aktiviert. Dies kann das automatische Erstellen oder \u00c4ndern von Datens\u00e4tzen umfassen.</p><p>Wenn Sie mehrere Tenants haben, k\u00f6nnen Sie Workflows zwischen Tenants austauschen, indem Sie eine Import-/Export-Vorlage basierend auf dem <b>Workflow</b>-Node erstellen.</p><p>Sie k\u00f6nnen generische Aktionen f\u00fcr jeden Datensatz automatisieren, wie zum Beispiel:</p><ul><li>Generierung eines Reports</li><li>\u00dcbertragen von Anh\u00e4ngen von einem Datensatz auf einen anderen</li><li>Anf\u00fcgen eines vorhandenen Reports an einen Datensatz</li><li>Senden einer E-Mail mit Anh\u00e4ngen</li><li>Benachrichtigung eines Kunden</li><li>Aktualisierung eines Datensatzes, einschlie\u00dflich benutzerdefinierter Felder</li></ul><p>Sie k\u00f6nnen einen f\u00fcr den Datensatztyp spezifischen Prozess automatisieren, was die Einrichtung von Workflows vereinfacht. Vorerst k\u00f6nnen die folgenden Aktionen auf Verkaufsauftr\u00e4ge angewendet werden:</p><ul><li>Bestellung best\u00e4tigen, Bestand reservieren und Warenausgang erstellen</li><li>Warenausgang best\u00e4tigen, Bestand buchen und Rechnung anlegen</li></ul><p>Mit jedem neuen Release werden weitere Prozesse hinzugef\u00fcgt.</p>",
+                                    "content": "<p>Mit der Workflow-Automatisierung k\u00f6nnen Sie einen oder mehrere Aktionen definieren, die ausgef\u00fchrt werden, sobald ein Ereignis den Prozess aktiviert. Dies kann die automatische Erstellung oder \u00c4nderung von Datens\u00e4tzen umfassen.</p><p>Wenn Sie mehrere Tenants haben, k\u00f6nnen Sie Workflows tenant\u00fcbergreifend teilen, indem Sie eine Import-/Export-Vorlage basierend auf dem <b>Workflow</b>-Node erstellen.</p><p>Sie k\u00f6nnen generische Aktionen f\u00fcr jeden Datensatz automatisieren, wie zum Beispiel:</p><ul><li>Generierung eines Reports</li><li>\u00dcbertragen von Anh\u00e4ngen von einem Datensatz auf einen anderen</li><li>Anf\u00fcgen eines bestehenden Reports an einen Datensatz</li><li>Senden einer E-Mail mit Anh\u00e4ngen</li><li>Benachrichtigung eines Kunden</li><li>Aktualisierung eines Datensatzes, einschlie\u00dflich benutzerdefinierter Felder</li></ul><p>Sie k\u00f6nnen einen f\u00fcr den Datensatztyp spezifischen Prozess automatisieren, was die Einrichtung von Workflows vereinfacht. Vorerst k\u00f6nnen die folgenden Aktionen auf Verkaufsauftr\u00e4ge angewendet werden:</p><ul><li>Bestellung best\u00e4tigen, Bestand reservieren und Warenausgang erstellen</li><li>Warenausgang best\u00e4tigen, Bestand buchen und Rechnung erstellen</li></ul><p>Mit jedem neuen Release werden weitere Prozesse hinzugef\u00fcgt.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -101,7 +108,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Um Ihnen dabei zu helfen, Bestand effizienter zu reservieren und auszuliefern, k\u00f6nnen Sie auf den folgenden Seiten nach Standardlagerorten bezogen auf Artikel-Standort oder Standort filtern:</p><ul><li>Bestandsabgang</li><li>Bestandskorrektur</li><li>Auftrag Bestandstransfer</li><li>Versand Bestandstransfer</li><li>Verkaufsauftrag</li><li>Warenausgang</li><li>Einkaufsretoure</li><li>Materialr\u00fcckmeldung</li><li>Fertigungsauftrag</li></ul>",
+                                    "content": "<p>F\u00fcr eine effizientere Bestandsreservierung und Bestandsentnahme k\u00f6nnen Sie auf den folgenden Seiten nach Standardlagerpl\u00e4tzen bezogen auf Artikel-Standort- oder Standort-Daten filtern:</p><ul><li>Bestandsabgang</li><li>Bestandskorrektur</li><li>Auftrag Bestandstransfer</li><li>Versand Bestandstransfer</li><li>Verkaufsauftrag</li><li>Warenausgang</li><li>Einkaufsretoure</li><li>Materialr\u00fcckmeldung</li><li>Fertigungsauftrag</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -137,11 +144,11 @@
                     "content_parts": [
                         {
                             "key": "XT-95318",
-                            "title": "Verbesserung der Dokumentenauswahl",
+                            "title": "Verbesserte Dokumentenauswahl",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Effizienz und Benutzerfreundlichkeit werden verbessert, wenn Sie <b>Zeilen aus ... hinzuf\u00fcgen</b> auf den folgenden Seiten w\u00e4hlen:</p><ul><li>Wareneing\u00e4nge</li><li>Verkaufsretourenanforderungen</li><li>Verkaufsretoureneing\u00e4nge</li><li>Warenausg\u00e4nge</li></ul><p>Sie k\u00f6nnen Artikel sofort aus Ursprungsdokumenten hinzuf\u00fcgen.</p>",
+                                    "content": "<p>Effizienz und Benutzerfreundlichkeit bei der Auswahl der Aktion <b>Zeilen aus ... hinzuf\u00fcgen</b> auf den folgenden Seiten verbessert:</p><ul><li>Wareneing\u00e4nge</li><li>Verkaufsretourenanforderungen</li><li>Verkaufsretoureneing\u00e4nge</li><li>Warenausg\u00e4nge</li></ul><p>Sie k\u00f6nnen Artikel direkt aus Ursprungsdokumenten hinzuf\u00fcgen.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -165,16 +172,35 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Distribution' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-96750,XT-96413,XT-96253,XT-96056,XT-95966,XT-95912,XT-95212,XT-95208,XT-95064,XT-94523,XT-94063,XT-93744,XT-93216)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-97079",
+                            "title": "Bereits abgeschlossene Bestellungen werden wieder ge\u00f6ffnet, wenn eine Einkaufsrechnung f\u00fcr Artikel in der Bestellung erstellt wird.",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Eine Bestellzeile mit Status \u201aAbgeschlossen\u2018 bleibt abgeschlossen.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-94685",
                             "title": "Genehmigungsanforderung f\u00fcr Bestandstransferauftr\u00e4ge kann nicht \u00fcbermittelt werden",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Ein Benutzer mit den passenden Rechten kann eine Genehmigungsanforderung f\u00fcr einen Bestandstransferauftrag \u00fcbermitteln.",
+                                    "content": "Ein Benutzer mit den entsprechenden Berechtigungen kann eine Genehmigungsanforderung f\u00fcr einen Bestandstransferauftrag \u00fcbermitteln.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -202,11 +228,11 @@
                         },
                         {
                             "key": "XT-94152",
-                            "title": "Warenausgang: \u201eBestand buchen\u201c ist nach Erfassung oder \u00c4nderung der R\u00fcckmeldungsnummer aktiviert",
+                            "title": "Warenausgang: Aktion \u201eBestand buchen\u201c nach Erfassung oder \u00c4nderung der Sendungsverfolgungsnummer aktiviert",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Nach der Buchung des Warenausgangs ist die Schaltfl\u00e4che \u201aBestand buchen\u2018 auf der Seite \u201aWarenausg\u00e4nge\u2018 weiterhin nicht verf\u00fcgbar.",
+                                    "content": "Nach der Buchung des Warenausgangs ist die Schaltfl\u00e4che \u201eBestand buchen\u201c auf der Seite \u201eWarenausg\u00e4nge\u201c weiterhin nicht verf\u00fcgbar.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -250,11 +276,11 @@
                         },
                         {
                             "key": "XT-93127",
-                            "title": "Sie k\u00f6nnen keine Lieferanten und Kunden mit einer Massenaktion aus der Hauptliste l\u00f6schen",
+                            "title": "Es k\u00f6nnen keine Lieferanten und Kunden mit einer Massenaktion aus der Hauptliste gel\u00f6scht werden",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Sie k\u00f6nnen Lieferanten und Kunden mit einer Massenaktion aus der Hauptliste l\u00f6schen.",
+                                    "content": "Sie k\u00f6nnen Lieferanten und Kunden in einer Massenaktion aus der Hauptliste l\u00f6schen.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -266,11 +292,11 @@
                         },
                         {
                             "key": "XT-92137",
-                            "title": "Datenfelder k\u00f6nnen nicht aktualisiert werden",
+                            "title": "Datumsfelder k\u00f6nnen nicht aktualisiert werden",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Sie k\u00f6nnen das Datum \u00e4ndern, wenn Sie eine Bestellung oder eine Bestellanforderung erstellen oder duplizieren.",
+                                    "content": "Sie k\u00f6nnen das Datum bearbeiten, wenn Sie eine Bestellung oder eine Bestellanforderung erstellen oder duplizieren.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -286,7 +312,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Das bearbeitbare Datenfeld wurde aus dem Detailfenster des Bestandseingangs entfernt.",
+                                    "content": "Das bearbeitbare Datumsfeld wurde aus dem Detailfenster des Bestandseingangs entfernt.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -323,7 +349,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Die Verfolgung von Zahlungen bietet eine erweiterte Unterst\u00fctzung f\u00fcr die Eingangs- und Ausgangsrechnungen und sorgt f\u00fcr mehr \u00dcbersichtlichkeit und Genauigkeit bei der Zahlungsabstimmung. Die Erweiterung erm\u00f6glicht eine pr\u00e4zisere und flexiblere Verwaltung von erhaltenen und geleisteten Zahlungen - inklusive Skontoabz\u00fcgen bei vorzeitiger Zahlung, Strafzuschl\u00e4gen bei Zahlungsverzug sowie weiteren manuellen Anpassungen.</p><p>Wenn Sie eine Verkaufsrechnung drucken, werden die anwendbare Skonto- und Mahngeb\u00fchrendetails angezeigt, wodurch die Zahlungsbedingungen einfacher zu verstehen sind.</p><p>Wenn Sie Sage Intacct verwenden, ist diese Funktionalit\u00e4t nicht verf\u00fcgbar.</p>",
+                                    "content": "<p>Die Zahlungsverfolgung bietet eine erweiterte Unterst\u00fctzung f\u00fcr Eingangs- und Ausgangsrechnungen und sorgt f\u00fcr mehr \u00dcbersichtlichkeit und Genauigkeit bei der Zahlungsabstimmung. Die Erweiterung erm\u00f6glicht eine pr\u00e4zisere und flexiblere Verwaltung von erhaltenen und geleisteten Zahlungen - inklusive Skontoabz\u00fcgen bei vorzeitiger Zahlung, Mahngeb\u00fchren bei Zahlungsverzug sowie weiteren manuellen Anpassungen.</p><p>Wenn Sie eine Verkaufsrechnung drucken, werden die anwendbare Skonto- und Mahngeb\u00fchrendetails angezeigt, sodass die Zahlungsbedingungen besser nachvollzogen werden k\u00f6nnen.</p><p>Wenn Sie Sage Intacct verwenden, ist diese Funktionalit\u00e4t nicht verf\u00fcgbar.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -356,7 +382,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Wenn der Fertigungsauftrag abgeschlossen ist, werden die Sektoren des freigegebenen Artikels in alle Buchungsjournale in alle Zeilen \u00fcbernommen. F\u00fcr Benutzer, deren System in Sage Intacct <b>Bestandskontrolle</b> integriert ist, wird dadurch eine exakte R\u00fcckmeldung und Reporting der Sektoren gew\u00e4hrleistet.</p><p>Dies gilt f\u00fcr die folgenden Bewegungstypen:</p><ul><li>Abweichung Fertigungsauftrag</li><li>Negative Abweichung Fertigungsauftrag</li><li>Korrektur Ist-Kosten Fertigungsauftrag (nicht absorbiert)</li><li>Korrektur negative Ist-Kosten Fertigungsauftrag</li></ul>",
+                                    "content": "<p>Wenn ein Fertigungsauftrag abgeschlossen ist, werden die Sektoren des freigegebenen Artikels in alle Buchungsjournale in alle Zeilen \u00fcbernommen. F\u00fcr Benutzer, deren System in Sage Intacct <b>Bestandskontrolle</b> integriert ist, wird dadurch eine exakte R\u00fcckmeldung und Reporting der Sektoren gew\u00e4hrleistet.</p><p>Dies gilt f\u00fcr die folgenden Bewegungstypen:</p><ul><li>Abweichung Fertigungsauftrag</li><li>Negative Abweichung Fertigungsauftrag</li><li>Korrektur Ist-Kosten Fertigungsauftrag (nicht absorbiert)</li><li>Korrektur negative Ist-Kosten Fertigungsauftrag</li></ul>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -371,7 +397,7 @@
                         },
                         {
                             "key": "XT-92207",
-                            "title": "Verfolgung von Zahlungen zu Eingangs- und Ausgangsrechnungen:",
+                            "title": "Verfolgung von Zahlungen zu Eingangs- und Ausgangsrechnungen",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -411,11 +437,11 @@
                     "content_parts": [
                         {
                             "key": "XT-95743",
-                            "title": "Geplante Aufgabe, um alte Ergebnisse der MRP-Berechnung zu l\u00f6schen",
+                            "title": "Geplante Aufgabe zum l\u00f6schen alter MRP-Berechnungsergebnisse",
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Um veraltete MRP-Berechnungsergebnisse automatisch zu l\u00f6schen, wird als Teil der Einstellung eine neue geplante Aufgabe ausgeliefert, die einmal pro Woche automatisch ausgef\u00fchrt wird. </p><p>Sie k\u00f6nnen die Parameter der geplanten Aufgabe \u00e4ndern, zum Beispiel die Mindestdatumsschwellen und die Anzahl der zu behaltenden Berechnungsergebnisse. Wenn keine Parameterwerte erfasst wurden, was die Standardeinstellung ist, l\u00f6scht die geplante Aufgabe Ergebnisse der MRP-Berechnung, die \u00e4lter als 14 Tage sind, und beh\u00e4lt dabei die 30 neuesten Ergebnisse.</p>",
+                                    "content": "<p>Um veraltete MRP-Berechnungsergebnisse automatisch zu l\u00f6schen, wird als Teil der Einrichtung eine neue geplante Aufgabe ausgeliefert, die einmal pro Woche automatisch ausgef\u00fchrt wird.</p><p>Sie k\u00f6nnen die Parameter des Job-Zeitplans \u00e4ndern, zum Beispiel die Mindestdatumsschwellen und die Anzahl der zu behaltenden Berechnungsergebnisse. Wenn keine Parameterwerte erfasst wurden, was die Standardeinstellung ist, l\u00f6scht die geplante Aufgabe MRP-Berechnungsergebnisse, die \u00e4lter als 14 Tage sind, und beh\u00e4lt dabei die 30 neuesten Ergebnisse.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -448,6 +474,58 @@
                             }
                         }
                     ]
+                },
+                {
+                    "type": "group",
+                    "title": "Fehlerbehebungen",
+                    "taxonomies": {
+                        "_type": [
+                            "bug-fixes"
+                        ]
+                    },
+                    "_jql": [
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Manufacturing' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-96750,XT-96413,XT-96253,XT-96056,XT-95966,XT-95912,XT-95212,XT-95208,XT-95064,XT-94523,XT-94063,XT-93744,XT-93216)"
+                    ],
+                    "content_parts": [
+                        {
+                            "key": "XT-97556",
+                            "title": "Der Wert des Felds f\u00fcr die Fertigungsauftragskategorie wird nicht standardm\u00e4\u00dfig gesetzt",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn Sie einen Fertigungsauftrag erstellen, wird das Feld f\u00fcr die Kategorie standardm\u00e4\u00dfig mit der in den Fertigungsauftragskategorien ausgew\u00e4hlten Standardkategorie vorbelegt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
+                        {
+                            "key": "XT-94602",
+                            "title": "Benutzerdefinierte Fertigungsauftragsfelder, die im Bereich \u201aNeuer Fertigungsauftrag\u2018 erfasst werden, werden nicht auf die Seite \u201aFertigungsauftrag\u2018 \u00fcbertragen",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Benutzerdefinierte Felder, die im Bereich \u201aFertigungsauftrag\u2018 hinzugef\u00fcgt werden, werden auf die Seite \u201aFertigungsauftrag\u2018 \u00fcbertragen",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -465,9 +543,28 @@
                         ]
                     },
                     "_jql": [
-                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-94523,XT-94063)"
+                        "project = XT AND issuetype = Bug AND 'X3 ReadMe Check' in ('To be communicated') AND 'X3 ReadMe Check' in ('Validated by PO') AND 'X3 Product Area' = 'Platform' AND status in (Done) AND (component is EMPTY OR component not in componentMatch('^Addon*')) AND (fixVersion in x3ReleasesComponentsMatch(\"XT 2025 R6 (55.0.0)\") OR issueFunction in linkedIssuesOf(\"issueFunction in x3FindContentsOfImagefixes(\\\"XT 2025 R6 (55.0.0)\\\")\", \"is hotfix of\")) AND issue not in (XT-96750,XT-96413,XT-96253,XT-96056,XT-95966,XT-95912,XT-95212,XT-95208,XT-95064,XT-94523,XT-94063,XT-93744,XT-93216)"
                     ],
                     "content_parts": [
+                        {
+                            "key": "XT-95575",
+                            "title": "Probleme bei der Barrierefreiheit von Dashboards, wenn die Option \u201eauthorizationServiceOption\u201c aktiviert ist",
+                            "highlight": false,
+                            "content_parts": [
+                                {
+                                    "content": "Wenn ein Benutzer beim Anzeigen eines Widgets in einem Dashboard keine Berechtigungen hat, wird kein Fehler ausgel\u00f6st und es werden keine Daten angezeigt.",
+                                    "taxonomies": "all"
+                                }
+                            ],
+                            "taxonomies": {
+                                "version": [
+                                    
+                                ],
+                                "statusNote": [
+                                    "validated-by-po"
+                                ]
+                            }
+                        },
                         {
                             "key": "XT-94637",
                             "title": "Der Seitenbereich wird bei Verkaufs-, Einkaufs- und Bestandstransferdokumenten nicht erneut ge\u00f6ffnet",
@@ -486,7 +583,7 @@
                         },
                         {
                             "key": "XT-94612",
-                            "title": "Fertigungsauftragskomponenten k\u00f6nnen nicht bearbeitet oder ausgeschlossen werden ",
+                            "title": "Fertigungsauftragskomponenten k\u00f6nnen nicht bearbeitet oder ausgeschlossen werden",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -502,7 +599,7 @@
                         },
                         {
                             "key": "XT-93849",
-                            "title": "Eine Verkaufsgutschrift kann trotz vollst\u00e4ndiger Berechtigung nicht gedruckt werden\r\n",
+                            "title": "Eine Verkaufsgutschrift kann trotz vollst\u00e4ndiger Berechtigung nicht gedruckt werden",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -522,7 +619,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Sie k\u00f6nnen den technischen Namen eines benutzerdefinierten Feldes bearbeiten, wenn es sich um eine Dropdown-Liste handelt.",
+                                    "content": "Sie k\u00f6nnen den technischen Namen eines benutzerdefinierten Felds bearbeiten, wenn es sich um eine Dropdown-Liste handelt.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -566,7 +663,7 @@
                         },
                         {
                             "key": "XT-92990",
-                            "title": "Der Import von Inventurdaten liefert eine unklare Fehlermeldung",
+                            "title": "Import von Inventurdaten liefert eine unklare Fehlermeldung",
                             "highlight": false,
                             "content_parts": [
                                 {
@@ -586,7 +683,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Die Standortgruppenliste zeigt alle mit einem Buchhaltungsstandort verkn\u00fcpften Standorte an.<br/>Ein Standortname, der das Zeichen &quot;&amp;&quot; enth\u00e4lt, wird korrekt angezeigt",
+                                    "content": "Die Standortgruppenliste zeigt alle mit einem Buchhaltungsstandort verkn\u00fcpften Standorte an.<br/>Ein Standortname, der das Zeichen &quot;&amp;&quot; enth\u00e4lt, wird korrekt angezeigt.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -618,7 +715,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Die Exportvorlagen f\u00fcr Werkzeug-, Arbeitskraft-, Maschinen- und Werkzeugressourcen wurden aktualisiert.<br/>",
+                                    "content": "Die Exportvorlagen f\u00fcr Werkzeug-, Arbeitskraft-, Maschinen- und Gruppenressourcen wurden aktualisiert.<br/>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -634,7 +731,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "Fett formatierte Schrift ist in Safari klarer und sch\u00e4rfer dargestellt.",
+                                    "content": "Fett formatierte Schrift wird in Safari klarer und sch\u00e4rfer dargestellt.",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -671,7 +768,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Verbesserungen f\u00fcr Bestandsdokumente umfassen Zug\u00e4nge, Abg\u00e4nge und Korrekturen.</p><p>Mit der Schnelleingabefunktionalit\u00e4t k\u00f6nnen Sie Zeilen direkt in der Tabelle hinzuf\u00fcgen und dem Dokument hinzuf\u00fcgen, indem Sie <b>Strg + Enter</b> auf Ihrem MS-Computer oder <b>Befehl + Enter</b> auf einem Mac w\u00e4hlen.</p><p>Im <b>Zeilenbereich</b> k\u00f6nnen Sie mehrere Zeilen hinzuf\u00fcgen und durch alle Zeilen des Dokuments bl\u00e4ttern.</p>",
+                                    "content": "<p>Verbesserungen f\u00fcr Bestandsdokumente umfassen Eing\u00e4nge, Abg\u00e4nge und Korrekturen.</p><p>Mit der Schnelleingabefunktionalit\u00e4t k\u00f6nnen Sie Zeilen direkt in der Tabelle hinzuf\u00fcgen und dem Dokument hinzuf\u00fcgen, indem Sie <b>Strg + Enter</b> auf Ihrem MS-Computer oder <b>Befehl + Enter</b> auf einem Mac w\u00e4hlen.</p><p>Im <b>Zeilenbereich</b> k\u00f6nnen Sie mehrere Zeilen hinzuf\u00fcgen und durch alle Zeilen des Dokuments bl\u00e4ttern.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
@@ -711,7 +808,7 @@
                             "highlight": false,
                             "content_parts": [
                                 {
-                                    "content": "<p>Die Tabellen in der gesamten Anwendung wurden \u00fcberarbeitet, um eine reibungslose und effizientere Datenbearbeitung zu erm\u00f6glichen und die Darstellung umfangreicher Datenmengen zu verbessern.</p><p><b>Direkte Tabellenaktualisierungen</b><br/>Tabellen werden automatisch aktualisiert, sobald Sie Zeilen hinzuf\u00fcgen oder entfernen \u2013 ein erneutes, manuelles Laden ist nicht mehr erforderlich. </p><p><b>Endlos-Scrolling f\u00fcr geschachtelte Tabellen</b><br/>Dank Endlos-Scrolling l\u00e4dt nun die erste Ebene der verschachtelten Tabellen nahtlos Daten.</p><p><b>Verbessertes Registerlayout auf kleineren Bildschirmen</b><br/>Auf Seiten mit Kopfbereich und Registerstruktur, behalten Register, die Tabellen mit endlosem Scrolling oder geschachtelte Tabellen enthalten, jetzt eine Mindesth\u00f6he von 480 Pixeln bei. Wenn nicht gen\u00fcgend Platz vorhanden ist, wird innerhalb des Registers eine Scrollleiste angezeigt. So haben Sie jederzeit Zugriff auf alle Ihre Inhalte und k\u00f6nnen die Kopfzeile weiterhin einklappen, um noch mehr Platz zu gewinnen.</p>",
+                                    "content": "<p>Die Tabellen in der gesamten Anwendung wurden \u00fcberarbeitet, um eine reibungslose und effizientere Datenbearbeitung zu erm\u00f6glichen und die Darstellung gro\u00dfer Datenmengen zu verbessern.</p><p><b>Direkte Tabellenaktualisierungen</b><br/>Tabellen werden automatisch aktualisiert, sobald Sie Zeilen hinzuf\u00fcgen oder entfernen \u2013 ein erneutes, manuelles Laden ist nicht mehr erforderlich.</p><p><b>Endlos-Scrolling f\u00fcr verschachtelte Tabellen</b><br/>Dank Endlos-Scrolling l\u00e4dt nun die erste Ebene der verschachtelten Tabellen nahtlos Daten.</p><p><b>Verbessertes Registerlayout auf kleineren Bildschirmen</b><br/>Auf Seiten mit Kopfbereich und Registerstruktur behalten Register, die Tabellen mit Endlos-Scrolling oder geschachtelte Tabellen enthalten, jetzt eine Mindesth\u00f6he von 480 Pixeln bei. Wenn nicht gen\u00fcgend Platz vorhanden ist, wird innerhalb des Registers eine Scrollleiste angezeigt. So haben Sie jederzeit Zugriff auf alle Ihre Inhalte und k\u00f6nnen die Kopfzeile weiterhin einklappen, um noch mehr Platz zu gewinnen.</p>",
                                     "taxonomies": "all"
                                 }
                             ],
